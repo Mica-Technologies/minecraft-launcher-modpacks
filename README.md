@@ -1,2 +1,2 @@
-# mica-minecraft-modpacks
-Minecraft Forge modpacks for use in the Mica Gaming Launcher.
+# minecraft-launcher-modpacks
+Minecraft modpacks for use in the Mica Minecraft Launcher.
