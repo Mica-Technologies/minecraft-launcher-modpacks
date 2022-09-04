@@ -1,0 +1,13 @@
+{
+    "packName": "Forge 1.9.4",
+    "packVersion": "12.17.0.2317",
+    "packURL": "https://minecraftforge.net",
+    "packLogoURL": "https://pbs.twimg.com/profile_images/778706890914095109/fhMDH9o6_400x400.jpg",
+    "packMinRAMGB": "1",
+    "packForgeURL": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.9.4-12.17.0.2317-1.9.4/forge-1.9.4-12.17.0.2317-1.9.4-installer.jar",
+    "packForgeHash": "DCA84D9DEF1EDDE2C6AEB2C9E3A57AFC12855E8B",
+    "packMods": [],
+    "packConfigs": [],
+    "packResourcePacks": [],
+    "packInitialFiles": []
+}

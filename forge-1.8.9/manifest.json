@@ -1,0 +1,13 @@
+{
+    "packName": "Forge 1.8.9",
+    "packVersion": "11.15.1.2318",
+    "packURL": "https://minecraftforge.net",
+    "packLogoURL": "https://pbs.twimg.com/profile_images/778706890914095109/fhMDH9o6_400x400.jpg",
+    "packMinRAMGB": "1",
+    "packForgeURL": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.8.9-11.15.1.2318-1.8.9/forge-1.8.9-11.15.1.2318-1.8.9-installer.jar",
+    "packForgeHash": "076ACFF5B5302D7666651DB7E9C4FD557E18E7FD",
+    "packMods": [],
+    "packConfigs": [],
+    "packResourcePacks": [],
+    "packInitialFiles": []
+}

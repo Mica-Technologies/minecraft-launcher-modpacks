@@ -1,0 +1,13 @@
+{
+    "packName": "Forge 1.10.2",
+    "packVersion": "12.18.3.2511",
+    "packURL": "https://minecraftforge.net",
+    "packLogoURL": "https://pbs.twimg.com/profile_images/778706890914095109/fhMDH9o6_400x400.jpg",
+    "packMinRAMGB": "1",
+    "packForgeURL": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.10.2-12.18.3.2511/forge-1.10.2-12.18.3.2511-installer.jar",
+    "packForgeHash": "256F0C5712F78212C01B33EFEC139477B1A853B8",
+    "packMods": [],
+    "packConfigs": [],
+    "packResourcePacks": [],
+    "packInitialFiles": []
+}

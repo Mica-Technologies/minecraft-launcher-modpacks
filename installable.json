@@ -1,0 +1,7 @@
+{
+	"available": [
+		"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/manifest.json",
+		"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/forge-1.7.10/manifest.json",
+		"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/forge-1.12.2/manifest.json"
+	]
+}

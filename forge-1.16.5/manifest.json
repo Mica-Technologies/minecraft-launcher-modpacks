@@ -1,0 +1,13 @@
+{
+    "packName": "Forge 1.16.5",
+    "packVersion": "36.1.31",
+    "packURL": "https://minecraftforge.net",
+    "packLogoURL": "https://pbs.twimg.com/profile_images/778706890914095109/fhMDH9o6_400x400.jpg",
+    "packMinRAMGB": "1",
+    "packForgeURL": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.16.5-36.1.31/forge-1.16.5-36.1.31-installer.jar",
+    "packForgeHash": "0B9EED2889EB895ADF46D373EDACFC7702C9C319",
+    "packMods": [],
+    "packConfigs": [],
+    "packResourcePacks": [],
+    "packInitialFiles": []
+}

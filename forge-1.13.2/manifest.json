@@ -1,0 +1,13 @@
+{
+    "packName": "Forge 1.13.2",
+    "packVersion": "25.0.219",
+    "packURL": "https://minecraftforge.net",
+    "packLogoURL": "https://pbs.twimg.com/profile_images/778706890914095109/fhMDH9o6_400x400.jpg",
+    "packMinRAMGB": "1",
+    "packForgeURL": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.13.2-25.0.219/forge-1.13.2-25.0.219-installer.jar",
+    "packForgeHash": "25F4019E3F339CEA5171B4F8DA1EA248C39ECD98",
+    "packMods": [],
+    "packConfigs": [],
+    "packResourcePacks": [],
+    "packInitialFiles": []
+}
