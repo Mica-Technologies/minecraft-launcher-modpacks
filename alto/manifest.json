@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "22.9.17b",
+   "packVersion": "22.9.21",
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/pack.png",
    "packBackgroundURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/background.png",
@@ -90,9 +90,9 @@
       },
       {
          "name": "City Super Mod",
-         "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/csm-devbuild-ac5a971ff5d9553546811bbf9a7d5feae0d846e2/csm-devbuild-ac5a971ff5d9553546811bbf9a7d5feae0d846e2.jar",
+         "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/csm-devbuild-850ac06018242e023caa8eb2c2fb4383a9f20793/csm-devbuild-850ac06018242e023caa8eb2c2fb4383a9f20793.jar",
          "local": "city-super-mod.jar",
-         "sha1": "c924cbe0d5d997667bb951a519d7e3597f63fe2d",
+         "sha1": "79a857fbcb77eddde829c56c5e0b04408cf5d106",
          "clientReq": true,
          "serverReq": true
       },
