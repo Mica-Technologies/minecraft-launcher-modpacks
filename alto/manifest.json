@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "22.9.21",
+   "packVersion": "22.9.28",
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/pack.png",
    "packBackgroundURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/background.png",
@@ -106,9 +106,9 @@
       },
       {
          "name": "Creative Core",
-         "remote": "https://media.forgecdn.net/files/3437/866/CreativeCore_v1.10.63_mc1.12.2.jar",
+         "remote": "https://mediafiles.forgecdn.net/files/3626/833/CreativeCore_v1.10.70_mc1.12.2.jar",
          "local": "creative-core.jar",
-         "sha1": "B82A6818BCD13D3997F24CCBDD77C3505F2D4EC8",
+         "sha1": "0f1b93d986e81ce228acdf9bea25caa1bae25dc4",
          "clientReq": true,
          "serverReq": true
       },
@@ -153,12 +153,12 @@
          "serverReq": true
       },
       {
-         "name": "Discord Integration",
-         "remote": "https://mediafiles.forgecdn.net/files/3921/297/dcintegration-forge-2.4.7-1.12.jar",
-         "local": "discord-integration.jar",
-         "sha1": "2ca41a6bc3669ceb304e6b98cb4ff147112acd00",
+         "name": "MC2Discord",
+         "remote": "https://mediafiles.forgecdn.net/files/4005/701/mc2discord-forge-1.12.2-3.2.11.jar",
+         "local": "mc2discord.jar",
+         "sha1": "3ac418a4df1ee02605ce9f91049f00ea19bd3e9c",
          "clientReq": false,
-         "serverReq": false
+         "serverReq": true
       },
       {
          "name": "DynMap",
@@ -314,7 +314,7 @@
       },
       {
          "name": "Immersive Vehicles",
-         "remote": "https://mediafiles.forgecdn.net/files/3877/607/Immersive+Vehicles-1.12.2-21.3.0.jar",
+         "remote": "https://mediafiles.forgecdn.net/files/3970/715/Immersive+Vehicles-1.12.2-22.1.0.jar",
          "local": "iv.jar",
          "sha1": "47345520eb455da9125b35ae89d98633ea867cd6",
          "clientReq": true,
@@ -402,17 +402,17 @@
       },
       {
          "name": "LittleFrames",
-         "remote": "https://media.forgecdn.net/files/3351/490/LittleFrames_v1.0.8_mc1.12.2.jar",
+         "remote": "https://mediafiles.forgecdn.net/files/3974/885/LittleFrames_UNOFFICAL_(by_Blake)_v1.0.12_mc1.12.2.jar",
          "local": "little-frames.jar",
-         "sha1": "72D23889907EC90F16B284E0D308CE09C2C165C4",
+         "sha1": "e030e55993c31802264877b215389b824db640c7",
          "clientReq": true,
          "serverReq": true
       },
       {
          "name": "LittleTiles",
-         "remote": "https://media.forgecdn.net/files/3445/700/LittleTiles_v1.5.21_mc1.12.2.jar",
+         "remote": "https://mediafiles.forgecdn.net/files/4000/788/LittleTiles_v1.5.61_mc1.12.2.jar",
          "local": "little-tiles.jar",
-         "sha1": "9618BE55A49F2355B488220411FCC81C676D201F",
+         "sha1": "a66e588c72719e9bc83b5b892ae1fa4cd7603e52",
          "clientReq": true,
          "serverReq": true
       },
@@ -602,9 +602,9 @@
       },
       {
          "name": "Security Craft",
-         "remote": "https://mediafiles.forgecdn.net/files/3906/295/%5b1.12.2%5d+SecurityCraft+v1.9.3.jar",
+         "remote": "https://mediafiles.forgecdn.net/files/3921/267/%5b1.12.2%5d+SecurityCraft+v1.9.3.1.jar",
          "local": "security-craft.jar",
-         "sha1": "ecabeb06346f877e616af5aeebaedfcf4f513fae",
+         "sha1": "f2258a6757a7dcf806c1237721f5ef3b2f647f5e",
          "clientReq": true,
          "serverReq": true
       },
@@ -650,9 +650,9 @@
       },
       {
          "name": "Smooth Font",
-         "remote": "https://media.forgecdn.net/files/2949/817/SmoothFont-mc1.12.2-2.1.2.jar",
+         "remote": "https://mediafiles.forgecdn.net/files/3944/565/SmoothFont-mc1.12.2-2.1.4.jar",
          "local": "smooth-font.jar",
-         "sha1": "F904BA15339103ACB898B6A618B87F6498B3D8BC",
+         "sha1": "4c1c41c82f5868f8ae48b0303f619c65ba1218fe",
          "clientReq": true,
          "serverReq": false
       },
