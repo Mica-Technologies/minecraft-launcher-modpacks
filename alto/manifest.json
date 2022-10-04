@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "22.9.28",
+   "packVersion": "22.10.4",
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/pack.png",
    "packBackgroundURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/background.png",
@@ -250,9 +250,9 @@
       },
       {
          "name": "Foam Fix",
-         "remote": "https://media.forgecdn.net/files/3327/893/foamfix-0.10.14-1.12.2.jar",
+         "remote": "https://mediafiles.forgecdn.net/files/3973/967/foamfix-0.10.15-1.12.2.jar",
          "local": "foam-fix.jar",
-         "sha1": "B7F247A306E9521F3BADE46EA643989702BE6A14",
+         "sha1": "b179ee981e06e396cb060045cb076c857985494a",
          "clientReq": true,
          "serverReq": true
       },
@@ -314,9 +314,9 @@
       },
       {
          "name": "Immersive Vehicles",
-         "remote": "https://mediafiles.forgecdn.net/files/3970/715/Immersive+Vehicles-1.12.2-22.1.0.jar",
+         "remote": "https://mediafiles.forgecdn.net/files/4016/440/Immersive+Vehicles-1.12.2-22.2.0.jar",
          "local": "iv.jar",
-         "sha1": "47345520eb455da9125b35ae89d98633ea867cd6",
+         "sha1": "8a62c7fb9dd9e74e81e245a0421906882c100969",
          "clientReq": true,
          "serverReq": true
       },
@@ -362,9 +362,9 @@
       },
 	  {
          "name": "UNU DKZ Industries Pack",
-         "remote": "https://media.forgecdn.net/files/3797/410/DKZ_Industries-AdamRK_Heavy_Industrial-3.1.9-2.1.9_wip.jar",
+         "remote": "https://mediafiles.forgecdn.net/files/4010/254/DKZ_Industries-AdamRK_Heavy_Industrial-3.1.95-2.1.95_wip.jar",
          "local": "unu-dkz-industries-pack.jar",
-         "sha1": "BA492C2B01069824A25150ECB800BB54E2D4E9B8",
+         "sha1": "646312e50df93ec10aa7eb0d570b6d1b78852ec6",
          "clientReq": true,
          "serverReq": true
       },
