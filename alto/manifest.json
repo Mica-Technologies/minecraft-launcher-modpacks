@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "22.10.13",
+   "packVersion": "22.10.14",
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/pack.png",
    "packBackgroundURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/background.png",
@@ -808,7 +808,7 @@
       {
          "remote": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/resource-pack.zip",
          "local": "mcla-respack.zip",
-         "sha1": "f7e1a16792c16ba201e7c69c8ba6274adc5c86ba"
+         "sha1": "5246353485d0879af62653edd542a7896531cb89"
       }
    ],
    "packInitialFiles": [
