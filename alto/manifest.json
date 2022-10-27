@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "22.10.26b",
+   "packVersion": "22.10.27",
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/pack.png",
    "packBackgroundURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/background.png",
@@ -90,9 +90,9 @@
       },
       {
          "name": "City Super Mod",
-         "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/csm-devbuild-1450c963f366b8c62e86403105387c07adcaf642/csm-devbuild-1450c963f366b8c62e86403105387c07adcaf642.jar",
+         "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/csm-devbuild-fcacbe41c8d9920cbc8735589d8ef7764fa6ec1f/csm-devbuild-fcacbe41c8d9920cbc8735589d8ef7764fa6ec1f.jar",
          "local": "city-super-mod.jar",
-         "sha1": "5e9a8dea23414cf24927925b97f2f50fec5429ba",
+         "sha1": "a0724bc25e163a3101c6b8f37b7ddc9c876656c4",
          "clientReq": true,
          "serverReq": true
       },
@@ -733,6 +733,14 @@
          "remote": "https://media.forgecdn.net/files/2596/867/weather2-1.12.1-2.6.12.jar",
          "local": "weather2.jar",
          "sha1": "894fa38627f7d11bfe8ea11f3aa6fb5901d73abe",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "World Border",
+         "remote": "https://mediafilez.forgecdn.net/files/2715/765/World-Border-1.12.2-1.0.6.jar",
+         "local": "worldborder.jar",
+         "md5": "e6f0f73764f44cc2b7827b23d5b7af74",
          "clientReq": true,
          "serverReq": true
       },
