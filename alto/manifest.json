@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "22.10.26",
+   "packVersion": "22.10.26b",
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/pack.png",
    "packBackgroundURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/background.png",
@@ -162,9 +162,9 @@
       },
       {
          "name": "DynMap",
-         "remote": "https://media.forgecdn.net/files/3661/626/Dynmap-3.4-beta-1.1-forge-1.12.2.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/3934/661/Dynmap-3.4-forge-1.12.2.jar",
          "local": "dynmap.jar",
-         "sha1": "b4a3c4a0857daa2f119a54d40949267757186910",
+         "md5": "11eb916aafb84f8c08ac8aa2afb66f99",
          "clientReq": false,
          "serverReq": true
       },
