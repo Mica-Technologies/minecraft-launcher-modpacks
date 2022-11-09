@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "22.10.27",
+   "packVersion": "22.11.9",
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/pack.png",
    "packBackgroundURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/background.png",
@@ -341,14 +341,6 @@
          "remote": "https://media.forgecdn.net/files/3721/967/UNU+Parts+Pack+%5bMTS%5d+1.12.2-21.1.0-5.1.2.jar",
          "local": "unu-parts-pack.jar",
          "sha1": "80926A49C9BF8E2E54EFD756FC0E5F60C7B2FD88",
-         "clientReq": true,
-         "serverReq": true
-      },
-	  {
-         "name": "UNU Civilian Pack",
-         "remote": "https://media.forgecdn.net/files/3717/862/UNU+Civilian+Pack+%5bMTS%5d+1.12.2-21.1.0-5.3.0.jar",
-         "local": "unu-civilian-pack.jar",
-         "sha1": "D75816C23FE9B2FC064DAC623C9368A6771392AB",
          "clientReq": true,
          "serverReq": true
       },
