@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "22.11.9",
+   "packVersion": "22.11.12",
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/pack.png",
    "packBackgroundURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/background.png",
@@ -90,9 +90,9 @@
       },
       {
          "name": "City Super Mod",
-         "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/csm-devbuild-fcacbe41c8d9920cbc8735589d8ef7764fa6ec1f/csm-devbuild-fcacbe41c8d9920cbc8735589d8ef7764fa6ec1f.jar",
+         "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/csm-devbuild-4cb2ad094d6dc14d2e567b41ef2f4146fbeb6ab3/minecraft-city-super-mod-2022.1.jar",
          "local": "city-super-mod.jar",
-         "sha1": "a0724bc25e163a3101c6b8f37b7ddc9c876656c4",
+         "sha1": "f2f847de0ab183f73634076707cf5d327d683021",
          "clientReq": true,
          "serverReq": true
       },
@@ -312,6 +312,22 @@
          "clientReq": true,
          "serverReq": true
       },
+	  {
+         "name": "Immersive Petroleum",
+         "remote": "https://mediafilez.forgecdn.net/files/2544/919/immersivepetroleum-1.12.2-1.1.9.jar",
+         "local": "immersive-petroleum.jar",
+         "sha1": "cb9365f335ee7f50262eca1dfb703dab64ab9d10",
+         "clientReq": true,
+         "serverReq": true
+      },
+	  {
+         "name": "Immersive Technology",
+         "remote": "https://mediafilez.forgecdn.net/files/3658/279/MCTImmersiveTechnology-1.12.2-1.9.100.jar",
+         "local": "immersive-technology.jar",
+         "sha1": "67389da29048d6e10819eb445d64e4ae235e9342",
+         "clientReq": true,
+         "serverReq": true
+      },
       {
          "name": "Immersive Vehicles",
          "remote": "https://mediafiles.forgecdn.net/files/4016/440/Immersive+Vehicles-1.12.2-22.2.0.jar",
@@ -341,6 +357,14 @@
          "remote": "https://media.forgecdn.net/files/3721/967/UNU+Parts+Pack+%5bMTS%5d+1.12.2-21.1.0-5.1.2.jar",
          "local": "unu-parts-pack.jar",
          "sha1": "80926A49C9BF8E2E54EFD756FC0E5F60C7B2FD88",
+         "clientReq": true,
+         "serverReq": true
+      },
+	  {
+         "name": "UNU Civilian Pack",
+         "remote": "https://mediafilez.forgecdn.net/files/3885/836/UNU+Civilian+Pack+%5bMTS%5d+1.12.2-21.3.0-5.3.2.jar",
+         "local": "unu-civilian-pack.jar",
+         "sha1": "ae6c103f3d8c06f6304dbf3f8902709a4eb8b61a",
          "clientReq": true,
          "serverReq": true
       },
