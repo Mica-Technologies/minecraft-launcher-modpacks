@@ -354,9 +354,9 @@
       },
 	  {
          "name": "UNU Parts Pack",
-         "remote": "https://media.forgecdn.net/files/3721/967/UNU+Parts+Pack+%5bMTS%5d+1.12.2-21.1.0-5.1.2.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/3885/827/UNU+Parts+Pack+%5bMTS%5d+1.12.2-21.3.0-5.1.4.jar",
          "local": "unu-parts-pack.jar",
-         "sha1": "80926A49C9BF8E2E54EFD756FC0E5F60C7B2FD88",
+         "sha1": "fb33b300c5d768f54b73fa64c54733b2f9db7edd",
          "clientReq": true,
          "serverReq": true
       },
@@ -370,9 +370,9 @@
       },
 	  {
          "name": "UNU Military Pack",
-         "remote": "https://media.forgecdn.net/files/3329/970/UNU+Military+Pack+%5bMTS%5d+1.12.2-19.15.5-4.0.2.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/3885/832/UNU+Military+Pack+%5bMTS%5d+1.12.2-21.3.0-5.0.0.jar",
          "local": "unu-military-pack.jar",
-         "sha1": "E30F6264EBEC852301D357CD32FA81E8956325D6",
+         "sha1": "a0f9874f419d0e2adc459f537381d7c261259981",
          "clientReq": true,
          "serverReq": true
       },
