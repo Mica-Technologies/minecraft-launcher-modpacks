@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "22.12.5",
+   "packVersion": "22.12.5b",
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/pack.png",
    "packBackgroundURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/background.png",
@@ -229,14 +229,6 @@
          "remote": "https://mediafiles.forgecdn.net/files/2995/865/energymeters-1.12.2-1.0.2.jar",
          "local": "energy-meters.jar",
          "sha1": "1e81208d4808cec9562ba284b0d9c26bf851dac3",
-         "clientReq": true,
-         "serverReq": true
-      },
-      {
-         "name": "Farseek API",
-         "remote": "https://media.forgecdn.net/files/3093/852/Farseek-1.12-2.5.1.jar",
-         "local": "farseek-api.jar",
-         "sha1": "73664ec7575085d4a18010a9bce636b43ea40b60",
          "clientReq": true,
          "serverReq": true
       },
@@ -713,14 +705,6 @@
          "serverReq": true
       },
       {
-         "name": "Streams",
-         "remote": "https://media.forgecdn.net/files/3109/315/Streams-1.12-0.4.9.jar",
-         "local": "streams.jar",
-         "sha1": "82408b7604a56f06fbb25f23e9aef2ea154e17c2",
-         "clientReq": true,
-         "serverReq": true
-      },
-      {
          "name": "SuperMartijn642's Config Lib",
          "remote": "https://mediafiles.forgecdn.net/files/3862/959/supermartijn642configlib-1.1.6-forge-mc1.12.jar",
          "local": "supermartijn642-config-lib.jar",
@@ -751,14 +735,6 @@
          "sha1": "646fc28aa81773662e33a3b447e830b816528fc9",
          "clientReq": true,
          "serverReq": false
-      },
-      {
-         "name": "Water Erosion",
-         "remote": "https://media.forgecdn.net/files/2930/508/water-erosion-1.12.2-forge-1.1.1-beta1-full.jar",
-         "local": "water-erosion.jar",
-         "sha1": "86ba527c0535f9a9658fe0e439c03b6772bd79ba",
-         "clientReq": true,
-         "serverReq": true
       },
       {
          "name": "Weather 2",
