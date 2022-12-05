@@ -1,6 +1,6 @@
 {
    "packName":"Alto",
-   "packVersion":"22.12.5b",
+   "packVersion":"22.12.5c",
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/pack.png",
    "packBackgroundURL":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/background.png",
@@ -169,10 +169,10 @@
            "serverReq":true
        },
        {
-           "name":"Discord Integration",
-           "remote":"https://mediafilez.forgecdn.net/files/4034/508/dcintegration-forge-2.4.7.1-1.12.jar",
-           "local":"discord-integration.jar",
-           "md5":"9099a5019ea7e0213f141ce7765e3d0c",
+           "name": "MC2Discord",
+           "remote": "https://mediafilez.forgecdn.net/files/4119/887/mc2discord-forge-1.12.2-3.3.0.jar",
+           "local": "mc2discord.jar",
+           "md5": "2639a3c5579bbfa541b7115ba1835d92",
            "clientReq":false,
            "serverReq":true
        },
