@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "22.12.4",
+   "packVersion": "22.12.5",
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/pack.png",
    "packBackgroundURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/background.png",
@@ -29,6 +29,14 @@
          "remote": "https://mediafilez.forgecdn.net/files/2747/63/appliedenergistics2-rv6-stable-7.jar",
          "local": "applied-energistics.jar",
          "md5": "b8667d60a761d5b5ae3c8a15192f9e28",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "The Beeper",
+         "remote": "https://mediafilez.forgecdn.net/files/4103/457/The+Beeper+1.11.0+1.12.2.jar",
+         "local": "better-hud.jar",
+         "md5": "5651cf36b2bc6710a835108c93747874",
          "clientReq": true,
          "serverReq": true
       },
@@ -162,9 +170,9 @@
       },
       {
          "name": "MC2Discord",
-         "remote": "https://mediafiles.forgecdn.net/files/4005/701/mc2discord-forge-1.12.2-3.2.11.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4119/887/mc2discord-forge-1.12.2-3.3.0.jar",
          "local": "mc2discord.jar",
-         "sha1": "3ac418a4df1ee02605ce9f91049f00ea19bd3e9c",
+         "md5": "2639a3c5579bbfa541b7115ba1835d92",
          "clientReq": false,
          "serverReq": true
       },
@@ -338,9 +346,9 @@
       },
       {
          "name": "Immersive Vehicles",
-         "remote": "https://mediafiles.forgecdn.net/files/4016/440/Immersive+Vehicles-1.12.2-22.2.0.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4128/263/Immersive+Vehicles-1.12.2-22.4.0.jar",
          "local": "iv.jar",
-         "sha1": "8a62c7fb9dd9e74e81e245a0421906882c100969",
+         "md5": "6cc2f67e13036809c872a8607107ed85",
          "clientReq": true,
          "serverReq": true
       },
@@ -642,9 +650,9 @@
       },
       {
          "name": "Security Craft",
-         "remote": "https://mediafiles.forgecdn.net/files/3921/267/%5b1.12.2%5d+SecurityCraft+v1.9.3.1.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4121/474/%5b1.12.2%5d+SecurityCraft+v1.9.4.jar",
          "local": "security-craft.jar",
-         "sha1": "f2258a6757a7dcf806c1237721f5ef3b2f647f5e",
+         "md5": "51b4d3e5a6a43bed3ed106314df36b43",
          "clientReq": true,
          "serverReq": true
       },
