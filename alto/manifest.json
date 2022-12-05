@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "22.12.1c",
+   "packVersion": "22.12.4",
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/pack.png",
    "packBackgroundURL": "https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/background.png",
@@ -21,6 +21,14 @@
          "remote": "https://media.forgecdn.net/files/2693/578/alternatingflux-0.12.2-2.jar",
          "local": "alternating-flux.jar",
          "sha1": "bcad5acd1909953bc1f5fb42e6a5df81d4b0fd6c",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Applied Energistics",
+         "remote": "https://mediafilez.forgecdn.net/files/2747/63/appliedenergistics2-rv6-stable-7.jar",
+         "local": "applied-energistics.jar",
+         "md5": "b8667d60a761d5b5ae3c8a15192f9e28",
          "clientReq": true,
          "serverReq": true
       },
