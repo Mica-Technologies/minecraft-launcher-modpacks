@@ -362,17 +362,17 @@
        },
        {
            "name":"UNU Parts Pack",
-           "remote":"https://mediafilez.forgecdn.net/files/4083/622/UNU+Parts+Pack+%5bMTS%5d+1.12.2-22.3.0-BETA1.jar",
+           "remote":"https://mediafilez.forgecdn.net/files/3885/827/UNU+Parts+Pack+%5bMTS%5d+1.12.2-21.3.0-5.1.4.jar",
            "local":"unu-parts-pack.jar",
-           "sha1":"1FBB285CC215273A412BFB3534F5A6250E21C032",
+           "sha1":"fb33b300c5d768f54b73fa64c54733b2f9db7edd",
            "clientReq":true,
            "serverReq":true
        },
        {
            "name":"UNU Civilian Pack",
-           "remote":"https://mediafilez.forgecdn.net/files/4083/623/UNU+Civilian+Pack+%5bMTS%5d+1.12.2-22.3.0-BETA1.jar",
+           "remote":"https://mediafilez.forgecdn.net/files/3885/836/UNU+Civilian+Pack+%5bMTS%5d+1.12.2-21.3.0-5.3.2.jar",
            "local":"unu-civilian-pack.jar",
-           "sha1":"EC14FFF96C8AB5C57910AC7381BB422E91206017",
+           "sha1":"ae6c103f3d8c06f6304dbf3f8902709a4eb8b61a",
            "clientReq":true,
            "serverReq":true
        },
