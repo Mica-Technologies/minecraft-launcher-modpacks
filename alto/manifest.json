@@ -1,6 +1,6 @@
 {
    "packName":"Alto",
-   "packVersion":"22.12.5c",
+   "packVersion":"22.12.12",
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/pack.png",
    "packBackgroundURL":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/background.png",
@@ -262,6 +262,14 @@
            "local":"foam-fix.jar",
            "sha1":"b179ee981e06e396cb060045cb076c857985494a",
            "clientReq":true,
+           "serverReq":true
+       },
+       {
+           "name":"Forge Auto Shutdown",
+           "remote":"https://mediafilez.forgecdn.net/files/3820/863/ForgeAutoShutdown-1.12.2-1.1.0.jar",
+           "local":"forge-auto-shutdown.jar",
+           "md5":"8b015bfe57ee9402b3064f30eb729207",
+           "clientReq":false,
            "serverReq":true
        },
        {
