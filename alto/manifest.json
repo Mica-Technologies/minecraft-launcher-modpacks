@@ -182,7 +182,7 @@
            "local":"dynmap.jar",
            "md5":"8dca0ee19f3ca3feca1ee12c75e452c5",
            "clientReq":false,
-           "serverReq":false
+           "serverReq":true
        },
        {
            "name":"DynamX Physics Mod",
