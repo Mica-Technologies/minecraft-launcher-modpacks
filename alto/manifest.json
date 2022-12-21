@@ -273,14 +273,6 @@
            "serverReq":true
        },
        {
-           "name":"Forge Auto Shutdown",
-           "remote":"https://mediafilez.forgecdn.net/files/3820/863/ForgeAutoShutdown-1.12.2-1.1.0.jar",
-           "local":"forge-auto-shutdown.jar",
-           "md5":"8b015bfe57ee9402b3064f30eb729207",
-           "clientReq":false,
-           "serverReq":true
-       },
-       {
            "name":"Forge Essentials Server",
            "remote":"https://mediafiles.forgecdn.net/files/3845/638/forgeessentials-1.12.2-12.3.123-server.jar",
            "local":"forge-essentials-server.jar",
