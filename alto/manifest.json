@@ -1,6 +1,6 @@
 {
    "packName":"Alto",
-   "packVersion":"22.12.13",
+   "packVersion":"22.12.20",
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/pack.png",
    "packBackgroundURL":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/background.png",
@@ -8,6 +8,14 @@
    "packForgeURL":"https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar",
    "packForgeHash":"c423ce528bd517e9fc6e7cc9346769ad84461f93",
    "packMods":[
+       {
+           "name":"ACS Guis",
+           "remote":"https://mediafilez.forgecdn.net/files/3681/53/ACsGuis-1.2.3-1-all.jar",
+           "local":"ACsGuis-1.2.3-1-all.jar",
+           "md54":"078f432400411fb4f0d648581820140c",
+           "clientReq":true,
+           "serverReq":true
+       },
        {
            "name":"Airport Lights",
            "remote":"https://mediafiles.forgecdn.net/files/3861/221/AirPort-%5b1.12.2%5d-2.3.3.jar",
