@@ -1,6 +1,6 @@
 {
    "packName":"Alto",
-   "packVersion":"23.1.15",
+   "packVersion":"23.1.31",
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/pack.png",
    "packBackgroundURL":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/background.png",
@@ -346,9 +346,9 @@
        },
        {
            "name":"Immersive Vehicles",
-           "remote":"https://mediafilez.forgecdn.net/files/4128/263/Immersive+Vehicles-1.12.2-22.4.0.jar",
+           "remote":"https://mediafilez.forgecdn.net/files/4171/505/Immersive+Vehicles-1.12.2-22.5.0.jar",
            "local":"iv.jar",
-           "md5":"6cc2f67e13036809c872a8607107ed85",
+           "md5":"a9f9491e288df0e3f3749d78d328165b",
            "clientReq":true,
            "serverReq":true
        },
@@ -362,25 +362,25 @@
        },
        {
            "name":"Immersive Vehicles - American Signs and Signals Pack",
-           "remote":"https://media.forgecdn.net/files/3681/794/AmericanSignsSignalsPack0.6.1.jar",
+           "remote":"https://mediafilez.forgecdn.net/files/4172/50/AmericanSignsSignalsPack0.7.1.jar",
            "local":"iv-american-signs-sigs-pack.jar",
-           "sha1":"91bee831c519bd83ce5ba05e3767c9ab0d7d6f3e",
+           "md5":"128d74b7e22b88dd1f20e416128589c0",
            "clientReq":true,
            "serverReq":true
        },
        {
            "name":"UNU Parts Pack",
-           "remote":"https://mediafilez.forgecdn.net/files/3885/827/UNU+Parts+Pack+%5bMTS%5d+1.12.2-21.3.0-5.1.4.jar",
+           "remote":"https://mediafilez.forgecdn.net/files/4259/770/UNU+Parts+Pack+%5bMTS%5d+1.12.2-22.5.0-V6-BETA2.jar",
            "local":"unu-parts-pack.jar",
-           "sha1":"fb33b300c5d768f54b73fa64c54733b2f9db7edd",
+           "md5":"1e1f5fb90fe8dca801b070094a4209d6",
            "clientReq":true,
            "serverReq":true
        },
        {
            "name":"UNU Civilian Pack",
-           "remote":"https://mediafilez.forgecdn.net/files/3885/836/UNU+Civilian+Pack+%5bMTS%5d+1.12.2-21.3.0-5.3.2.jar",
+           "remote":"https://mediafilez.forgecdn.net/files/4262/680/UNU+Civilian+Pack+%5bMTS%5d+1.12.2-22.5.0-V6-BETA2.jar",
            "local":"unu-civilian-pack.jar",
-           "sha1":"ae6c103f3d8c06f6304dbf3f8902709a4eb8b61a",
+           "md5":"6d3589d7eb926ca669032b7bddec93f2",
            "clientReq":true,
            "serverReq":true
        },
@@ -394,9 +394,9 @@
        },
        {
            "name":"UNU DKZ Industries Pack",
-           "remote":"https://mediafiles.forgecdn.net/files/4010/254/DKZ_Industries-AdamRK_Heavy_Industrial-3.1.95-2.1.95_wip.jar",
+           "remote":"https://mediafilez.forgecdn.net/files/4334/87/DKZ_Industries-AdamRK_Heavy_Industrial-3.1.95-2.1.95_wip.jar",
            "local":"unu-dkz-industries-pack.jar",
-           "sha1":"646312e50df93ec10aa7eb0d570b6d1b78852ec6",
+           "md5":"f65a3784725c71db22047e5d8b4fd67b",
            "clientReq":true,
            "serverReq":true
        },
