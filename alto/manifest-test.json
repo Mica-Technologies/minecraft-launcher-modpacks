@@ -1,6 +1,6 @@
 {
    "packName":"Alto_TEST",
-   "packVersion":"23.1.31",
+   "packVersion":"23.2.9",
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/pack.png",
    "packBackgroundURL":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/background.png",
@@ -18,9 +18,9 @@
        },
        {
            "name":"Airport Lights",
-           "remote":"https://mediafiles.forgecdn.net/files/3861/221/AirPort-%5b1.12.2%5d-2.3.3.jar",
+           "remote":"https://mediafilez.forgecdn.net/files/4293/352/AirPort1.12.2-%5b1.12.2%5d-2.4.6.jar",
            "local":"airport-lights.jar",
-           "sha1":"9d2a79698a4c06b9d3f780605c20cf604fcb7298",
+           "md5":"326d683e7cb4b58574c780f189837b5d",
            "clientReq":true,
            "serverReq":true
        },
@@ -114,9 +114,9 @@
        },
        {
            "name":"City Super Mod",
-           "remote":"https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/csm-devbuild-32fa1075f4c0673f736a099d07b21cf0bcc88d5e/minecraft-city-super-mod-2022.1-dev32fa1075f4c0673f736a099d07b21cf0bcc88d5e.jar",
+           "remote":"https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/csm-devbuild-91671a9ff10e73bd3a88692ea3c16e1893c3d5c6/minecraft-city-super-mod-2022.1-dev91671a9ff10e73bd3a88692ea3c16e1893c3d5c6.jar",
            "local":"city-super-mod.jar",
-           "sha1":"2c37a966b2d6155b3ca43f3f01c8a38b881b6784",
+           "sha1":"7e87d238c4e57338900ddbf6347c76746d2c87c1",
            "clientReq":true,
            "serverReq":true
        },
@@ -186,9 +186,9 @@
        },
        {
            "name":"DynMap",
-           "remote":"https://mediafilez.forgecdn.net/files/4167/111/Dynmap-3.5-beta-1-forge-1.12.2.jar",
+           "remote":"",
            "local":"dynmap.jar",
-           "md5":"8dca0ee19f3ca3feca1ee12c75e452c5",
+           "md5":"b0e87da028a5c7ca3b81360f10a7a3b7",
            "clientReq":false,
            "serverReq":true
        },
@@ -274,9 +274,9 @@
        },
        {
            "name":"Forge Essentials Server",
-           "remote":"https://mediafiles.forgecdn.net/files/3845/638/forgeessentials-1.12.2-12.3.123-server.jar",
+           "remote":"https://mediafilez.forgecdn.net/files/4365/600/forgeessentials-1.12.2-12.3.124-server.jar",
            "local":"forge-essentials-server.jar",
-           "sha1":"c32befcf6cc76d2e85a59a7ba9579d6e5cb7fdd9",
+           "md5":"52d00e3f29f12871e9bbb82556a07e5e",
            "clientReq":false,
            "serverReq":true
        },
@@ -562,9 +562,9 @@
        },
        {
            "name":"Modern Splash",
-           "remote":"https://mediafiles.forgecdn.net/files/3814/653/modernsplash-1.12.2-1.1.2.jar",
+           "remote":"https://mediafilez.forgecdn.net/files/4343/914/modernsplash-1.12.2-1.2.1.jar",
            "local":"modern-splash.jar",
-           "sha1":"524265cd7864e931c1d584fb731104c50e45b3f9",
+           "md5":"e78ad185eddfc295aece0a662a388f86",
            "clientReq":true,
            "serverReq":false
        },
