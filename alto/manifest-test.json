@@ -1,9 +1,9 @@
 {
    "packName":"Alto_TEST",
-   "packVersion":"23.2.9",
+   "packVersion":"23.2.10az",
    "packURL":"https://minecraft.micatechnologies.com",
-   "packLogoURL":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/pack.png",
-   "packBackgroundURL":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/background.png",
+   "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
+   "packBackgroundURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/background.png",
    "packMinRAMGB":"4",
    "packForgeURL":"https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar",
    "packForgeHash":"c423ce528bd517e9fc6e7cc9346769ad84461f93",
@@ -314,7 +314,7 @@
       },
       {
          "name":"Hospital Mod",
-         "remote":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/Hospital_Mod_Theatre_Pack_Alpha_1-SERVER-PATCHED.jar",
+         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/Hospital_Mod_Theatre_Pack_Alpha_1-SERVER-PATCHED.jar",
          "local":"hospital-mod.jar",
          "sha1":"e178df1b04b6615454ce269f30bacddbbd8a0f4a",
          "clientReq":true,
@@ -522,7 +522,7 @@
       },
       {
          "name":"Malisis Doors",
-         "remote":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/malisisdoors-1.12.2-8.0.0-GUI-PATCHED.jar",
+         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/malisisdoors-1.12.2-8.0.0-GUI-PATCHED.jar",
          "local":"malisis-doors.jar",
          "sha1":"9e7beaaaea32c9188e6154f7386aa7a89b9c504f",
          "clientReq":true,
@@ -779,49 +779,49 @@
    ],
    "packConfigs":[
       {
-         "remote":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/mainmenu.json",
+         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/mainmenu.json",
          "local":"CustomMainMenu/mainmenu.json",
          "sha1":"812292faf507cd5b6d5a208a5c964e95625a0606",
          "clientReq":true,
          "serverReq":false
       },
       {
-         "remote":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/flatcoloredblocks.cfg",
+         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/flatcoloredblocks.cfg",
          "local":"flatcoloredblocks.cfg",
          "sha1":"69e94012441b61f9c03c93b659640d04375f9253",
          "clientReq":true,
          "serverReq":true
       },
       {
-         "remote":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/betterhud.cfg",
+         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/betterhud.cfg",
          "local":"betterhud.cfg",
          "sha1":"0508de53e6a292a7b1b5f5ae91d7d7eff257e247",
          "clientReq":true,
          "serverReq":false
       },
       {
-         "remote":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/BiomeTweaker/BiomeTweaker.cfg",
+         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/BiomeTweaker/BiomeTweaker.cfg",
          "local":"BiomeTweaker/BiomeTweaker.cfg",
          "sha1":"0c74d8b21e64d06b563833c0607bf221c2c737ac",
          "clientReq":true,
          "serverReq":true
       },
       {
-         "remote":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/BiomeTweaker/scripts/biome_temps_init.cfg",
+         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/BiomeTweaker/scripts/biome_temps_init.cfg",
          "local":"BiomeTweaker/scripts/biome_temps_init.cfg",
          "sha1":"360793671e5a206edc1c60eadd66a9d57f863c94",
          "clientReq":true,
          "serverReq":true
       },
       {
-         "remote":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/BiomeTweakerCore/BiomeTweakerCore.cfg",
+         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/BiomeTweakerCore/BiomeTweakerCore.cfg",
          "local":"BiomeTweakerCore/BiomeTweakerCore.cfg",
          "sha1":"0dd5a35a0c3f9854497d3981fafc41feb1638a32",
          "clientReq":true,
          "serverReq":true
       },
       {
-         "remote":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/debugserverinfo.cfg",
+         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/debugserverinfo.cfg",
          "local":"debugserverinfo.cfg",
          "sha1":"9fba7ab66bf59acb70d66cc825bbf06982dec3b3",
          "clientReq":true,
@@ -830,21 +830,21 @@
    ],
    "packResourcePacks":[
       {
-         "remote":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/resource-pack.zip",
+         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/resource-pack.zip",
          "local":"mcla-respack.zip",
          "sha1":"5246353485d0879af62653edd542a7896531cb89"
       }
    ],
    "packInitialFiles":[
       {
-         "remote":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/options.txt",
+         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/options.txt",
          "local":"options.txt",
          "sha1":"-1",
          "clientReq":true,
          "serverReq":false
       },
       {
-         "remote":"https://raw.githubusercontent.com/Mica-Technologies/minecraft-launcher-modpacks/main/alto/optionsof.txt",
+         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/optionsof.txt",
          "local":"optionsof.txt",
          "sha1":"-1",
          "clientReq":true,
