@@ -186,7 +186,7 @@
       },
       {
          "name":"DynMap",
-         "remote":"",
+         "remote":"https://mediafilez.forgecdn.net/files/4371/734/Dynmap-3.5-beta-2-forge-1.12.2.jar",
          "local":"dynmap.jar",
          "md5":"b0e87da028a5c7ca3b81360f10a7a3b7",
          "clientReq":false,
