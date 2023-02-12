@@ -1,6 +1,6 @@
 {
    "packName":"Alto",
-   "packVersion":"23.2.10az",
+   "packVersion":"23.2.12",
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
    "packBackgroundURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/background.png",
@@ -114,9 +114,9 @@
       },
       {
          "name":"City Super Mod",
-         "remote":"https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/csm-devbuild-91671a9ff10e73bd3a88692ea3c16e1893c3d5c6/minecraft-city-super-mod-2022.1-dev91671a9ff10e73bd3a88692ea3c16e1893c3d5c6.jar",
+         "remote":"https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/csm-devbuild-34126aeedb8aa08bb0021633aed391e2211796fa/minecraft-city-super-mod-2022.1-dev34126aeedb8aa08bb0021633aed391e2211796fa.jar",
          "local":"city-super-mod.jar",
-         "sha1":"7e87d238c4e57338900ddbf6347c76746d2c87c1",
+         "sha1":"bc4c400923e402bb41db91a53dcde605789a7050",
          "clientReq":true,
          "serverReq":true
       },
