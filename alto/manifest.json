@@ -1,6 +1,6 @@
 {
    "packName":"Alto",
-   "packVersion":"23.2.12.2",
+   "packVersion":"23.2.27",
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
    "packBackgroundURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/background.png",
@@ -733,6 +733,14 @@
          "remote":"https://mediafiles.forgecdn.net/files/3863/122/supermartijn642corelib-1.0.19-forge-mc1.12.jar",
          "local":"supermartijn642-core-lib.jar",
          "sha1":"b933b953f0e7de95e7a6995ad2d064507b8a6d59",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "name":"Spark",
+         "remote":"https://mediafilez.forgecdn.net/files/3542/217/spark-forge.jar",
+         "local":"spark-forge.jar",
+         "md5":"c07cf059777db6201d98e6794e60e0b4",
          "clientReq":true,
          "serverReq":true
       },
