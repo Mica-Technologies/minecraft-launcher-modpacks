@@ -1,6 +1,6 @@
 {
    "packName":"Alto",
-   "packVersion":"23.2.28.2",
+   "packVersion":"23.2.28.3",
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
    "packBackgroundURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/background.png",
@@ -21,14 +21,6 @@
          "remote":"https://mediafilez.forgecdn.net/files/4293/352/AirPort1.12.2-%5b1.12.2%5d-2.4.6.jar",
          "local":"airport-lights.jar",
          "md5":"326d683e7cb4b58574c780f189837b5d",
-         "clientReq":true,
-         "serverReq":true
-      },
-      {
-         "name":"Alternating Flux",
-         "remote":"https://media.forgecdn.net/files/2693/578/alternatingflux-0.12.2-2.jar",
-         "local":"alternating-flux.jar",
-         "sha1":"bcad5acd1909953bc1f5fb42e6a5df81d4b0fd6c",
          "clientReq":true,
          "serverReq":true
       },
