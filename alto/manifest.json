@@ -1,6 +1,6 @@
 {
    "packName":"Alto",
-   "packVersion":"23.2.28",
+   "packVersion":"23.2.28.2",
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
    "packBackgroundURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/background.png",
@@ -325,6 +325,14 @@
          "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/Hospital_Mod_Theatre_Pack_Alpha_1-SERVER-PATCHED.jar",
          "local":"hospital-mod.jar",
          "sha1":"e178df1b04b6615454ce269f30bacddbbd8a0f4a",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "name":"Immersive Engineering",
+         "remote":"https://media.forgecdn.net/files/2974/106/ImmersiveEngineering-0.12-98.jar",
+         "local":"immersive-engineering.jar",
+         "sha1":"633070d9c447fdaf6a9ead59425017815c890c63",
          "clientReq":true,
          "serverReq":true
       },
