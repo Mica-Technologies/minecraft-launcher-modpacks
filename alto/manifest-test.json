@@ -1,6 +1,6 @@
 {
    "packName":"Alto_TEST",
-   "packVersion":"23.3.6e",
+   "packVersion":"23.3.6f",
    "packUnstable": true,
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -728,14 +728,6 @@
          "sha1":"74dff7a2dbbdf16e64ea5dbb1c9a1a5b386b0eb1",
          "clientReq":true,
          "serverReq":true
-      },
-      {
-         "name":"Vanilla Fix",
-         "remote":"https://media.forgecdn.net/files/2915/154/VanillaFix-1.0.10-150.jar",
-         "local":"vanilla-fix.jar",
-         "sha1":"646fc28aa81773662e33a3b447e830b816528fc9",
-         "clientReq":true,
-         "serverReq":false
       },
       {
          "name":"Weather 2",
