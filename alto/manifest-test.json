@@ -1,6 +1,6 @@
 {
    "packName":"Alto_TEST",
-   "packVersion":"23.3.3",
+   "packVersion":"23.3.6",
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
    "packBackgroundURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/background.png",
@@ -10,9 +10,9 @@
    "packMods":[
       {
          "name":"ACS Guis",
-         "remote":"https://mediafilez.forgecdn.net/files/3681/53/ACsGuis-1.2.3-1-all.jar",
-         "local":"ACsGuis-1.2.3-1-all.jar",
-         "md54":"078f432400411fb4f0d648581820140c",
+         "remote":"https://dynamx.fr/uploads/addons/ACsGuis-1.2.5.jar",
+         "local":"ACsGuis-1.2.5.jar",
+         "sha1":"494da20de14e112c9addc8097064edbd554c687d",
          "clientReq":true,
          "serverReq":true
       },
@@ -186,17 +186,17 @@
       },
       {
          "name":"DynamX Physics Mod",
-         "remote":"https://media.forgecdn.net/files/3594/80/DynamX-3.3.0-all.jar",
+         "remote":"https://dynamx.fr/uploads/addons/DynamX-4.0.0-beta-17-all.jar",
          "local":"_dynamx.jar",
-         "sha1":"5531ce6ae6bee7df9dc9aca285e93496cee246ac",
+         "sha1":"4abeb8390f4eef50884b993ca742223c538eaf7e",
          "clientReq":true,
          "serverReq":true
       },
       {
          "name":"DynamX Basics Add-On",
-         "remote":"https://dynamx.fr/download/addons/619ffa207495b0fd666a58ff/BasicsAddon-1.0.1-for-DynamX-3.3.jar",
+         "remote":"https://dynamx.fr/uploads/addons/BasicsAddon-1.0.6-for-DynamX-4.0.0-b17.jar",
          "local":"_dynamx-basics.jar",
-         "sha1":"d62b3126415a7325e4d82ab6da7f758465d23f48",
+         "sha1":"afe01360876b536b8f501e504db9370ceaf8ed1c",
          "clientReq":true,
          "serverReq":true
       },
@@ -859,18 +859,18 @@
          "serverReq":false
       },
       {
-         "remote":"https://dynamx.fr/download/packs/6127730fbd08ee57b1f3e97d/DartcherDynamX-BasicPack.dnxpack",
+         "remote":"https://dynamx.fr/uploads/addons/DartcherDynamX-BasicPack.dnxpack",
          "local":"DynamX/DartcherDynamX-BasicPack.dnxpack",
-         "sha1":"c71c5b0c294604306c9bfc30dad1b5cebe760945",
+         "sha1":"5b4c4c6503ec8b180fb9ff9ca9d3029492dbcacf",
          "clientReq":true,
-         "serverReq":false
+         "serverReq":true
       },
       {
-         "remote":"https://dynamx.fr/download/packs/6147792f4421363350817fba/DartcherPoliceGlobal.dnxpack",
+         "remote":"https://dynamx.fr/uploads/addons/DartcherPoliceGlobal.dnxpack",
          "local":"DynamX/DartcherPoliceGlobal.dnxpack",
-         "sha1":"d27fa38c528a8d0a7c63df3f7a650ec2af678818",
+         "sha1":"c21d0982a07524d9af743659aa79956a2f47fe28",
          "clientReq":true,
-         "serverReq":false
+         "serverReq":true
       },
       {
          "remote":"https://dynamx.fr/download/packs/618ae6c6698ff350f0cc5312/KabPack_Classic.dnxpack",
