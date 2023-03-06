@@ -1,6 +1,6 @@
 {
    "packName":"Alto_TEST",
-   "packVersion":"23.3.6d",
+   "packVersion":"23.3.6e",
    "packUnstable": true,
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -188,7 +188,7 @@
       {
          "name":"DynamX Physics Mod",
          "remote":"https://dynamx.fr/uploads/addons/DynamX-4.0.0-beta-17-all.jar",
-         "local":"dynamx.jar",
+         "local":"_dynamx.jar",
          "sha1":"4abeb8390f4eef50884b993ca742223c538eaf7e",
          "clientReq":true,
          "serverReq":true
@@ -196,7 +196,7 @@
       {
          "name":"DynamX Basics Add-On",
          "remote":"https://dynamx.fr/uploads/addons/BasicsAddon-1.0.6-for-DynamX-4.0.0-b17.jar",
-         "local":"dynamx-basics.jar",
+         "local":"_dynamx-basics.jar",
          "sha1":"afe01360876b536b8f501e504db9370ceaf8ed1c",
          "clientReq":true,
          "serverReq":true
@@ -732,7 +732,7 @@
       {
          "name":"Vanilla Fix",
          "remote":"https://media.forgecdn.net/files/2915/154/VanillaFix-1.0.10-150.jar",
-         "local":"_vanilla-fix.jar",
+         "local":"vanilla-fix.jar",
          "sha1":"646fc28aa81773662e33a3b447e830b816528fc9",
          "clientReq":true,
          "serverReq":false
