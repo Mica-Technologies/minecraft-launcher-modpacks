@@ -1,6 +1,6 @@
 {
    "packName":"Alto_TEST",
-   "packVersion":"23.3.6",
+   "packVersion":"23.3.6c",
    "packUnstable": true,
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -550,14 +550,6 @@
          "remote":"https://media.forgecdn.net/files/3437/402/_MixinBootstrap-1.1.0.jar",
          "local":"mixin-bootstrap.jar",
          "sha1":"f9173708d3d2850ab8df778b9594b81cb94b1df8",
-         "clientReq":true,
-         "serverReq":true
-      },
-      {
-         "name":"Mixin Compat",
-         "remote":"https://media.forgecdn.net/files/3045/381/%5b___MixinCompat-0.8___%5d.jar",
-         "local":"!mixin-compat.jar",
-         "sha1":"b70fe3fa98be2c0ffb673e88505dada51c1b12d5",
          "clientReq":true,
          "serverReq":true
       },
