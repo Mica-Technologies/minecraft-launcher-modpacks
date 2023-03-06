@@ -1,6 +1,7 @@
 {
    "packName":"Alto_TEST",
    "packVersion":"23.3.6",
+   "packUnstable": true,
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
    "packBackgroundURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/background.png",
