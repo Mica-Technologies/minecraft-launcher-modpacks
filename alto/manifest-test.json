@@ -1,6 +1,6 @@
 {
    "packName":"Alto_TEST",
-   "packVersion":"23.3.28b",
+   "packVersion":"23.3.28d",
    "packUnstable": true,
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -715,9 +715,9 @@
       },
       {
          "name":"Raw Mouse Input",
-         "remote":"https://mediafilez.forgecdn.net/files/4257/921/rawinput-1.4.0.jar",
+         "remote":"https://github.com/Fluorides/RawInputMod1.12.2/releases/download/1.1.1/rawinput-1.1.1_1.12.2.jar",
          "local":"raw-mouse-input.jar",
-         "md5":"190b6e3baa7372f15af4115857eb0712",
+         "sha1":"9965e90156e43b0f6ac5978ca6775af56c4c5d39",
          "clientReq":true,
          "serverReq":true
       },
