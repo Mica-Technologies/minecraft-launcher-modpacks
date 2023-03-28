@@ -841,6 +841,11 @@
          "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/resource-pack.zip",
          "local":"mcla-respack.zip",
          "sha1":"5246353485d0879af62653edd542a7896531cb89"
+      },
+      {
+         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/ImmersiveFix.zip",
+         "local":"ImmersiveFix.zip",
+         "sha1":"254f25331c9fd633d63ff98ee37a8aae862a2644"
       }
    ],
    "packInitialFiles":[
