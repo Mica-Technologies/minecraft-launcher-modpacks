@@ -244,7 +244,7 @@
       {
          "name":"DynamX Physics Mod",
          "remote":"https://dynamx.fr/uploads/addons/DynamX-4.0.0-beta-17-all.jar",
-         "local":"_dynamx.jar",
+         "local":"!dynamx.jar",
          "sha1":"4abeb8390f4eef50884b993ca742223c538eaf7e",
          "clientReq":true,
          "serverReq":true
@@ -252,8 +252,16 @@
       {
          "name":"DynamX Basics Add-On",
          "remote":"https://dynamx.fr/uploads/addons/BasicsAddon-1.0.6-for-DynamX-4.0.0-b17.jar",
-         "local":"_dynamx-basics.jar",
+         "local":"!dynamx-basics.jar",
          "sha1":"afe01360876b536b8f501e504db9370ceaf8ed1c",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "name":"MixinBooter",
+         "remote":"https://mediafilez.forgecdn.net/files/4459/218/!mixinbooter-7.1.jar",
+         "local":"!mixinbooter-7.1.jar",
+         "md5":"155679fd173ce643b6c4d0a248c028c7",
          "clientReq":true,
          "serverReq":true
       },
