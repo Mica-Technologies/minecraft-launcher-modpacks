@@ -1,6 +1,6 @@
 {
    "packName":"Alto_TEST",
-   "packVersion":"23.3.28d",
+   "packVersion":"23.3.28f",
    "packUnstable": true,
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -266,6 +266,14 @@
          "serverReq":true
       },
       {
+         "name":"ElectricalCraft",
+         "remote":"https://mediafilez.forgecdn.net/files/4458/503/ElectricalCraft+2023.2.3727+Indev+1.12.2.jar",
+         "local":"electrical-craft.jar",
+         "md5":"1fbe445b36ddd7278b33144417ee1475",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
          "name":"Ender Core",
          "remote":"https://media.forgecdn.net/files/2972/849/EnderCore-1.12.2-0.5.76.jar",
          "local":"ender-core.jar",
@@ -366,6 +374,14 @@
          "remote":"https://mediafiles.forgecdn.net/files/3907/346/rsgauges-1.12.2-1.2.8.jar",
          "local":"redstone-gauges-and-switches.jar",
          "sha1":"f5af46afabe353f8b27a3acfa8961ca9877ff394",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "name":"GeniusPilot2016s Boats",
+         "remote":"https://mediafilez.forgecdn.net/files/4395/854/Boats+1.2.0+1.12.2.jar",
+         "local":"boats.jar",
+         "md5":"3666225cbd64834b5a82a69e42f58854",
          "clientReq":true,
          "serverReq":true
       },
@@ -534,6 +550,14 @@
          "remote":"https://mediafilez.forgecdn.net/files/2912/452/LoyaltyRewards-1.12-0.4.0.jar",
          "local":"loyalty-rewards.jar",
          "md5":"9fd6c1189f4ad0fc49a15fb4d2c01a4b",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "name":"Luxury Furniture",
+         "remote":"https://mediafilez.forgecdn.net/files/4459/38/Luxury+Furnitures+2.23.1+1.12.2.jar",
+         "local":"luxury-furniture.jar",
+         "md5":"7ac85efe6e4d845f09e317d76ac55ca9",
          "clientReq":true,
          "serverReq":true
       },
@@ -944,6 +968,13 @@
          "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/customwindowtitle-client.toml",
          "local":"customwindowtitle-client.toml",
          "sha1":"e4a9e187a69d10c4a5dfe038837354d75cc1753c",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/RoadRunner.cfg",
+         "local":"RoadRunner.cfg",
+         "sha1":"c03ef41883ee658df4739f682c4c3196e5553644",
          "clientReq":true,
          "serverReq":true
       }
