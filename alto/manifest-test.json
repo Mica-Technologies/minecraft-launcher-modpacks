@@ -1,6 +1,6 @@
 {
    "packName":"Alto_TEST",
-   "packVersion":"23.3.28g",
+   "packVersion":"23.3.28h",
    "packUnstable": true,
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -54,6 +54,14 @@
          "remote":"https://mediafilez.forgecdn.net/files/4391/401/AquaAcrobatics-1.15.2.jar",
          "local":"aqua-acrobatics.jar",
          "md5":"3268e9f27676ea57f5a7dca39afb4ea2",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "name":"Auto Dropper",
+         "remote":"https://mediafilez.forgecdn.net/files/2651/554/AutoDropper-1.12.2-2.0.1.jar",
+         "local":"auto-dropper.jar",
+         "md5":"8c9906654a5789ac00ddee4b63957946",
          "clientReq":true,
          "serverReq":true
       },
