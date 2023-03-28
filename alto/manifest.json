@@ -1,6 +1,7 @@
 {
    "packName":"Alto",
-   "packVersion":"23.3.27b",
+   "packVersion":"23.3.28",
+   "packUnstable": true,
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
    "packBackgroundURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/background.png",
@@ -10,9 +11,17 @@
    "packMods":[
       {
          "name":"ACS Guis",
-         "remote":"https://mediafilez.forgecdn.net/files/3681/53/ACsGuis-1.2.3-1-all.jar",
-         "local":"ACsGuis-1.2.3-1-all.jar",
-         "md54":"078f432400411fb4f0d648581820140c",
+         "remote":"https://dynamx.fr/uploads/addons/ACsGuis-1.2.5.jar",
+         "local":"ACsGuis-1.2.5.jar",
+         "sha1":"494da20de14e112c9addc8097064edbd554c687d",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "name":"Advanced Shader",
+         "remote":"https://mediafilez.forgecdn.net/files/4393/223/AdvancedShader-1.0.2-1.12.2.jar",
+         "local":"advanced-shader.jar",
+         "md5":"8a1018517f437dc809354cd6a3ca1eaf",
          "clientReq":true,
          "serverReq":true
       },
@@ -33,10 +42,34 @@
          "serverReq":true
       },
       {
+         "name":"ArchitectureCraft",
+         "remote":"https://mediafilez.forgecdn.net/files/4344/128/architecturecraft-1.12-3.108.jar",
+         "local":"architecture-craft.jar",
+         "md5":"7017f0fe04ffd2aef0904478b4fc8b73",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "name":"Aqua Acrobatics",
+         "remote":"https://mediafilez.forgecdn.net/files/4391/401/AquaAcrobatics-1.15.2.jar",
+         "local":"aqua-acrobatics.jar",
+         "md5":"3268e9f27676ea57f5a7dca39afb4ea2",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "name":"Auto Dropper",
+         "remote":"https://mediafilez.forgecdn.net/files/2651/554/AutoDropper-1.12.2-2.0.1.jar",
+         "local":"auto-dropper.jar",
+         "md5":"8c9906654a5789ac00ddee4b63957946",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
          "name":"The Beeper",
-         "remote":"https://mediafilez.forgecdn.net/files/4103/457/The+Beeper+1.11.0+1.12.2.jar",
+         "remote":"https://mediafilez.forgecdn.net/files/4458/440/The+Beeper+1.11.2+1.12.2.jar",
          "local":"the-beeper.jar",
-         "md5":"5651cf36b2bc6710a835108c93747874",
+         "md5":"5eaee2190cb3aa106741cebc40617f50",
          "clientReq":true,
          "serverReq":true
       },
@@ -47,6 +80,14 @@
          "sha1":"970FA8F852FCF0E5A20ABCDFDD7ACA8CCF9EE95F",
          "clientReq":true,
          "serverReq":false
+      },
+      {
+         "name":"Better Displays",
+         "remote":"https://mediafilez.forgecdn.net/files/4284/175/BetterDisplays-1.12.2-1.1.1.jar",
+         "local":"better-displays.jar",
+         "md5":"2720bbe339add22ec9d49da25f655198",
+         "clientReq":true,
+         "serverReq":true
       },
       {
          "name":"Better Placement",
@@ -121,6 +162,14 @@
          "serverReq":true
       },
       {
+         "name":"Custom Window Title",
+         "remote":"https://mediafilez.forgecdn.net/files/2875/915/CustomWindowTitle-Legacy-v1.0.0.jar",
+         "local":"custom-window-title.jar",
+         "md5":"c9c6c35a93de385bc97e610bb2f8bbdd",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
          "name":"Creative Core",
          "remote":"https://mediafiles.forgecdn.net/files/3626/833/CreativeCore_v1.10.70_mc1.12.2.jar",
          "local":"creative-core.jar",
@@ -141,6 +190,14 @@
          "remote":"https://media.forgecdn.net/files/3004/303/customsignposts-1.12.2-1.0.1.jar",
          "local":"custom-sign-posts.jar",
          "sha1":"adafc713a2ae569a2f90659c26b3cbc7babb82a7",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "name":"Craft Tweaker",
+         "remote":"https://mediafilez.forgecdn.net/files/4459/202/CraftTweaker2-1.12-4.1.20.687.jar",
+         "local":"craft-tweaker.jar",
+         "md5":"3ec9ef330fcbd30f26c45c9167e1b047",
          "clientReq":true,
          "serverReq":true
       },
@@ -178,25 +235,49 @@
       },
       {
          "name":"DynMap",
-         "remote":"https://mediafilez.forgecdn.net/files/4371/734/Dynmap-3.5-beta-2-forge-1.12.2.jar",
+         "remote":"https://mediafilez.forgecdn.net/files/4445/0/Dynmap-3.5-beta-3-forge-1.12.2.jar",
          "local":"dynmap.jar",
-         "md5":"b0e87da028a5c7ca3b81360f10a7a3b7",
+         "md5":"ce93b718c295f72c6f03b4bbb78ecbd1",
          "clientReq":false,
          "serverReq":true
       },
       {
+         "name":"Dark Redstone",
+         "remote":"https://mediafilez.forgecdn.net/files/4361/700/darkredstone-1.12.2-1.1.jar",
+         "local":"dark-redstone.jar",
+         "md5":"9b2bb57dab75287f88830cf152a2c5dc",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
          "name":"DynamX Physics Mod",
-         "remote":"https://media.forgecdn.net/files/3594/80/DynamX-3.3.0-all.jar",
-         "local":"_dynamx.jar",
-         "sha1":"5531ce6ae6bee7df9dc9aca285e93496cee246ac",
+         "remote":"https://dynamx.fr/uploads/addons/DynamX-4.0.0-beta-17-all.jar",
+         "local":"!dynamx.jar",
+         "sha1":"4abeb8390f4eef50884b993ca742223c538eaf7e",
          "clientReq":true,
          "serverReq":true
       },
       {
          "name":"DynamX Basics Add-On",
-         "remote":"https://dynamx.fr/download/addons/619ffa207495b0fd666a58ff/BasicsAddon-1.0.1-for-DynamX-3.3.jar",
-         "local":"_dynamx-basics.jar",
-         "sha1":"d62b3126415a7325e4d82ab6da7f758465d23f48",
+         "remote":"https://dynamx.fr/uploads/addons/BasicsAddon-1.0.6-for-DynamX-4.0.0-b17.jar",
+         "local":"!dynamx-basics.jar",
+         "sha1":"afe01360876b536b8f501e504db9370ceaf8ed1c",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "name":"MixinBooter",
+         "remote":"https://mediafilez.forgecdn.net/files/4459/218/!mixinbooter-7.1.jar",
+         "local":"!mixinbooter-7.1.jar",
+         "md5":"155679fd173ce643b6c4d0a248c028c7",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "name":"ElectricalCraft",
+         "remote":"https://mediafilez.forgecdn.net/files/4458/503/ElectricalCraft+2023.2.3727+Indev+1.12.2.jar",
+         "local":"electrical-craft.jar",
+         "md5":"1fbe445b36ddd7278b33144417ee1475",
          "clientReq":true,
          "serverReq":true
       },
@@ -305,6 +386,14 @@
          "serverReq":true
       },
       {
+         "name":"GeniusPilot2016s Boats",
+         "remote":"https://mediafilez.forgecdn.net/files/4395/854/Boats+1.2.0+1.12.2.jar",
+         "local":"boats.jar",
+         "md5":"3666225cbd64834b5a82a69e42f58854",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
          "name":"Guide API",
          "remote":"https://media.forgecdn.net/files/2645/992/Guide-API-1.12-2.1.8-63.jar",
          "local":"guide-api.jar",
@@ -346,17 +435,17 @@
       },
       {
          "name":"Immersive Vehicles",
-         "remote":"https://mediafilez.forgecdn.net/files/4171/505/Immersive+Vehicles-1.12.2-22.5.0.jar",
+         "remote":"https://mediafilez.forgecdn.net/files/4452/380/Immersive+Vehicles-1.12.2-22.7.0.jar",
          "local":"iv.jar",
-         "md5":"a9f9491e288df0e3f3749d78d328165b",
+         "md5":"d26cefaa319b4109c3f0b3119872c51b",
          "clientReq":true,
          "serverReq":true
       },
       {
          "name":"Immersive Vehicles Official Content Pack",
-         "remote":"https://media.forgecdn.net/files/3592/807/MTS_Official_Pack_V23.jar",
+         "remote":"https://mediafilez.forgecdn.net/files/4452/426/MTS+Official+Pack-1.12.2-V25.jar",
          "local":"iv-official-content-pack.jar",
-         "sha1":"64342A7208C9AB4C38BD952A9030A1D16009E24C",
+         "md5":"cf95d0de0347dcec897fef04798ab9c4",
          "clientReq":true,
          "serverReq":true
       },
@@ -370,17 +459,17 @@
       },
       {
          "name":"UNU Parts Pack",
-         "remote":"https://mediafilez.forgecdn.net/files/4259/770/UNU+Parts+Pack+%5bMTS%5d+1.12.2-22.5.0-V6-BETA2.jar",
+         "remote":"https://mediafilez.forgecdn.net/files/4413/971/UNU+Parts+Pack+%5bMTS%5d+1.12.2-22.5.0-BETA3.jar",
          "local":"unu-parts-pack.jar",
-         "md5":"1e1f5fb90fe8dca801b070094a4209d6",
+         "md5":"2cb4e10a706c966f5014d1094115578f",
          "clientReq":true,
          "serverReq":true
       },
       {
          "name":"UNU Civilian Pack",
-         "remote":"https://mediafilez.forgecdn.net/files/4262/680/UNU+Civilian+Pack+%5bMTS%5d+1.12.2-22.5.0-V6-BETA2.jar",
+         "remote":"https://mediafilez.forgecdn.net/files/4413/972/UNU+Civilian+Pack+%5bMTS%5d+1.12.2-22.5.0-BETA3.jar",
          "local":"unu-civilian-pack.jar",
-         "md5":"6d3589d7eb926ca669032b7bddec93f2",
+         "md5":"21d79917e3e860a0b36173265a159683",
          "clientReq":true,
          "serverReq":true
       },
@@ -442,17 +531,17 @@
       },
       {
          "name":"LittleFrames",
-         "remote":"https://mediafiles.forgecdn.net/files/3974/885/LittleFrames_UNOFFICAL_(by_Blake)_v1.0.12_mc1.12.2.jar",
+         "remote":"https://mediafilez.forgecdn.net/files/4393/159/LittleFrames_UNOFFICAL_(by_Blake)_v1.0.13_mc1.12.2.jar",
          "local":"little-frames.jar",
-         "sha1":"e030e55993c31802264877b215389b824db640c7",
+         "sha1":"9695720518abd075ec6a27bc5b2bfd81",
          "clientReq":true,
          "serverReq":true
       },
       {
          "name":"LittleTiles",
-         "remote":"https://mediafiles.forgecdn.net/files/4000/788/LittleTiles_v1.5.61_mc1.12.2.jar",
+         "remote":"https://mediafilez.forgecdn.net/files/4399/700/LittleTiles_v1.5.68_mc1.12.2.jar",
          "local":"little-tiles.jar",
-         "sha1":"a66e588c72719e9bc83b5b892ae1fa4cd7603e52",
+         "md5":"5a43619ef5189a2e498193d304c0add3",
          "clientReq":true,
          "serverReq":true
       },
@@ -461,6 +550,22 @@
          "remote":"https://media.forgecdn.net/files/2616/330/logisticalautomation-0.1.0.jar",
          "local":"logist-autom.jar",
          "sha1":"cc7a07254207370b5b9e7ebdf62e97c9b04e084a",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "name":"Loyalty Rewards",
+         "remote":"https://mediafilez.forgecdn.net/files/2912/452/LoyaltyRewards-1.12-0.4.0.jar",
+         "local":"loyalty-rewards.jar",
+         "md5":"9fd6c1189f4ad0fc49a15fb4d2c01a4b",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "name":"Luxury Furniture",
+         "remote":"https://mediafilez.forgecdn.net/files/4459/38/Luxury+Furnitures+2.23.1+1.12.2.jar",
+         "local":"luxury-furniture.jar",
+         "md5":"7ac85efe6e4d845f09e317d76ac55ca9",
          "clientReq":true,
          "serverReq":true
       },
@@ -505,6 +610,22 @@
          "serverReq":true
       },
       {
+         "name":"Macaws Paths and Pavings",
+         "remote":"https://mediafilez.forgecdn.net/files/4275/216/mcw-paths-1.0.2forge-mc1.12.2.jar",
+         "local":"macaws-paths-and-pavings.jar",
+         "md5":"57679fd488ae07e11d2fd01e5bf8467e",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "name":"Macaws Roofs",
+         "remote":"https://mediafilez.forgecdn.net/files/2879/573/mcw-roofs-1.0.2-mc1.12.2.jar",
+         "local":"macaws-roofs.jar",
+         "md5":"23e81cce1bb289cf9a9811e42b03a245",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
          "name":"Macaws Windows",
          "remote":"https://media.forgecdn.net/files/2884/962/mcw-windows-1.0.0-mc1.12.2.jar",
          "local":"macaws-windows.jar",
@@ -545,34 +666,18 @@
          "serverReq":false
       },
       {
-         "name":"Mixin Bootstrap",
-         "remote":"https://media.forgecdn.net/files/3437/402/_MixinBootstrap-1.1.0.jar",
-         "local":"mixin-bootstrap.jar",
-         "sha1":"f9173708d3d2850ab8df778b9594b81cb94b1df8",
-         "clientReq":true,
-         "serverReq":true
-      },
-      {
-         "name":"Mixin Compat",
-         "remote":"https://media.forgecdn.net/files/3045/381/%5b___MixinCompat-0.8___%5d.jar",
-         "local":"!mixin-compat.jar",
-         "sha1":"b70fe3fa98be2c0ffb673e88505dada51c1b12d5",
-         "clientReq":true,
-         "serverReq":true
-      },
-      {
          "name":"Modern Splash",
-         "remote":"https://mediafilez.forgecdn.net/files/4343/914/modernsplash-1.12.2-1.2.1.jar",
+         "remote":"https://mediafilez.forgecdn.net/files/4459/15/modernsplash-1.12.2-1.2.2.1.jar",
          "local":"modern-splash.jar",
-         "md5":"e78ad185eddfc295aece0a662a388f86",
+         "md5":"e5d97e2b4b64e11520370f294460217d",
          "clientReq":true,
          "serverReq":false
       },
       {
          "name":"Moving Elevators",
-         "remote":"https://mediafiles.forgecdn.net/files/3878/275/movingelevators-1.3.9-forge-mc1.12.jar",
+         "remote":"https://mediafilez.forgecdn.net/files/4461/343/movingelevators-1.3.12-forge-mc1.12.jar",
          "local":"moving-elevators.jar",
-         "sha1":"785d72deb6010fcd028dce83836ebea989341f7b",
+         "md5":"ddd181caef6c5b9bd9354738ee54d74f",
          "clientReq":true,
          "serverReq":true
       },
@@ -633,6 +738,30 @@
          "serverReq":true
       },
       {
+         "name":"Ping",
+         "remote":"https://mediafilez.forgecdn.net/files/2676/457/Ping-1.12.2-1.4.5.jar",
+         "local":"ping.jar",
+         "md5":"0e8311f92a716cee436dbfc8d47bae6e",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "name":"Raw Mouse Input",
+         "remote":"https://github.com/Fluorides/RawInputMod1.12.2/releases/download/1.1.1/rawinput-1.1.1_1.12.2.jar",
+         "local":"raw-mouse-input.jar",
+         "sha1":"9965e90156e43b0f6ac5978ca6775af56c4c5d39",
+         "clientReq":true,
+         "serverReq":false
+      },
+      {
+         "name":"Road Runner",
+         "remote":"https://mediafilez.forgecdn.net/files/2468/500/roadrunner-1.0.1.jar",
+         "local":"road-runner.jar",
+         "md5":"e3b7633db2e1d151e97a6de584265729",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
          "name":"Railcraft",
          "remote":"https://mediafiles.forgecdn.net/files/3853/491/railcraft-12.1.0-beta-8.jar",
          "local":"railcraft.jar",
@@ -650,9 +779,9 @@
       },
       {
          "name":"Security Craft",
-         "remote":"https://mediafilez.forgecdn.net/files/4121/474/%5b1.12.2%5d+SecurityCraft+v1.9.4.jar",
+         "remote":"https://mediafilez.forgecdn.net/files/4438/426/%5b1.12.2%5d+SecurityCraft+v1.9.6.jar",
          "local":"security-craft.jar",
-         "md5":"51b4d3e5a6a43bed3ed106314df36b43",
+         "md5":"cb14e0c71f74e1bc8d2dfa1ddc689929",
          "clientReq":true,
          "serverReq":true
       },
@@ -722,9 +851,9 @@
       },
       {
          "name":"SuperMartijn642's Core Lib",
-         "remote":"https://mediafiles.forgecdn.net/files/3863/122/supermartijn642corelib-1.0.19-forge-mc1.12.jar",
+         "remote":"https://mediafilez.forgecdn.net/files/4455/371/supermartijn642corelib-1.1.6-forge-mc1.12.jar",
          "local":"supermartijn642-core-lib.jar",
-         "sha1":"b933b953f0e7de95e7a6995ad2d064507b8a6d59",
+         "md5":"19cea28847bf1e9f33195099ce4479dc",
          "clientReq":true,
          "serverReq":true
       },
@@ -745,12 +874,12 @@
          "serverReq":true
       },
       {
-         "name":"Vanilla Fix",
-         "remote":"https://media.forgecdn.net/files/2915/154/VanillaFix-1.0.10-150.jar",
-         "local":"vanilla-fix.jar",
-         "sha1":"646fc28aa81773662e33a3b447e830b816528fc9",
+         "name":"TV Studio",
+         "remote":"https://mediafilez.forgecdn.net/files/3039/224/Tv+Studio+Mod+1.12.2-v1.7.5.jar",
+         "local":"tv-studio.jar",
+         "md5":"48420186cd048fabe49f26d65ba3c62f",
          "clientReq":true,
-         "serverReq":false
+         "serverReq":true
       },
       {
          "name":"Weather 2",
@@ -765,6 +894,14 @@
          "remote":"https://mediafilez.forgecdn.net/files/2715/765/World-Border-1.12.2-1.0.6.jar",
          "local":"worldborder.jar",
          "md5":"e6f0f73764f44cc2b7827b23d5b7af74",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "name":"World Buoyancy",
+         "remote":"https://mediafilez.forgecdn.net/files/3791/284/InWorldBuoyancy-1.12.2-1.0.0.jar",
+         "local":"world-buoyancy.jar",
+         "md5":"b55261ccc481c0fd2855f28a69143da2",
          "clientReq":true,
          "serverReq":true
       },
@@ -834,6 +971,20 @@
          "sha1":"9fba7ab66bf59acb70d66cc825bbf06982dec3b3",
          "clientReq":true,
          "serverReq":true
+      },
+      {
+         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/customwindowtitle-client.toml",
+         "local":"customwindowtitle-client.toml",
+         "sha1":"e4a9e187a69d10c4a5dfe038837354d75cc1753c",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/RoadRunner.cfg",
+         "local":"RoadRunner.cfg",
+         "sha1":"a7b6637445871daabf555fb1617a95e741874a90",
+         "clientReq":true,
+         "serverReq":true
       }
    ],
    "packResourcePacks":[
@@ -864,18 +1015,18 @@
          "serverReq":false
       },
       {
-         "remote":"https://dynamx.fr/download/packs/6127730fbd08ee57b1f3e97d/DartcherDynamX-BasicPack.dnxpack",
+         "remote":"https://dynamx.fr/uploads/addons/DartcherDynamX-BasicPack.dnxpack",
          "local":"DynamX/DartcherDynamX-BasicPack.dnxpack",
-         "sha1":"c71c5b0c294604306c9bfc30dad1b5cebe760945",
+         "sha1":"5b4c4c6503ec8b180fb9ff9ca9d3029492dbcacf",
          "clientReq":true,
-         "serverReq":false
+         "serverReq":true
       },
       {
-         "remote":"https://dynamx.fr/download/packs/6147792f4421363350817fba/DartcherPoliceGlobal.dnxpack",
+         "remote":"https://dynamx.fr/uploads/addons/DartcherPoliceGlobal.dnxpack",
          "local":"DynamX/DartcherPoliceGlobal.dnxpack",
-         "sha1":"d27fa38c528a8d0a7c63df3f7a650ec2af678818",
+         "sha1":"c21d0982a07524d9af743659aa79956a2f47fe28",
          "clientReq":true,
-         "serverReq":false
+         "serverReq":true
       },
       {
          "remote":"https://dynamx.fr/download/packs/618ae6c6698ff350f0cc5312/KabPack_Classic.dnxpack",

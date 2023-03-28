@@ -1,6 +1,6 @@
 {
    "packName":"Alto_TEST",
-   "packVersion":"23.3.28h",
+   "packVersion":"23.3.28",
    "packUnstable": true,
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -751,7 +751,7 @@
          "local":"raw-mouse-input.jar",
          "sha1":"9965e90156e43b0f6ac5978ca6775af56c4c5d39",
          "clientReq":true,
-         "serverReq":true
+         "serverReq":false
       },
       {
          "name":"Road Runner",
