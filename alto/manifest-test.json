@@ -1,6 +1,6 @@
 {
    "packName":"Alto_TEST",
-   "packVersion":"23.3.28",
+   "packVersion":"23.3.28b",
    "packUnstable": true,
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -150,14 +150,6 @@
          "remote":"https://media.forgecdn.net/files/2902/920/coroutil-1.12.1-1.2.37.jar",
          "local":"coroutil.jar",
          "sha1":"90392789DFBCADF440415A775D3EC81326DEEE2F",
-         "clientReq":true,
-         "serverReq":true
-      },
-      {
-         "name":"Controllable",
-         "remote":"https://mediafilez.forgecdn.net/files/3222/475/controllable-0.11.2-1.12.2.jar",
-         "local":"controllable.jar",
-         "md5":"958aa1af2f6667983e46d4ca2f9295d1",
          "clientReq":true,
          "serverReq":true
       },
@@ -937,6 +929,13 @@
          "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/debugserverinfo.cfg",
          "local":"debugserverinfo.cfg",
          "sha1":"9fba7ab66bf59acb70d66cc825bbf06982dec3b3",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/customwindowtitle-client.toml",
+         "local":"customwindowtitle-client.toml",
+         "sha1":"e4a9e187a69d10c4a5dfe038837354d75cc1753c",
          "clientReq":true,
          "serverReq":true
       }
