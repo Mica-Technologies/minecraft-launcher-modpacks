@@ -274,22 +274,6 @@
          "serverReq":true
       },
       {
-         "name":"Ender Core",
-         "remote":"https://media.forgecdn.net/files/2972/849/EnderCore-1.12.2-0.5.76.jar",
-         "local":"ender-core.jar",
-         "sha1":"a61fda64cfb0e3852690678fbd7375a1ea982884",
-         "clientReq":true,
-         "serverReq":true
-      },
-      {
-         "name":"Ender IO",
-         "remote":"https://media.forgecdn.net/files/3328/811/EnderIO-1.12.2-5.3.70.jar",
-         "local":"ender-io.jar",
-         "sha1":"55e25a5332c3dc5898f6a08a971dc21990c8eb96",
-         "clientReq":true,
-         "serverReq":true
-      },
-      {
          "name":"Energy Control",
          "remote":"https://mediafiles.forgecdn.net/files/3829/524/EnergyControl-1.12.2-0.3.1.jar",
          "local":"energy-control.jar",
