@@ -42,14 +42,6 @@
          "serverReq":true
       },
       {
-         "name":"ArchitectureCraft",
-         "remote":"https://mediafilez.forgecdn.net/files/4344/128/architecturecraft-1.12-3.108.jar",
-         "local":"architecture-craft.jar",
-         "md5":"7017f0fe04ffd2aef0904478b4fc8b73",
-         "clientReq":true,
-         "serverReq":true
-      },
-      {
          "name":"Aqua Acrobatics",
          "remote":"https://mediafilez.forgecdn.net/files/4391/401/AquaAcrobatics-1.15.2.jar",
          "local":"aqua-acrobatics.jar",
