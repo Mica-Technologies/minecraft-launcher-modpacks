@@ -1,6 +1,6 @@
 {
    "packName":"Alto_TEST",
-   "packVersion":"23.3.28f",
+   "packVersion":"23.3.28g",
    "packUnstable": true,
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -974,7 +974,7 @@
       {
          "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/RoadRunner.cfg",
          "local":"RoadRunner.cfg",
-         "sha1":"c03ef41883ee658df4739f682c4c3196e5553644",
+         "sha1":"a7b6637445871daabf555fb1617a95e741874a90",
          "clientReq":true,
          "serverReq":true
       }
