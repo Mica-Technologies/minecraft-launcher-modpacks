@@ -1,6 +1,6 @@
 {
    "packName":"Alto_TEST",
-   "packVersion":"23.3.28",
+   "packVersion":"23.3.29b",
    "packUnstable": true,
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -34,10 +34,10 @@
          "serverReq":true
       },
       {
-         "name":"Applied Energistics",
-         "remote":"https://mediafilez.forgecdn.net/files/2747/63/appliedenergistics2-rv6-stable-7.jar",
-         "local":"applied-energistics.jar",
-         "md5":"b8667d60a761d5b5ae3c8a15192f9e28",
+         "name":"Applied Energistics 2 XL",
+         "remote":"https://mediafilez.forgecdn.net/files/4463/434/appliedenergistics2-rv6-stable-7-extended_life-v0.55.12.jar",
+         "local":"ae2-extended-life.jar",
+         "md5":"aeb896982be83e8d2e5c6654f469160b",
          "clientReq":true,
          "serverReq":true
       },
@@ -294,6 +294,14 @@
          "remote":"https://mediafiles.forgecdn.net/files/2995/865/energymeters-1.12.2-1.0.2.jar",
          "local":"energy-meters.jar",
          "sha1":"1e81208d4808cec9562ba284b0d9c26bf851dac3",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "name":"Fancy Fluid Storage",
+         "remote":"https://mediafilez.forgecdn.net/files/2723/382/Fancy+Fluid+Storage-1.12.2-2.2.5.jar",
+         "local":"ffs.jar",
+         "md5":"242d54caf573c013c98168b2df984294",
          "clientReq":true,
          "serverReq":true
       },
