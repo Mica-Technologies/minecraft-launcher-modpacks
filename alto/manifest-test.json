@@ -522,6 +522,14 @@
          "serverReq":true
       },
       {
+         "name":"Large Fluid Tank",
+         "remote":"https://mediafilez.forgecdn.net/files/3366/145/LargeFluidTank-12.5.3.jar",
+         "local":"large-fluid-tank.jar",
+         "md5":"e3f4630100c42ff0a3b68e4b363b57bd",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
          "name":"LittleFrames",
          "remote":"https://mediafilez.forgecdn.net/files/4393/159/LittleFrames_UNOFFICAL_(by_Blake)_v1.0.13_mc1.12.2.jar",
          "local":"little-frames.jar",

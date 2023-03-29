@@ -1,6 +1,6 @@
 {
    "packName":"Alto",
-   "packVersion":"23.3.28",
+   "packVersion":"23.3.29",
    "packUnstable": true,
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -34,10 +34,10 @@
          "serverReq":true
       },
       {
-         "name":"Applied Energistics",
-         "remote":"https://mediafilez.forgecdn.net/files/2747/63/appliedenergistics2-rv6-stable-7.jar",
-         "local":"applied-energistics.jar",
-         "md5":"b8667d60a761d5b5ae3c8a15192f9e28",
+         "name":"Applied Energistics 2 XL",
+         "remote":"https://mediafilez.forgecdn.net/files/4463/434/appliedenergistics2-rv6-stable-7-extended_life-v0.55.12.jar",
+         "local":"ae2-extended-life.jar",
+         "md5":"aeb896982be83e8d2e5c6654f469160b",
          "clientReq":true,
          "serverReq":true
       },
@@ -298,6 +298,14 @@
          "serverReq":true
       },
       {
+         "name":"Fancy Fluid Storage",
+         "remote":"https://mediafilez.forgecdn.net/files/2723/382/Fancy+Fluid+Storage-1.12.2-2.2.5.jar",
+         "local":"ffs.jar",
+         "md5":"242d54caf573c013c98168b2df984294",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
          "name":"FAWE",
          "remote":"https://ci.athion.net/job/FastAsyncWorldEdit-Legacy/1285/artifact/target/FastAsyncWorldEdit-forge112-19.11.13-5505943-1282-22.3.5.jar",
          "local":"fawe.jar",
@@ -510,6 +518,14 @@
          "remote":"https://media.forgecdn.net/files/2901/775/LagGoggles-FAT-1.12.2-4.11-92.jar",
          "local":"lag-goggles.jar",
          "sha1":"06a589901d3e2bf0dda2c4a2fe2b84344a6c5940",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "name":"Large Fluid Tank",
+         "remote":"https://mediafilez.forgecdn.net/files/3366/145/LargeFluidTank-12.5.3.jar",
+         "local":"large-fluid-tank.jar",
+         "md5":"e3f4630100c42ff0a3b68e4b363b57bd",
          "clientReq":true,
          "serverReq":true
       },
