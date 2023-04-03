@@ -1,6 +1,6 @@
 {
    "packName":"Alto_TEST",
-   "packVersion":"23.3.29b",
+   "packVersion":"23.4.3",
    "packUnstable": true,
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -162,12 +162,12 @@
          "serverReq":true
       },
       {
-         "name":"Custom Window Title",
-         "remote":"https://mediafilez.forgecdn.net/files/2875/915/CustomWindowTitle-Legacy-v1.0.0.jar",
-         "local":"custom-window-title.jar",
-         "md5":"c9c6c35a93de385bc97e610bb2f8bbdd",
+         "name":"Its The Little Things",
+         "remote":"https://mediafilez.forgecdn.net/files/3330/21/itlt-1.12.x-1.0.4.jar",
+         "local":"itlt.jar",
+         "md5":"2a6771bd430409d3a379485e86a3853b",
          "clientReq":true,
-         "serverReq":true
+         "serverReq":false
       },
       {
          "name":"Creative Core",
