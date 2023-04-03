@@ -1,6 +1,6 @@
 {
    "packName":"Alto",
-   "packVersion":"23.3.29",
+   "packVersion":"23.4.3",
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
    "packBackgroundURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/background.png",
@@ -161,12 +161,12 @@
          "serverReq":true
       },
       {
-         "name":"Custom Window Title",
-         "remote":"https://mediafilez.forgecdn.net/files/2875/915/CustomWindowTitle-Legacy-v1.0.0.jar",
-         "local":"custom-window-title.jar",
-         "md5":"c9c6c35a93de385bc97e610bb2f8bbdd",
+         "name":"Its The Little Things",
+         "remote":"https://mediafilez.forgecdn.net/files/3330/21/itlt-1.12.x-1.0.4.jar",
+         "local":"itlt.jar",
+         "md5":"2a6771bd430409d3a379485e86a3853b",
          "clientReq":true,
-         "serverReq":true
+         "serverReq":false
       },
       {
          "name":"Creative Core",
@@ -982,6 +982,20 @@
          "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/RoadRunner.cfg",
          "local":"RoadRunner.cfg",
          "sha1":"a7b6637445871daabf555fb1617a95e741874a90",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
+         "local":"itlt/icon.png",
+         "sha1":"54787d3bf0957c79da8b9e097be07616d8244b0e",
+         "clientReq":true,
+         "serverReq":true
+      },
+      {
+         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/itlt.cfg",
+         "local":"itlt.cfg",
+         "sha1":"4cff1b61bc717c12200f06e2af5167dae3f39a16",
          "clientReq":true,
          "serverReq":true
       }
