@@ -1,6 +1,6 @@
 {
    "packName":"Alto_TEST",
-   "packVersion":"23.4.12b",
+   "packVersion":"23.4.12c",
    "packUnstable": true,
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -832,6 +832,14 @@
          "sha1":"b3793dd11aed5924ac9d59f322827aed0bfa9f8c",
          "clientReq":true,
          "serverReq":true
+      },
+      {
+         "name":"Simple RPC",
+         "remote":"https://mediafilez.forgecdn.net/files/3899/272/simple-rpc-1.12.2-3.1.1.jar",
+         "local":"simple-rpc.jar",
+         "md5":"cf58d849203b33be097c49ed104d0473",
+         "clientReq":true,
+         "serverReq":false
       },
       {
          "name":"Smooth Font",
