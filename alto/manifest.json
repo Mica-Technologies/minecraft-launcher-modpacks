@@ -1,6 +1,6 @@
 {
    "packName":"Alto",
-   "packVersion":"23.4.3",
+   "packVersion":"23.4.12",
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
    "packBackgroundURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/background.png",
@@ -1004,7 +1004,7 @@
       {
          "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/resource-pack.zip",
          "local":"mcla-respack.zip",
-         "sha1":"5246353485d0879af62653edd542a7896531cb89"
+         "sha1":"971df72233c4331081c6ed2be6f9980d1b8a9e8c"
       },
       {
          "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/ImmersiveFix.zip",
