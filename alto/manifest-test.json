@@ -1,6 +1,6 @@
 {
    "packName":"Alto_TEST",
-   "packVersion":"23.4.12",
+   "packVersion":"23.4.12b",
    "packUnstable": true,
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -768,6 +768,14 @@
          "sha1":"3f894220b478ac454b731642aaf118b3ac7097ae",
          "clientReq":true,
          "serverReq":true
+      },
+      {
+         "name":"Reload Audio Driver",
+         "remote":"https://mediafilez.forgecdn.net/files/2990/332/rad-1.12-1.1.0.jar",
+         "local":"rad.jar",
+         "md5":"357c8daf3a54528e36c19a54ce7f86b2",
+         "clientReq":true,
+         "serverReq":false
       },
       {
          "name":"Redstone Paste",
