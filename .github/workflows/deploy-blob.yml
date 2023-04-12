@@ -7,10 +7,14 @@ jobs:
   upload:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-      - uses: bacongobbler/azure-blob-storage-upload@main
+      - name: Checkout Repository Contents
+        uses: actions/checkout@v2
+      - name: Remove Git Folders and Files Before Upload
+        run: rm -rf .git .github .gitignore .gitattributes
+      - name: Upload Repository Contents to Blob Storage
+        uses: bacongobbler/azure-blob-storage-upload@main
         with:
           source_dir: ./
           container_name: mc-launcher-api
           connection_string: ${{ secrets.ConnectionString }}
-          overwrite: 'true'
+          sync: 'true'
