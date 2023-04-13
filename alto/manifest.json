@@ -1,6 +1,6 @@
 {
    "packName":"Alto",
-   "packVersion":"23.4.12b",
+   "packVersion":"23.4.12d",
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
    "packBackgroundURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/background.png",
@@ -833,6 +833,14 @@
          "serverReq":true
       },
       {
+         "name":"Simple RPC",
+         "remote":"https://mediafilez.forgecdn.net/files/3899/272/simple-rpc-1.12.2-3.1.1.jar",
+         "local":"simple-rpc.jar",
+         "md5":"cf58d849203b33be097c49ed104d0473",
+         "clientReq":true,
+         "serverReq":false
+      },
+      {
          "name":"Smooth Font",
          "remote":"https://mediafiles.forgecdn.net/files/3944/565/SmoothFont-mc1.12.2-2.1.4.jar",
          "local":"smooth-font.jar",
@@ -1054,6 +1062,13 @@
          "local":"DynamX/KabPack_Classic.dnxpack",
          "sha1":"9ef3fe7e9718c7f51de7e204e06a5d2d92de9010",
          "clientReq":false,
+         "serverReq":false
+      },
+      {
+         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/simple-rpc.toml",
+         "local":"simple-rpc/simple-rpc.toml",
+         "sha1":"0c4150d18308b2e06be7e7102f9f78d9b4e3fc54",
+         "clientReq":true,
          "serverReq":false
       }
    ]
