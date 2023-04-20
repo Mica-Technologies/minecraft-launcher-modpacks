@@ -840,7 +840,7 @@
          "remote":"https://mediafilez.forgecdn.net/files/3899/272/simple-rpc-1.12.2-3.1.1.jar",
          "local":"simple-rpc.jar",
          "md5":"cf58d849203b33be097c49ed104d0473",
-         "clientReq":false,
+         "clientReq":true,
          "serverReq":false
       },
       {
