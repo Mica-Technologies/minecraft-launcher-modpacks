@@ -1,12 +1,12 @@
 {
    "packName":"Alto",
-   "packVersion":"23.4.14",
+   "packVersion":"23.4.20",
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
    "packBackgroundURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/background.png",
    "packMinRAMGB":"4",
    "packForgeURL":"https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar",
-   "packForgeHash":"c423ce528bd517e9fc6e7cc9346769ad84461f93",
+   "packForgeHash":"8328b395bb26bab70f818126ebe6a75772d39ce4",
    "packMods":[
       {
          "name":"ACS Guis",
