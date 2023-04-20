@@ -1060,7 +1060,7 @@
       {
          "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/simple-rpc.toml",
          "local":"simple-rpc/simple-rpc.toml",
-         "sha1":"2f95d19e6968bc75080a9e00aa2a6d11c75550e5",
+         "sha1":"8fb700f1237b2b84dc6924a663df75cb7932d543",
          "clientReq":true,
          "serverReq":false
       }

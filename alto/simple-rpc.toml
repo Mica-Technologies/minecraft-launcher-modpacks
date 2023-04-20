@@ -150,7 +150,7 @@
 	#The first line of text under the app name
 	description = "In Game"
 	#The second line of text under the app name
-	state = "%gametime12% on Day %day%"
+	state = "Day %day%, %weather%"
 	#The Asset ID of the image to display as the large image
 	largeImageKey = "logo512"
 	#The text that gets displayed when the large image is hovered
