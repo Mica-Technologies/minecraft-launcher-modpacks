@@ -532,7 +532,7 @@
          "name":"LittleFrames",
          "remote":"https://mediafilez.forgecdn.net/files/4393/159/LittleFrames_UNOFFICAL_(by_Blake)_v1.0.13_mc1.12.2.jar",
          "local":"little-frames.jar",
-         "sha1":"9695720518abd075ec6a27bc5b2bfd81",
+         "sha1":"448bb6e2109abdaa2f9f2e0cdb2c5617451a3a44",
          "clientReq":true,
          "serverReq":true
       },
@@ -941,7 +941,7 @@
       {
          "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/mainmenu.json",
          "local":"CustomMainMenu/mainmenu.json",
-         "sha1":"812292faf507cd5b6d5a208a5c964e95625a0606",
+         "sha1":"625d6d58757137dfcfd42c665c7861bb1441098f",
          "clientReq":true,
          "serverReq":false
       },
@@ -955,7 +955,7 @@
       {
          "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/betterhud.cfg",
          "local":"betterhud.cfg",
-         "sha1":"0508de53e6a292a7b1b5f5ae91d7d7eff257e247",
+         "sha1":"3b9f3fcd0d7bef247a5d729c61728ab9afa14c65",
          "clientReq":true,
          "serverReq":false
       },
@@ -983,21 +983,14 @@
       {
          "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/debugserverinfo.cfg",
          "local":"debugserverinfo.cfg",
-         "sha1":"9fba7ab66bf59acb70d66cc825bbf06982dec3b3",
-         "clientReq":true,
-         "serverReq":true
-      },
-      {
-         "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/customwindowtitle-client.toml",
-         "local":"customwindowtitle-client.toml",
-         "sha1":"e4a9e187a69d10c4a5dfe038837354d75cc1753c",
+         "sha1":"364817ef9121ac8165b83f0203ed4537cb518924",
          "clientReq":true,
          "serverReq":true
       },
       {
          "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/RoadRunner.cfg",
          "local":"RoadRunner.cfg",
-         "sha1":"a7b6637445871daabf555fb1617a95e741874a90",
+         "sha1":"5e289e483990c4643c5b1a681c7c533b3712b371",
          "clientReq":true,
          "serverReq":true
       },
@@ -1067,7 +1060,7 @@
       {
          "remote":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/simple-rpc.toml",
          "local":"simple-rpc/simple-rpc.toml",
-         "sha1":"0c4150d18308b2e06be7e7102f9f78d9b4e3fc54",
+         "sha1":"2f95d19e6968bc75080a9e00aa2a6d11c75550e5",
          "clientReq":true,
          "serverReq":false
       }
