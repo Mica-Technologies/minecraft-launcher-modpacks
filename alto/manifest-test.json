@@ -1,6 +1,6 @@
 {
    "packName":"Alto_TEST",
-   "packVersion":"23.4.20",
+   "packVersion":"23.4.24",
    "packUnstable": true,
    "packURL":"https://minecraft.micatechnologies.com",
    "packLogoURL":"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -840,7 +840,7 @@
          "remote":"https://mediafilez.forgecdn.net/files/3899/272/simple-rpc-1.12.2-3.1.1.jar",
          "local":"simple-rpc.jar",
          "md5":"cf58d849203b33be097c49ed104d0473",
-         "clientReq":true,
+         "clientReq":false,
          "serverReq":false
       },
       {
@@ -898,6 +898,14 @@
          "md5":"48420186cd048fabe49f26d65ba3c62f",
          "clientReq":true,
          "serverReq":true
+      },
+      {
+         "name":"Vanilla Fix",
+         "remote":"https://mediafilez.forgecdn.net/files/2915/154/VanillaFix-1.0.10-150.jar",
+         "local":"vanillafix.jar",
+         "sha1":"646fc28aa81773662e33a3b447e830b816528fc9",
+         "clientReq":true,
+         "serverReq":false
       },
       {
          "name":"Weather 2",
