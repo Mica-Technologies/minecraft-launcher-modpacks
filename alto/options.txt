@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["ImmersiveFix.zip","mcla-respack.zip"]
+resourcePacks:["ImmersiveFix.zip","alto-resource-pack.zip"]
 incompatibleResourcePacks:[]
 lastServer:
 lang:en_us

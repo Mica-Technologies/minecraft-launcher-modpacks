@@ -1,7 +1,7 @@
 {
    "images":{
       "title":{
-         "image":"minecraft:textures/gui/alto-menu-logo.png",
+         "image":"minecraft:textures/gui/uia-menu-logo.png",
          "posX":-128,
          "posY":-55,
          "width":256,
