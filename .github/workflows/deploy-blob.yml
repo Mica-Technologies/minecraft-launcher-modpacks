@@ -9,10 +9,6 @@ jobs:
     steps:
       - name: Checkout Repository Contents
         uses: actions/checkout@v2
-        with:
-            lfs: 'true'
-      - name: Pull GitHub LFS Files
-        run: git lfs pull
       - name: Remove Git Folders and Files Before Upload
         run: rm -rf .git .github .gitignore .gitattributes
       - name: Upload Repository Contents to Blob Storage
