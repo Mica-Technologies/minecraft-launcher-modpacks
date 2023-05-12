@@ -37,9 +37,9 @@
       },
       {
          "name": "Applied Energistics 2 XL",
-         "remote": "https://mediafilez.forgecdn.net/files/4463/434/appliedenergistics2-rv6-stable-7-extended_life-v0.55.12.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4505/114/appliedenergistics2-rv6-stable-7-extended_life-v0.55.13.jar",
          "local": "ae2-extended-life.jar",
-         "md5": "aeb896982be83e8d2e5c6654f469160b",
+         "md5": "e0f0fa399b22b283db139688e12dfca2",
          "clientReq": true,
          "serverReq": true
       },
@@ -324,6 +324,14 @@
          "serverReq": true
       },
       {
+         "name": "First Aid",
+         "remote": "https://mediafilez.forgecdn.net/files/4414/252/firstaid-1.6.22.jar",
+         "local": "firstaid.jar",
+         "md5": "d61dc94039ea35dbcfc1679353e69c90",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
          "name": "Flat Colored Blocks",
          "remote": "https://media.forgecdn.net/files/2715/827/flatcoloredblocks-mc1.12-6.8.jar",
          "local": "flat-colored-blocks.jar",
@@ -440,6 +448,14 @@
          "remote": "https://mediafilez.forgecdn.net/files/4172/50/AmericanSignsSignalsPack0.7.1.jar",
          "local": "iv-american-signs-sigs-pack.jar",
          "md5": "128d74b7e22b88dd1f20e416128589c0",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Immersive Vehicles - Craftspeed Pack",
+         "remote": "https://mediafilez.forgecdn.net/files/4513/313/Craftspeed+1.2.0.jar",
+         "local": "iv-craftspeed-pack.jar",
+         "md5": "c33bb6bbe33a6958b2981388b0081b71",
          "clientReq": true,
          "serverReq": true
       },
