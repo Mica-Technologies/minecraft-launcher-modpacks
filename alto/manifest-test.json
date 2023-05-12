@@ -2,6 +2,7 @@
    "packName": "Alto_TEST",
    "packVersion": "23.5.12",
    "packUnstable": true,
+   "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
    "packLogoSha1": "54787d3bf0957c79da8b9e097be07616d8244b0e",
