@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "23.5.10",
+   "packVersion": "23.5.12",
    "packUnstable": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -154,6 +154,14 @@
          "sha1": "90392789DFBCADF440415A775D3EC81326DEEE2F",
          "clientReq": true,
          "serverReq": true
+      },
+      {
+         "name": "Craft Presence",
+         "remote": "https://mediafilez.forgecdn.net/files/4514/997/CraftPresence-2.0.0-rc.3%2B1.12.2.jar",
+         "local": "craft-presence.jar",
+         "md5": "4213db4ce34fe7f29f3fb065e4205e21",
+         "clientReq": true,
+         "serverReq": false
       },
       {
          "name": "Craft Tweaker",
