@@ -886,9 +886,9 @@
       },
       {
          "name": "Spark",
-         "remote": "https://mediafilez.forgecdn.net/files/3542/217/spark-forge.jar",
-         "local": "spark-forge.jar",
-         "md5": "c07cf059777db6201d98e6794e60e0b4",
+         "remote": "https://mediafilez.forgecdn.net/files/3245/793/spark-forge1122.jar",
+         "local": "spark.jar",
+         "md5": "8a79a2678c3d91585fdd8cf07205ecc9",
          "clientReq": true,
          "serverReq": true
       },
