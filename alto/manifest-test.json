@@ -1083,6 +1083,13 @@
          "sha1": "4cff1b61bc717c12200f06e2af5167dae3f39a16",
          "clientReq": true,
          "serverReq": true
+      },
+      {
+         "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/loliasm.cfg",
+         "local": "loliasm.cfg",
+         "sha1": "e5793373bb1f87a21c35f0b987d203c32a7634ef",
+         "clientReq": true,
+         "serverReq": true
       }
    ],
    "packResourcePacks": [
