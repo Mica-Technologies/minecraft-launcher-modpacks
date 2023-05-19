@@ -417,8 +417,8 @@
          "remote": "https://mediafilez.forgecdn.net/files/3909/215/phosphor-1.12.2-0.2.9.2-SNAPSHOT-universal.jar",
          "local": "hesperus.jar",
          "md5": "f7c79d466d88ebc8051dee63eca9574f",
-         "clientReq": true,
-         "serverReq": true
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "name": "Hospital Mod",
