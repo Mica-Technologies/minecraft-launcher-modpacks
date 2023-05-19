@@ -413,6 +413,14 @@
          "serverReq": true
       },
       {
+         "name": "Hesperus",
+         "remote": "https://mediafilez.forgecdn.net/files/3909/215/phosphor-1.12.2-0.2.9.2-SNAPSHOT-universal.jar",
+         "local": "hesperus.jar",
+         "md5": "f7c79d466d88ebc8051dee63eca9574f",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
          "name": "Hospital Mod",
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/Hospital_Mod_Theatre_Pack_Alpha_1-SERVER-PATCHED.jar",
          "local": "hospital-mod.jar",
