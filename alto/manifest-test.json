@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "23.5.16",
+   "packVersion": "23.5.19",
    "packUnstable": true,
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
@@ -113,6 +113,14 @@
          "remote": "https://media.forgecdn.net/files/2842/510/BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
          "local": "biomes-o-plenty.jar",
          "sha1": "6F281FEBEA0746D2229F692CB719BD017EC70B32",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Censored ASM",
+         "remote": "https://mediafilez.forgecdn.net/files/4541/751/censoredasm5.8.jar",
+         "local": "censored-asm.jar",
+         "sha1": "646fc28aa81773662e33a3b447e830b816528fc9",
          "clientReq": true,
          "serverReq": true
       },
@@ -955,14 +963,6 @@
          "md5": "2cb4e10a706c966f5014d1094115578f",
          "clientReq": true,
          "serverReq": true
-      },
-      {
-         "name": "Vanilla Fix",
-         "remote": "https://mediafilez.forgecdn.net/files/2915/154/VanillaFix-1.0.10-150.jar",
-         "local": "vanillafix.jar",
-         "sha1": "646fc28aa81773662e33a3b447e830b816528fc9",
-         "clientReq": false,
-         "serverReq": false
       },
       {
          "name": "Weather 2",
