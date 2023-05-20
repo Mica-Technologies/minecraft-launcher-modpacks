@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "23.5.16",
+   "packVersion": "23.5.20",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -116,6 +116,14 @@
          "serverReq": true
       },
       {
+         "name": "Censored ASM",
+         "remote": "https://mediafilez.forgecdn.net/files/4541/751/censoredasm5.8.jar",
+         "local": "censored-asm.jar",
+         "sha1": "646fc28aa81773662e33a3b447e830b816528fc9",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
          "name": "Charset Lib",
          "remote": "https://media.forgecdn.net/files/3066/682/Charset-Lib-0.5.6.5.jar",
          "local": "charset-lib.jar",
@@ -154,6 +162,14 @@
          "sha1": "90392789DFBCADF440415A775D3EC81326DEEE2F",
          "clientReq": true,
          "serverReq": true
+      },
+      {
+         "name": "Craft Presence",
+         "remote": "https://mediafilez.forgecdn.net/files/4514/997/CraftPresence-2.0.0-rc.3%2B1.12.2.jar",
+         "local": "craft-presence.jar",
+         "md5": "4213db4ce34fe7f29f3fb065e4205e21",
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "name": "Craft Tweaker",
@@ -394,6 +410,14 @@
          "sha1": "095b3b85d05118602c7678beb1e56d26930fd0e7",
          "clientReq": true,
          "serverReq": true
+      },
+      {
+         "name": "Hesperus",
+         "remote": "https://mediafilez.forgecdn.net/files/3909/215/phosphor-1.12.2-0.2.9.2-SNAPSHOT-universal.jar",
+         "local": "hesperus.jar",
+         "md5": "f7c79d466d88ebc8051dee63eca9574f",
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "name": "Hospital Mod",
@@ -869,9 +893,9 @@
       },
       {
          "name": "Spark",
-         "remote": "https://mediafilez.forgecdn.net/files/3542/217/spark-forge.jar",
-         "local": "spark-forge.jar",
-         "md5": "c07cf059777db6201d98e6794e60e0b4",
+         "remote": "https://mediafilez.forgecdn.net/files/3245/793/spark-forge1122.jar",
+         "local": "spark.jar",
+         "md5": "8a79a2678c3d91585fdd8cf07205ecc9",
          "clientReq": true,
          "serverReq": true
       },
@@ -946,14 +970,6 @@
          "md5": "2cb4e10a706c966f5014d1094115578f",
          "clientReq": true,
          "serverReq": true
-      },
-      {
-         "name": "Vanilla Fix",
-         "remote": "https://mediafilez.forgecdn.net/files/2915/154/VanillaFix-1.0.10-150.jar",
-         "local": "vanillafix.jar",
-         "sha1": "646fc28aa81773662e33a3b447e830b816528fc9",
-         "clientReq": false,
-         "serverReq": false
       },
       {
          "name": "Weather 2",
@@ -1072,6 +1088,13 @@
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/itlt.cfg",
          "local": "itlt.cfg",
          "sha1": "4cff1b61bc717c12200f06e2af5167dae3f39a16",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/loliasm.cfg",
+         "local": "loliasm.cfg",
+         "sha1": "e5793373bb1f87a21c35f0b987d203c32a7634ef",
          "clientReq": true,
          "serverReq": true
       }
