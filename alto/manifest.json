@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "23.5.20",
+   "packVersion": "23.5.22",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -168,7 +168,7 @@
          "remote": "https://mediafilez.forgecdn.net/files/4514/997/CraftPresence-2.0.0-rc.3%2B1.12.2.jar",
          "local": "craft-presence.jar",
          "md5": "4213db4ce34fe7f29f3fb065e4205e21",
-         "clientReq": false,
+         "clientReq": true,
          "serverReq": false
       },
       {
@@ -1097,6 +1097,13 @@
          "sha1": "e5793373bb1f87a21c35f0b987d203c32a7634ef",
          "clientReq": true,
          "serverReq": true
+      },
+      {
+         "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/craftpresence.json",
+         "local": "craftpresence.json",
+         "sha1": "5b518e0f3cbdb523530c4c9aa42d3a5c668fd759",
+         "clientReq": true,
+         "serverReq": false
       }
    ],
    "packResourcePacks": [
@@ -1145,13 +1152,6 @@
          "local": "DynamX/KabPack_Classic.dnxpack",
          "sha1": "9ef3fe7e9718c7f51de7e204e06a5d2d92de9010",
          "clientReq": false,
-         "serverReq": false
-      },
-      {
-         "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/simple-rpc.toml",
-         "local": "simple-rpc/simple-rpc.toml",
-         "sha1": "8fb700f1237b2b84dc6924a663df75cb7932d543",
-         "clientReq": true,
          "serverReq": false
       }
    ]
