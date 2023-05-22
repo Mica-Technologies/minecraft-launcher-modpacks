@@ -132,15 +132,38 @@
     }
   },
   "serverSettings": {
-    "fallbackServerIcon": "logo512",
-    "fallbackServerName": "Alto/UIA Minecraft",
-    "fallbackServerMotd": "A city of the future and its surrounding islands.",
+    "fallbackServerIcon": "mclogo",
+    "fallbackServerName": "UnknownServerName",
+    "fallbackServerMotd": "UnknownServerMotd",
     "serverData": {
       "default": {
-        "textOverride": "Playing in the City",
+        "textOverride": "Playing in a Multiplayer World ({server.name})",
+        "iconOverride": "mclogo",
         "data": {
           "enabled": true,
-          "useAsMain": false,
+          "useAsMain": true,
+          "details": "In Game",
+          "gameState": "Playing in a Multiplayer World ({server.name})",
+          "largeImageKey": "mclogo",
+          "largeImageText": "Based on Minecraft {general.version}",
+          "smallImageKey": "{player.icon}",
+          "smallImageText": "{player.name} ({server.players.current}/{server.players.max} Players Online)",
+          "startTimestamp": "{data.general.time}",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Learn More",
+              "url": "https://minecraft.micatechnologies.com/alto.html"
+            }
+          }
+        }
+      },
+      "alto.tacomano.micatechnologies.com": {
+        "textOverride": "Playing in the City",
+        "iconOverride": "logo512",
+        "data": {
+          "enabled": true,
+          "useAsMain": true,
           "details": "In Game",
           "gameState": "Playing in the City",
           "largeImageKey": "logo512",
@@ -169,17 +192,17 @@
   },
   "statusMessages": {
     "mainMenuData": {
-      "textOverride": "Choosing a Mode",
+      "textOverride": "Choosing a Game Mode...",
       "data": {
         "enabled": true,
         "useAsMain": true,
-        "details": "In the Main Menu",
-        "gameState": "Choosing a Mode",
+        "details": "In the Menus",
+        "gameState": "Choosing a Game Mode...",
         "largeImageKey": "logo512",
         "largeImageText": "Based on Minecraft {general.version}",
         "smallImageKey": "{player.icon}",
         "smallImageText": "{player.name} (-- Players Online)",
-        "startTimestamp": "",
+        "startTimestamp": "{data.general.time}",
         "endTimestamp": "",
         "buttons": {
           "default": {
@@ -200,7 +223,7 @@
         "largeImageText": "Based on Minecraft {general.version}",
         "smallImageKey": "mclogo",
         "smallImageText": "-- (-- Players Online)",
-        "startTimestamp": "",
+        "startTimestamp": "{data.general.time}",
         "endTimestamp": "",
         "buttons": {
           "default": {
@@ -221,7 +244,7 @@
         "largeImageText": "Based on Minecraft {general.version}",
         "smallImageKey": "{player.icon}",
         "smallImageText": "{player.name} ({server.players.current}/{server.players.max} Players Online)",
-        "startTimestamp": "",
+        "startTimestamp": "{data.general.time}",
         "endTimestamp": "",
         "buttons": {
           "default": {
@@ -242,7 +265,7 @@
         "largeImageText": "Based on Minecraft {general.version}",
         "smallImageKey": "{player.icon}",
         "smallImageText": "{player.name} ({server.players.current}/{server.players.max} Players Online)",
-        "startTimestamp": "",
+        "startTimestamp": "{data.general.time}",
         "endTimestamp": "",
         "buttons": {
           "default": {
