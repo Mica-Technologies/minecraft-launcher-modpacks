@@ -25,7 +25,7 @@
       "default": {
         "textOverride": "Playing in The {biome.name} Biome",
         "data": {
-          "enabled": true,
+          "enabled": false,
           "useAsMain": false,
           "details": "In Game",
           "gameState": "Playing in The {biome.name} Biome",
@@ -51,7 +51,7 @@
       "default": {
         "textOverride": "Playing in The {dimension.name} Dimension",
         "data": {
-          "enabled": true,
+          "enabled": false,
           "useAsMain": false,
           "details": "In Game",
           "gameState": "Playing in The {dimension.name} Dimension",
@@ -71,7 +71,7 @@
       },
       "overworld": {
         "data": {
-          "enabled": true,
+          "enabled": false,
           "useAsMain": false,
           "details": "In Game",
           "gameState": "Playing in The Overworld",
@@ -91,7 +91,7 @@
       },
       "the_nether": {
         "data": {
-          "enabled": true,
+          "enabled": false,
           "useAsMain": false,
           "details": "In Game",
           "gameState": "Playing in The Nether",
@@ -111,7 +111,7 @@
       },
       "the_end": {
         "data": {
-          "enabled": true,
+          "enabled": false,
           "useAsMain": false,
           "details": "In Game",
           "gameState": "Playing in The End",
@@ -136,28 +136,6 @@
     "fallbackServerName": "UnknownServerName",
     "fallbackServerMotd": "UnknownServerMotd",
     "serverData": {
-      "default": {
-        "textOverride": "Playing in a Multiplayer World ({server.name})",
-        "iconOverride": "mclogo",
-        "data": {
-          "enabled": true,
-          "useAsMain": true,
-          "details": "In Game",
-          "gameState": "Playing in a Multiplayer World ({server.name})",
-          "largeImageKey": "mclogo",
-          "largeImageText": "{custom.game_icon_text}",
-          "smallImageKey": "{player.icon}",
-          "smallImageText": "{custom.player_icon_text}",
-          "startTimestamp": "{data.general.time}",
-          "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Learn More",
-              "url": "https://minecraft.micatechnologies.com/alto.html"
-            }
-          }
-        }
-      },
       "alto.tacomano.micatechnologies.com": {
         "textOverride": "Playing in the City",
         "iconOverride": "logo512",
@@ -181,6 +159,28 @@
               "label": "Online Radio",
               "url": "https://minecraft.micatechnologies.com/alto-radio.html"
             },
+            "default": {
+              "label": "Learn More",
+              "url": "https://minecraft.micatechnologies.com/alto.html"
+            }
+          }
+        }
+      },
+      "default": {
+        "textOverride": "Playing in a Multiplayer World ({server.name})",
+        "iconOverride": "mclogo",
+        "data": {
+          "enabled": true,
+          "useAsMain": true,
+          "details": "In Game",
+          "gameState": "Playing in a Multiplayer World ({server.name})",
+          "largeImageKey": "mclogo",
+          "largeImageText": "{custom.game_icon_text}",
+          "smallImageKey": "{player.icon}",
+          "smallImageText": "{custom.player_icon_text}",
+          "startTimestamp": "{data.general.time}",
+          "endTimestamp": "",
+          "buttons": {
             "default": {
               "label": "Learn More",
               "url": "https://minecraft.micatechnologies.com/alto.html"
