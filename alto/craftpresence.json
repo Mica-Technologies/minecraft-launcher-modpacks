@@ -12,15 +12,15 @@
     "detectDimensionData": true,
     "detectWorldData": true,
     "clientId": "777181789382115328",
-    "defaultIcon": "grass",
-    "enableJoinRequests": false,
-    "partyPrivacyLevel": 1,
+    "defaultIcon": "logo512",
+    "enableJoinRequests": true,
+    "partyPrivacyLevel": 0,
     "preferredClientLevel": 3,
     "resetTimeOnInit": false,
-    "autoRegister": false
+    "autoRegister": true
   },
   "biomeSettings": {
-    "fallbackBiomeIcon": "unknown",
+    "fallbackBiomeIcon": "logo512",
     "biomeData": {
       "default": {
         "textOverride": "Playing in The {biome.name} Biome",
@@ -46,7 +46,7 @@
     }
   },
   "dimensionSettings": {
-    "fallbackDimensionIcon": "unknown",
+    "fallbackDimensionIcon": "logo512",
     "dimensionData": {
       "default": {
         "textOverride": "Playing in The {dimension.name} Dimension",
@@ -132,9 +132,9 @@
     }
   },
   "serverSettings": {
-    "fallbackServerIcon": "default",
-    "fallbackServerName": "Minecraft Server",
-    "fallbackServerMotd": "A Minecraft Server",
+    "fallbackServerIcon": "logo512",
+    "fallbackServerName": "Alto/UIA Minecraft",
+    "fallbackServerMotd": "A city of the future and its surrounding islands.",
     "serverData": {
       "default": {
         "textOverride": "Playing in the City",
@@ -169,11 +169,11 @@
   },
   "statusMessages": {
     "mainMenuData": {
-      "textOverride": "In the Main Menu",
+      "textOverride": "Choosing a Mode",
       "data": {
         "enabled": true,
-        "useAsMain": false,
-        "details": "Main Menu",
+        "useAsMain": true,
+        "details": "In the Main Menu",
         "gameState": "Choosing a Mode",
         "largeImageKey": "logo512",
         "largeImageText": "Based on Minecraft {general.version}",
@@ -193,9 +193,9 @@
       "textOverride": "Loading...",
       "data": {
         "enabled": true,
-        "useAsMain": false,
+        "useAsMain": true,
         "details": "Initializing",
-        "gameState": "Game Starting...",
+        "gameState": "Loading...",
         "largeImageKey": "logo512",
         "largeImageText": "Based on Minecraft {general.version}",
         "smallImageKey": "mclogo",
@@ -211,10 +211,10 @@
       }
     },
     "lanData": {
-      "textOverride": "Playing on a LAN Server",
+      "textOverride": "Playing in a LAN World ({world.name})",
       "data": {
         "enabled": true,
-        "useAsMain": false,
+        "useAsMain": true,
         "details": "In Game",
         "gameState": "Playing in a LAN World ({world.name})",
         "largeImageKey": "logo512",
@@ -232,10 +232,10 @@
       }
     },
     "singleplayerData": {
-      "textOverride": "Playing Singleplayer",
+      "textOverride": "Playing in a Singleplayer World ({world.name})",
       "data": {
         "enabled": true,
-        "useAsMain": false,
+        "useAsMain": true,
         "details": "In Game",
         "gameState": "Playing in a Singleplayer World ({world.name})",
         "largeImageKey": "logo512",
@@ -343,7 +343,7 @@
         }
       }
     },
-    "allowEndpointIcons": true,
+    "allowEndpointIcons": false,
     "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
     "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}"
   },
