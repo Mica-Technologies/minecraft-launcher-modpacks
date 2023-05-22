@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "23.5.20rpcb001",
+   "packVersion": "23.5.20rpcb002",
    "packUnstable": true,
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
@@ -1098,6 +1098,13 @@
          "sha1": "e5793373bb1f87a21c35f0b987d203c32a7634ef",
          "clientReq": true,
          "serverReq": true
+      },
+      {
+         "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/craftpresence.json",
+         "local": "craftpresence.json",
+         "sha1": "f74cbdbbc49f67c5c865f5ee687fbcadf27b0b28",
+         "clientReq": true,
+         "serverReq": false
       }
    ],
    "packResourcePacks": [
@@ -1146,13 +1153,6 @@
          "local": "DynamX/KabPack_Classic.dnxpack",
          "sha1": "9ef3fe7e9718c7f51de7e204e06a5d2d92de9010",
          "clientReq": false,
-         "serverReq": false
-      },
-      {
-         "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/simple-rpc.toml",
-         "local": "simple-rpc/simple-rpc.toml",
-         "sha1": "8fb700f1237b2b84dc6924a663df75cb7932d543",
-         "clientReq": true,
          "serverReq": false
       }
    ]
