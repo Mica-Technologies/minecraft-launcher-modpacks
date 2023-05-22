@@ -23,17 +23,17 @@
     "fallbackBiomeIcon": "unknown",
     "biomeData": {
       "default": {
-        "textOverride": "Playing in {biome.name} Biome",
+        "textOverride": "Playing in The {biome.name} Biome",
         "data": {
           "enabled": true,
           "useAsMain": false,
           "details": "In Game",
-          "gameState": "Playing in {biome.name} Biome",
+          "gameState": "Playing in The {biome.name} Biome",
           "largeImageKey": "logo512",
           "largeImageText": "Based on Minecraft {general.version}",
           "smallImageKey": "{player.icon}",
           "smallImageText": "{player.name} ({server.players.current}/{server.players.max} Players Online)",
-          "startTimestamp": "",
+          "startTimestamp": "{data.general.time}",
           "endTimestamp": "",
           "buttons": {
             "default": {
@@ -59,7 +59,7 @@
           "largeImageText": "Based on Minecraft {general.version}",
           "smallImageKey": "{player.icon}",
           "smallImageText": "{player.name} ({server.players.current}/{server.players.max} Players Online)",
-          "startTimestamp": "",
+          "startTimestamp": "{data.general.time}",
           "endTimestamp": "",
           "buttons": {
             "default": {
@@ -72,14 +72,14 @@
       "overworld": {
         "data": {
           "enabled": true,
-          "useAsMain": true,
+          "useAsMain": false,
           "details": "In Game",
           "gameState": "Playing in The Overworld",
           "largeImageKey": "logo512",
           "largeImageText": "Based on Minecraft {general.version}",
           "smallImageKey": "{player.icon}",
           "smallImageText": "{player.name} ({server.players.current}/{server.players.max} Players Online)",
-          "startTimestamp": "",
+          "startTimestamp": "{data.general.time}",
           "endTimestamp": "",
           "buttons": {
             "default": {
@@ -92,14 +92,14 @@
       "the_nether": {
         "data": {
           "enabled": true,
-          "useAsMain": true,
+          "useAsMain": false,
           "details": "In Game",
           "gameState": "Playing in The Nether",
           "largeImageKey": "logo512",
           "largeImageText": "Based on Minecraft {general.version}",
           "smallImageKey": "{player.icon}",
           "smallImageText": "{player.name} ({server.players.current}/{server.players.max} Players Online)",
-          "startTimestamp": "",
+          "startTimestamp": "{data.general.time}",
           "endTimestamp": "",
           "buttons": {
             "default": {
@@ -112,14 +112,14 @@
       "the_end": {
         "data": {
           "enabled": true,
-          "useAsMain": true,
+          "useAsMain": false,
           "details": "In Game",
           "gameState": "Playing in The End",
           "largeImageKey": "logo512",
           "largeImageText": "Based on Minecraft {general.version}",
           "smallImageKey": "{player.icon}",
           "smallImageText": "{player.name} ({server.players.current}/{server.players.max} Players Online)",
-          "startTimestamp": "",
+          "startTimestamp": "{data.general.time}",
           "endTimestamp": "",
           "buttons": {
             "default": {
@@ -140,14 +140,14 @@
         "textOverride": "Playing in the City",
         "data": {
           "enabled": true,
-          "useAsMain": true,
+          "useAsMain": false,
           "details": "In Game",
           "gameState": "Playing in the City",
           "largeImageKey": "logo512",
           "largeImageText": "Based on Minecraft {general.version}",
           "smallImageKey": "{player.icon}",
           "smallImageText": "{player.name} ({server.players.current}/{server.players.max} Players Online)",
-          "startTimestamp": "",
+          "startTimestamp": "{data.general.time}",
           "endTimestamp": "",
           "buttons": {
             "button_2": {
@@ -182,10 +182,6 @@
         "startTimestamp": "",
         "endTimestamp": "",
         "buttons": {
-          "button_1": {
-            "label": "Online Map",
-            "url": "https://minecraft.micatechnologies.com/alto-map.html"
-          },
           "default": {
             "label": "Learn More",
             "url": "https://minecraft.micatechnologies.com/alto.html"
@@ -197,7 +193,7 @@
       "textOverride": "Loading...",
       "data": {
         "enabled": true,
-        "useAsMain": true,
+        "useAsMain": false,
         "details": "Initializing",
         "gameState": "Game Starting...",
         "largeImageKey": "logo512",
@@ -239,7 +235,7 @@
       "textOverride": "Playing Singleplayer",
       "data": {
         "enabled": true,
-        "useAsMain": true,
+        "useAsMain": false,
         "details": "In Game",
         "gameState": "Playing in a Singleplayer World ({world.name})",
         "largeImageKey": "logo512",
@@ -258,7 +254,7 @@
     }
   },
   "advancedSettings": {
-    "enablePerGui": true,
+    "enablePerGui": false,
     "enablePerItem": false,
     "enablePerEntity": false,
     "renderTooltips": true,
@@ -273,118 +269,22 @@
       "fallbackGuiIcon": "unknown",
       "guiData": {
         "default": {
-          "textOverride": "In {screen.name}",
+          "textOverride": "Using the {screen.name} GUI",
           "data": {
-            "enabled": true,
+            "enabled": false,
             "useAsMain": false,
-            "details": "",
-            "gameState": "",
-            "largeImageKey": "",
-            "largeImageText": "",
-            "smallImageKey": "",
-            "smallImageText": "",
-            "startTimestamp": "",
-            "endTimestamp": "",
-            "buttons": {
-              "default": {
-                "label": "Example Text",
-                "url": "https://google.com"
-              }
-            }
-          }
-        },
-        "GuiScreenRealmsProxy": {
-          "data": {
-            "enabled": true,
-            "useAsMain": true,
-            "details": "Main Menu",
-            "gameState": "Looking for a Realm",
-            "largeImageKey": "logo512",
-            "largeImageText": "Based on Minecraft {general.version}",
-            "smallImageKey": "{player.icon}",
-            "smallImageText": "{player.name} (-- Players Online)",
-            "startTimestamp": "",
-            "endTimestamp": "",
-            "buttons": {
-              "button_1": {
-                "label": "Online Map",
-                "url": "https://minecraft.micatechnologies.com/alto-map.html"
-              },
-              "default": {
-                "label": "Example Text",
-                "url": "https://google.com"
-              }
-            }
-          }
-        },
-        "GuiMultiplayer": {
-          "data": {
-            "enabled": true,
-            "useAsMain": true,
-            "details": "Main Menu",
-            "gameState": "Looking for a Server",
-            "largeImageKey": "logo512",
-            "largeImageText": "Based on Minecraft {general.version}",
-            "smallImageKey": "{player.icon}",
-            "smallImageText": "{player.name} (-- Players Online)",
-            "startTimestamp": "",
-            "endTimestamp": "",
-            "buttons": {
-              "button_1": {
-                "label": "Online Map",
-                "url": "https://minecraft.micatechnologies.com/alto-map.html"
-              },
-              "default": {
-                "label": "Example Text",
-                "url": "https://google.com"
-              }
-            }
-          }
-        },
-        "GuiScreenWorking": {
-          "data": {
-            "enabled": true,
-            "useAsMain": true,
             "details": "In Game",
-            "gameState": "Joining Game...",
+            "gameState": "Using the {screen.name} GUI",
             "largeImageKey": "logo512",
             "largeImageText": "Based on Minecraft {general.version}",
             "smallImageKey": "{player.icon}",
-            "smallImageText": "{player.name} (-- Players Online)",
-            "startTimestamp": "",
+            "smallImageText": "{player.name} ({server.players.current}/{server.players.max} Players Online)",
+            "startTimestamp": "{data.general.time}",
             "endTimestamp": "",
             "buttons": {
-              "button_1": {
-                "label": "Online Map",
-                "url": "https://minecraft.micatechnologies.com/alto-map.html"
-              },
               "default": {
-                "label": "Example Text",
-                "url": "https://google.com"
-              }
-            }
-          }
-        },
-        "GuiDownloadTerrain": {
-          "data": {
-            "enabled": true,
-            "useAsMain": true,
-            "details": "In Game",
-            "gameState": "Joining Game...",
-            "largeImageKey": "logo512",
-            "largeImageText": "Based on Minecraft {general.version}",
-            "smallImageKey": "{player.icon}",
-            "smallImageText": "{player.name} (-- Players Online)",
-            "startTimestamp": "",
-            "endTimestamp": "",
-            "buttons": {
-              "button_1": {
-                "label": "Online Map",
-                "url": "https://minecraft.micatechnologies.com/alto-map.html"
-              },
-              "default": {
-                "label": "Example Text",
-                "url": "https://google.com"
+                "label": "Learn More",
+                "url": "https://minecraft.micatechnologies.com/alto.html"
               }
             }
           }
@@ -400,20 +300,20 @@
         "default": {
           "textOverride": "Targeting {entity.target.name}",
           "data": {
-            "enabled": true,
+            "enabled": false,
             "useAsMain": false,
-            "details": "",
-            "gameState": "",
-            "largeImageKey": "",
-            "largeImageText": "",
-            "smallImageKey": "",
-            "smallImageText": "",
-            "startTimestamp": "",
+            "details": "In Game",
+            "gameState": "Targeting {entity.target.name}",
+            "largeImageKey": "logo512",
+            "largeImageText": "Based on Minecraft {general.version}",
+            "smallImageKey": "{player.icon}",
+            "smallImageText": "{player.name} ({server.players.current}/{server.players.max} Players Online)",
+            "startTimestamp": "{data.general.time}",
             "endTimestamp": "",
             "buttons": {
               "default": {
-                "label": "Example Text",
-                "url": "https://google.com"
+                "label": "Learn More",
+                "url": "https://minecraft.micatechnologies.com/alto.html"
               }
             }
           }
@@ -423,20 +323,20 @@
         "default": {
           "textOverride": "Riding {entity.riding.name}",
           "data": {
-            "enabled": true,
+            "enabled": false,
             "useAsMain": false,
-            "details": "",
-            "gameState": "",
-            "largeImageKey": "",
-            "largeImageText": "",
-            "smallImageKey": "",
-            "smallImageText": "",
-            "startTimestamp": "",
+            "details": "In Game",
+            "gameState": "Riding {entity.riding.name}",
+            "largeImageKey": "logo512",
+            "largeImageText": "Based on Minecraft {general.version}",
+            "smallImageKey": "{player.icon}",
+            "smallImageText": "{player.name} ({server.players.current}/{server.players.max} Players Online)",
+            "startTimestamp": "{data.general.time}",
             "endTimestamp": "",
             "buttons": {
               "default": {
-                "label": "Example Text",
-                "url": "https://google.com"
+                "label": "Learn More",
+                "url": "https://minecraft.micatechnologies.com/alto.html"
               }
             }
           }
@@ -462,23 +362,19 @@
   "displaySettings": {
     "presenceData": {
       "enabled": true,
-      "useAsMain": true,
-      "details": "Playing",
-      "gameState": "",
-      "largeImageKey": "logo512",
-      "largeImageText": "Based on Minecraft {general.version}",
-      "smallImageKey": "{player.icon}",
-      "smallImageText": "{player.name} (-- Players Online)",
-      "startTimestamp": "",
+      "useAsMain": false,
+      "details": "{getFirst(menu.message, dimension.message)}",
+      "gameState": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "largeImageKey": "{getFirst(menu.icon, dimension.icon)}",
+      "largeImageText": "{getFirst(menu.message, dimension.message)}",
+      "smallImageKey": "{getFirst(server.icon, pack.icon)}",
+      "smallImageText": "{getOrDefault(server.message)} {getOrDefault(pack.name)}",
+      "startTimestamp": "{data.general.time}",
       "endTimestamp": "",
       "buttons": {
-        "button_1": {
-          "label": "Online Map",
-          "url": "https://minecraft.micatechnologies.com/alto-map.html"
-        },
         "default": {
-          "label": "Example Text",
-          "url": "https://google.com"
+          "label": "Learn More",
+          "url": "https://minecraft.micatechnologies.com/alto.html"
         }
       }
     },
