@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "23.5.20rpcb002",
+   "packVersion": "23.5.22rpcb003",
    "packUnstable": true,
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
@@ -1102,7 +1102,7 @@
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/craftpresence.json",
          "local": "craftpresence.json",
-         "sha1": "e185abc45af24731fba6399f07767c3379e768b9",
+         "sha1": "dfa83faa72171bc55dd81655dd3811abe0b1fde3",
          "clientReq": true,
          "serverReq": false
       }
