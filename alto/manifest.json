@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "23.5.24",
+   "packVersion": "23.5.27",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -1110,7 +1110,7 @@
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-alto-resource-pack/alto-resource-pack.zip",
          "local": "alto-resource-pack.zip",
-         "sha1": "be16b7d8fc2dc2139793e0bd779066993c9ef049"
+         "sha1": "061092224d2ac846e566c8d3ff8696145cda79a0"
       },
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/ImmersiveFix.zip",

@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "23.5.24rpca001",
+   "packVersion": "23.5.27",
    "packUnstable": true,
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
@@ -1111,7 +1111,7 @@
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-alto-resource-pack/alto-resource-pack.zip",
          "local": "alto-resource-pack.zip",
-         "sha1": "be16b7d8fc2dc2139793e0bd779066993c9ef049"
+         "sha1": "061092224d2ac846e566c8d3ff8696145cda79a0"
       },
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/ImmersiveFix.zip",
