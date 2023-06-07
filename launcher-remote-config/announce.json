@@ -1,8 +1,8 @@
 {
-  "login": "",
-  "home": "CurseForge is currently compromised. DO NOT ADD OR PLAY MOD PACKS AT THIS TIME! Stay tuned for updates!",
-  "config": "CurseForge is currently compromised. DO NOT ADD OR PLAY MOD PACKS AT THIS TIME! Stay tuned for updates!",
-  "modpacksedit": "CurseForge is currently compromised. DO NOT ADD OR PLAY MOD PACKS AT THIS TIME! Stay tuned for updates!",
+  "login": "Gameplay and mod pack functionality is disabled due to a targeted security incident against modded Minecraft. http://bit.ly/mc-security-incident",
+  "home": "Gameplay and mod pack functionality is disabled due to a targeted security incident against modded Minecraft. http://bit.ly/mc-security-incident",
+  "config": "Gameplay and mod pack functionality is disabled due to a targeted security incident against modded Minecraft. http://bit.ly/mc-security-incident",
+  "modpacksedit": "Gameplay and mod pack functionality is disabled due to a targeted security incident against modded Minecraft. http://bit.ly/mc-security-incident",
   "disableGameplay": true,
   "disableModpacksEdit": true
 }
