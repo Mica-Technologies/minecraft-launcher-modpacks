@@ -2,5 +2,7 @@
   "login": "",
   "home": "CurseForge is currently compromised. DO NOT ADD OR PLAY MOD PACKS AT THIS TIME! Stay tuned for updates!",
   "config": "CurseForge is currently compromised. DO NOT ADD OR PLAY MOD PACKS AT THIS TIME! Stay tuned for updates!",
-  "modpacksedit": "CurseForge is currently compromised. DO NOT ADD OR PLAY MOD PACKS AT THIS TIME! Stay tuned for updates!"
+  "modpacksedit": "CurseForge is currently compromised. DO NOT ADD OR PLAY MOD PACKS AT THIS TIME! Stay tuned for updates!",
+  "disableGameplay": true,
+  "disableModpacksEdit": true
 }
