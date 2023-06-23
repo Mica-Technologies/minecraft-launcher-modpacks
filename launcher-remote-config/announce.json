@@ -1,8 +1,8 @@
 {
-  "login": "Gameplay and mod pack functionality is disabled due to a targeted security incident against modded Minecraft. http://bit.ly/mc-security-incident",
-  "home": "Gameplay and mod pack functionality is disabled due to a targeted security incident against modded Minecraft. http://bit.ly/mc-security-incident",
-  "config": "Gameplay and mod pack functionality is disabled due to a targeted security incident against modded Minecraft. http://bit.ly/mc-security-incident",
-  "modpacksedit": "Gameplay and mod pack functionality is disabled due to a targeted security incident against modded Minecraft. http://bit.ly/mc-security-incident",
-  "disableGameplay": true,
-  "disableModpacksEdit": true
+  "login": "Fracturizer has been mitigated at this point and the Alto/UIA game server is slowly coming back online. Stay tuned for updates!",
+  "home": "Fracturizer has been mitigated at this point and the Alto/UIA game server is slowly coming back online. Stay tuned for updates!",
+  "config": "Until we add scanning capabilities, FREQUENTLY SCAN ALL MODS IN ANY MOD PACK with the CurseForge detection tools!",
+  "modpacksedit": "Until we add scanning capabilities, FREQUENTLY SCAN ALL MODS IN ANY MOD PACK with the CurseForge detection tools!",
+  "disableGameplay": false,
+  "disableModpacksEdit": false
 }
