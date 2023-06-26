@@ -1,8 +1,8 @@
 {
-  "login": "Fracturizer has been mitigated at this point and the Alto/UIA game server is slowly coming back online. Stay tuned for updates!",
-  "home": "Fracturizer has been mitigated at this point and the Alto/UIA game server is slowly coming back online. Stay tuned for updates!",
-  "config": "Until we add scanning capabilities, FREQUENTLY SCAN ALL MODS IN ANY MOD PACK with the CurseForge detection tools!",
-  "modpacksedit": "Until we add scanning capabilities, FREQUENTLY SCAN ALL MODS IN ANY MOD PACK with the CurseForge detection tools!",
+  "login": "",
+  "home": "Please exercise caution when adding mod packs from unknown sources. Unknown mod packs may contain malware or dangerous mods!",
+  "config": "",
+  "modpacksedit": "Please exercise caution when adding mod packs from unknown sources. Unknown mod packs may contain malware or dangerous mods!",
   "disableGameplay": false,
   "disableModpacksEdit": false
 }
