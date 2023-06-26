@@ -1102,7 +1102,7 @@
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/craftpresence.json",
          "local": "craftpresence-testpack.json",
-         "sha1": "5b518e0f3cbdb523530c4c9aa42d3a5c668fd759",
+         "sha1": "6b4c38023ac4cb443bfff268dc088439485eb9ba",
          "clientReq": true,
          "serverReq": false
       }
