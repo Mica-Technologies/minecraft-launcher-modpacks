@@ -36,14 +36,6 @@
          "serverReq": true
       },
       {
-         "name": "Applied Energistics 2 XL",
-         "remote": "https://mediafilez.forgecdn.net/files/4505/114/appliedenergistics2-rv6-stable-7-extended_life-v0.55.13.jar",
-         "local": "ae2-extended-life.jar",
-         "md5": "e0f0fa399b22b283db139688e12dfca2",
-         "clientReq": true,
-         "serverReq": true
-      },
-      {
          "name": "Aqua Acrobatics",
          "remote": "https://mediafilez.forgecdn.net/files/4496/98/AquaAcrobatics-1.15.3.jar",
          "local": "aqua-acrobatics.jar",
@@ -528,14 +520,6 @@
          "remote": "https://media.forgecdn.net/files/2901/775/LagGoggles-FAT-1.12.2-4.11-92.jar",
          "local": "lag-goggles.jar",
          "sha1": "06a589901d3e2bf0dda2c4a2fe2b84344a6c5940",
-         "clientReq": true,
-         "serverReq": true
-      },
-      {
-         "name": "Large Fluid Tank",
-         "remote": "https://mediafilez.forgecdn.net/files/3366/145/LargeFluidTank-12.5.3.jar",
-         "local": "large-fluid-tank.jar",
-         "md5": "e3f4630100c42ff0a3b68e4b363b57bd",
          "clientReq": true,
          "serverReq": true
       },
