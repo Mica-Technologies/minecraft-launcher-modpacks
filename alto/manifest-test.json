@@ -14,9 +14,9 @@
    "packMods": [
       {
          "name": "ACS Guis",
-         "remote": "https://dynamx.fr/uploads/addons/ACsGuis-1.2.5.jar",
-         "local": "ACsGuis-1.2.5.jar",
-         "sha1": "494da20de14e112c9addc8097064edbd554c687d",
+         "remote": "https://dynamx.fr/uploads/addons/ACsGuis-1.2.10.jar",
+         "local": "ACsGuis-1.2.10.jar",
+         "sha1": "3bc7d948674b8725d274651cb1573b1574d77044",
          "clientReq": true,
          "serverReq": true
       },
@@ -246,9 +246,9 @@
       },
       {
          "name": "DynamX Basics Add-On",
-         "remote": "https://dynamx.fr/uploads/addons/BasicsAddon-1.0.6-for-DynamX-4.0.0-b17.jar",
+         "remote": "https://dynamx.fr/uploads/addons/BasicsAddon-1.0.6-for-DynamX-4.0.0-b21.jar",
          "local": "!dynamx-basics.jar",
-         "sha1": "afe01360876b536b8f501e504db9370ceaf8ed1c",
+         "sha1": "a6c4067588407f8eb8659c265be90faecfe11b4c",
          "clientReq": true,
          "serverReq": true
       },
@@ -256,7 +256,7 @@
          "name": "DynamX Physics Mod",
          "remote": "https://dynamx.fr/uploads/4.0.0/download.php",
          "local": "!dynamx.jar",
-         "sha1": "aaa5c6594e09e4ea95f2e9f6ea00153095d14c19",
+         "sha1": "b314c361cf059811866029afc26cb4c05c5cc5ea",
          "clientReq": true,
          "serverReq": true
       },
