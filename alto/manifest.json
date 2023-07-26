@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "23.5.27",
+   "packVersion": "23.7.26",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -13,9 +13,9 @@
    "packMods": [
       {
          "name": "ACS Guis",
-         "remote": "https://dynamx.fr/uploads/addons/ACsGuis-1.2.5.jar",
-         "local": "ACsGuis-1.2.5.jar",
-         "sha1": "494da20de14e112c9addc8097064edbd554c687d",
+         "remote": "https://dynamx.fr/uploads/addons/ACsGuis-1.2.10.jar",
+         "local": "ACsGuis-1.2.10.jar",
+         "sha1": "3bc7d948674b8725d274651cb1573b1574d77044",
          "clientReq": true,
          "serverReq": true
       },
@@ -245,9 +245,9 @@
       },
       {
          "name": "DynamX Basics Add-On",
-         "remote": "https://dynamx.fr/uploads/addons/BasicsAddon-1.0.6-for-DynamX-4.0.0-b17.jar",
+         "remote": "https://dynamx.fr/uploads/addons/BasicsAddon-1.0.6-for-DynamX-4.0.0-b21.jar",
          "local": "!dynamx-basics.jar",
-         "sha1": "afe01360876b536b8f501e504db9370ceaf8ed1c",
+         "sha1": "a6c4067588407f8eb8659c265be90faecfe11b4c",
          "clientReq": true,
          "serverReq": true
       },
@@ -255,7 +255,7 @@
          "name": "DynamX Physics Mod",
          "remote": "https://dynamx.fr/uploads/4.0.0/download.php",
          "local": "!dynamx.jar",
-         "sha1": "aaa5c6594e09e4ea95f2e9f6ea00153095d14c19",
+         "sha1": "b314c361cf059811866029afc26cb4c05c5cc5ea",
          "clientReq": true,
          "serverReq": true
       },
@@ -453,9 +453,9 @@
       },
       {
          "name": "Immersive Vehicles",
-         "remote": "https://mediafilez.forgecdn.net/files/4518/887/Immersive+Vehicles-1.12.2-22.9.0.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4558/450/Immersive+Vehicles-1.12.2-22.10.0.jar",
          "local": "iv.jar",
-         "md5": "4edb394299ec1c2e3760ebe8b612ab7b",
+         "sha1": "0e71132c6f26f86ff6bd89d4c92a05e1b89bba2e",
          "clientReq": true,
          "serverReq": true
       },
@@ -541,17 +541,17 @@
       },
       {
          "name": "LittleFrames",
-         "remote": "https://mediafilez.forgecdn.net/files/4393/159/LittleFrames_UNOFFICAL_(by_Blake)_v1.0.13_mc1.12.2.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4547/571/LittleFrames_UNOFFICAL_(by_Blake)_v1.0.14_mc1.12.2.jar",
          "local": "little-frames.jar",
-         "sha1": "448bb6e2109abdaa2f9f2e0cdb2c5617451a3a44",
+         "sha1": "061e52e5bbcdd69ad25cbdcb891059d787c66188",
          "clientReq": true,
          "serverReq": true
       },
       {
          "name": "LittleTiles",
-         "remote": "https://mediafilez.forgecdn.net/files/4399/700/LittleTiles_v1.5.68_mc1.12.2.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4664/69/LittleTiles_v1.5.75_mc1.12.2.jar",
          "local": "little-tiles.jar",
-         "md5": "5a43619ef5189a2e498193d304c0add3",
+         "sha1": "675445ab34c5b3158169c53e73eeaae54ddf2898",
          "clientReq": true,
          "serverReq": true
       },
@@ -701,9 +701,9 @@
       },
       {
          "name": "Moving Elevators",
-         "remote": "https://mediafilez.forgecdn.net/files/4515/523/movingelevators-1.4.2-forge-mc1.12.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4550/809/movingelevators-1.4.3-forge-mc1.12.jar",
          "local": "moving-elevators.jar",
-         "md5": "6dbc5fe44bfca97e2aef2e1caf9b1216",
+         "sha1": "14850c5e02219279eb2af55428f36b9985db1a9b",
          "clientReq": true,
          "serverReq": true
       },
@@ -789,9 +789,9 @@
       },
       {
          "name": "Raw Mouse Input",
-         "remote": "https://github.com/Fluorides/RawInputMod1.12.2/releases/download/1.1.1/rawinput-1.1.1_1.12.2.jar",
+         "remote": "https://github.com/seanld03/RawInputMod-1.12.2-1.7.10/releases/download/v1.4.2/rawinput-1.12.2-1.4.2.jar",
          "local": "raw-mouse-input.jar",
-         "sha1": "9965e90156e43b0f6ac5978ca6775af56c4c5d39",
+         "sha1": "c5fa7ced58c3ad733216f646084b2b603a204e69",
          "clientReq": true,
          "serverReq": false
       },
@@ -821,9 +821,9 @@
       },
       {
          "name": "Security Craft",
-         "remote": "https://mediafilez.forgecdn.net/files/4438/426/%5b1.12.2%5d+SecurityCraft+v1.9.6.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4605/454/%5b1.12.2%5d+SecurityCraft+v1.9.7.jar",
          "local": "security-craft.jar",
-         "md5": "cb14e0c71f74e1bc8d2dfa1ddc689929",
+         "sha1": "5adc1d6f29eb0b33b684692bcad899a5c996bdd9",
          "clientReq": true,
          "serverReq": true
       },
@@ -842,14 +842,6 @@
          "sha1": "7a87553fcb808a45d9c7e03f113b355ac7fd10d7",
          "clientReq": true,
          "serverReq": true
-      },
-      {
-         "name": "Simple RPC",
-         "remote": "https://mediafilez.forgecdn.net/files/3899/272/simple-rpc-1.12.2-3.1.1.jar",
-         "local": "simple-rpc.jar",
-         "md5": "cf58d849203b33be097c49ed104d0473",
-         "clientReq": false,
-         "serverReq": false
       },
       {
          "name": "SimpleLogic Gates",
@@ -941,33 +933,25 @@
       },
       {
          "name": "UNU Civilian Pack",
-         "remote": "https://mediafilez.forgecdn.net/files/4413/972/UNU+Civilian+Pack+%5bMTS%5d+1.12.2-22.5.0-BETA3.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4659/125/UNU+Civilian+Pack+%5bMTS%5d+1.12.2-22.10.0-6.0.2.jar",
          "local": "unu-civilian-pack.jar",
-         "md5": "21d79917e3e860a0b36173265a159683",
+         "sha1": "ca01e3e29edd1da0c80ef83513c1c45c57f2dfb4",
          "clientReq": true,
          "serverReq": true
       },
       {
          "name": "UNU DKZ Industries Pack",
-         "remote": "https://mediafilez.forgecdn.net/files/4444/137/DKZ_Industries-AdamRK_Heavy_Industrial-3.2.0-2.2.0_PRERELEASE.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4643/332/DKZ_Industries-AdamRK_Heavy_Industrial-3.2.0-2.2.0.jar",
          "local": "unu-dkz-industries-pack.jar",
-         "md5": "fc51f7271a09295a476d9fd57c3c5f1c",
-         "clientReq": true,
-         "serverReq": true
-      },
-      {
-         "name": "UNU Military Pack",
-         "remote": "https://mediafilez.forgecdn.net/files/3885/832/UNU+Military+Pack+%5bMTS%5d+1.12.2-21.3.0-5.0.0.jar",
-         "local": "unu-military-pack.jar",
-         "sha1": "a0f9874f419d0e2adc459f537381d7c261259981",
+         "sha1": "87b5802549846c81fde2dc889a0c8b106399dc2f",
          "clientReq": true,
          "serverReq": true
       },
       {
          "name": "UNU Parts Pack",
-         "remote": "https://mediafilez.forgecdn.net/files/4413/971/UNU+Parts+Pack+%5bMTS%5d+1.12.2-22.5.0-BETA3.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4659/124/UNU+Parts+Pack+%5bMTS%5d+1.12.2-22.10.0-6.0.2.jar",
          "local": "unu-parts-pack.jar",
-         "md5": "2cb4e10a706c966f5014d1094115578f",
+         "sha1": "daebc53aa6453502922d0c834de0415139416ef6",
          "clientReq": true,
          "serverReq": true
       },
