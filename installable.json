@@ -2,7 +2,6 @@
 	"available": [
 		"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/manifest.json",
 		"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/manifest-test.json",
-		"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/forge-1.7.10/manifest.json",
 		"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/forge-1.12.2/manifest.json"
 	]
 }

@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "23.7.26",
+   "packVersion": "23.7.29ER",
    "packUnstable": true,
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
@@ -753,6 +753,14 @@
          "remote": "https://mediafilez.forgecdn.net/files/2676/457/Ping-1.12.2-1.4.5.jar",
          "local": "ping.jar",
          "md5": "0e8311f92a716cee436dbfc8d47bae6e",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "PipeBlocker",
+         "remote": "https://mediafilez.forgecdn.net/files/4671/444/PipeBlocker-1.1.0.jar",
+         "local": "pipeblocker.jar",
+         "md5": "1a83209889ceeb20d6476b81755c759438787abe",
          "clientReq": true,
          "serverReq": true
       },

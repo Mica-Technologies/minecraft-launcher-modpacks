@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "23.7.26",
+   "packVersion": "23.7.29ER",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -744,6 +744,14 @@
          "remote": "https://media.forgecdn.net/files/3511/568/performant-1.11.jar",
          "local": "performant.jar",
          "sha1": "033c589ceb8026d66ee9b2332185ae273fa77993",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "PipeBlocker",
+         "remote": "https://mediafilez.forgecdn.net/files/4671/444/PipeBlocker-1.1.0.jar",
+         "local": "pipeblocker.jar",
+         "md5": "1a83209889ceeb20d6476b81755c759438787abe",
          "clientReq": true,
          "serverReq": true
       },
