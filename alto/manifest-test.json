@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "23.8.13",
+   "packVersion": "23.8.13b",
    "packUnstable": true,
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
@@ -782,9 +782,9 @@
       },
       {
          "name": "Raw Mouse Input",
-         "remote": "https://github.com/seanld03/RawInputMod-1.12.2-1.7.10/releases/download/v1.4.2/rawinput-1.12.2-1.4.2.jar",
+         "remote": "https://github.com/Fluorides/RawInputMod1.12.2/releases/download/1.1.1/rawinput-1.1.1_1.12.2.jar",
          "local": "raw-mouse-input.jar",
-         "sha1": "c5fa7ced58c3ad733216f646084b2b603a204e69",
+         "sha1": "9965e90156e43b0f6ac5978ca6775af56c4c5d39",
          "clientReq": true,
          "serverReq": false
       },
@@ -1078,7 +1078,7 @@
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/craftpresence.json",
          "local": "craftpresence-testpack.json",
-         "sha1": "6b4c38023ac4cb443bfff268dc088439485eb9ba",
+         "sha1": "e55937be0ebed437e7287491abafa588f2197955",
          "clientReq": true,
          "serverReq": false
       }

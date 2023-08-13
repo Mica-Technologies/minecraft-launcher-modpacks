@@ -1,6 +1,7 @@
 {
   "_README": "https://gitlab.com/CDAGaming/CraftPresence/-/wikis/home",
-  "_schemaVersion": 3,
+  "_SOURCE": "https://gitlab.com/CDAGaming/CraftPresence",
+  "_schemaVersion": 6,
   "_lastMCVersionId": 340,
   "generalSettings": {
     "detectATLauncherInstance": false,
@@ -17,7 +18,7 @@
     "partyPrivacyLevel": 0,
     "preferredClientLevel": 3,
     "resetTimeOnInit": false,
-    "autoRegister": true
+    "autoRegister": false
   },
   "biomeSettings": {
     "fallbackBiomeIcon": "logo512",
@@ -70,6 +71,8 @@
         }
       },
       "overworld": {
+        "textOverride": "Playing in The Overworld",
+        "iconOverride": "logo512",
         "data": {
           "enabled": true,
           "useAsMain": false,
@@ -90,6 +93,7 @@
         }
       },
       "the_nether": {
+        "textOverride": "Playing in The Nether",
         "data": {
           "enabled": true,
           "useAsMain": false,
@@ -110,6 +114,7 @@
         }
       },
       "the_end": {
+        "textOverride": "Playing in The End",
         "data": {
           "enabled": true,
           "useAsMain": false,
@@ -136,12 +141,34 @@
     "fallbackServerName": "UnknownServerName",
     "fallbackServerMotd": "UnknownServerMotd",
     "serverData": {
+      "default": {
+        "textOverride": "Playing in a Multiplayer World ({server.name})",
+        "iconOverride": "mclogo",
+        "data": {
+          "enabled": true,
+          "useAsMain": false,
+          "details": "In Game",
+          "gameState": "Playing in a Multiplayer World ({server.name})",
+          "largeImageKey": "mclogo",
+          "largeImageText": "{custom.game_icon_text}",
+          "smallImageKey": "{player.icon}",
+          "smallImageText": "{custom.player_icon_text}",
+          "startTimestamp": "{data.general.time}",
+          "endTimestamp": "",
+          "buttons": {
+            "default": {
+              "label": "Learn More",
+              "url": "https://minecraft.micatechnologies.com/alto.html"
+            }
+          }
+        }
+      },
       "alto.tacomano.micatechnologies.com": {
         "textOverride": "Playing in the City",
         "iconOverride": "logo512",
         "data": {
           "enabled": true,
-          "useAsMain": true,
+          "useAsMain": false,
           "details": "In Game",
           "gameState": "Playing in the City",
           "largeImageKey": "logo512",
@@ -165,28 +192,6 @@
             }
           }
         }
-      },
-      "default": {
-        "textOverride": "Playing in a Multiplayer World ({server.name})",
-        "iconOverride": "mclogo",
-        "data": {
-          "enabled": true,
-          "useAsMain": true,
-          "details": "In Game",
-          "gameState": "Playing in a Multiplayer World ({server.name})",
-          "largeImageKey": "mclogo",
-          "largeImageText": "{custom.game_icon_text}",
-          "smallImageKey": "{player.icon}",
-          "smallImageText": "{custom.player_icon_text}",
-          "startTimestamp": "{data.general.time}",
-          "endTimestamp": "",
-          "buttons": {
-            "default": {
-              "label": "Learn More",
-              "url": "https://minecraft.micatechnologies.com/alto.html"
-            }
-          }
-        }
       }
     }
   },
@@ -195,7 +200,7 @@
       "textOverride": "Choosing a Game Mode...",
       "data": {
         "enabled": true,
-        "useAsMain": true,
+        "useAsMain": false,
         "details": "In the Menus",
         "gameState": "Choosing a Game Mode...",
         "largeImageKey": "logo512",
@@ -216,7 +221,7 @@
       "textOverride": "Loading...",
       "data": {
         "enabled": true,
-        "useAsMain": true,
+        "useAsMain": false,
         "details": "Initializing",
         "gameState": "Loading...",
         "largeImageKey": "logo512",
@@ -237,7 +242,7 @@
       "textOverride": "Playing in a LAN World ({world.name})",
       "data": {
         "enabled": true,
-        "useAsMain": true,
+        "useAsMain": false,
         "details": "In Game",
         "gameState": "Playing in a LAN World ({world.name})",
         "largeImageKey": "logo512",
@@ -258,7 +263,7 @@
       "textOverride": "Playing in a Singleplayer World ({world.name})",
       "data": {
         "enabled": true,
-        "useAsMain": true,
+        "useAsMain": false,
         "details": "In Game",
         "gameState": "Playing in a Singleplayer World ({world.name})",
         "largeImageKey": "logo512",
@@ -280,37 +285,16 @@
     "enablePerGui": false,
     "enablePerItem": false,
     "enablePerEntity": false,
-    "renderTooltips": true,
     "formatWords": true,
     "debugMode": false,
     "verboseMode": false,
     "refreshRate": 2,
-    "roundSize": 3,
-    "includeExtraGuiClasses": false,
     "allowPlaceholderPreviews": false,
     "guiSettings": {
       "fallbackGuiIcon": "unknown",
       "guiData": {
         "default": {
-          "textOverride": "Using the {screen.name} GUI",
-          "data": {
-            "enabled": false,
-            "useAsMain": false,
-            "details": "In Game",
-            "gameState": "Using the {screen.name} GUI",
-            "largeImageKey": "logo512",
-            "largeImageText": "{custom.game_icon_text}",
-            "smallImageKey": "{player.icon}",
-            "smallImageText": "{custom.player_icon_text}",
-            "startTimestamp": "{data.general.time}",
-            "endTimestamp": "",
-            "buttons": {
-              "default": {
-                "label": "Learn More",
-                "url": "https://minecraft.micatechnologies.com/alto.html"
-              }
-            }
-          }
+          "textOverride": "In {screen.name}"
         }
       }
     },
@@ -321,65 +305,71 @@
       "fallbackEntityIcon": "unknown",
       "targetData": {
         "default": {
-          "textOverride": "Targeting {entity.target.name}",
-          "data": {
-            "enabled": false,
-            "useAsMain": false,
-            "details": "In Game",
-            "gameState": "Targeting {entity.target.name}",
-            "largeImageKey": "logo512",
-            "largeImageText": "{custom.game_icon_text}",
-            "smallImageKey": "{player.icon}",
-            "smallImageText": "{custom.player_icon_text}",
-            "startTimestamp": "{data.general.time}",
-            "endTimestamp": "",
-            "buttons": {
-              "default": {
-                "label": "Learn More",
-                "url": "https://minecraft.micatechnologies.com/alto.html"
-              }
-            }
-          }
+          "textOverride": "Targeting {entity.target.name}"
         }
       },
       "ridingData": {
         "default": {
-          "textOverride": "Riding {entity.riding.name}",
-          "data": {
-            "enabled": false,
-            "useAsMain": false,
-            "details": "In Game",
-            "gameState": "Riding {entity.riding.name}",
-            "largeImageKey": "logo512",
-            "largeImageText": "{custom.game_icon_text}",
-            "smallImageKey": "{player.icon}",
-            "smallImageText": "{custom.player_icon_text}",
-            "startTimestamp": "{data.general.time}",
-            "endTimestamp": "",
-            "buttons": {
-              "default": {
-                "label": "Learn More",
-                "url": "https://minecraft.micatechnologies.com/alto.html"
-              }
-            }
-          }
+          "textOverride": "Riding {entity.riding.name}"
         }
       }
     },
     "allowEndpointIcons": true,
     "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
-    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}"
+    "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
+    "allowDuplicatePackets": false,
+    "maxConnectionAttempts": 10
   },
   "accessibilitySettings": {
-    "tooltipBackgroundColor": "0xF0100010",
-    "tooltipBorderColor": "0x505000FF",
-    "guiBackgroundColor": "minecraft:textures/gui/options_background.png",
-    "buttonBackgroundColor": "minecraft:textures/gui/widgets.png",
+    "tooltipBackground": {
+      "start": {
+        "red": 16,
+        "green": 0,
+        "blue": 16,
+        "alpha": 240
+      }
+    },
+    "tooltipBorder": {
+      "start": {
+        "red": 80,
+        "green": 0,
+        "blue": 255,
+        "alpha": 80
+      },
+      "end": {
+        "red": 40,
+        "green": 0,
+        "blue": 127,
+        "alpha": 80
+      }
+    },
+    "guiBackground": {
+      "start": {
+        "red": 64,
+        "green": 64,
+        "blue": 64,
+        "alpha": 255
+      },
+      "texLocation": "minecraft:textures/gui/options_background.png"
+    },
+    "worldGuiBackground": {
+      "start": {
+        "red": 16,
+        "green": 16,
+        "blue": 16,
+        "alpha": 192
+      },
+      "end": {
+        "red": 16,
+        "green": 16,
+        "blue": 16,
+        "alpha": 208
+      }
+    },
     "languageId": "en_us",
-    "showBackgroundAsDark": true,
     "stripTranslationColors": false,
-    "showLoggingInChat": false,
     "stripExtraGuiElements": false,
+    "renderTooltips": true,
     "configKeyCode": 41
   },
   "displaySettings": {
@@ -406,7 +396,7 @@
     },
     "dynamicVariables": {
       "default": "Example Text",
-      "mods": "{general.mods} Mods",
+      "mods": "{general.mods} Mod(s)",
       "player_info_coordinate": "At {player.position.x}, {player.position.z}",
       "players": "{server.players.current} / {server.players.max} Player(s)",
       "players_unloaded": "-- / -- Player(s)",
