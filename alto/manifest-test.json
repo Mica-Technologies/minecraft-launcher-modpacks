@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "23.7.29ER",
+   "packVersion": "23.8.13",
    "packUnstable": true,
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
@@ -158,9 +158,9 @@
       },
       {
          "name": "Craft Presence",
-         "remote": "https://mediafilez.forgecdn.net/files/4514/997/CraftPresence-2.0.0-rc.3%2B1.12.2.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4682/465/CraftPresence-2.2.1%2B1.12.2.jar",
          "local": "craft-presence.jar",
-         "md5": "4213db4ce34fe7f29f3fb065e4205e21",
+         "sha1": "8b70d46f43fca09fbf2900db7b804572d69a9fa3",
          "clientReq": true,
          "serverReq": false
       },
