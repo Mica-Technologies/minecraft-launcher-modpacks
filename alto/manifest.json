@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "23.8.13c",
+   "packVersion": "23.8.14",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -157,9 +157,9 @@
       },
       {
          "name": "Craft Presence",
-         "remote": "https://mediafilez.forgecdn.net/files/4682/465/CraftPresence-2.2.1%2B1.12.2.jar",
+         "remote": "https://cdn.discordapp.com/attachments/455206084907368459/1140368347121324113/CraftPresence-2.2.21.12.2.jar",
          "local": "craft-presence.jar",
-         "sha1": "8b70d46f43fca09fbf2900db7b804572d69a9fa3",
+         "sha1": "b7582d591affd6b6acc4a6f213bc701503a23f01",
          "clientReq": true,
          "serverReq": false
       },
