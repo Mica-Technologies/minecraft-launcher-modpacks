@@ -240,8 +240,8 @@
          "remote": "https://files.dynamx.fr/addons/BasicsAddon-1.0.6-for-DynamX-4.0.0-b21.jar",
          "local": "!dynamx-basics.jar",
          "sha1": "a6c4067588407f8eb8659c265be90faecfe11b4c",
-         "clientReq": true,
-         "serverReq": true
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "name": "DynamX Physics Mod",
