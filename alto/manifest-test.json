@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "23.8.27",
+   "packVersion": "23.8.27b",
    "packUnstable": true,
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
@@ -769,6 +769,14 @@
          "remote": "https://media.forgecdn.net/files/3067/807/PrettyBeaches_1.12.2-1.1.0.jar",
          "local": "pretty-beaches.jar",
          "sha1": "5acaf9356fc46e097672358bf5dcc2e89daba917",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "RandomPatches",
+         "remote": "https://mediafilez.forgecdn.net/files/3133/651/randompatches-1.12.2-1.22.1.10.jar",
+         "local": "random-patches.jar",
+         "md5": "dfbb30ff396e6426ba9a284b04c7bcf3",
          "clientReq": true,
          "serverReq": true
       },
