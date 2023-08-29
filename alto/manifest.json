@@ -109,9 +109,9 @@
       },
       {
          "name": "Censored ASM",
-         "remote": "https://mediafilez.forgecdn.net/files/4541/751/censoredasm5.8.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4623/985/censoredasm5.14.jar",
          "local": "censored-asm.jar",
-         "sha1": "646fc28aa81773662e33a3b447e830b816528fc9",
+         "sha1": "fc1470c4fa396dc2c3b7f35e75375362f57651b7",
          "clientReq": true,
          "serverReq": true
       },
@@ -173,9 +173,9 @@
       },
       {
          "name": "Creative Core",
-         "remote": "https://mediafiles.forgecdn.net/files/3626/833/CreativeCore_v1.10.70_mc1.12.2.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4722/163/CreativeCore_v1.10.71_mc1.12.2.jar",
          "local": "creative-core.jar",
-         "sha1": "0f1b93d986e81ce228acdf9bea25caa1bae25dc4",
+         "sha1": "2c60a20ae9c9431a3b215a331c2b2af7fa3a060c",
          "clientReq": true,
          "serverReq": true
       },
@@ -357,9 +357,9 @@
       },
       {
          "name": "Forge Essentials Server",
-         "remote": "https://mediafilez.forgecdn.net/files/4365/600/forgeessentials-1.12.2-12.3.124-server.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4679/622/forgeessentials-1.12.2-12.4.126-server.jar",
          "local": "forge-essentials-server.jar",
-         "md5": "52d00e3f29f12871e9bbb82556a07e5e",
+         "md5": "646d967f0827be17bff96963d49753b71b95b3db",
          "clientReq": false,
          "serverReq": true
       },
@@ -405,9 +405,9 @@
       },
       {
          "name": "Hesperus",
-         "remote": "https://mediafilez.forgecdn.net/files/3909/215/phosphor-1.12.2-0.2.9.2-SNAPSHOT-universal.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4724/647/phosphor-1.12.2-0.2.9.3-SNAPSHOT.jar",
          "local": "hesperus.jar",
-         "md5": "f7c79d466d88ebc8051dee63eca9574f",
+         "md5": "ddeddd44e33fd636a6a36fbac001bbc91c518f19",
          "clientReq": false,
          "serverReq": false
       },
@@ -445,9 +445,9 @@
       },
       {
          "name": "Immersive Vehicles",
-         "remote": "https://mediafilez.forgecdn.net/files/4558/450/Immersive+Vehicles-1.12.2-22.10.0.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4671/493/Immersive+Vehicles-1.12.2-22.11.0.jar",
          "local": "iv.jar",
-         "sha1": "0e71132c6f26f86ff6bd89d4c92a05e1b89bba2e",
+         "sha1": "8c04c6cd327792b736cbf024d30990c9188d86fd",
          "clientReq": true,
          "serverReq": true
       },
@@ -461,9 +461,9 @@
       },
       {
          "name": "Immersive Vehicles - Craftspeed Pack",
-         "remote": "https://mediafilez.forgecdn.net/files/4513/313/Craftspeed+1.2.0.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4690/300/Craftspeed+1.2.1.jar",
          "local": "iv-craftspeed-pack.jar",
-         "md5": "c33bb6bbe33a6958b2981388b0081b71",
+         "md5": "8c04c6cd327792b736cbf024d30990c9188d86fd",
          "clientReq": true,
          "serverReq": true
       },
@@ -533,9 +533,9 @@
       },
       {
          "name": "LittleTiles",
-         "remote": "https://mediafilez.forgecdn.net/files/4664/69/LittleTiles_v1.5.75_mc1.12.2.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4722/161/LittleTiles_v1.5.81_mc1.12.2.jar",
          "local": "little-tiles.jar",
-         "sha1": "675445ab34c5b3158169c53e73eeaae54ddf2898",
+         "sha1": "4452839c4dc6b8e728e875a920978743600bc0f3",
          "clientReq": true,
          "serverReq": true
       },
@@ -669,9 +669,9 @@
       },
       {
          "name": "MixinBooter",
-         "remote": "https://mediafilez.forgecdn.net/files/4459/218/!mixinbooter-7.1.jar",
-         "local": "!mixinbooter-7.1.jar",
-         "md5": "155679fd173ce643b6c4d0a248c028c7",
+         "remote": "https://mediafilez.forgecdn.net/files/4699/275/!mixinbooter-8.4.jar",
+         "local": "!mixinbooter-8.4.jar",
+         "md5": "6928d8d2c9dd22378337f95187ded9fb88e90bbb",
          "clientReq": true,
          "serverReq": true
       },
@@ -749,9 +749,9 @@
       },
       {
          "name": "PipeBlocker",
-         "remote": "https://mediafilez.forgecdn.net/files/4671/444/PipeBlocker-1.1.0.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4675/121/pipeblocker-forge17_112-1.1.3.jar",
          "local": "pipeblocker.jar",
-         "md5": "1a83209889ceeb20d6476b81755c759438787abe",
+         "md5": "568fc2591373cd53c8b493437eda8556901dfb52",
          "clientReq": true,
          "serverReq": true
       },
@@ -925,9 +925,9 @@
       },
       {
          "name": "UNU Civilian Pack",
-         "remote": "https://mediafilez.forgecdn.net/files/4659/125/UNU+Civilian+Pack+%5bMTS%5d+1.12.2-22.10.0-6.0.2.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4721/317/UNU+Civilian+Pack+%5bMTS%5d+1.12.2-22.10.0-6.0.3.jar",
          "local": "unu-civilian-pack.jar",
-         "sha1": "ca01e3e29edd1da0c80ef83513c1c45c57f2dfb4",
+         "sha1": "d0530fa9c6bd61f40cd969a729f56ef9ba8d330d",
          "clientReq": true,
          "serverReq": true
       },
@@ -941,9 +941,9 @@
       },
       {
          "name": "UNU Parts Pack",
-         "remote": "https://mediafilez.forgecdn.net/files/4659/124/UNU+Parts+Pack+%5bMTS%5d+1.12.2-22.10.0-6.0.2.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4721/343/UNU+Parts+Pack+%5bMTS%5d+1.12.2-22.10.0-6.0.3.jar",
          "local": "unu-parts-pack.jar",
-         "sha1": "daebc53aa6453502922d0c834de0415139416ef6",
+         "sha1": "91fcaddad6f51f0561f2d508ac9ee84526237338",
          "clientReq": true,
          "serverReq": true
       },
