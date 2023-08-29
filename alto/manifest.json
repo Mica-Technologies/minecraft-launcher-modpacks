@@ -1110,23 +1110,23 @@
          "serverReq": false
       },
       {
-         "remote": "https://dynamx.fr/uploads/addons/DartcherDynamX-BasicPack.dnxpack",
+         "remote": "https://files.dynamx.fr/addons/DartcherDynamX-BasicPack-b26.dnxpack",
          "local": "DynamX/DartcherDynamX-BasicPack.dnxpack",
-         "sha1": "5b4c4c6503ec8b180fb9ff9ca9d3029492dbcacf",
+         "sha1": "5caa4be77255848f67e50923c606eef18792b46b",
          "clientReq": true,
          "serverReq": true
       },
       {
-         "remote": "https://dynamx.fr/uploads/addons/DartcherPoliceGlobal.dnxpack",
+         "remote": "https://files.dynamx.fr/addons/DartcherPoliceGlobal.dnxpack",
          "local": "DynamX/DartcherPoliceGlobal.dnxpack",
          "sha1": "c21d0982a07524d9af743659aa79956a2f47fe28",
          "clientReq": true,
          "serverReq": true
       },
       {
-         "remote": "https://dynamx.fr/download/packs/618ae6c6698ff350f0cc5312/KabPack_Classic.dnxpack",
+         "remote": "https://files.dynamx.fr/addons/KabPack_Classic.dnxpack",
          "local": "DynamX/KabPack_Classic.dnxpack",
-         "sha1": "9ef3fe7e9718c7f51de7e204e06a5d2d92de9010",
+         "sha1": "a3d33ad248e3a1a9a702fd2ba1c26e773553fe47",
          "clientReq": false,
          "serverReq": false
       }
