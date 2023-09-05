@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "23.8.27b",
+   "packVersion": "23.9.5",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -157,9 +157,9 @@
       },
       {
          "name": "Craft Presence",
-         "remote": "https://cdn.discordapp.com/attachments/455206084907368459/1140368347121324113/CraftPresence-2.2.21.12.2.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4720/396/CraftPresence-2.2.2%2B1.12.2.jar",
          "local": "craft-presence.jar",
-         "sha1": "b7582d591affd6b6acc4a6f213bc701503a23f01",
+         "sha1": "94d43623a364ca48b6d83fe78f6f9ee6823ca1e5",
          "clientReq": true,
          "serverReq": false
       },
@@ -245,11 +245,11 @@
       },
       {
          "name": "DynamX Physics Mod",
-         "remote": "https://dynamx.fr/uploads/4.0.0/download.php",
+         "remote": "https://files.dynamx.fr/4.0.0/download.php",
          "local": "!dynamx.jar",
          "sha1": "bc6f16ed1ae923b62b9882ab754aff5d0ce2a979",
-         "clientReq": true,
-         "serverReq": true
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "name": "Economy Inc",
@@ -365,9 +365,17 @@
       },
       {
          "name": "Furenikus Roads",
-         "remote": "https://mediafilez.forgecdn.net/files/4522/473/Furenikus_Roads-1.2.2.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4738/537/Furenikus_Roads-1.2.4.jar",
          "local": "furenikus-roads.jar",
-         "md5": "1b47e5a495e5bbe720c2a4f159eff0f9",
+         "sha1": "2d009c57c49692b75a32b44e77dfdda3287ac978",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Furenikus Roads Blue Paint Plugin",
+         "remote": "https://mediafilez.forgecdn.net/files/4739/843/Furenikus_Roads_Extra_Blue-1.0.jar",
+         "local": "furenikus-roads-blue-paint-plugin.jar",
+         "sha1": "ebd1a69dd31480ad5915d32aac5c24b448dfbc13",
          "clientReq": true,
          "serverReq": true
       },
