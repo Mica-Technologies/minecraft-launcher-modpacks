@@ -7,7 +7,7 @@
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
    "packLogoSha1": "54787d3bf0957c79da8b9e097be07616d8244b0e",
    "packBackgroundURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/background.png",
-   "packBackgroundSha1": "e3493daa80ebacdee659c2c440bbf4b064f2153e",
+   "packBackgroundSha1": "f7431029e1020341e808aef6e0d0029e0e1fec8e",
    "packMinRAMGB": "6",
    "packForgeURL": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar",
    "packForgeHash": "8328b395bb26bab70f818126ebe6a75772d39ce4",
@@ -241,16 +241,16 @@
          "remote": "https://files.dynamx.fr/addons/BasicsAddon-1.0.6-for-DynamX-4.0.0-b21.jar",
          "local": "!dynamx-basics.jar",
          "sha1": "a6c4067588407f8eb8659c265be90faecfe11b4c",
-         "clientReq": true,
-         "serverReq": true
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "name": "DynamX Physics Mod",
          "remote": "https://files.dynamx.fr/4.0.0/download.php",
          "local": "!dynamx.jar",
          "sha1": "bc6f16ed1ae923b62b9882ab754aff5d0ce2a979",
-         "clientReq": true,
-         "serverReq": true
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "name": "Economy Inc",
@@ -377,6 +377,22 @@
          "remote": "https://mediafilez.forgecdn.net/files/4739/843/Furenikus_Roads_Extra_Blue-1.0.jar",
          "local": "furenikus-roads-blue-paint-plugin.jar",
          "sha1": "ebd1a69dd31480ad5915d32aac5c24b448dfbc13",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Furenikus Roads Orange Paint Plugin",
+         "remote": "https://mediafilez.forgecdn.net/files/4739/892/Furenikus_Roads_Extra_Orange-1.0.jar",
+         "local": "furenikus-roads-orange-paint-plugin.jar",
+         "sha1": "35f1693795b550d34e080ae4ff271152367783d0",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Furenikus Roads Black Paint Plugin",
+         "remote": "https://mediafilez.forgecdn.net/files/4739/890/Furenikus_Roads_Extra_Black-1.0.jar",
+         "local": "furenikus-roads-black-paint-plugin.jar",
+         "sha1": "5919873b1fec0e9cafee44c342ddb79598b0f056",
          "clientReq": true,
          "serverReq": true
       },
