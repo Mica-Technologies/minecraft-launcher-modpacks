@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "23.9.10",
+   "packVersion": "23.9.12er",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -472,32 +472,32 @@
          "remote": "https://mediafilez.forgecdn.net/files/4671/493/Immersive+Vehicles-1.12.2-22.11.0.jar",
          "local": "iv.jar",
          "sha1": "8c04c6cd327792b736cbf024d30990c9188d86fd",
-         "clientReq": true,
-         "serverReq": true
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "name": "Immersive Vehicles - American Signs and Signals Pack",
          "remote": "https://mediafilez.forgecdn.net/files/4172/50/AmericanSignsSignalsPack0.7.1.jar",
          "local": "iv-american-signs-sigs-pack.jar",
          "md5": "128d74b7e22b88dd1f20e416128589c0",
-         "clientReq": true,
-         "serverReq": true
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "name": "Immersive Vehicles - Craftspeed Pack",
          "remote": "https://mediafilez.forgecdn.net/files/4690/300/Craftspeed+1.2.1.jar",
          "local": "iv-craftspeed-pack.jar",
          "md5": "8c04c6cd327792b736cbf024d30990c9188d86fd",
-         "clientReq": true,
-         "serverReq": true
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "name": "Immersive Vehicles Official Content Pack",
          "remote": "https://mediafilez.forgecdn.net/files/4452/426/MTS+Official+Pack-1.12.2-V25.jar",
          "local": "iv-official-content-pack.jar",
          "md5": "cf95d0de0347dcec897fef04798ab9c4",
-         "clientReq": true,
-         "serverReq": true
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "name": "Item Filters",
