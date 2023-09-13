@@ -1,7 +1,7 @@
 {
-  "login": "IV has been temporarily disabled for the Alto modpack while we work out needed bug fixes with the developers.",
-  "home": "IV has been temporarily disabled for the Alto modpack while we work out needed bug fixes with the developers.",
-  "config": "IV has been temporarily disabled for the Alto modpack while we work out needed bug fixes with the developers.",
+  "login": "",
+  "home": "",
+  "config": "",
   "modpacksedit": "Please exercise caution when adding mod packs from unknown sources. Unknown mod packs may contain malware or dangerous mods!",
   "disableGameplay": false,
   "disableModpacksEdit": false
