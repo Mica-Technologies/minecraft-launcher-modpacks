@@ -239,7 +239,7 @@
       {
          "name": "DynamX Basics Add-On",
          "remote": "https://dynamx.fr/download/addons/619ffa207495b0fd666a58ff/BasicsAddon-1.0.8-for-DynamX-4.0.1.jar",
-         "local": "!dynamx-basics.jar",
+         "local": "dynamx-basics.jar",
          "sha1": "8dd2a8b4229b594c1cd289b0251fcc4cb08ffa37",
          "clientReq": true,
          "serverReq": true
@@ -247,7 +247,7 @@
       {
          "name": "DynamX Physics Mod",
          "remote": "https://mediafilez.forgecdn.net/files/4756/674/DynamX-4.0.1-all.jar",
-         "local": "!dynamx.jar",
+         "local": "dynamx.jar",
          "sha1": "21acc7193368942be1cbb0e4d59f529e021a4fbb",
          "clientReq": true,
          "serverReq": true
