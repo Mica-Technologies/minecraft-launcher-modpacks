@@ -142,9 +142,9 @@
       },
       {
          "name": "City Super Mod",
-         "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/csm-devbuild-a5013d77eefccfd9a5ead3691f97ff8b7f68efb2/minecraft-city-super-mod-2023.3-deva5013d77eefccfd9a5ead3691f97ff8b7f68efb2.jar",
+         "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/csm-devbuild-41b48ed3d291ead6dd97aaa621f683f483432af8/minecraft-city-super-mod-2023.3-dev41b48ed3d291ead6dd97aaa621f683f483432af8.jar",
          "local": "city-super-mod.jar",
-         "sha1": "a86de42eb242b50c70ce8dc80c1edba35cdff0e2",
+         "sha1": "3029b52e5f5cfbb08c222149b6ff4e94b0cd24dc",
          "clientReq": true,
          "serverReq": true
       },
