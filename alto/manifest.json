@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "23.10.7",
+   "packVersion": "23.10.8",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -141,9 +141,9 @@
       },
       {
          "name": "City Super Mod",
-         "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/csm-devbuild-a5013d77eefccfd9a5ead3691f97ff8b7f68efb2/minecraft-city-super-mod-2023.3-deva5013d77eefccfd9a5ead3691f97ff8b7f68efb2.jar",
+         "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/csm-mainbuild-e1fa307a19796010739f96c0ea16ae32f2492f94/minecraft-city-super-mod-2023.1.jar",
          "local": "city-super-mod.jar",
-         "sha1": "a86de42eb242b50c70ce8dc80c1edba35cdff0e2",
+         "sha1": "254e4b3e1f5be96e413e86073eef26add8e47223",
          "clientReq": true,
          "serverReq": true
       },
