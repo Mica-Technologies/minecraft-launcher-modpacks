@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "23.10.8b",
+   "packVersion": "23.10.9",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -141,9 +141,9 @@
       },
       {
          "name": "City Super Mod",
-         "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/csm-devbuild-41b48ed3d291ead6dd97aaa621f683f483432af8/minecraft-city-super-mod-2023.3-dev41b48ed3d291ead6dd97aaa621f683f483432af8.jar",
+         "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/csm-devbuild-9cfbbf496c442de9735210f3f79a92d5b1fca61b/minecraft-city-super-mod-2023.3-dev9cfbbf496c442de9735210f3f79a92d5b1fca61b.jar",
          "local": "city-super-mod.jar",
-         "sha1": "3029b52e5f5cfbb08c222149b6ff4e94b0cd24dc",
+         "sha1": "a6cb55bd9f44ba80b60a7a034a903c5c6dec36af",
          "clientReq": true,
          "serverReq": true
       },
@@ -240,16 +240,16 @@
          "remote": "https://dynamx.fr/download/addons/619ffa207495b0fd666a58ff/BasicsAddon-1.0.8-for-DynamX-4.0.1.jar",
          "local": "dynamx-basics.jar",
          "sha1": "8dd2a8b4229b594c1cd289b0251fcc4cb08ffa37",
-         "clientReq": true,
-         "serverReq": true
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "name": "DynamX Physics Mod",
          "remote": "https://mediafilez.forgecdn.net/files/4756/674/DynamX-4.0.1-all.jar",
          "local": "dynamx.jar",
          "sha1": "21acc7193368942be1cbb0e4d59f529e021a4fbb",
-         "clientReq": true,
-         "serverReq": true
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "name": "Economy Inc",
