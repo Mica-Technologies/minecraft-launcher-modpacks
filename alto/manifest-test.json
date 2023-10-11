@@ -344,7 +344,7 @@
          "name": "Flux Networks",
          "remote": "https://mediafilez.forgecdn.net/files/2645/165/fluxnetworks-1.12.2-3.0.19-21.jar",
          "local": "flux-networks.jar",
-         "sha1": "DD5EE8BB14499ACF75B82170005AF9EB4A187288",
+         "sha1": "dd5ee8bb14499acf75b82170005af9eb4a187288",
          "clientReq": true,
          "serverReq": true
       },
@@ -905,6 +905,14 @@
          "remote": "https://media.forgecdn.net/files/3050/838/SolarFluxReborn-1.12.2-12.4.11.jar",
          "local": "solar-flux-reborn.jar",
          "sha1": "521624CBD22F7DCEF0DDC9F9F0898B2368439404",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Sonar Core",
+         "remote": "https://mediafilez.forgecdn.net/files/2645/156/sonarcore-1.12.2-5.0.19-20.jar",
+         "local": "sonar-core.jar",
+         "md5": "02c6264bdfa66c5895aed1d739109420",
          "clientReq": true,
          "serverReq": true
       },
