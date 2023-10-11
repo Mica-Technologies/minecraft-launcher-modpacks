@@ -1,6 +1,6 @@
 {
    "packName": "ALTO_TEST",
-   "packVersion": "23.10.9",
+   "packVersion": "23.10.11",
    "packUnstable": true,
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
@@ -342,9 +342,9 @@
       },
       {
          "name": "Flux Networks",
-         "remote": "https://mediafilez.forgecdn.net/files/3178/199/FluxNetworks-1.12.2-4.1.1.34.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/2645/165/fluxnetworks-1.12.2-3.0.19-21.jar",
          "local": "flux-networks.jar",
-         "md5": "dc5f666ad856dd1da2b195f03a815bb3",
+         "sha1": "DD5EE8BB14499ACF75B82170005AF9EB4A187288",
          "clientReq": true,
          "serverReq": true
       },
