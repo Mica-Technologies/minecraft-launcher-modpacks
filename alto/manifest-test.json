@@ -1,6 +1,6 @@
 {
    "packName": "ALTO_TEST",
-   "packVersion": "23.10.12",
+   "packVersion": "23.10.25",
    "packUnstable": true,
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
@@ -142,9 +142,9 @@
       },
       {
          "name": "City Super Mod",
-         "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/csm-devbuild-9cfbbf496c442de9735210f3f79a92d5b1fca61b/minecraft-city-super-mod-2023.3-dev9cfbbf496c442de9735210f3f79a92d5b1fca61b.jar",
+         "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/csm-devbuild-cc9d9c9b205be6214f5db1737ff09ff69b3316f5/minecraft-city-super-mod-2023.3-devcc9d9c9b205be6214f5db1737ff09ff69b3316f5.jar",
          "local": "city-super-mod.jar",
-         "sha1": "a6cb55bd9f44ba80b60a7a034a903c5c6dec36af",
+         "sha1": "79cf21f143603f511dc320078eb46d8648cc97b1",
          "clientReq": true,
          "serverReq": true
       },
