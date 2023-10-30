@@ -1,6 +1,6 @@
 {
    "packName": "ALTO_TEST",
-   "packVersion": "23.10.28",
+   "packVersion": "23.10.30",
    "packUnstable": true,
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
@@ -977,8 +977,8 @@
          "remote": "https://mediafilez.forgecdn.net/files/3654/955/UniversalModCore-1.12.2-forge-1.1.4-2b81e7.jar",
          "local": "universal-mod-core.jar",
          "sha1": "6a6cd834fd1924e9baa4aec555ac0ce59fc36228",
-         "clientReq": false,
-         "serverReq": false
+         "clientReq": true,
+         "serverReq": true
       },
       {
          "name": "UNU Civilian Pack",
