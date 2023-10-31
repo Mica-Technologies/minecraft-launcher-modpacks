@@ -316,6 +316,14 @@
          "serverReq": true
       },
       {
+         "name": "FTB Utilities",
+         "remote": "https://mediafilez.forgecdn.net/files/3157/548/FTBUtilities-5.4.1.131.jar",
+         "local": "ftb-utilities.jar",
+         "md5": "94775ab675e0204523c9f267976b70d5",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
          "name": "Fancy Fluid Storage",
          "remote": "https://mediafilez.forgecdn.net/files/2723/382/Fancy+Fluid+Storage-1.12.2-2.2.5.jar",
          "local": "ffs.jar",
