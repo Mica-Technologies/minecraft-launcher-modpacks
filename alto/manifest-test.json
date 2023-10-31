@@ -1,6 +1,6 @@
 {
    "packName": "ALTO_TEST",
-   "packVersion": "23.10.30",
+   "packVersion": "23.10.31",
    "packUnstable": true,
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
@@ -107,14 +107,6 @@
          "sha1": "6F281FEBEA0746D2229F692CB719BD017EC70B32",
          "clientReq": true,
          "serverReq": true
-      },
-      {
-         "name": "Borderless Mining",
-         "remote": "https://cdn-raw.modrinth.com/data/kYq5qkSL/versions/0.0.0-1.6.0%2B1.12/FullscreenWindowed-1.12-1.6.0-1.jar",
-         "local": "borderless-mining.jar",
-         "sha1": "7c528e8846de3985ec1f32583e8fe2467c8fced5",
-         "clientReq": true,
-         "serverReq": false
       },
       {
          "name": "Censored ASM",
@@ -357,12 +349,28 @@
          "serverReq": true
       },
       {
-         "name": "Foam Fix",
-         "remote": "https://mediafiles.forgecdn.net/files/3973/967/foamfix-0.10.15-1.12.2.jar",
-         "local": "foam-fix.jar",
-         "sha1": "b179ee981e06e396cb060045cb076c857985494a",
+         "name": "Vintage Fix (based on Foam Fix)",
+         "remote": "https://cdn-raw.modrinth.com/data/e6vNsbAm/versions/RUVoyVGH/vintagefix-0.3.3.jar",
+         "local": "vintage-fix.jar",
+         "sha1": "60995e26c3046d86f2824acf4626629df34ee98f",
          "clientReq": true,
          "serverReq": true
+      },
+      {
+         "name": "Surge",
+         "remote": "https://cdn-raw.modrinth.com/data/yuZ87vqR/versions/kg0VZj0v/Surge-1.12.2-2.0.79.jar",
+         "local": "surge.jar",
+         "sha1": "f7197d44a0f1fb1af216d3ba6b7e3c1ed06a36e9",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Placement Preview",
+         "remote": "https://cdn-raw.modrinth.com/data/fNQx3Cvx/versions/aVfICFJY/placementpreview-1.12.2-0.3.2.jar",
+         "local": "placement-preview.jar",
+         "sha1": "c91d1c8aee33434cd7a0739e46961ca060e17255",
+         "clientReq": true,
+         "serverReq": false
       },
       {
          "name": "Forge Essentials Server",
