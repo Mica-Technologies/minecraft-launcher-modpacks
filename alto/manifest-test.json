@@ -109,10 +109,18 @@
          "serverReq": true
       },
       {
+         "name": "Borderless Mining",
+         "remote": "https://cdn-raw.modrinth.com/data/kYq5qkSL/versions/0.0.0-1.6.0%2B1.12/FullscreenWindowed-1.12-1.6.0-1.jar",
+         "local": "borderless-mining.jar",
+         "sha1": "7c528e8846de3985ec1f32583e8fe2467c8fced5",
+         "clientReq": true,
+         "serverReq": false
+      },
+      {
          "name": "Censored ASM",
-         "remote": "https://mediafilez.forgecdn.net/files/4623/985/censoredasm5.14.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4800/875/censoredasm5.18.jar",
          "local": "censored-asm.jar",
-         "sha1": "fc1470c4fa396dc2c3b7f35e75375362f57651b7",
+         "md5": "9f3dab152a5d7069c62c7c33b39b64f0",
          "clientReq": true,
          "serverReq": true
       },
@@ -230,9 +238,9 @@
       },
       {
          "name": "DynMap",
-         "remote": "https://mediafilez.forgecdn.net/files/4445/0/Dynmap-3.5-beta-3-forge-1.12.2.jar",
+         "remote": "https://cdn-raw.modrinth.com/data/fRQREgAc/versions/UXqPUg7D/Dynmap-3.7-beta-2-spigot.jar",
          "local": "dynmap.jar",
-         "md5": "ce93b718c295f72c6f03b4bbb78ecbd1",
+         "sha1": "0a70dea386fedb944c2f6e59d032efe4fe16ea8b",
          "clientReq": false,
          "serverReq": true
       },
@@ -294,9 +302,9 @@
       },
       {
          "name": "FPS Reducer",
-         "remote": "https://media.forgecdn.net/files/3362/160/FpsReducer-mc1.12.2-1.20.jar",
+         "remote": "https://cdn-raw.modrinth.com/data/iZ10HXDj/versions/UX5XQGgU/FpsReducer-mc1.12.2-1.20.jar",
          "local": "fps-reducer.jar",
-         "sha1": "50C323DE01F2235D351BF5417DA6D4EF494B12E6",
+         "sha1": "50c323de01f2235d351bf5417da6d4ef494b12e6",
          "clientReq": true,
          "serverReq": false
       },
@@ -357,10 +365,18 @@
          "serverReq": true
       },
       {
+         "name": "Forge Essentials Client",
+         "remote": "https://cdn-raw.modrinth.com/data/U0xXnRaR/versions/JsViqyq1/forgeessentials-1.12.2-12.4.126-client.jar",
+         "local": "forge-essentials-client.jar",
+         "sha1": "0207f0e8e531c78e5b7a3d75317bf666d32685e7",
+         "clientReq": true,
+         "serverReq": false
+      },
+      {
          "name": "Forge Essentials Server",
-         "remote": "https://mediafilez.forgecdn.net/files/4679/622/forgeessentials-1.12.2-12.4.126-server.jar",
+         "remote": "https://cdn-raw.modrinth.com/data/jnuVxwKf/versions/yMc2SV5d/forgeessentials-1.12.2-12.4.126-server.jar",
          "local": "forge-essentials-server.jar",
-         "md5": "646d967f0827be17bff96963d49753b71b95b3db",
+         "sha1": "646d967f0827be17bff96963d49753b71b95b3db",
          "clientReq": false,
          "serverReq": true
       },
@@ -429,12 +445,20 @@
          "serverReq": true
       },
       {
-         "name": "Hesperus",
-         "remote": "https://mediafilez.forgecdn.net/files/4724/647/phosphor-1.12.2-0.2.9.3-SNAPSHOT.jar",
-         "local": "hesperus.jar",
-         "md5": "ddeddd44e33fd636a6a36fbac001bbc91c518f19",
-         "clientReq": false,
-         "serverReq": false
+         "name": "Alfheim",
+         "remote": "https://cdn-raw.modrinth.com/data/srzJgOEn/versions/a6HHVmwn/Alfheim-1.0.2.jar",
+         "local": "alfheim.jar",
+         "sha1": "9a3802cb1ffbcf3164f9e915e21396ec6e2ac003",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Red Core",
+         "remote": "https://cdn-raw.modrinth.com/data/iRzbJEus/versions/SOOncqYd/%21Red-Core-0.4.jar",
+         "local": "!red-core.jar",
+         "sha1": "68215a4c446c36008666578f72e080190e388448",
+         "clientReq": true,
+         "serverReq": true
       },
       {
          "name": "Hospital Mod",
@@ -533,10 +557,10 @@
          "serverReq": true
       },
       {
-         "name": "JustEnoughIDs",
-         "remote": "https://media.forgecdn.net/files/3581/715/JustEnoughIDs-1.0.4-SNAPSHOT-thin.jar",
-         "local": "just-enough-ids.jar",
-         "sha1": "0dbf1d19b9994d3dec2d3e0b0325dd4bb70b82aa",
+         "name": "Roughly Enough IDs",
+         "remote": "https://cdn-raw.modrinth.com/data/sDhbZgv7/versions/jblHpyXj/RoughlyEnoughIDs-2.0.6.jar",
+         "local": "roughly-enough-ids.jar",
+         "sha1": "cd242a3e0ce3559af7df910cdaaf5330d7cc78d6",
          "clientReq": true,
          "serverReq": true
       },
@@ -702,25 +726,25 @@
       },
       {
          "name": "MixinBooter",
-         "remote": "https://mediafilez.forgecdn.net/files/4699/275/!mixinbooter-8.4.jar",
-         "local": "!mixinbooter-8.4.jar",
-         "md5": "6928d8d2c9dd22378337f95187ded9fb88e90bbb",
+         "remote": "https://cdn-raw.modrinth.com/data/G1ckZuWK/versions/JV62SEWb/%21mixinbooter-8.7.jar",
+         "local": "!mixinbooter-8.7.jar",
+         "sha1": "1cff306d4849ee8a01b81b1bfcce3704cf6b720b",
          "clientReq": true,
          "serverReq": true
       },
       {
          "name": "Modern Splash",
-         "remote": "https://mediafilez.forgecdn.net/files/4477/570/modernsplash-1.12.2-1.2.2.2.jar",
+         "remote": "https://cdn-raw.modrinth.com/data/WQC4Wtzw/versions/lNZSXbJE/modernsplash-1.12.2-1.3.jar",
          "local": "modern-splash.jar",
-         "md5": "7112b5cc65875e2cd75e74299d47de0d",
+         "sha1": "c244dd4d11c409f38f75daafb1d7e75cea1c2922",
          "clientReq": true,
          "serverReq": false
       },
       {
          "name": "Moving Elevators",
-         "remote": "https://mediafilez.forgecdn.net/files/4550/809/movingelevators-1.4.3-forge-mc1.12.jar",
+         "remote": "https://cdn-raw.modrinth.com/data/9KZOe6HD/versions/PluWKzTc/movingelevators-1.4.4-forge-mc1.12.jar",
          "local": "moving-elevators.jar",
-         "sha1": "14850c5e02219279eb2af55428f36b9985db1a9b",
+         "sha1": "049a5317ec6d07e96c863fb766ea091d515673e0",
          "clientReq": true,
          "serverReq": true
       },
@@ -821,10 +845,10 @@
          "serverReq": true
       },
       {
-         "name": "Raw Mouse Input",
-         "remote": "https://github.com/Fluorides/RawInputMod1.12.2/releases/download/1.1.1/rawinput-1.1.1_1.12.2.jar",
-         "local": "raw-mouse-input.jar",
-         "sha1": "9965e90156e43b0f6ac5978ca6775af56c4c5d39",
+         "name": "Old Input",
+         "remote": "https://cdn-raw.modrinth.com/data/VAUfigu2/versions/TnRGsJEI/oldinput-1.1.3%2B1.12.2.jar",
+         "local": "old-input.jar",
+         "sha1": "ef0e9a459bd83687f3c6c0f02d46ff088edfe4d5",
          "clientReq": true,
          "serverReq": false
       },
@@ -837,10 +861,10 @@
          "serverReq": true
       },
       {
-         "name": "Reload Audio Driver",
-         "remote": "https://mediafilez.forgecdn.net/files/2990/332/rad-1.12-1.1.0.jar",
-         "local": "rad.jar",
-         "md5": "357c8daf3a54528e36c19a54ce7f86b2",
+         "name": "Sound Device Options",
+         "remote": "https://cdn-raw.modrinth.com/data/HSmTuSaW/versions/VrwB4mqZ/moresoundconfig-1.0.4.jar",
+         "local": "sound-device-options.jar",
+         "sha1": "5a17517653deef1faf9d47005aad288b7c61ecaa",
          "clientReq": true,
          "serverReq": false
       },
@@ -926,17 +950,17 @@
       },
       {
          "name": "SuperMartijn642's Config Lib",
-         "remote": "https://mediafiles.forgecdn.net/files/3862/959/supermartijn642configlib-1.1.6-forge-mc1.12.jar",
+         "remote": "https://cdn-raw.modrinth.com/data/LN9BxssP/versions/IJL4TGRd/supermartijn642configlib-1.1.8-forge-mc1.12.jar",
          "local": "supermartijn642-config-lib.jar",
-         "sha1": "de781a5564c05a147e6d7c1be663a9adb109c3df",
+         "sha1": "49f6b461ff22ad8e23bb99679c1f64eee85ee958",
          "clientReq": true,
          "serverReq": true
       },
       {
          "name": "SuperMartijn642's Core Lib",
-         "remote": "https://mediafilez.forgecdn.net/files/4484/217/supermartijn642corelib-1.1.7-forge-mc1.12.jar",
-         "local": "supermartijn642-core-lib.jar",
-         "md5": "4af21dabeb17397f28a23beb5089bb00",
+         "remote": "https://cdn-raw.modrinth.com/data/rOUBggPv/versions/TBUu9kEW/_supermartijn642corelib-1.1.15-forge-mc1.12.jar",
+         "local": "_supermartijn642-core-lib.jar",
+         "sha1": "73f560550595aff0e61e163adb55b010c0efaa90",
          "clientReq": true,
          "serverReq": true
       },
