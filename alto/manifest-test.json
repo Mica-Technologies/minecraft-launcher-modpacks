@@ -1198,7 +1198,7 @@
       },
       {
          "remote": "https://dynamx.fr/download/packs/618ae6c6698ff350f0cc5312/KabPack_Classic-4.0.dnxpack",
-         "local": "DynamX/KabPack_Classic.dnxpack",
+         "local": "DynamX/KabPack_Classic-4.0.dnxpack",
          "sha1": "34ed9117e85dc8002db5a3e1cb55b348826f4833",
          "clientReq": true,
          "serverReq": true
