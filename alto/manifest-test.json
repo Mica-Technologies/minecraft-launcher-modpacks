@@ -365,14 +365,6 @@
          "serverReq": true
       },
       {
-         "name": "Forge Essentials Client",
-         "remote": "https://cdn-raw.modrinth.com/data/U0xXnRaR/versions/JsViqyq1/forgeessentials-1.12.2-12.4.126-client.jar",
-         "local": "forge-essentials-client.jar",
-         "sha1": "0207f0e8e531c78e5b7a3d75317bf666d32685e7",
-         "clientReq": true,
-         "serverReq": false
-      },
-      {
          "name": "Forge Essentials Server",
          "remote": "https://cdn-raw.modrinth.com/data/jnuVxwKf/versions/yMc2SV5d/forgeessentials-1.12.2-12.4.126-server.jar",
          "local": "forge-essentials-server.jar",
