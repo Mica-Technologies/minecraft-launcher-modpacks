@@ -230,9 +230,9 @@
       },
       {
          "name": "DynMap",
-         "remote": "https://cdn-raw.modrinth.com/data/fRQREgAc/versions/UXqPUg7D/Dynmap-3.7-beta-2-spigot.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4765/880/Dynmap-3.7-beta-1-forge-1.12.2.jar",
          "local": "dynmap.jar",
-         "sha1": "0a70dea386fedb944c2f6e59d032efe4fe16ea8b",
+         "sha1": "e00aecd812c30f9cbc7600c3f4aa4739c1af0ec5",
          "clientReq": false,
          "serverReq": true
       },
@@ -363,14 +363,6 @@
          "sha1": "f7197d44a0f1fb1af216d3ba6b7e3c1ed06a36e9",
          "clientReq": true,
          "serverReq": true
-      },
-      {
-         "name": "Placement Preview",
-         "remote": "https://cdn-raw.modrinth.com/data/fNQx3Cvx/versions/aVfICFJY/placementpreview-1.12.2-0.3.2.jar",
-         "local": "placement-preview.jar",
-         "sha1": "c91d1c8aee33434cd7a0739e46961ca060e17255",
-         "clientReq": true,
-         "serverReq": false
       },
       {
          "name": "Forge Essentials Server",
