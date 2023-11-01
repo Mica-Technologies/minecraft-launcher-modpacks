@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "23.10.31",
+   "packVersion": "23.11.1",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -480,14 +480,6 @@
          "remote": "https://mediafilez.forgecdn.net/files/2544/919/immersivepetroleum-1.12.2-1.1.9.jar",
          "local": "immersive-petroleum.jar",
          "sha1": "cb9365f335ee7f50262eca1dfb703dab64ab9d10",
-         "clientReq": true,
-         "serverReq": true
-      },
-      {
-         "name": "Immersive Railroading",
-         "remote": "https://mediafilez.forgecdn.net/files/3437/738/ImmersiveRailroading-1.12.2-forge-1.9.1.jar",
-         "local": "immersive-railroading.jar",
-         "sha1": "227fc3ba520da9f3d747f5408a641704f294a51f",
          "clientReq": true,
          "serverReq": true
       },
@@ -980,26 +972,10 @@
          "serverReq": true
       },
       {
-         "name": "Track API",
-         "remote": "https://mediafilez.forgecdn.net/files/2825/260/TrackAPI-1.2.jar",
-         "local": "track-api.jar",
-         "sha1": "e63bee0992b0a3403d8a95eb19676ce716691c50",
-         "clientReq": true,
-         "serverReq": true
-      },
-      {
          "name": "Traffic Control",
          "remote": "https://mediafilez.forgecdn.net/files/4520/487/trafficcontrol-1.0.0.jar",
          "local": "traffic-control.jar",
          "sha1": "5d3042165ee29c8d46b65d179d28023abbf530e1",
-         "clientReq": true,
-         "serverReq": true
-      },
-      {
-         "name": "Universal Mod Core",
-         "remote": "https://mediafilez.forgecdn.net/files/3654/955/UniversalModCore-1.12.2-forge-1.1.4-2b81e7.jar",
-         "local": "universal-mod-core.jar",
-         "sha1": "6a6cd834fd1924e9baa4aec555ac0ce59fc36228",
          "clientReq": true,
          "serverReq": true
       },
