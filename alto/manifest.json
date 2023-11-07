@@ -6,7 +6,7 @@
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
    "packLogoSha1": "54787d3bf0957c79da8b9e097be07616d8244b0e",
    "packBackgroundURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/backgroundA.png",
-   "packBackgroundSha1": "f7431029e1020341e808aef6e0d0029e0e1fec8e",
+   "packBackgroundSha1": "41005ea37df397cebf7a60b782e0c64f0d6a48a8",
    "packMinRAMGB": "6",
    "packForgeURL": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar",
    "packForgeHash": "8328b395bb26bab70f818126ebe6a75772d39ce4",
