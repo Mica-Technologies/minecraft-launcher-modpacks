@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "23.11.7",
+   "packVersion": "23.11.7b",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -496,24 +496,24 @@
          "remote": "https://mediafilez.forgecdn.net/files/4843/944/Immersive+Vehicles-1.12.2-22.12.0.jar",
          "local": "iv.jar",
          "sha1": "1d8b8a3c2bd4ff3b24b07dc38c056723d271a34f",
-         "clientReq": false,
-         "serverReq": false
+         "clientReq": true,
+         "serverReq": true
       },
       {
          "name": "Immersive Vehicles - American Signs and Signals Pack",
          "remote": "https://mediafilez.forgecdn.net/files/4172/50/AmericanSignsSignalsPack0.7.1.jar",
          "local": "iv-american-signs-sigs-pack.jar",
          "md5": "128d74b7e22b88dd1f20e416128589c0",
-         "clientReq": false,
-         "serverReq": false
+         "clientReq": true,
+         "serverReq": true
       },
       {
          "name": "Immersive Vehicles - Craftspeed Pack",
          "remote": "https://mediafilez.forgecdn.net/files/4824/912/Craftspeed+1.4.1.jar",
          "local": "iv-craftspeed-pack.jar",
          "md5": "7aaed92180dc1c65cc6e119697969d21dca70c11",
-         "clientReq": false,
-         "serverReq": false
+         "clientReq": true,
+         "serverReq": true
       },
       {
          "name": "Immersive Vehicles Official Content Pack",
@@ -984,24 +984,24 @@
          "remote": "https://mediafilez.forgecdn.net/files/4846/754/UNU+Civilian+Pack+%5bMTS%5d+1.12.2-22.10.0-6.0.5.jar",
          "local": "unu-civilian-pack.jar",
          "sha1": "660d90c9954272a289672351d2b96369f198bc5b",
-         "clientReq": false,
-         "serverReq": false
+         "clientReq": true,
+         "serverReq": true
       },
       {
          "name": "UNU DKZ Industries Pack",
          "remote": "https://mediafilez.forgecdn.net/files/4643/332/DKZ_Industries-AdamRK_Heavy_Industrial-3.2.0-2.2.0.jar",
          "local": "unu-dkz-industries-pack.jar",
          "sha1": "87b5802549846c81fde2dc889a0c8b106399dc2f",
-         "clientReq": false,
-         "serverReq": false
+         "clientReq": true,
+         "serverReq": true
       },
       {
          "name": "UNU Parts Pack",
          "remote": "https://mediafilez.forgecdn.net/files/4846/753/UNU+Parts+Pack+%5bMTS%5d+1.12.2-22.10.0-6.2.1.jar",
          "local": "unu-parts-pack.jar",
          "sha1": "73eb832b503e0479846b18882cd29f16f8557642",
-         "clientReq": false,
-         "serverReq": false
+         "clientReq": true,
+         "serverReq": true
       },
       {
          "name": "Weather 2",
