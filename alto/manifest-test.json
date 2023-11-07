@@ -1,6 +1,6 @@
 {
-   "packName": "ALTO_TEST",
-   "packVersion": "23.11.6",
+   "packName": "Alto_TEST",
+   "packVersion": "23.11.7",
    "packUnstable": true,
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
@@ -494,9 +494,9 @@
       },
       {
          "name": "Immersive Vehicles",
-         "remote": "https://mediafilez.forgecdn.net/files/4671/493/Immersive+Vehicles-1.12.2-22.11.0.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4843/944/Immersive+Vehicles-1.12.2-22.12.0.jar",
          "local": "iv.jar",
-         "sha1": "8c04c6cd327792b736cbf024d30990c9188d86fd",
+         "sha1": "1d8b8a3c2bd4ff3b24b07dc38c056723d271a34f",
          "clientReq": false,
          "serverReq": false
       },
@@ -510,9 +510,9 @@
       },
       {
          "name": "Immersive Vehicles - Craftspeed Pack",
-         "remote": "https://mediafilez.forgecdn.net/files/4690/300/Craftspeed+1.2.1.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4824/912/Craftspeed+1.4.1.jar",
          "local": "iv-craftspeed-pack.jar",
-         "md5": "8c04c6cd327792b736cbf024d30990c9188d86fd",
+         "md5": "7aaed92180dc1c65cc6e119697969d21dca70c11",
          "clientReq": false,
          "serverReq": false
       },
@@ -982,9 +982,9 @@
       },
       {
          "name": "UNU Civilian Pack",
-         "remote": "https://mediafilez.forgecdn.net/files/4721/317/UNU+Civilian+Pack+%5bMTS%5d+1.12.2-22.10.0-6.0.3.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4846/754/UNU+Civilian+Pack+%5bMTS%5d+1.12.2-22.10.0-6.0.5.jar",
          "local": "unu-civilian-pack.jar",
-         "sha1": "d0530fa9c6bd61f40cd969a729f56ef9ba8d330d",
+         "sha1": "660d90c9954272a289672351d2b96369f198bc5b",
          "clientReq": false,
          "serverReq": false
       },
@@ -998,9 +998,9 @@
       },
       {
          "name": "UNU Parts Pack",
-         "remote": "https://mediafilez.forgecdn.net/files/4721/343/UNU+Parts+Pack+%5bMTS%5d+1.12.2-22.10.0-6.0.3.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4846/753/UNU+Parts+Pack+%5bMTS%5d+1.12.2-22.10.0-6.2.1.jar",
          "local": "unu-parts-pack.jar",
-         "sha1": "91fcaddad6f51f0561f2d508ac9ee84526237338",
+         "sha1": "73eb832b503e0479846b18882cd29f16f8557642",
          "clientReq": false,
          "serverReq": false
       },
