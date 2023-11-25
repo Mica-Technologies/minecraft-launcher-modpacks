@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "23.11.7b",
+   "packVersion": "23.11.25",
    "packUnstable": true,
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
@@ -158,9 +158,9 @@
       },
       {
          "name": "Craft Presence",
-         "remote": "https://mediafilez.forgecdn.net/files/4720/396/CraftPresence-2.2.2%2B1.12.2.jar",
+         "remote": "https://cdn.modrinth.com/data/DFqQfIBR/versions/VVadibyp/CraftPresence-2.2.5%2B1.12.2.jar",
          "local": "craft-presence.jar",
-         "sha1": "94d43623a364ca48b6d83fe78f6f9ee6823ca1e5",
+         "sha1": "63bf94caca2916d8d238bb43fa4634408e37d25e",
          "clientReq": true,
          "serverReq": false
       },
@@ -870,9 +870,9 @@
       },
       {
          "name": "Security Craft",
-         "remote": "https://mediafilez.forgecdn.net/files/4605/454/%5b1.12.2%5d+SecurityCraft+v1.9.7.jar",
+         "remote": "https://cdn.modrinth.com/data/v8jzRtAt/versions/hkgADf1T/%5B1.12.2%5D%20SecurityCraft%20v1.9.8.jar",
          "local": "security-craft.jar",
-         "sha1": "5adc1d6f29eb0b33b684692bcad899a5c996bdd9",
+         "sha1": "99a8fbd09ce4545e26e747ff6d17726d6371f64e",
          "clientReq": true,
          "serverReq": true
       },
