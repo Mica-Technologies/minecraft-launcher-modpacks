@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "24.1.3",
+   "packVersion": "24.1.3.1",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -101,9 +101,9 @@
       },
       {
          "name": "Biomes O Plenty",
-         "remote": "https://media.forgecdn.net/files/2842/510/BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar",
+         "remote": "https://cdn.modrinth.com/data/HXF82T3G/versions/e5wgKLKS/BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar",
          "local": "biomes-o-plenty.jar",
-         "sha1": "6F281FEBEA0746D2229F692CB719BD017EC70B32",
+         "sha1": "13c1e58ffec2a550b9698e25cda93b8d155007b0",
          "clientReq": true,
          "serverReq": true
       },
@@ -157,9 +157,9 @@
       },
       {
          "name": "Craft Presence",
-         "remote": "https://cdn.modrinth.com/data/DFqQfIBR/versions/VVadibyp/CraftPresence-2.2.5%2B1.12.2.jar",
+         "remote": "https://cdn.modrinth.com/data/DFqQfIBR/versions/h4t5pzWo/CraftPresence-2.2.6%2B1.12.2.jar",
          "local": "craft-presence.jar",
-         "sha1": "63bf94caca2916d8d238bb43fa4634408e37d25e",
+         "sha1": "e467cd798454d26e63bab3fbbbcb49c16909b8f5",
          "clientReq": true,
          "serverReq": false
       },
@@ -413,9 +413,9 @@
       },
       {
          "name": "Future MC",
-         "remote": "https://mediafiles.forgecdn.net/files/3842/790/future-mc-0.2.10.1.jar",
+         "remote": "https://cdn.modrinth.com/data/dKv1FGT7/versions/GuAZY3QU/future-mc-0.2.12.jar",
          "local": "future-mc.jar",
-         "sha1": "c58ce1df0764e91eebbe13478989334beb903f67",
+         "sha1": "815dacdda9722e30983f62c0710af74abc54b07b",
          "clientReq": true,
          "serverReq": true
       },
@@ -445,17 +445,17 @@
       },
       {
          "name": "Alfheim",
-         "remote": "https://cdn-raw.modrinth.com/data/srzJgOEn/versions/a6HHVmwn/Alfheim-1.0.2.jar",
+         "remote": "https://cdn.modrinth.com/data/srzJgOEn/versions/MBMg5zwK/Alfheim-1.2.jar",
          "local": "alfheim.jar",
-         "sha1": "9a3802cb1ffbcf3164f9e915e21396ec6e2ac003",
+         "sha1": "4703788f3dafcec84385114d18f7f776f860f3d1",
          "clientReq": true,
          "serverReq": true
       },
       {
          "name": "Red Core",
-         "remote": "https://cdn-raw.modrinth.com/data/iRzbJEus/versions/SOOncqYd/%21Red-Core-0.4.jar",
+         "remote": "https://cdn.modrinth.com/data/iRzbJEus/versions/EgeSQe7e/%21Red-Core-MC-1.7-1.12-0.5.1.jar",
          "local": "!red-core.jar",
-         "sha1": "68215a4c446c36008666578f72e080190e388448",
+         "sha1": "7b948311155c1ba8d3f2b1a18a1caa751f1925d0",
          "clientReq": true,
          "serverReq": true
       },
@@ -621,9 +621,9 @@
       },
       {
          "name": "MC2Discord",
-         "remote": "https://mediafilez.forgecdn.net/files/4119/887/mc2discord-forge-1.12.2-3.3.0.jar",
+         "remote": "https://cdn.modrinth.com/data/Cfbcv7uF/versions/5pFogfPa/mc2discord-forge-1.12.2-3.3.1.jar",
          "local": "mc2discord.jar",
-         "md5": "2639a3c5579bbfa541b7115ba1835d92",
+         "sha1": "0d9de068621cd27c43663bf06ef886310e4215ed",
          "clientReq": false,
          "serverReq": true
       },
@@ -717,9 +717,9 @@
       },
       {
          "name": "MixinBooter",
-         "remote": "https://cdn-raw.modrinth.com/data/G1ckZuWK/versions/JV62SEWb/%21mixinbooter-8.7.jar",
-         "local": "!mixinbooter-8.7.jar",
-         "sha1": "1cff306d4849ee8a01b81b1bfcce3704cf6b720b",
+         "remote": "https://cdn.modrinth.com/data/G1ckZuWK/versions/j0MLRW9m/%21mixinbooter-8.9.jar",
+         "local": "!mixinbooter-8.9.jar",
+         "sha1": "dfa664921d299a4e06a3cd65222a30fce2675e49",
          "clientReq": true,
          "serverReq": true
       },
@@ -733,9 +733,9 @@
       },
       {
          "name": "Moving Elevators",
-         "remote": "https://cdn-raw.modrinth.com/data/9KZOe6HD/versions/PluWKzTc/movingelevators-1.4.4-forge-mc1.12.jar",
+         "remote": "https://cdn.modrinth.com/data/9KZOe6HD/versions/wvMBrhNm/movingelevators-1.4.5-forge-mc1.12.jar",
          "local": "moving-elevators.jar",
-         "sha1": "049a5317ec6d07e96c863fb766ea091d515673e0",
+         "sha1": "d69a992acde4a769c3836be50a83e1f8c247d749",
          "clientReq": true,
          "serverReq": true
       },
@@ -836,10 +836,10 @@
          "serverReq": true
       },
       {
-         "name": "Raw Mouse Input",
-         "remote": "https://github.com/Fluorides/RawInputMod1.12.2/releases/download/1.1.1/rawinput-1.1.1_1.12.2.jar",
-         "local": "raw-mouse-input.jar",
-         "sha1": "9965e90156e43b0f6ac5978ca6775af56c4c5d39",
+         "name": "Raw Mouse Input - Blessed Edition",
+         "remote": "https://cdn.modrinth.com/data/q89I8czH/versions/U4Q6kUlg/rawinput-1.6.1.jar",
+         "local": "raw-mouse-input-blessed-edition.jar",
+         "sha1": "2adf4d6788f555e9eaa40045d3c3ea09e7678739",
          "clientReq": true,
          "serverReq": false
       },
@@ -1169,22 +1169,22 @@
          "remote": "https://dynamx.fr/download/packs/6127730fbd08ee57b1f3e97d/DartcherDynamX-BasicPack-4.0.dnxpack",
          "local": "DynamX/DartcherDynamX-BasicPack-4.0.dnxpack",
          "sha1": "e40c6de132d0fabb11775aebb66cf374ec8fab5f",
-         "clientReq": true,
-         "serverReq": true
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "remote": "https://dynamx.fr/download/packs/6147792f4421363350817fba/DartcherPoliceGlobal-4.0.dnxpack",
          "local": "DynamX/DartcherPoliceGlobal-4.0.dnxpack",
          "sha1": "67555cfdeafe453dd132cfcff8a323caf8975935",
-         "clientReq": true,
-         "serverReq": true
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "remote": "https://dynamx.fr/download/packs/618ae6c6698ff350f0cc5312/KabPack_Classic-4.0.dnxpack",
          "local": "DynamX/KabPack_Classic-4.0.dnxpack",
          "sha1": "34ed9117e85dc8002db5a3e1cb55b348826f4833",
-         "clientReq": true,
-         "serverReq": true
+         "clientReq": false,
+         "serverReq": false
       }
    ]
 }
