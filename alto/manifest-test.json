@@ -148,6 +148,14 @@
          "serverReq": true
       },
       {
+         "name": "Controllable",
+         "remote": "https://github.com/Ricket/Controllable/releases/download/0.11.2-1.12.2-alwaysEnabled/controllable-0.11.2-1.12.2-Ricket-alwaysEnabled.jar",
+         "local": "controllable.jar",
+         "sha1": "fb77d45ed176b2ede27e7a234528e40b01c157e0",
+         "clientReq": true,
+         "serverReq": false
+      },
+      {
          "name": "Coro Util",
          "remote": "https://media.forgecdn.net/files/2902/920/coroutil-1.12.1-1.2.37.jar",
          "local": "coroutil.jar",
