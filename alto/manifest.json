@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "24.1.3.1",
+   "packVersion": "24.1.5.0",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -146,6 +146,14 @@
          "sha1": "79cf21f143603f511dc320078eb46d8648cc97b1",
          "clientReq": true,
          "serverReq": true
+      },
+      {
+         "name": "Controllable",
+         "remote": "https://github.com/Ricket/Controllable/releases/download/0.11.2-1.12.2-alwaysEnabled/controllable-0.11.2-1.12.2-Ricket-alwaysEnabled.jar",
+         "local": "controllable.jar",
+         "sha1": "fb77d45ed176b2ede27e7a234528e40b01c157e0",
+         "clientReq": true,
+         "serverReq": false
       },
       {
          "name": "Coro Util",
