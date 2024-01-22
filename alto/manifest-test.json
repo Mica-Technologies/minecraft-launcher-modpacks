@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "24.1.21",
+   "packVersion": "24.1.21.2",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -1039,7 +1039,7 @@
          "name": "LDWE",
          "remote": "https://github.com/Mica-Technologies/LDWE/releases/download/2024.01.22/LimitlessDevWorldEdit-2024.01.22.jar",
          "local": "LimitlessDevWorldEdit.jar",
-         "md5": "0590a461ecb255653bda47bd63993209",
+         "md5": "9d3eb5e8b616414c8376f8ab38be79f7",
          "clientReq": true,
          "serverReq": true
       },
