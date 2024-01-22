@@ -294,7 +294,7 @@
       {
          "name": "LDFAWE",
          "remote": "https://github.com/Mica-Technologies/LDFAWE/releases/download/2024.01.20/LimitlessDevFastAsyncWorldEdit-2024.01.20.jar",
-         "local": "ldfawe.jar",
+         "local": "LimitlessDevFastAsyncWorldEdit.jar",
          "md5": "1d5fcc63ba79d84225da2e39a16f4224",
          "clientReq": true,
          "serverReq": true
@@ -1037,9 +1037,9 @@
       },
       {
          "name": "LDWE",
-         "remote": "https://github.com/Mica-Technologies/LDWE/releases/download/2024.01.22-pre.0002.UTC%2B0000%2B904bff60/LimitlessDevWorldEdit-2024.01.22-pre.0002.UTC+0000+904bff60.jar",
-         "local": "ldwe.jar",
-         "md5": "32c38abea7a2f04390cf949bbeaa7c5b",
+         "remote": "https://github.com/Mica-Technologies/LDWE/releases/download/2024.01.22/LimitlessDevWorldEdit-2024.01.22.jar",
+         "local": "LimitlessDevWorldEdit.jar",
+         "md5": "0590a461ecb255653bda47bd63993209",
          "clientReq": true,
          "serverReq": true
       },

@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "24.1.20.1",
+   "packVersion": "24.1.21",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -294,7 +294,7 @@
       {
          "name": "LDFAWE",
          "remote": "https://github.com/Mica-Technologies/LDFAWE/releases/download/2024.01.20/LimitlessDevFastAsyncWorldEdit-2024.01.20.jar",
-         "local": "ldfawe.jar",
+         "local": "LimitlessDevFastAsyncWorldEdit.jar",
          "md5": "1d5fcc63ba79d84225da2e39a16f4224",
          "clientReq": true,
          "serverReq": true
@@ -1036,10 +1036,10 @@
          "serverReq": true
       },
       {
-         "name": "World Edit",
-         "remote": "https://media.forgecdn.net/files/2941/712/worldedit-forge-mc1.12.2-6.1.10-dist.jar",
-         "local": "worldedit.jar",
-         "sha1": "17314BDAB33678478AF060D2156338EE34DB8A09",
+         "name": "LDWE",
+         "remote": "https://github.com/Mica-Technologies/LDWE/releases/download/2024.01.22/LimitlessDevWorldEdit-2024.01.22.jar",
+         "local": "LimitlessDevWorldEdit.jar",
+         "md5": "0590a461ecb255653bda47bd63993209",
          "clientReq": true,
          "serverReq": true
       },
