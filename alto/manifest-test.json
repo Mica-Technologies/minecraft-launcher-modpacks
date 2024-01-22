@@ -1037,9 +1037,9 @@
       },
       {
          "name": "LDWE",
-         "remote": "https://github.com/Mica-Technologies/LDWE/releases/download/2024.01.21-pre.2325.UTC%2B0000%2Be76b0b7a/LimitlessDevWorldEdit-2024.01.21-pre.2325.UTC+0000+e76b0b7a.jar",
+         "remote": "https://github.com/Mica-Technologies/LDWE/releases/download/2024.01.22-pre.0002.UTC%2B0000%2B904bff60/LimitlessDevWorldEdit-2024.01.22-pre.0002.UTC+0000+904bff60.jar",
          "local": "ldwe.jar",
-         "md5": "dacfe4d6386c06a9c2c6ebff4612ace1",
+         "md5": "32c38abea7a2f04390cf949bbeaa7c5b",
          "clientReq": true,
          "serverReq": true
       },
