@@ -68,14 +68,6 @@
          "serverReq": true
       },
       {
-         "name": "Better HUD",
-         "remote": "https://media.forgecdn.net/files/3327/633/betterhud-1.12.2-1.4.4.jar",
-         "local": "better-hud.jar",
-         "sha1": "970FA8F852FCF0E5A20ABCDFDD7ACA8CCF9EE95F",
-         "clientReq": true,
-         "serverReq": false
-      },
-      {
          "name": "Better Placement",
          "remote": "https://media.forgecdn.net/files/2481/852/BetterPlacement-1.0.0-1.jar",
          "local": "better-placement.jar",
@@ -314,6 +306,14 @@
          "sha1": "1e81208d4808cec9562ba284b0d9c26bf851dac3",
          "clientReq": true,
          "serverReq": true
+      },
+      {
+         "name": "Evergreen HUD",
+         "remote": "https://cdn.modrinth.com/data/1yIQcc2b/versions/fTTqWRbH/EvergreenHUD-1.12.2-forge-2.1.4.jar",
+         "local": "evergreen-hud.jar",
+         "sha1": "93b2602e24438c39e05e4d08f3d845c4270778d2",
+         "clientReq": true,
+         "serverReq": false
       },
       {
          "name": "LDFAWE",
@@ -789,7 +789,7 @@
       },
       {
          "name": "Moving Elevators",
-         "remote": "hhttps://mediafilez.forgecdn.net/files/5091/594/movingelevators-1.4.6-forge-mc1.12.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/5091/594/movingelevators-1.4.6-forge-mc1.12.jar",
          "local": "moving-elevators.jar",
          "sha1": "a05346c0db82ec9255b49189d0bc7488212ecde3",
          "clientReq": true,
@@ -940,10 +940,10 @@
          "serverReq": true
       },
       {
-         "name": "Shadowfacts Forgelin",
-         "remote": "https://media.forgecdn.net/files/2785/465/Forgelin-1.8.4.jar",
+         "name": "Kappa's Forgelin",
+         "remote": "https://mediafilez.forgecdn.net/files/4936/725/Forgelin-kappa-1.12.2-2.0.0.jar",
          "local": "forgelin.jar",
-         "sha1": "7a87553fcb808a45d9c7e03f113b355ac7fd10d7",
+         "sha1": "3552a03d9dbe269b6f8ab6d3a4a6efc1912bcb86",
          "clientReq": true,
          "serverReq": true
       },
@@ -1130,13 +1130,6 @@
          "sha1": "69e94012441b61f9c03c93b659640d04375f9253",
          "clientReq": true,
          "serverReq": true
-      },
-      {
-         "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/betterhud.cfg",
-         "local": "betterhud.cfg",
-         "sha1": "3b9f3fcd0d7bef247a5d729c61728ab9afa14c65",
-         "clientReq": true,
-         "serverReq": false
       },
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/BiomeTweaker/BiomeTweaker.cfg",
