@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "24.1.25.2",
+   "packVersion": "24.3.18",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -147,6 +147,14 @@
          "clientReq": true,
          "serverReq": true
       },
+     {
+         "name": "Clear Water",
+         "remote": "https://cdn.modrinth.com/data/485Cv9lY/versions/1.2/clearwater-1.2.jar",
+         "local": "clear-water.jar",
+         "sha1" : "9c920d0f5fdf8fdff36d7e5f93edc67c2fafe294",
+         "clientReq": true,
+         "serverReq": true
+      },
       {
          "name": "Controllable",
          "remote": "https://github.com/Ricket/Controllable/releases/download/0.11.2-1.12.2-alwaysEnabled/controllable-0.11.2-1.12.2-Ricket-alwaysEnabled.jar",
@@ -184,6 +192,14 @@
          "remote": "https://mediafilez.forgecdn.net/files/4722/163/CreativeCore_v1.10.71_mc1.12.2.jar",
          "local": "creative-core.jar",
          "sha1": "2c60a20ae9c9431a3b215a331c2b2af7fa3a060c",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Coloured Categories",
+         "remote": "https://cdn.modrinth.com/data/iZrl6KIq/versions/lqzk6nE8/colouredcategories-1.12.2-1.0.jar",
+         "local": "coloured-catergories.jar",
+         "sha1": "f781de787622ba8b8e6b867a5a6cbd6c5853d929",
          "clientReq": true,
          "serverReq": true
       },
@@ -258,6 +274,14 @@
          "sha1": "21acc7193368942be1cbb0e4d59f529e021a4fbb",
          "clientReq": false,
          "serverReq": false
+      },
+      {
+         "name": "Ears",
+         "remote": "https://cdn.modrinth.com/data/mfzaZK3Z/versions/XX0VYSjD/ears-forge-1.12-1.4.6.jar",
+         "local": "ears.jar",
+         "sha1": "4c3f6ccaf10ac79e9a38b601fd72273d943e16e8",
+         "clientReq": true,
+         "serverReq": true
       },
       {
          "name": "Economy Inc",
@@ -360,6 +384,22 @@
          "remote": "https://mediafilez.forgecdn.net/files/3178/199/FluxNetworks-1.12.2-4.1.1.34.jar",
          "local": "flux-networks.jar",
          "md5": "dc5f666ad856dd1da2b195f03a815bb3",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "GlintColorizer",
+         "remote": "https://cdn.modrinth.com/data/SevsTfWN/versions/h6we3nZT/GlintColorizer-1.12.2-forge-1.0.2.jar",
+         "local": "glintcolorizer.jar",
+         "sha1": "1a41e46c81ea8b0c518429cf70520b0f8f679174",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "NonConflictKeys",
+         "remote": "https://cdn.modrinth.com/data/XU9gCifV/versions/XX1OGxS3/NonConflictKeys-Forge-1.12.2-1.0.0.jar",
+         "local": "nonconflictkeys.jar",
+         "sha1": "7d0860663ac04b3e0c5c11e14a82ba5d40b4e6bf",
          "clientReq": true,
          "serverReq": true
       },
@@ -1058,6 +1098,14 @@
          "md5": "99996774ced05042e9955d76ed8c8d19",
          "clientReq": true,
          "serverReq": true
+      }
+      {
+         "name": "3D Skin Layers",
+         "remote": "https://cdn.modrinth.com/data/zV5r3pPn/versions/1.2.0-forge-1.12.2/3dSkinLayers-forge-mc1.12.2-1.2.0.jar",
+         "local": 3d-skin-layers.jar",
+         "sha1": "332db9675de67c5f84b1b0e4f398b5fbe9b6ed56",
+         "clientReq": true,
+         "serverReq": false
       }
    ],
    "packConfigs": [
