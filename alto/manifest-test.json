@@ -1098,11 +1098,11 @@
          "md5": "99996774ced05042e9955d76ed8c8d19",
          "clientReq": true,
          "serverReq": true
-      }
+      },
       {
          "name": "3D Skin Layers",
          "remote": "https://cdn.modrinth.com/data/zV5r3pPn/versions/1.2.0-forge-1.12.2/3dSkinLayers-forge-mc1.12.2-1.2.0.jar",
-         "local": 3d-skin-layers.jar",
+         "local": "3d-skin-layers.jar",
          "sha1": "332db9675de67c5f84b1b0e4f398b5fbe9b6ed56",
          "clientReq": true,
          "serverReq": false
