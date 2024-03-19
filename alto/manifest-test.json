@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "24.3.18",
+   "packVersion": "24.3.19",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -314,6 +314,14 @@
          "sha1": "1e81208d4808cec9562ba284b0d9c26bf851dac3",
          "clientReq": true,
          "serverReq": true
+      },
+      {
+         "name": "Evergreen HUD",
+         "remote": "https://cdn.modrinth.com/data/1yIQcc2b/versions/fTTqWRbH/EvergreenHUD-1.12.2-forge-2.1.4.jar",
+         "local": "evergreen-hud.jar",
+         "sha1": "93b2602e24438c39e05e4d08f3d845c4270778d2",
+         "clientReq": true,
+         "serverReq": false
       },
       {
          "name": "LDFAWE",
