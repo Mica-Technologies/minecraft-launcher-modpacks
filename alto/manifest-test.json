@@ -198,7 +198,7 @@
       {
          "name": "Coloured Categories",
          "remote": "https://cdn.modrinth.com/data/iZrl6KIq/versions/lqzk6nE8/colouredcategories-1.12.2-1.0.jar",
-         "local": "coloured-catergories.jar",
+         "local": "coloured-categories.jar",
          "sha1": "f781de787622ba8b8e6b867a5a6cbd6c5853d929",
          "clientReq": true,
          "serverReq": true
