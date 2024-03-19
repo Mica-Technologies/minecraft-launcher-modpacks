@@ -1,0 +1,60 @@
+{
+  "hud": {
+    "displayMode": true,
+    "showAxis": true,
+    "showDirection": true,
+    "showX": true,
+    "showY": true,
+    "showZ": true,
+    "accuracy": 0,
+    "trailingZeros": true,
+    "color": {
+      "hsba": [
+        0,
+        0,
+        100,
+        255
+      ],
+      "dataBit": -1
+    },
+    "textType": 2,
+    "background": false,
+    "rounded": false,
+    "border": false,
+    "bgColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        120
+      ],
+      "dataBit": -1
+    },
+    "borderColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "dataBit": -1
+    },
+    "cornerRadius": 4.9414062,
+    "borderSize": 2.0,
+    "paddingX": 5.0,
+    "paddingY": 5.0,
+    "enabled": true,
+    "position": {
+      "anchor": "1",
+      "x": 3.8146973E-6,
+      "y": -1.0
+    },
+    "scale": 0.65,
+    "positionAlignment": 2,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "enabled": true,
+  "canToggle": true
+}

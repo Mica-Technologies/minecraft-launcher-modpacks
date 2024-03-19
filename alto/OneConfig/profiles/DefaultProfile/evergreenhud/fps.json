@@ -1,0 +1,187 @@
+{
+  "fps": {
+    "updateFast": false,
+    "averageMethod": 0,
+    "brackets": true,
+    "bracketsColor": {
+      "hsba": [
+        0,
+        0,
+        100,
+        255
+      ],
+      "dataBit": -1
+    },
+    "title": "FPS",
+    "titleLocation": 0,
+    "color": {
+      "hsba": [
+        0,
+        0,
+        100,
+        255
+      ],
+      "dataBit": -1
+    },
+    "textType": 2,
+    "background": false,
+    "rounded": false,
+    "border": false,
+    "bgColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        120
+      ],
+      "dataBit": -1
+    },
+    "borderColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "dataBit": -1
+    },
+    "cornerRadius": 2.0,
+    "borderSize": 2.0,
+    "paddingX": 5.0,
+    "paddingY": 5.0,
+    "enabled": true,
+    "position": {
+      "anchor": "8",
+      "x": -1.1444092E-5,
+      "y": 1.2397766E-5
+    },
+    "scale": 0.6,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "frameConsistency": {
+    "brackets": true,
+    "bracketsColor": {
+      "hsba": [
+        0,
+        0,
+        100,
+        255
+      ],
+      "dataBit": -1
+    },
+    "title": "FCO",
+    "titleLocation": 0,
+    "color": {
+      "hsba": [
+        0,
+        0,
+        100,
+        255
+      ],
+      "dataBit": -1
+    },
+    "textType": 2,
+    "background": false,
+    "rounded": false,
+    "border": false,
+    "bgColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        120
+      ],
+      "dataBit": -1
+    },
+    "borderColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "dataBit": -1
+    },
+    "cornerRadius": 2.0,
+    "borderSize": 2.0,
+    "paddingX": 5.0,
+    "paddingY": 5.0,
+    "enabled": false,
+    "position": {
+      "anchor": "8",
+      "x": -43.599968,
+      "y": 1.2397766E-5
+    },
+    "scale": 0.6,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "frameTime": {
+    "averageMethod": 0,
+    "brackets": true,
+    "bracketsColor": {
+      "hsba": [
+        0,
+        0,
+        100,
+        255
+      ],
+      "dataBit": -1
+    },
+    "title": "FTI",
+    "titleLocation": 0,
+    "color": {
+      "hsba": [
+        0,
+        0,
+        100,
+        255
+      ],
+      "dataBit": -1
+    },
+    "textType": 2,
+    "background": false,
+    "rounded": false,
+    "border": false,
+    "bgColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        120
+      ],
+      "dataBit": -1
+    },
+    "borderColor": {
+      "hsba": [
+        0,
+        0,
+        0,
+        255
+      ],
+      "dataBit": -1
+    },
+    "cornerRadius": 2.0,
+    "borderSize": 2.0,
+    "paddingX": 5.0,
+    "paddingY": 5.0,
+    "enabled": true,
+    "position": {
+      "anchor": "8",
+      "x": -21.200012,
+      "y": 1.2397766E-5
+    },
+    "scale": 0.6,
+    "positionAlignment": 0,
+    "showInChat": true,
+    "showInDebug": false,
+    "showInGuis": true
+  },
+  "enabled": true,
+  "canToggle": true
+}
