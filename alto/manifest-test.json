@@ -68,14 +68,6 @@
          "serverReq": true
       },
       {
-         "name": "Better HUD",
-         "remote": "https://media.forgecdn.net/files/3327/633/betterhud-1.12.2-1.4.4.jar",
-         "local": "better-hud.jar",
-         "sha1": "970FA8F852FCF0E5A20ABCDFDD7ACA8CCF9EE95F",
-         "clientReq": true,
-         "serverReq": false
-      },
-      {
          "name": "Better Placement",
          "remote": "https://media.forgecdn.net/files/2481/852/BetterPlacement-1.0.0-1.jar",
          "local": "better-placement.jar",
@@ -1130,13 +1122,6 @@
          "sha1": "69e94012441b61f9c03c93b659640d04375f9253",
          "clientReq": true,
          "serverReq": true
-      },
-      {
-         "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/betterhud.cfg",
-         "local": "betterhud.cfg",
-         "sha1": "3b9f3fcd0d7bef247a5d729c61728ab9afa14c65",
-         "clientReq": true,
-         "serverReq": false
       },
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/BiomeTweaker/BiomeTweaker.cfg",
