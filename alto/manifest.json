@@ -305,7 +305,7 @@
          "local": "evergreen-hud.jar",
          "sha1": "93b2602e24438c39e05e4d08f3d845c4270778d2",
          "clientReq": true,
-         "serverReq": false
+         "serverReq": true
       },
       {
          "name": "LDFAWE",
