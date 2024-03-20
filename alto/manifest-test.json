@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "24.3.20.2",
+   "packVersion": "24.3.20.3",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -352,6 +352,14 @@
          "remote": "https://mediafilez.forgecdn.net/files/2723/382/Fancy+Fluid+Storage-1.12.2-2.2.5.jar",
          "local": "ffs.jar",
          "md5": "242d54caf573c013c98168b2df984294",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "First Aid",
+         "remote": "https://mediafilez.forgecdn.net/files/4414/252/firstaid-1.6.22.jar",
+         "local": "firstaid.jar",
+         "md5": "d61dc94039ea35dbcfc1679353e69c90",
          "clientReq": true,
          "serverReq": true
       },
@@ -1045,9 +1053,17 @@
       },
       {
          "name": "Weather 2 - Remastered",
-         "remote": "https://mediafilez.forgecdn.net/files/4907/644/Weather2Remastered-1.12.2-2.8.11.jar",
+         "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/W2R/Weather2Remastered-1.12.2-2.8.14.jar",
          "local": "weather2-remastered.jar",
-         "sha1": "09e1594d77f7b5095842f11edd3f9af015e4edbd",
+         "sha1": "653e53223d6051de32807e77367e8df68cd64212",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Weather 2 - Remastered (EAS Addon)",
+         "remote": "https://github.com/ProfessorFartsalot/EAS-Addon/releases/download/v1.0.4/1.12.2.EAS.Addon.v1.0.4.jar",
+         "local": "weather2-remastered-eas.jar",
+         "sha1": "fc17bf5d77b62a5640e48957713cbd702188f30c",
          "clientReq": true,
          "serverReq": true
       },
