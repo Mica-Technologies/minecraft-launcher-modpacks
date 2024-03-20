@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "24.3.20",
+   "packVersion": "24.3.20.2",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -352,14 +352,6 @@
          "remote": "https://mediafilez.forgecdn.net/files/2723/382/Fancy+Fluid+Storage-1.12.2-2.2.5.jar",
          "local": "ffs.jar",
          "md5": "242d54caf573c013c98168b2df984294",
-         "clientReq": true,
-         "serverReq": true
-      },
-      {
-         "name": "First Aid",
-         "remote": "https://mediafilez.forgecdn.net/files/4414/252/firstaid-1.6.22.jar",
-         "local": "firstaid.jar",
-         "md5": "d61dc94039ea35dbcfc1679353e69c90",
          "clientReq": true,
          "serverReq": true
       },
