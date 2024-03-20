@@ -380,14 +380,6 @@
          "serverReq": true
       },
       {
-         "name": "GlintColorizer",
-         "remote": "https://cdn.modrinth.com/data/SevsTfWN/versions/h6we3nZT/GlintColorizer-1.12.2-forge-1.0.2.jar",
-         "local": "glintcolorizer.jar",
-         "sha1": "1a41e46c81ea8b0c518429cf70520b0f8f679174",
-         "clientReq": true,
-         "serverReq": true
-      },
-      {
          "name": "NonConflictKeys",
          "remote": "https://cdn.modrinth.com/data/XU9gCifV/versions/XX1OGxS3/NonConflictKeys-Forge-1.12.2-1.0.0.jar",
          "local": "nonconflictkeys.jar",
