@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "24.3.20.5",
+   "packVersion": "24.3.20.6",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -101,9 +101,9 @@
       },
       {
          "name": "Censored ASM",
-         "remote": "https://mediafilez.forgecdn.net/files/5120/166/censoredasm5.19.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4800/875/censoredasm5.18.jar",
          "local": "censored-asm.jar",
-         "sha1": "2ccb8700636f7d71ad5ec292a957d4dd834d777f",
+         "md5": "9f3dab152a5d7069c62c7c33b39b64f0",
          "clientReq": true,
          "serverReq": true
       },
@@ -597,9 +597,9 @@
       },
       {
          "name": "Konkrete",
-         "remote": "https://mediafilez.forgecdn.net/files/4514/895/konkrete_forge_1.6.1_MC_1.12-1.12.2.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4026/190/konkrete_forge_1.5.2_MC_1.12-1.12.2.jar",
          "local": "konkrete.jar",
-         "sha1": "d8853dbd60fd050709d2d687d875cb0d93806e92",
+         "md5": "1ec2028677c54182db90b484ae3b6a2c",
          "clientReq": true,
          "serverReq": false
       },
