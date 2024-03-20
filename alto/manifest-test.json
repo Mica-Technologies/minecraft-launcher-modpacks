@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "24.3.19.5",
+   "packVersion": "24.3.20",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -184,14 +184,6 @@
          "remote": "https://mediafilez.forgecdn.net/files/4722/163/CreativeCore_v1.10.71_mc1.12.2.jar",
          "local": "creative-core.jar",
          "sha1": "2c60a20ae9c9431a3b215a331c2b2af7fa3a060c",
-         "clientReq": true,
-         "serverReq": true
-      },
-      {
-         "name": "Coloured Categories",
-         "remote": "https://cdn.modrinth.com/data/iZrl6KIq/versions/lqzk6nE8/colouredcategories-1.12.2-1.0.jar",
-         "local": "coloured-categories.jar",
-         "sha1": "f781de787622ba8b8e6b867a5a6cbd6c5853d929",
          "clientReq": true,
          "serverReq": true
       },
@@ -1253,63 +1245,63 @@
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/coordinates.json",
          "local": "OneConfig/profiles/Default Profile/evergreenhud/coordinates.json",
-         "sha1": "e11de14abd07c30cc6949fcdfdde882ee614c911",
+         "sha1": "-1",
          "clientReq": true,
          "serverReq": false
       },
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/day.json",
          "local": "OneConfig/profiles/Default Profile/evergreenhud/day.json",
-         "sha1": "3fe788bff84271d71d3c04c8bd8a01e5db4c5ee5",
+         "sha1": "-1",
          "clientReq": true,
          "serverReq": false
       },
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/direction.json",
          "local": "OneConfig/profiles/Default Profile/evergreenhud/direction.json",
-         "sha1": "b3dd308b7ce63d6565c1102ea6d74e95a20f8b73",
+         "sha1": "-1",
          "clientReq": true,
          "serverReq": false
       },
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/fps.json",
          "local": "OneConfig/profiles/Default Profile/evergreenhud/fps.json",
-         "sha1": "f0f25d3a354985db2774ab74d3374695250e8fa8",
+         "sha1": "-1",
          "clientReq": true,
          "serverReq": false
       },
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/ingametime.json",
          "local": "OneConfig/profiles/Default Profile/evergreenhud/ingametime.json",
-         "sha1": "096950260f8cf088ca1449c97af67ffb9de5ff35",
+         "sha1": "-1",
          "clientReq": true,
          "serverReq": false
       },
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/memory.json",
          "local": "OneConfig/profiles/Default Profile/evergreenhud/memory.json",
-         "sha1": "575984fc1a5325568abb9a48fab22ea8bd3bdc31",
+         "sha1": "-1",
          "clientReq": true,
          "serverReq": false
       },
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/playtime.json",
          "local": "OneConfig/profiles/Default Profile/evergreenhud/playtime.json",
-         "sha1": "8116aa144e51c498ceab861b2cc9cf1be87f6525",
+         "sha1": "-1",
          "clientReq": true,
          "serverReq": false
       },
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/speed.json",
          "local": "OneConfig/profiles/Default Profile/evergreenhud/speed.json",
-         "sha1": "7e2307863fa56d34844ab5fe047b239c3bbc9472",
+         "sha1": "-1",
          "clientReq": true,
          "serverReq": false
       },
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/tps.json",
          "local": "OneConfig/profiles/Default Profile/evergreenhud/tps.json",
-         "sha1": "1dfa445273f08f87b4a6322fe86c106ef5b0a1fc",
+         "sha1": "-1",
          "clientReq": true,
          "serverReq": false
       }
