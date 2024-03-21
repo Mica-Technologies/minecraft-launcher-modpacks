@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "24.3.20.6",
+   "packVersion": "24.3.20-patch8",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -617,7 +617,7 @@
          "local": "watermedia.jar",
          "sha1": "cdb40af59c242bee1fd4d372e2608fc3570f7dd0",
          "clientReq": true,
-         "serverReq": true
+         "serverReq": false
       },
       {
          "name": "LittleTiles",
