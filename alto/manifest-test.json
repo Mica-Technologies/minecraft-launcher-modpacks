@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "24.3.21-exp2",
+   "packVersion": "24.3.21-exp3",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -613,9 +613,9 @@
       },
       {
          "name": "Luxury Furniture",
-         "remote": "https://mediafilez.forgecdn.net/files/4459/38/Luxury+Furnitures+2.23.1+1.12.2.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/5005/878/Luxury%20Furnitures%202.27.0%201.12.2.jar",
          "local": "luxury-furniture.jar",
-         "md5": "7ac85efe6e4d845f09e317d76ac55ca9",
+         "sha1": "2d5dc97287593fddd295140aeaa99792068476fb",
          "clientReq": true,
          "serverReq": true
       },
@@ -741,9 +741,9 @@
       },
       {
          "name": "Moving Elevators",
-         "remote": "https://cdn.modrinth.com/data/9KZOe6HD/versions/wvMBrhNm/movingelevators-1.4.5-forge-mc1.12.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/5091/594/movingelevators-1.4.6-forge-mc1.12.jar",
          "local": "moving-elevators.jar",
-         "sha1": "d69a992acde4a769c3836be50a83e1f8c247d749",
+         "sha1": "a05346c0db82ec9255b49189d0bc7488212ecde3",
          "clientReq": true,
          "serverReq": true
       },
@@ -981,9 +981,9 @@
       },
       {
          "name": "Traffic Control",
-         "remote": "https://mediafilez.forgecdn.net/files/4520/487/trafficcontrol-1.0.0.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/5185/185/trafficcontrol-1.1.1.jar",
          "local": "traffic-control.jar",
-         "sha1": "5d3042165ee29c8d46b65d179d28023abbf530e1",
+         "sha1": "34d3edaeac9c6ed0c81c312543be26b1797a07ba",
          "clientReq": true,
          "serverReq": true
       },
@@ -1012,10 +1012,18 @@
          "serverReq": true
       },
       {
-         "name": "Weather 2",
-         "remote": "https://media.forgecdn.net/files/2596/867/weather2-1.12.1-2.6.12.jar",
-         "local": "weather2.jar",
-         "sha1": "894fa38627f7d11bfe8ea11f3aa6fb5901d73abe",
+         "name": "Weather 2 - Remastered",
+         "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/W2R/Weather2Remastered-1.12.2-2.8.14.jar",
+         "local": "weather2-remastered.jar",
+         "sha1": "653e53223d6051de32807e77367e8df68cd64212",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Weather 2 - Remastered (EAS Addon)",
+         "remote": "https://github.com/ProfessorFartsalot/EAS-Addon/releases/download/v1.0.4/1.12.2.EAS.Addon.v1.0.4.jar",
+         "local": "weather2-remastered-eas.jar",
+         "sha1": "fc17bf5d77b62a5640e48957713cbd702188f30c",
          "clientReq": true,
          "serverReq": true
       },
