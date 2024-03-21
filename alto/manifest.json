@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "24.3.21-exp3",
+   "packVersion": "24.3.21-exp4",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -148,6 +148,14 @@
          "serverReq": true
       },
       {
+         "name": "Clear Water",
+         "remote": "https://cdn.modrinth.com/data/485Cv9lY/versions/1.2/clearwater-1.2.jar",
+         "local": "clear-water.jar",
+         "sha1" : "9c920d0f5fdf8fdff36d7e5f93edc67c2fafe294",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
          "name": "Controllable",
          "remote": "https://github.com/Ricket/Controllable/releases/download/0.11.2-1.12.2-alwaysEnabled/controllable-0.11.2-1.12.2-Ricket-alwaysEnabled.jar",
          "local": "controllable.jar",
@@ -260,6 +268,14 @@
          "serverReq": false
       },
       {
+         "name": "Ears",
+         "remote": "https://cdn.modrinth.com/data/mfzaZK3Z/versions/XX0VYSjD/ears-forge-1.12-1.4.6.jar",
+         "local": "ears.jar",
+         "sha1": "4c3f6ccaf10ac79e9a38b601fd72273d943e16e8",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
          "name": "Economy Inc",
          "remote": "https://mediafilez.forgecdn.net/files/2841/677/EconomyInc-1.6.2MC1.12.jar",
          "local": "economy-inc.jar",
@@ -269,17 +285,17 @@
       },
       {
          "name": "ElectricalCraft",
-         "remote": "https://mediafilez.forgecdn.net/files/4504/377/ElectricalCraft+2023.2a.3829+Indev+1.12.2.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/5006/1/ElectricalCraft%202023.12.1%20Indev%201.12.2.jar",
          "local": "electrical-craft.jar",
-         "md5": "47a7b53b411ac44cd289871f3e45519d",
+         "sha1": "35211ce69f4c18865c47d5ec30bbb723bd18dde9",
          "clientReq": true,
          "serverReq": true
       },
       {
          "name": "Energy Control",
-         "remote": "https://mediafiles.forgecdn.net/files/3829/524/EnergyControl-1.12.2-0.3.1.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/5114/551/EnergyControl-1.12.2-0.3.2.jar",
          "local": "energy-control.jar",
-         "sha1": "0e620b910241090c7a5ef6ce9ccbda68e26e1090",
+         "sha1": "84db153da4b5cd933137f3f172203eebf08f78de",
          "clientReq": true,
          "serverReq": true
       },
@@ -1066,6 +1082,14 @@
          "md5": "99996774ced05042e9955d76ed8c8d19",
          "clientReq": true,
          "serverReq": true
+      },
+      {
+         "name": "3D Skin Layers",
+         "remote": "https://cdn.modrinth.com/data/zV5r3pPn/versions/1.2.0-forge-1.12.2/3dSkinLayers-forge-mc1.12.2-1.2.0.jar",
+         "local": "3d-skin-layers.jar",
+         "sha1": "332db9675de67c5f84b1b0e4f398b5fbe9b6ed56",
+         "clientReq": true,
+         "serverReq": false
       }
    ],
    "packConfigs": [
