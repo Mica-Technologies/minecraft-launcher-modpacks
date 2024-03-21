@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "24.3.21-exp5",
+   "packVersion": "24.3.21-exp6",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -68,14 +68,6 @@
          "serverReq": true
       },
       {
-         "name": "Better HUD",
-         "remote": "https://media.forgecdn.net/files/3327/633/betterhud-1.12.2-1.4.4.jar",
-         "local": "better-hud.jar",
-         "sha1": "970FA8F852FCF0E5A20ABCDFDD7ACA8CCF9EE95F",
-         "clientReq": true,
-         "serverReq": false
-      },
-      {
          "name": "Better Placement",
          "remote": "https://media.forgecdn.net/files/2481/852/BetterPlacement-1.0.0-1.jar",
          "local": "better-placement.jar",
@@ -109,9 +101,9 @@
       },
       {
          "name": "Censored ASM",
-         "remote": "https://mediafilez.forgecdn.net/files/4800/875/censoredasm5.18.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/5120/166/censoredasm5.19.jar",
          "local": "censored-asm.jar",
-         "md5": "9f3dab152a5d7069c62c7c33b39b64f0",
+         "sha1": "2ccb8700636f7d71ad5ec292a957d4dd834d777f",
          "clientReq": true,
          "serverReq": true
       },
@@ -308,6 +300,14 @@
          "serverReq": true
       },
       {
+         "name": "Evergreen HUD",
+         "remote": "https://cdn.modrinth.com/data/1yIQcc2b/versions/fTTqWRbH/EvergreenHUD-1.12.2-forge-2.1.4.jar",
+         "local": "evergreen-hud.jar",
+         "sha1": "93b2602e24438c39e05e4d08f3d845c4270778d2",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
          "name": "LDFAWE",
          "remote": "https://github.com/Mica-Technologies/LDFAWE/releases/download/2024.01.22/LimitlessDevFastAsyncWorldEdit-2024.01.22.jar",
          "local": "LimitlessDevFastAsyncWorldEdit.jar",
@@ -376,6 +376,14 @@
          "remote": "https://mediafilez.forgecdn.net/files/3178/199/FluxNetworks-1.12.2-4.1.1.34.jar",
          "local": "flux-networks.jar",
          "md5": "dc5f666ad856dd1da2b195f03a815bb3",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "GlintColorizer",
+         "remote": "https://cdn.modrinth.com/data/SevsTfWN/versions/h6we3nZT/GlintColorizer-1.12.2-forge-1.0.2.jar",
+         "local": "glintcolorizer.jar",
+         "sha1": "1a41e46c81ea8b0c518429cf70520b0f8f679174",
          "clientReq": true,
          "serverReq": true
       },
@@ -564,14 +572,6 @@
          "serverReq": true
       },
       {
-         "name": "Its The Little Things",
-         "remote": "https://mediafilez.forgecdn.net/files/3330/21/itlt-1.12.x-1.0.4.jar",
-         "local": "itlt.jar",
-         "md5": "2a6771bd430409d3a379485e86a3853b",
-         "clientReq": true,
-         "serverReq": false
-      },
-      {
          "name": "Just a Few Fish",
          "remote": "https://media.forgecdn.net/files/2448/283/JustAFewFish-1.7_for_1.12.jar",
          "local": "just-a-few-fish.jar",
@@ -581,17 +581,17 @@
       },
       {
          "name": "Roughly Enough IDs",
-         "remote": "https://cdn-raw.modrinth.com/data/sDhbZgv7/versions/jblHpyXj/RoughlyEnoughIDs-2.0.6.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4949/840/RoughlyEnoughIDs-2.0.7.jar",
          "local": "roughly-enough-ids.jar",
-         "sha1": "cd242a3e0ce3559af7df910cdaaf5330d7cc78d6",
+         "sha1": "2481e17caf8da18e6e3d8350741f191a21dd63ad",
          "clientReq": true,
          "serverReq": true
       },
       {
          "name": "Konkrete",
-         "remote": "https://mediafilez.forgecdn.net/files/4026/190/konkrete_forge_1.5.2_MC_1.12-1.12.2.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4514/895/konkrete_forge_1.6.1_MC_1.12-1.12.2.jar",
          "local": "konkrete.jar",
-         "md5": "1ec2028677c54182db90b484ae3b6a2c",
+         "sha1": "d8853dbd60fd050709d2d687d875cb0d93806e92",
          "clientReq": true,
          "serverReq": false
       },
@@ -749,9 +749,9 @@
       },
       {
          "name": "MixinBooter",
-         "remote": "https://cdn.modrinth.com/data/G1ckZuWK/versions/j0MLRW9m/%21mixinbooter-8.9.jar",
-         "local": "!mixinbooter-8.9.jar",
-         "sha1": "dfa664921d299a4e06a3cd65222a30fce2675e49",
+         "remote": "https://mediafilez.forgecdn.net/files/5079/135/%21mixinbooter-9.1.jar",
+         "local": "!mixinbooter-9.1.jar",
+         "sha1": "bbf73abfc0099e9e475f8f8303f3d5139a4a69af",
          "clientReq": true,
          "serverReq": true
       },
@@ -908,10 +908,10 @@
          "serverReq": true
       },
       {
-         "name": "Shadowfacts Forgelin",
-         "remote": "https://media.forgecdn.net/files/2785/465/Forgelin-1.8.4.jar",
+         "name": "Kappa's Forgelin",
+         "remote": "https://mediafilez.forgecdn.net/files/4936/725/Forgelin-kappa-1.12.2-2.0.0.jar",
          "local": "forgelin.jar",
-         "sha1": "7a87553fcb808a45d9c7e03f113b355ac7fd10d7",
+         "sha1": "3552a03d9dbe269b6f8ab6d3a4a6efc1912bcb86",
          "clientReq": true,
          "serverReq": true
       },
@@ -1108,11 +1108,11 @@
          "serverReq": true
       },
       {
-         "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/betterhud.cfg",
-         "local": "betterhud.cfg",
-         "sha1": "3b9f3fcd0d7bef247a5d729c61728ab9afa14c65",
+         "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/fpsreducer/fpsreducer.cfg",
+         "local": "fpsreducer/fpsreducer.cfg",
+         "sha1": "02b22879d0304870c84b3ca84e50c7139322ec3d",
          "clientReq": true,
-         "serverReq": false
+         "serverReq": true
       },
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/BiomeTweaker/BiomeTweaker.cfg",
@@ -1150,16 +1150,30 @@
          "serverReq": true
       },
       {
-         "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
-         "local": "itlt/icon.png",
-         "sha1": "54787d3bf0957c79da8b9e097be07616d8244b0e",
+         "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/app-icons/icon16.png",
+         "local": "icons/icon16.png",
+         "sha1": "bf999d03c8930130232675522a8c2ee02391888f",
          "clientReq": true,
          "serverReq": true
       },
       {
-         "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/itlt.cfg",
-         "local": "itlt.cfg",
-         "sha1": "4cff1b61bc717c12200f06e2af5167dae3f39a16",
+         "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/app-icons/icon32.png",
+         "local": "icons/icon32.png",
+         "sha1": "9b886831e621b50c5200e15e07b47a8d40a5278f",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/app-icons/icon256.png",
+         "local": "icons/icon256.png",
+         "sha1": "b1c2b4412432baf3c5ad508490a896e0b40b5eb9",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/randompatches.cfg",
+         "local": "randompatches.cfg",
+         "sha1": "24e59d9149a72b9b23a04550d32c51576a2cf07e",
          "clientReq": true,
          "serverReq": true
       },
