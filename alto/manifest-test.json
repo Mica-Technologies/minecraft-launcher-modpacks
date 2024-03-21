@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "24.3.21-exp4",
+   "packVersion": "24.3.21-exp5",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -380,10 +380,18 @@
          "serverReq": true
       },
       {
+         "name": "NonConflictKeys",
+         "remote": "https://cdn.modrinth.com/data/XU9gCifV/versions/XX1OGxS3/NonConflictKeys-Forge-1.12.2-1.0.0.jar",
+         "local": "nonconflictkeys.jar",
+         "sha1": "7d0860663ac04b3e0c5c11e14a82ba5d40b4e6bf",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
          "name": "Vintage Fix (based on Foam Fix)",
-         "remote": "https://cdn-raw.modrinth.com/data/e6vNsbAm/versions/RUVoyVGH/vintagefix-0.3.3.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/5175/94/vintagefix-0.4.1.jar",
          "local": "vintage-fix.jar",
-         "sha1": "60995e26c3046d86f2824acf4626629df34ee98f",
+         "sha1": "87789ba5ec961b28abec0eca712ac620d46dae64",
          "clientReq": true,
          "serverReq": true
       },
@@ -860,14 +868,6 @@
          "serverReq": true
       },
       {
-         "name": "Raw Mouse Input - Blessed Edition",
-         "remote": "https://cdn.modrinth.com/data/q89I8czH/versions/U4Q6kUlg/rawinput-1.6.1.jar",
-         "local": "raw-mouse-input-blessed-edition.jar",
-         "sha1": "2adf4d6788f555e9eaa40045d3c3ea09e7678739",
-         "clientReq": true,
-         "serverReq": false
-      },
-      {
          "name": "Redstone Paste",
          "remote": "https://media.forgecdn.net/files/2477/676/redstonepaste-mc1.12-1.7.5.jar",
          "local": "redstone-paste.jar",
@@ -973,9 +973,9 @@
       },
       {
          "name": "SuperMartijn642's Core Lib",
-         "remote": "https://cdn-raw.modrinth.com/data/rOUBggPv/versions/TBUu9kEW/_supermartijn642corelib-1.1.15-forge-mc1.12.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/5102/240/_supermartijn642corelib-1.1.17-forge-mc1.12.jar",
          "local": "_supermartijn642-core-lib.jar",
-         "sha1": "73f560550595aff0e61e163adb55b010c0efaa90",
+         "sha1": "3b32a45fdb1c78af396deb24c3ab07d64e515dd8",
          "clientReq": true,
          "serverReq": true
       },
