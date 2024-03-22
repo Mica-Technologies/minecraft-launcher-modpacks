@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "24.3.21-exp6",
+   "packVersion": "24.3.22",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -10,6 +10,7 @@
    "packMinRAMGB": "6",
    "packForgeURL": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar",
    "packForgeHash": "8328b395bb26bab70f818126ebe6a75772d39ce4",
+   "packScanExclusions": ["dynmap"],
    "packMods": [
       {
          "name": "ACS Guis",
