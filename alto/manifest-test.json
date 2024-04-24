@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "24.4.18",
+   "packVersion": "24.4.24",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -811,22 +811,6 @@
          "sha1": "C33DDF5660C2A1C39537BD6552B2CDD73B654E18",
          "clientReq": true,
          "serverReq": true
-      },
-      {
-         "name": "Entity Culling",
-         "remote": "https://cdn.modrinth.com/data/NNAgCjsB/versions/knltv3Vh/entityculling-1.12.2-1.6.3.jar",
-         "local": "entity-culling.jar",
-         "sha1": "fb22f03b297ca7b1bb7c6d5948e46c12e0a24446",
-         "clientReq": true,
-         "serverReq": false
-      },
-      {
-         "name": "Particle Culling",
-         "remote": "https://cdn.modrinth.com/data/l7imhLoC/versions/idcgCiPZ/particleculling-1.12.2-v1.4.2.jar",
-         "local": "particle-culling.jar",
-         "sha1": "fb595641c3f37ca9df0c721faef690f98b64c344",
-         "clientReq": true,
-         "serverReq": false
       },
       {
          "name": "Panoramica",
