@@ -1,7 +1,8 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "24.4.24",
+   "packVersion": "24.4.30",
    "packCustomDiscordRpc": true,
+   "packUnstable": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
    "packLogoSha1": "54787d3bf0957c79da8b9e097be07616d8244b0e",
@@ -166,9 +167,9 @@
       },
       {
          "name": "Craft Presence",
-         "remote": "https://cdn.modrinth.com/data/DFqQfIBR/versions/h4t5pzWo/CraftPresence-2.2.6%2B1.12.2.jar",
+         "remote": "https://cdn.modrinth.com/data/DFqQfIBR/versions/t9LwofvI/CraftPresence-2.3.9%2B1.12.2.jar",
          "local": "craft-presence.jar",
-         "sha1": "e467cd798454d26e63bab3fbbbcb49c16909b8f5",
+         "sha1": "f7cf8fede7a43570634b7ce329b724274a0855dd",
          "clientReq": true,
          "serverReq": false
       },
@@ -377,6 +378,14 @@
          "remote": "https://mediafilez.forgecdn.net/files/3178/199/FluxNetworks-1.12.2-4.1.1.34.jar",
          "local": "flux-networks.jar",
          "md5": "dc5f666ad856dd1da2b195f03a815bb3",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Glassential",
+         "remote": "https://cdn.modrinth.com/data/kVa5y52B/versions/1.1.0/glassential-1.12.2-1.1.0.jar",
+         "local": "glassential.jar",
+         "sha1": "1650ab1c3d36ca67f75e8e05c454bdedd0968baa",
          "clientReq": true,
          "serverReq": true
       },
@@ -1188,7 +1197,7 @@
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/craftpresence.json",
          "local": "craftpresence-testpack.json",
-         "sha1": "e55937be0ebed437e7287491abafa588f2197955",
+         "sha1": "6b4c38023ac4cb443bfff268dc088439485eb9ba",
          "clientReq": true,
          "serverReq": false
       }

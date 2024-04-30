@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "24.4.18",
+   "packVersion": "24.4.30",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -166,9 +166,9 @@
       },
       {
          "name": "Craft Presence",
-         "remote": "https://cdn.modrinth.com/data/DFqQfIBR/versions/h4t5pzWo/CraftPresence-2.2.6%2B1.12.2.jar",
+         "remote": "https://cdn.modrinth.com/data/DFqQfIBR/versions/t9LwofvI/CraftPresence-2.3.9%2B1.12.2.jar",
          "local": "craft-presence.jar",
-         "sha1": "e467cd798454d26e63bab3fbbbcb49c16909b8f5",
+         "sha1": "f7cf8fede7a43570634b7ce329b724274a0855dd",
          "clientReq": true,
          "serverReq": false
       },
@@ -377,6 +377,14 @@
          "remote": "https://mediafilez.forgecdn.net/files/3178/199/FluxNetworks-1.12.2-4.1.1.34.jar",
          "local": "flux-networks.jar",
          "md5": "dc5f666ad856dd1da2b195f03a815bb3",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Glassential",
+         "remote": "https://cdn.modrinth.com/data/kVa5y52B/versions/1.1.0/glassential-1.12.2-1.1.0.jar",
+         "local": "glassential.jar",
+         "sha1": "1650ab1c3d36ca67f75e8e05c454bdedd0968baa",
          "clientReq": true,
          "serverReq": true
       },
@@ -811,22 +819,6 @@
          "sha1": "C33DDF5660C2A1C39537BD6552B2CDD73B654E18",
          "clientReq": true,
          "serverReq": true
-      },
-      {
-         "name": "Entity Culling",
-         "remote": "https://cdn.modrinth.com/data/NNAgCjsB/versions/knltv3Vh/entityculling-1.12.2-1.6.3.jar",
-         "local": "entity-culling.jar",
-         "sha1": "fb22f03b297ca7b1bb7c6d5948e46c12e0a24446",
-         "clientReq": true,
-         "serverReq": false
-      },
-      {
-         "name": "Particle Culling",
-         "remote": "https://cdn.modrinth.com/data/l7imhLoC/versions/idcgCiPZ/particleculling-1.12.2-v1.4.2.jar",
-         "local": "particle-culling.jar",
-         "sha1": "fb595641c3f37ca9df0c721faef690f98b64c344",
-         "clientReq": true,
-         "serverReq": false
       },
       {
          "name": "Panoramica",
