@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "24.4.30",
+   "packVersion": "24.5.13",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -225,14 +225,6 @@
          "remote": "https://media.forgecdn.net/files/2491/601/DebugServerInfo-1.12.2-1.0.5.jar",
          "local": "dbgsrvrinfo.jar",
          "sha1": "8310bf71050953b7dced8067ef6c4a314e9f06f6",
-         "clientReq": true,
-         "serverReq": true
-      },
-      {
-         "name": "Decocraft",
-         "remote": "https://media.forgecdn.net/files/3347/832/Decocraft-2.6.3.7_1.12.2.jar",
-         "local": "decocraft.jar",
-         "sha1": "E226ED02E3181ACA765A52CEE7BAD8865D93815B",
          "clientReq": true,
          "serverReq": true
       },
