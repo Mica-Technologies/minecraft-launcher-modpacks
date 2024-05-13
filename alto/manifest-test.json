@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "24.5.13",
+   "packVersion": "24.5.13b",
    "packCustomDiscordRpc": true,
    "packUnstable": true,
    "packURL": "https://minecraft.micatechnologies.com",
@@ -236,6 +236,22 @@
          "sha1": "e00aecd812c30f9cbc7600c3f4aa4739c1af0ec5",
          "clientReq": false,
          "serverReq": true
+      },
+      {
+         "name": "Dynamic Surroundings",
+         "remote": "https://mediafilez.forgecdn.net/files/3497/269/DynamicSurroundings-1.12.2-3.6.3.jar",
+         "local": "dynamic-surroundings.jar",
+         "md5": "77e815ce9c8dd68ecba4eb884d6db4d2",
+         "clientReq": true,
+         "serverReq": false
+      },
+      {
+         "name": "OreLib",
+         "remote": "https://mediafilez.forgecdn.net/files/2820/815/OreLib-1.12.2-3.6.0.1.jar",
+         "local": "orelib.jar",
+         "md5": "00cce3b240365458adcad3e77782358a",
+         "clientReq": true,
+         "serverReq": false
       },
       {
          "name": "DynamX Basics Add-On",
