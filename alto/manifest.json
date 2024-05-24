@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "24.5.13",
+   "packVersion": "24.5.24",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -19,14 +19,6 @@
          "sha1": "23e45699e4ef4e7e0520f8ec72c3317a41d4af6f",
          "clientReq": false,
          "serverReq": false
-      },
-      {
-         "name": "Advanced Shader",
-         "remote": "https://mediafilez.forgecdn.net/files/4393/223/AdvancedShader-1.0.2-1.12.2.jar",
-         "local": "advanced-shader.jar",
-         "md5": "8a1018517f437dc809354cd6a3ca1eaf",
-         "clientReq": true,
-         "serverReq": true
       },
       {
          "name": "Airport Lights",
@@ -235,6 +227,22 @@
          "sha1": "e00aecd812c30f9cbc7600c3f4aa4739c1af0ec5",
          "clientReq": false,
          "serverReq": true
+      },
+      {
+         "name": "Dynamic Surroundings",
+         "remote": "https://mediafilez.forgecdn.net/files/3497/269/DynamicSurroundings-1.12.2-3.6.3.jar",
+         "local": "!o-dynamic-surroundings.jar",
+         "md5": "77e815ce9c8dd68ecba4eb884d6db4d2",
+         "clientReq": true,
+         "serverReq": false
+      },
+      {
+         "name": "OreLib",
+         "remote": "https://mediafilez.forgecdn.net/files/2820/815/OreLib-1.12.2-3.6.0.1.jar",
+         "local": "!orelib.jar",
+         "md5": "00cce3b240365458adcad3e77782358a",
+         "clientReq": true,
+         "serverReq": false
       },
       {
          "name": "DynamX Basics Add-On",

@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "24.5.22",
+   "packVersion": "24.5.24",
    "packCustomDiscordRpc": true,
    "packUnstable": true,
    "packURL": "https://minecraft.micatechnologies.com",
@@ -20,14 +20,6 @@
          "sha1": "23e45699e4ef4e7e0520f8ec72c3317a41d4af6f",
          "clientReq": false,
          "serverReq": false
-      },
-      {
-         "name": "Advanced Shader",
-         "remote": "https://mediafilez.forgecdn.net/files/4393/223/AdvancedShader-1.0.2-1.12.2.jar",
-         "local": "advanced-shader.jar",
-         "md5": "8a1018517f437dc809354cd6a3ca1eaf",
-         "clientReq": true,
-         "serverReq": true
       },
       {
          "name": "Airport Lights",
