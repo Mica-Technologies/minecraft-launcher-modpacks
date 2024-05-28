@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "24.5.24",
+   "packVersion": "24.5.28",
    "packCustomDiscordRpc": true,
    "packUnstable": true,
    "packURL": "https://minecraft.micatechnologies.com",
@@ -498,16 +498,16 @@
          "remote": "https://cdn.modrinth.com/data/srzJgOEn/versions/eXsbM9qx/Alfheim-1.3.jar",
          "local": "alfheim.jar",
          "sha1": "02266604255a9b0936b02a772f104bd15462876b",
-         "clientReq": true,
-         "serverReq": true
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "name": "Red Core",
          "remote": "https://cdn.modrinth.com/data/iRzbJEus/versions/EgeSQe7e/%21Red-Core-MC-1.7-1.12-0.5.1.jar",
          "local": "!red-core.jar",
          "sha1": "7b948311155c1ba8d3f2b1a18a1caa751f1925d0",
-         "clientReq": true,
-         "serverReq": true
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "name": "Hospital Mod",
