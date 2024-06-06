@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "24.5.28",
+   "packVersion": "24.6.6",
    "packCustomDiscordRpc": true,
    "packUnstable": true,
    "packURL": "https://minecraft.micatechnologies.com",
@@ -19,6 +19,14 @@
          "local": "ACsGuis-1.2.11-all.jar",
          "sha1": "23e45699e4ef4e7e0520f8ec72c3317a41d4af6f",
          "clientReq": false,
+         "serverReq": false
+      },
+      {
+         "name": "Advanced Shaders",
+         "remote": "https://mediafilez.forgecdn.net/files/4393/223/AdvancedShader-1.0.2-1.12.2.jar",
+         "local": "advanced-shaders.jar",
+         "md5": "8a1018517f437dc809354cd6a3ca1eaf",
+         "clientReq": true,
          "serverReq": false
       },
       {
@@ -498,16 +506,16 @@
          "remote": "https://cdn.modrinth.com/data/srzJgOEn/versions/eXsbM9qx/Alfheim-1.3.jar",
          "local": "alfheim.jar",
          "sha1": "02266604255a9b0936b02a772f104bd15462876b",
-         "clientReq": false,
-         "serverReq": false
+         "clientReq": true,
+         "serverReq": true
       },
       {
          "name": "Red Core",
          "remote": "https://cdn.modrinth.com/data/iRzbJEus/versions/EgeSQe7e/%21Red-Core-MC-1.7-1.12-0.5.1.jar",
          "local": "!red-core.jar",
          "sha1": "7b948311155c1ba8d3f2b1a18a1caa751f1925d0",
-         "clientReq": false,
-         "serverReq": false
+         "clientReq": true,
+         "serverReq": true
       },
       {
          "name": "Hospital Mod",
@@ -811,7 +819,7 @@
          "local": "optifine.jar",
          "sha1": "ab2118b1ed23444d6decf081e0295e4c679af6c2",
          "clientReq": true,
-         "serverReq": true
+         "serverReq": false
       },
       {
          "name": "PTRLib",
