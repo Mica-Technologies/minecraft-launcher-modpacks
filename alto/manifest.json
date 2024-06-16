@@ -541,6 +541,14 @@
          "serverReq": true
       },
       {
+         "name": "Alternating Flux",
+         "remote": "https://mediafilez.forgecdn.net/files/2693/578/alternatingflux-0.12.2-2.jar",
+         "local": "alternating-flux.jar",
+         "sha1": "bcad5acd1909953bc1f5fb42e6a5df81d4b0fd6c",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
          "name": "Immersive Vehicles",
          "remote": "https://mediafilez.forgecdn.net/files/5068/590/Immersive%20Vehicles-1.12.2-22.13.0.jar",
          "local": "iv.jar",
