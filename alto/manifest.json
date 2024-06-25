@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "24.6.16",
+   "packVersion": "24.6.25",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -49,14 +49,6 @@
          "remote": "https://mediafilez.forgecdn.net/files/2651/554/AutoDropper-1.12.2-2.0.1.jar",
          "local": "auto-dropper.jar",
          "md5": "8c9906654a5789ac00ddee4b63957946",
-         "clientReq": true,
-         "serverReq": true
-      },
-      {
-         "name": "Better Displays",
-         "remote": "https://mediafilez.forgecdn.net/files/4284/175/BetterDisplays-1.12.2-1.1.1.jar",
-         "local": "better-displays.jar",
-         "md5": "2720bbe339add22ec9d49da25f655198",
          "clientReq": true,
          "serverReq": true
       },
