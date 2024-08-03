@@ -22,14 +22,6 @@
          "serverReq": false
       },
       {
-         "name": "Advanced Shaders",
-         "remote": "https://mediafilez.forgecdn.net/files/4393/223/AdvancedShader-1.0.2-1.12.2.jar",
-         "local": "advanced-shaders.jar",
-         "md5": "8a1018517f437dc809354cd6a3ca1eaf",
-         "clientReq": true,
-         "serverReq": false
-      },
-      {
          "name": "Airport Lights",
          "remote": "https://mediafilez.forgecdn.net/files/4293/352/AirPort1.12.2-%5b1.12.2%5d-2.4.6.jar",
          "local": "airport-lights.jar",
@@ -58,14 +50,6 @@
          "remote": "https://mediafilez.forgecdn.net/files/2651/554/AutoDropper-1.12.2-2.0.1.jar",
          "local": "auto-dropper.jar",
          "md5": "8c9906654a5789ac00ddee4b63957946",
-         "clientReq": true,
-         "serverReq": true
-      },
-      {
-         "name": "Better Displays",
-         "remote": "https://mediafilez.forgecdn.net/files/4284/175/BetterDisplays-1.12.2-1.1.1.jar",
-         "local": "better-displays.jar",
-         "md5": "2720bbe339add22ec9d49da25f655198",
          "clientReq": true,
          "serverReq": true
       },
@@ -550,6 +534,14 @@
          "serverReq": true
       },
       {
+         "name": "Alternating Flux",
+         "remote": "https://mediafilez.forgecdn.net/files/2693/578/alternatingflux-0.12.2-2.jar",
+         "local": "alternating-flux.jar",
+         "sha1": "bcad5acd1909953bc1f5fb42e6a5df81d4b0fd6c",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
          "name": "Immersive Vehicles",
          "remote": "https://mediafilez.forgecdn.net/files/5068/590/Immersive%20Vehicles-1.12.2-22.13.0.jar",
          "local": "iv.jar",
@@ -819,7 +811,7 @@
          "local": "optifine.jar",
          "sha1": "ab2118b1ed23444d6decf081e0295e4c679af6c2",
          "clientReq": true,
-         "serverReq": false
+         "serverReq": true
       },
       {
          "name": "PTRLib",
