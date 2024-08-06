@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "24.8.3",
+   "packVersion": "24.8.6",
    "packCustomDiscordRpc": true,
    "packUnstable": true,
    "packURL": "https://minecraft.micatechnologies.com",
@@ -119,9 +119,9 @@
       },
       {
          "name": "City Super Mod",
-         "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2024.08.03/minecraft-city-super-mod-2024.08.03.jar",
+         "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2024.08.03/minecraft-city-super-mod-2024.08.06.jar",
          "local": "city-super-mod.jar",
-         "md5": "2676a74af1847b2abbdace937695ba84",
+         "md5": "5648e9690508d1a492bf06dd8bbf3b62",
          "clientReq": true,
          "serverReq": true
       },
@@ -215,9 +215,9 @@
       },
       {
          "name": "DynMap",
-         "remote": "https://mediafilez.forgecdn.net/files/4765/880/Dynmap-3.7-beta-1-forge-1.12.2.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/5442/794/Dynmap-3.7-beta-6-forge-1.12.2.jar",
          "local": "dynmap.jar",
-         "sha1": "e00aecd812c30f9cbc7600c3f4aa4739c1af0ec5",
+         "sha1": "E2B0F2FB2B530D21ECE8E69DAC9285EB04FAAC36",
          "clientReq": false,
          "serverReq": true
       },
