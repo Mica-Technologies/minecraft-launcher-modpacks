@@ -119,7 +119,7 @@
       },
       {
          "name": "City Super Mod",
-         "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2024.08.03/minecraft-city-super-mod-2024.08.06.jar",
+         "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2024.08.06/minecraft-city-super-mod-2024.08.06.jar",
          "local": "city-super-mod.jar",
          "md5": "5648e9690508d1a492bf06dd8bbf3b62",
          "clientReq": true,
