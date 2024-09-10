@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "24.8.7",
+   "packVersion": "24.9.9",
    "packCustomDiscordRpc": true,
    "packUnstable": true,
    "packURL": "https://minecraft.micatechnologies.com",
@@ -362,6 +362,14 @@
          "remote": "https://media.forgecdn.net/files/2715/827/flatcoloredblocks-mc1.12-6.8.jar",
          "local": "flat-colored-blocks.jar",
          "sha1": "0b6ae9ad1b622a65f988c887b34f7d64a5e2562a",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "GymCraft",
+         "remote": "https://mediafilez.forgecdn.net/files/2831/46/GymCraft%201.12.2.jar",
+         "local": "gymcraft.jar",
+         "sha1": "8DB12CF1FED4EB9F1B15CE48046C3C83D652B03B",
          "clientReq": true,
          "serverReq": true
       },
