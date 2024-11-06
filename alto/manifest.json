@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "24.11.6",
+   "packVersion": "24.11.6-R2",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -577,16 +577,16 @@
          "remote": "https://cdn.modrinth.com/data/C7TiPPJz/versions/c98RPkCW/MTS%20Official%20Pack-1.12.2-V26.2.jar",
          "local": "iv-official-content-pack.jar",
          "sha1": "1C64524EA41D1AA830D4B51FDE3B86C73D480E16",
-         "clientReq": false,
-         "serverReq": false
+         "clientReq": true,
+         "serverReq": true
       },
       {
          "name": "Immersive Vehicles - City Infrastructure Pack",
          "remote": "https://cdn.modrinth.com/data/2CDGLish/versions/hwMZHY9y/City%20infrastructure%20pack%20v1.0.jar",
          "local": "iv-city-infra-pack.jar",
          "sha1": "75EB8984901046C98B12A3570F48D3BEB1661D2C",
-         "clientReq": false,
-         "serverReq": false
+         "clientReq": true,
+         "serverReq": true
       },
       {
          "name": "Item Filters",
