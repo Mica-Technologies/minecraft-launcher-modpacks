@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "24.11.6-R2",
+   "packVersion": "24.11.7-R1",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -545,6 +545,30 @@
          "remote": "https://mediafilez.forgecdn.net/files/2693/578/alternatingflux-0.12.2-2.jar",
          "local": "alternating-flux.jar",
          "sha1": "bcad5acd1909953bc1f5fb42e6a5df81d4b0fd6c",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Immersive Railroading",
+         "remote": "https://cdn.modrinth.com/data/PVCiYbMM/versions/gLzxxddY/ImmersiveRailroading-1.12.2-forge-1.10.0.jar",
+         "local": "immersive-railroading.jar",
+         "sha1": "68736F0436FB0C23F07C0D5B7954D524E371A0A1",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Track API",
+         "remote": "https://cdn.modrinth.com/data/JMOE5Khs/versions/m9gAXteZ/TrackAPI-1.2.jar",
+         "local": "track-api.jar",
+         "sha1": "E63BEE0992B0A3403D8A95EB19676CE716691C50",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Universal Mod Core",
+         "remote": "https://cdn.modrinth.com/data/SrlfFSm8/versions/RS6e8aF1/UniversalModCore-1.12.2-forge-1.2.1.jar",
+         "local": "universal-mod-core.jar",
+         "sha1": "EFE50EF6834036FC69B1AE7536921E930EA8F091",
          "clientReq": true,
          "serverReq": true
       },
