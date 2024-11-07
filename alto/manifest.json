@@ -1247,6 +1247,20 @@
          "sha1": "6b4c38023ac4cb443bfff268dc088439485eb9ba",
          "clientReq": true,
          "serverReq": false
+      },
+      {
+         "remote": "https://mediafilez.forgecdn.net/files/4127/843/biauk-voxel-track.zip",
+         "local": "immersiverailroading/biauk-voxel-track.zip",
+         "sha1": "E1CE14811745DB21E34B7FE7C840CD4BCE2725D1",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "remote": "https://cdn.modrinth.com/data/bEjdyppz/versions/jbilWSgo/Tram_pack_v2.4.2.zip",
+         "local": "immersiverailroading/Tram_pack_v2.4.2.zip",
+         "sha1": "510630B2CDCA7B065B11EF6484877CC5A505A3D8",
+         "clientReq": true,
+         "serverReq": true
       }
    ],
    "packResourcePacks": [
