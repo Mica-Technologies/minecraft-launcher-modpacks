@@ -378,7 +378,7 @@
          "local": "stadiumcraft.jar",
          "sha1": "B245B03F3351B4EF0DC9742E22ECD5D38E7D58C6",
          "clientReq": true,
-         "serverReq": true
+         "serverReq": false
       },
       {
          "name": "MineWars",
@@ -386,7 +386,7 @@
          "local": "minewars.jar",
          "sha1": "971940D58855538EE4120F4021DD91320E3BDC15",
          "clientReq": true,
-         "serverReq": true
+         "serverReq": false
       },
       {
          "name": "Flux Networks",
@@ -537,6 +537,30 @@
          "remote": "https://mediafilez.forgecdn.net/files/2830/150/Hospital%20Mod%20-%20Pharmacy%20Pack%201.12.2.jar",
          "local": "hospital-mod-pharmacy.jar",
          "sha1": "F55D68BC935BD346E17D4F2EC814594755CC695C",
+         "clientReq": true,
+         "serverReq": false
+      },
+      {
+         "name": "Immersive Railroading",
+         "remote": "https://cdn.modrinth.com/data/PVCiYbMM/versions/gLzxxddY/ImmersiveRailroading-1.12.2-forge-1.10.0.jar",
+         "local": "immersive-railroading.jar",
+         "sha1": "68736F0436FB0C23F07C0D5B7954D524E371A0A1",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Track API",
+         "remote": "https://cdn.modrinth.com/data/JMOE5Khs/versions/m9gAXteZ/TrackAPI-1.2.jar",
+         "local": "track-api.jar",
+         "sha1": "E63BEE0992B0A3403D8A95EB19676CE716691C50",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Universal Mod Core",
+         "remote": "https://cdn.modrinth.com/data/SrlfFSm8/versions/RS6e8aF1/UniversalModCore-1.12.2-forge-1.2.1.jar",
+         "local": "universal-mod-core.jar",
+         "sha1": "EFE50EF6834036FC69B1AE7536921E930EA8F091",
          "clientReq": true,
          "serverReq": true
       },
