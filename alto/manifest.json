@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "24.11.7-R1",
+   "packVersion": "24.11.8",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -517,6 +517,30 @@
          "serverReq": true
       },
       {
+         "name": "Immersive Railroading",
+         "remote": "https://cdn.modrinth.com/data/PVCiYbMM/versions/gLzxxddY/ImmersiveRailroading-1.12.2-forge-1.10.0.jar",
+         "local": "immersive-railroading.jar",
+         "sha1": "68736F0436FB0C23F07C0D5B7954D524E371A0A1",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Track API",
+         "remote": "https://cdn.modrinth.com/data/JMOE5Khs/versions/m9gAXteZ/TrackAPI-1.2.jar",
+         "local": "track-api.jar",
+         "sha1": "E63BEE0992B0A3403D8A95EB19676CE716691C50",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Universal Mod Core",
+         "remote": "https://cdn.modrinth.com/data/SrlfFSm8/versions/RS6e8aF1/UniversalModCore-1.12.2-forge-1.2.1.jar",
+         "local": "universal-mod-core.jar",
+         "sha1": "EFE50EF6834036FC69B1AE7536921E930EA8F091",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
          "name": "Immersive Engineering",
          "remote": "https://media.forgecdn.net/files/2974/106/ImmersiveEngineering-0.12-98.jar",
          "local": "immersive-engineering.jar",
@@ -545,30 +569,6 @@
          "remote": "https://mediafilez.forgecdn.net/files/2693/578/alternatingflux-0.12.2-2.jar",
          "local": "alternating-flux.jar",
          "sha1": "bcad5acd1909953bc1f5fb42e6a5df81d4b0fd6c",
-         "clientReq": true,
-         "serverReq": true
-      },
-      {
-         "name": "Immersive Railroading",
-         "remote": "https://cdn.modrinth.com/data/PVCiYbMM/versions/gLzxxddY/ImmersiveRailroading-1.12.2-forge-1.10.0.jar",
-         "local": "immersive-railroading.jar",
-         "sha1": "68736F0436FB0C23F07C0D5B7954D524E371A0A1",
-         "clientReq": true,
-         "serverReq": true
-      },
-      {
-         "name": "Track API",
-         "remote": "https://cdn.modrinth.com/data/JMOE5Khs/versions/m9gAXteZ/TrackAPI-1.2.jar",
-         "local": "track-api.jar",
-         "sha1": "E63BEE0992B0A3403D8A95EB19676CE716691C50",
-         "clientReq": true,
-         "serverReq": true
-      },
-      {
-         "name": "Universal Mod Core",
-         "remote": "https://cdn.modrinth.com/data/SrlfFSm8/versions/RS6e8aF1/UniversalModCore-1.12.2-forge-1.2.1.jar",
-         "local": "universal-mod-core.jar",
-         "sha1": "EFE50EF6834036FC69B1AE7536921E930EA8F091",
          "clientReq": true,
          "serverReq": true
       },
@@ -849,6 +849,14 @@
          "remote": "https://optifine.net/download?f=preview_OptiFine_1.12.2_HD_U_G6_pre1.jar",
          "local": "optifine.jar",
          "sha1": "ab2118b1ed23444d6decf081e0295e4c679af6c2",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "OpenComputers",
+         "remote": "https://mediafilez.forgecdn.net/files/5741/939/OpenComputers-MC1.12.2-1.8.6%2Bcd8851e.jar",
+         "local": "opencomputers.jar",
+         "sha1": "FBD297D36827876C67B00D574D5E1D341C15373E",
          "clientReq": true,
          "serverReq": true
       },
