@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "24.11.8-T1",
+   "packVersion": "24.11.12-T1",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -1267,6 +1267,20 @@
          "remote": "https://cdn.modrinth.com/data/bEjdyppz/versions/jbilWSgo/Tram_pack_v2.4.2.zip",
          "local": "immersiverailroading/Tram_pack_v2.4.2.zip",
          "sha1": "510630B2CDCA7B065B11EF6484877CC5A505A3D8",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "remote": "https://mediafilez.forgecdn.net/files/3912/26/Amtrak%2B.zip",
+         "local": "immersiverailroading/Amtrak+.zip",
+         "sha1": "750DC0391F9643F36E00E69C5D20FC62F0829D4F",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "remote": "https://mediafilez.forgecdn.net/files/3904/341/Surfliners%20Lite.zip",
+         "local": "immersiverailroading/Surfliners-Lite.zip",
+         "sha1": "C377EDB48B4F92FFA7BC332D68728483602F6F22",
          "clientReq": true,
          "serverReq": true
       }
