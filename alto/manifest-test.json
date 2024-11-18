@@ -670,9 +670,9 @@
       },
       {
          "name": "LittleTiles",
-         "remote": "https://mediafilez.forgecdn.net/files/4722/161/LittleTiles_v1.5.81_mc1.12.2.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/5180/387/LittleTiles_v1.5.87_mc1.12.2.jar",
          "local": "little-tiles.jar",
-         "sha1": "4452839c4dc6b8e728e875a920978743600bc0f3",
+         "sha1": "F77D34DDD13CAEB4781908443F73E51B9118FE60",
          "clientReq": true,
          "serverReq": true
       },

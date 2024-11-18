@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "24.11.12",
+   "packVersion": "24.11.18",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -169,6 +169,14 @@
          "remote": "https://mediafilez.forgecdn.net/files/4722/163/CreativeCore_v1.10.71_mc1.12.2.jar",
          "local": "creative-core.jar",
          "sha1": "2c60a20ae9c9431a3b215a331c2b2af7fa3a060c",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "A Little Extra Tiles",
+         "remote": "https://cdn.modrinth.com/data/NWquC4YJ/versions/Nni7C3fG/A_Little_Extra_Tiles-1.1.0-pre034.jar",
+         "local": "a-little-extra-tiles.jar",
+         "sha1": "CEE0BE1E7970DCBE4E9FF94B8427D79A975B92AC",
          "clientReq": true,
          "serverReq": true
       },
@@ -662,9 +670,9 @@
       },
       {
          "name": "LittleTiles",
-         "remote": "https://mediafilez.forgecdn.net/files/4722/161/LittleTiles_v1.5.81_mc1.12.2.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/5180/387/LittleTiles_v1.5.87_mc1.12.2.jar",
          "local": "little-tiles.jar",
-         "sha1": "4452839c4dc6b8e728e875a920978743600bc0f3",
+         "sha1": "F77D34DDD13CAEB4781908443F73E51B9118FE60",
          "clientReq": true,
          "serverReq": true
       },
