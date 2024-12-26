@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "24.12.9-T1",
+   "packVersion": "24.12.26",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -317,6 +317,22 @@
          "serverReq": true
       },
       {
+         "name": "EnderIO",
+         "remote": "https://cdn.modrinth.com/data/49ZofO4f/versions/ozde4Meh/EnderIO-1.12.2-5.3.72.jar",
+         "local": "enderio.jar",
+         "sha1": "60d62a0dab5b12c527fd8eda1d353888e3406175",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "EnderCore",
+         "remote": "https://cdn.modrinth.com/data/oJcFXakG/versions/ObLYMdMS/EnderCore-1.12.2-0.5.78.jar",
+         "local": "endercore.jar",
+         "sha1": "96c2389a5fdb2968cd69fc80b478a9a0b0ecc441",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
          "name": "FPS Reducer",
          "remote": "https://cdn-raw.modrinth.com/data/iZ10HXDj/versions/UX5XQGgU/FpsReducer-mc1.12.2-1.20.jar",
          "local": "fps-reducer.jar",
@@ -345,14 +361,6 @@
          "remote": "https://mediafilez.forgecdn.net/files/3157/548/FTBUtilities-5.4.1.131.jar",
          "local": "ftb-utilities.jar",
          "md5": "94775ab675e0204523c9f267976b70d5",
-         "clientReq": true,
-         "serverReq": true
-      },
-      {
-         "name": "Fancy Fluid Storage",
-         "remote": "https://mediafilez.forgecdn.net/files/2723/382/Fancy+Fluid+Storage-1.12.2-2.2.5.jar",
-         "local": "ffs.jar",
-         "md5": "242d54caf573c013c98168b2df984294",
          "clientReq": true,
          "serverReq": true
       },
@@ -651,14 +659,6 @@
          "sha1": "d8853dbd60fd050709d2d687d875cb0d93806e92",
          "clientReq": true,
          "serverReq": false
-      },
-      {
-         "name": "Lag Goggles",
-         "remote": "https://media.forgecdn.net/files/2901/775/LagGoggles-FAT-1.12.2-4.11-92.jar",
-         "local": "lag-goggles.jar",
-         "sha1": "06a589901d3e2bf0dda2c4a2fe2b84344a6c5940",
-         "clientReq": true,
-         "serverReq": true
       },
       {
          "name": "LittleFrames",
