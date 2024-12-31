@@ -1,6 +1,6 @@
 {
    "packName": "Alto_TEST",
-   "packVersion": "24.12.26",
+   "packVersion": "24.12.31",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -301,6 +301,14 @@
          "serverReq": true
       },
       {
+         "name": "Energy Converters",
+         "remote": "https://mediafilez.forgecdn.net/files/2992/813/energyconverters_1.12.2-1.3.7.30.jar",
+         "local": "energy-converters.jar",
+         "sha1": "EC35D6517E2A819FDF6C1413812D66159EF889C2",
+         "clientReq": false,
+         "serverReq": true
+      },
+      {
          "name": "Evergreen HUD",
          "remote": "https://cdn.modrinth.com/data/1yIQcc2b/versions/fTTqWRbH/EvergreenHUD-1.12.2-forge-2.1.4.jar",
          "local": "evergreen-hud.jar",
@@ -438,9 +446,9 @@
       },
       {
          "name": "Forge Essentials Server",
-         "remote": "https://cdn-raw.modrinth.com/data/jnuVxwKf/versions/yMc2SV5d/forgeessentials-1.12.2-12.4.126-server.jar",
+         "remote": "https://cdn.modrinth.com/data/jnuVxwKf/versions/4MXrB09k/forgeessentials-1.12.2-12.5.0-server.jar",
          "local": "forge-essentials-server.jar",
-         "sha1": "646d967f0827be17bff96963d49753b71b95b3db",
+         "sha1": "F0668AFF01B1545F8176977CD9D006582704777F",
          "clientReq": false,
          "serverReq": true
       },
