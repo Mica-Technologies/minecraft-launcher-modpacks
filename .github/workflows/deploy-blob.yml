@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository Contents
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       - name: Remove Git Folders and Files Before Upload
         run: rm -rf .git .github .gitignore .gitattributes
       - name: Upload Repository Contents to Blob Storage
