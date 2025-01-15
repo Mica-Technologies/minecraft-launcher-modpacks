@@ -994,7 +994,7 @@
          "local": "serverpauser.jar",
          "sha1": "81C8A1EE6EB2730AF62BCAA30CB45671987A98BB",
          "clientReq": false,
-         "serverReq": false
+         "serverReq": true
       },
       {
          "name": "SimpleLogic Gates",
