@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "25.1.2",
+   "packVersion": "25.2.8",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -654,9 +654,9 @@
       },
       {
          "name": "Roughly Enough IDs",
-         "remote": "https://mediafilez.forgecdn.net/files/4949/840/RoughlyEnoughIDs-2.0.7.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/5502/915/RoughlyEnoughIDs-2.2.1.jar",
          "local": "roughly-enough-ids.jar",
-         "sha1": "2481e17caf8da18e6e3d8350741f191a21dd63ad",
+         "sha1": "1B0E8D32E482398BC878C5341DC5E06FAACEC9DF",
          "clientReq": true,
          "serverReq": true
       },
