@@ -1,6 +1,6 @@
 {
-   "packName": "Alto_TEST",
-   "packVersion": "25.2.18",
+   "packName": "Alto",
+   "packVersion": "25.3.14",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -248,17 +248,17 @@
          "name": "DynamX Basics Add-On",
          "remote": "https://dynamx.fr/download/addons/619ffa207495b0fd666a58ff/BasicsAddon-1.0.8-for-DynamX-4.0.1.jar",
          "local": "dynamx-basics.jar",
-         "sha1": "8DD2A8B4229B594C1CD289B0251FCC4CB08FFA37",
-         "clientReq": true,
-         "serverReq": true
+         "sha1": "8dd2a8b4229b594c1cd289b0251fcc4cb08ffa37",
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "name": "DynamX Physics Mod",
-         "remote": "https://mediafilez.forgecdn.net/files/5197/888/DynamX-4.0.2-all.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/4756/674/DynamX-4.0.2-all.jar",
          "local": "dynamx.jar",
          "sha1": "4A3167B96A48E21F32AE69C16FBC0256F195B9C6",
-         "clientReq": true,
-         "serverReq": true
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "name": "Ears",
@@ -310,9 +310,9 @@
       },
       {
          "name": "Evergreen HUD",
-         "remote": "https://cdn.modrinth.com/data/1yIQcc2b/versions/fTTqWRbH/EvergreenHUD-1.12.2-forge-2.1.4.jar",
+         "remote": "https://cdn.modrinth.com/data/1yIQcc2b/versions/vdhjeVdh/EvergreenHUD-1.12.2-forge-2.1.7.jar",
          "local": "evergreen-hud.jar",
-         "sha1": "93b2602e24438c39e05e4d08f3d845c4270778d2",
+         "sha1": "05D2892C48FBC6D09D9FE753C400588111E65BBB",
          "clientReq": true,
          "serverReq": true
       },
@@ -1339,23 +1339,23 @@
       {
          "remote": "https://dynamx.fr/download/packs/6127730fbd08ee57b1f3e97d/DartcherDynamX-BasicPack-4.0.dnxpack",
          "local": "DynamX/DartcherDynamX-BasicPack-4.0.dnxpack",
-         "sha1": "E40C6DE132D0FABB11775AEBB66CF374EC8FAB5F",
-         "clientReq": true,
-         "serverReq": true
+         "sha1": "e40c6de132d0fabb11775aebb66cf374ec8fab5f",
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "remote": "https://dynamx.fr/download/packs/6147792f4421363350817fba/DartcherPoliceGlobal-4.0.dnxpack",
          "local": "DynamX/DartcherPoliceGlobal-4.0.dnxpack",
-         "sha1": "67555CFDEAFE453DD132CFCFF8A323CAF8975935",
-         "clientReq": true,
-         "serverReq": true
+         "sha1": "67555cfdeafe453dd132cfcff8a323caf8975935",
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "remote": "https://dynamx.fr/download/packs/618ae6c6698ff350f0cc5312/KabPack_Classic-4.0.dnxpack",
          "local": "DynamX/KabPack_Classic-4.0.dnxpack",
-         "sha1": "34ED9117E85DC8002DB5A3E1CB55B348826F4833",
-         "clientReq": true,
-         "serverReq": true
+         "sha1": "34ed9117e85dc8002db5a3e1cb55b348826f4833",
+         "clientReq": false,
+         "serverReq": false
       },
       {
          "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/coordinates.json",
