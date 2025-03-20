@@ -518,17 +518,17 @@
       },
       {
          "name": "Alfheim",
-         "remote": "https://cdn.modrinth.com/data/srzJgOEn/versions/wjgtKbab/Alfheim-1.4.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/6182/667/Alfheim-1.5.jar",
          "local": "alfheim.jar",
-         "sha1": "3F0DB29F174B28AE23E3F72C12ADB3A7CB716B8B",
+         "md5": "b41e58f26cf7519466f707df3eb230ac",
          "clientReq": true,
          "serverReq": true
       },
       {
          "name": "Red Core",
-         "remote": "https://cdn.modrinth.com/data/iRzbJEus/versions/EgeSQe7e/%21Red-Core-MC-1.7-1.12-0.5.1.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/6147/102/%21Red-Core-MC-1.8-1.12-0.6.jar",
          "local": "!red-core.jar",
-         "sha1": "7b948311155c1ba8d3f2b1a18a1caa751f1925d0",
+         "sha1": "AC72EE1E7777A3F20ACE120C301FDE68A3DFEA23",
          "clientReq": true,
          "serverReq": true
       },
@@ -878,9 +878,9 @@
       },
       {
          "name": "OpenComputers",
-         "remote": "https://mediafilez.forgecdn.net/files/5741/939/OpenComputers-MC1.12.2-1.8.6%2Bcd8851e.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/6057/571/OpenComputers-MC1.12.2-1.8.7%2B2502094.jar",
          "local": "opencomputers.jar",
-         "sha1": "FBD297D36827876C67B00D574D5E1D341C15373E",
+         "sha1": "DC01AB1703CA2A2BB3BB2163287DE96A1418457A",
          "clientReq": true,
          "serverReq": true
       },
@@ -1041,6 +1041,14 @@
          "remote": "https://media.forgecdn.net/files/3050/838/SolarFluxReborn-1.12.2-12.4.11.jar",
          "local": "solar-flux-reborn.jar",
          "sha1": "521624CBD22F7DCEF0DDC9F9F0898B2368439404",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Spark",
+         "remote": "https://mediafilez.forgecdn.net/files/3245/793/spark-forge1122.jar",
+         "local": "spark.jar",
+         "sha1": "6EA08FC3F82535F37A76F2E7340D239E64E40489",
          "clientReq": true,
          "serverReq": true
       },
