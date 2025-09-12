@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "25.9.07",
+   "packVersion": "25.9.12",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -481,6 +481,14 @@
          "remote": "https://mediafilez.forgecdn.net/files/4739/890/Furenikus_Roads_Extra_Black-1.0.jar",
          "local": "furenikus-roads-black-paint-plugin.jar",
          "sha1": "5919873b1fec0e9cafee44c342ddb79598b0f056",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
+         "name": "Realistic Road Aging Addon for Furenikus Roads",
+         "remote": "https://cdn.modrinth.com/data/lsqdJwxa/versions/yKP7u7yp/roadageadddon-1.1.3.jar",
+         "local": "roadageaddon.jar",
+         "sha1": "C7D6F2A953CEE71EED2635FE345F15B94C74CF7D",
          "clientReq": true,
          "serverReq": true
       },
