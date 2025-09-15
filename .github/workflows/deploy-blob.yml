@@ -26,8 +26,8 @@ jobs:
       - name: Sync Repository Contents to Azure Blob Storage
         run: |
           az storage blob sync \
-            --account-name micauseaststorage \
-            --container mc-launcher-api \
+            --account-name ${{ secrets.AZURE_BLOB_ACCOUNT_NAME }} \
+            --container ${{ secrets.AZURE_BLOB_CONTAINER_NAME }} \
             --source . \
             --delete-destination true \
             --only-show-errors
