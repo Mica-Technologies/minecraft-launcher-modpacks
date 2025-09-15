@@ -9,12 +9,23 @@ jobs:
     steps:
       - name: Checkout Repository Contents
         uses: actions/checkout@v4
+
       - name: Remove Git Folders and Files Before Upload
         run: rm -rf .git .github .gitignore .gitattributes
-      - name: Upload Repository Contents to Blob Storage
-        uses: bacongobbler/azure-blob-storage-upload@main
-        with:
-          source_dir: ./
-          container_name: mc-launcher-api
-          connection_string: ${{ secrets.ConnectionString }}
-          sync: 'true'
+
+      - name: Install Azure CLI
+        run: |
+          if ! command -v az &> /dev/null; then
+            curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+          fi
+
+      - name: Sync Repository Contents to Azure Blob Storage
+        env:
+          AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.ConnectionString }}
+        run: |
+          az storage blob sync \
+            --connection-string "$AZURE_STORAGE_CONNECTION_STRING" \
+            --container mc-launcher-api \
+            --source . \
+            --delete-destination true \
+            --only-show-errors
