@@ -6,6 +6,9 @@ on:
 jobs:
   upload:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
     steps:
       - name: Checkout Repository Contents
         uses: actions/checkout@v4
@@ -13,16 +16,17 @@ jobs:
       - name: Remove Git Folders and Files Before Upload
         run: rm -rf .git .github .gitignore .gitattributes
 
-      - name: Install Azure CLI
-        run: |
-          if ! command -v az &> /dev/null; then
-            curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
-          fi
+      - name: Azure CLI Login
+        uses: azure/login@v2
+        with:
+          client-id: ${{ secrets.AZURE_CLIENT_ID }}
+          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
+          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
       - name: Sync Repository Contents to Azure Blob Storage
         run: |
           az storage blob sync \
-            --connection-string "${{ secrets.CONNECTIONSTRING }}" \
+            --account-name micauseaststorage \
             --container mc-launcher-api \
             --source . \
             --delete-destination true \
