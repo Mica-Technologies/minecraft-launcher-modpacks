@@ -15,11 +15,11 @@ jobs:
 
       - name: Debug Check Connection String Length
         run: |
-          if [ -z "${{ secrets.ConnectionString }}" ]; then
+          if [ -z "${{ secrets.CONNECTIONSTRING }}" ]; then
             echo "Connection string is NOT set!"
             exit 1
           else
-            echo "Connection string is set and has length: ${#CONNECTION_STRING}"
+            echo "Connection string is set and has length: ${#{{ secrets.CONNECTIONSTRING }} }"
           fi
 
       - name: Install Azure CLI
@@ -31,7 +31,7 @@ jobs:
       - name: Sync Repository Contents to Azure Blob Storage
         run: |
           az storage blob sync \
-            --connection-string "${{ secrets.ConnectionString }}" \
+            --connection-string "${{ secrets.CONNECTIONSTRING }}" \
             --container mc-launcher-api \
             --source . \
             --delete-destination true \
