@@ -13,15 +13,6 @@ jobs:
       - name: Remove Git Folders and Files Before Upload
         run: rm -rf .git .github .gitignore .gitattributes
 
-      - name: Debug Check Connection String Length
-        run: |
-          if [ -z "${{ secrets.CONNECTIONSTRING }}" ]; then
-            echo "Connection string is NOT set!"
-            exit 1
-          else
-            echo "Connection string is set and has length: ${#{{ secrets.CONNECTIONSTRING }} }"
-          fi
-
       - name: Install Azure CLI
         run: |
           if ! command -v az &> /dev/null; then
