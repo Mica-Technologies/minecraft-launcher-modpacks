@@ -13,6 +13,15 @@ jobs:
       - name: Remove Git Folders and Files Before Upload
         run: rm -rf .git .github .gitignore .gitattributes
 
+      - name: Debug Check Connection String Length
+        run: |
+          if [ -z "${{ secrets.ConnectionString }}" ]; then
+            echo "Connection string is NOT set!"
+            exit 1
+          else
+            echo "Connection string is set and has length: ${#CONNECTION_STRING}"
+          fi
+
       - name: Install Azure CLI
         run: |
           if ! command -v az &> /dev/null; then
@@ -20,11 +29,9 @@ jobs:
           fi
 
       - name: Sync Repository Contents to Azure Blob Storage
-        env:
-          AZURE_STORAGE_CONNECTION_STRING: ${{ secrets.ConnectionString }}
         run: |
           az storage blob sync \
-            --connection-string "$AZURE_STORAGE_CONNECTION_STRING" \
+            --connection-string "${{ secrets.ConnectionString }}" \
             --container mc-launcher-api \
             --source . \
             --delete-destination true \
