@@ -30,4 +30,5 @@ jobs:
             --container ${{ secrets.AZURE_BLOB_CONTAINER_NAME }} \
             --source . \
             --delete-destination true \
-            --only-show-errors
+            --only-show-errors \
+            --auth-mode login
