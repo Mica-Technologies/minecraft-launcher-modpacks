@@ -1,12 +1,12 @@
 {
    "packName": "Alto",
-   "packVersion": "25.9.25",
+   "packVersion": "25.10.16",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
    "packLogoSha1": "54787d3bf0957c79da8b9e097be07616d8244b0e",
-   "packBackgroundURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/backgroundA.png",
-   "packBackgroundSha1": "598066ba3030ac098836ee4a8e1996a3d77f3b0e",
+   "packBackgroundURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/backgroundB.png",
+   "packBackgroundSha1": "937d0448e7bc1f943f8463c71b9530388fc7e50d",
    "packMinRAMGB": "6",
    "packForgeURL": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar",
    "packForgeHash": "8328b395bb26bab70f818126ebe6a75772d39ce4",
@@ -606,9 +606,9 @@
       },
       {
          "name": "Lag Goggles",
-         "remote": "https://media.forgecdn.net/files/2901/775/LagGoggles-FAT-1.12.2-4.11-92.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/2901/775/LagGoggles-FAT-1.12.2-4.11-92.jar",
          "local": "lag-goggles.jar",
-         "sha1": "06a589901d3e2bf0dda2c4a2fe2b84344a6c5940",
+         "sha1": "06A589901D3E2BF0DDA2C4A2FE2B84344A6C5940",
          "clientReq": true,
          "serverReq": true
       },
