@@ -1,6 +1,6 @@
 {
    "packName": "Alto",
-   "packVersion": "25.10.16",
+   "packVersion": "25.10.30",
    "packCustomDiscordRpc": true,
    "packURL": "https://minecraft.micatechnologies.com",
    "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -493,6 +493,14 @@
          "serverReq": true
       },
       {
+         "name": "Realistic Road Aging Addon for Furenikus Roads",
+         "remote": "https://cdn.modrinth.com/data/lsqdJwxa/versions/Nv3pxLtV/roadageadddon-1.1.4.jar",
+         "local": "roadageaddon.jar",
+         "sha1": "05717b4b5d407830ae7c3528e8fb31b5c586e017",
+         "clientReq": true,
+         "serverReq": true
+      },
+      {
          "name": "Future MC",
          "remote": "https://cdn.modrinth.com/data/dKv1FGT7/versions/DHdJ5LFT/Future-MC-0.2.20.jar",
          "local": "future-mc.jar",
@@ -526,9 +534,9 @@
       },
       {
          "name": "Alfheim",
-         "remote": "https://mediafilez.forgecdn.net/files/6182/667/Alfheim-1.5.jar",
+         "remote": "https://mediafilez.forgecdn.net/files/6687/458/Alfheim-1.6.jar",
          "local": "alfheim.jar",
-         "md5": "b41e58f26cf7519466f707df3eb230ac",
+         "md5": "07e2884b1c7f91022d05070e479dbf39",
          "clientReq": true,
          "serverReq": true
       },
@@ -830,9 +838,9 @@
       },
       {
          "name": "MixinBooter",
-         "remote": "https://cdn.modrinth.com/data/G1ckZuWK/versions/GEHDdI8D/%21mixinbooter-9.4.jar",
-         "local": "!mixinbooter-9.4.jar",
-         "sha1": "9B3A847AAFA0F598E642C824F3764E2F1DB6BE1A",
+         "remote": "https://mediafilez.forgecdn.net/files/7049/694/%21mixinbooter-10.7.jar",
+         "local": "!mixinbooter-10.7.jar",
+         "sha1": "3fdfffe4fd446461ea9c3cb044484588997b9dbc",
          "clientReq": true,
          "serverReq": true
       },
