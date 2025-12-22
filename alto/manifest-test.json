@@ -607,6 +607,30 @@
       "serverReq": true
     },
     {
+      "name": "Immersive Vehicles - UNU Civilian Pack",
+      "remote": "https://cdn.modrinth.com/data/POSZjYIb/versions/c52MxCL1/UNU%20Civilian%20Pack%20%5BMTS%5D%201.12.2-22.13.0-6.3.0.jar",
+      "local": "unu-civilian-pack.jar",
+      "sha1": "3148de6899a69fb683a94f86ece77f5548ae2784",
+      "clientReq": true,
+      "serverReq": true
+    },
+    {
+      "name": "Immersive Vehicles - UNU DKZ Industries Pack",
+      "remote": "https://mediafilez.forgecdn.net/files/4643/332/DKZ_Industries-AdamRK_Heavy_Industrial-3.2.0-2.2.0.jar",
+      "local": "unu-dkz-industries-pack.jar",
+      "sha1": "87b5802549846c81fde2dc889a0c8b106399dc2f",
+      "clientReq": true,
+      "serverReq": true
+    },
+    {
+      "name": "Immersive Vehicles - UNU Parts Pack",
+      "remote": "https://cdn.modrinth.com/data/qqbbPaeB/versions/Ds0EW9Zr/UNU%20Parts%20Pack%20%5BMTS%5D%201.12.2-22.13.0-6.5.0.jar",
+      "local": "unu-parts-pack.jar",
+      "sha1": "14cdeb2302d8e5d62d568bae17caf983c0bc358f",
+      "clientReq": true,
+      "serverReq": true
+    },
+    {
       "name": "Item Filters",
       "remote": "https://mediafilez.forgecdn.net/files/3003/364/ItemFilters-1.0.4.2.jar",
       "local": "item-filters.jar",
@@ -976,17 +1000,17 @@
     },
     {
       "name": "Roughly Enough IDs",
-      "remote": "https://mediafilez.forgecdn.net/files/5502/915/RoughlyEnoughIDs-2.2.1.jar",
+      "remote": "https://cdn.modrinth.com/data/sDhbZgv7/versions/i0VjhMqU/RoughlyEnoughIDs-2.2.3.jar",
       "local": "roughly-enough-ids.jar",
-      "sha1": "1B0E8D32E482398BC878C5341DC5E06FAACEC9DF",
+      "sha1": "e3c190b24d9e931c8cfbaca289761106a21219af",
       "clientReq": true,
       "serverReq": true
     },
     {
       "name": "Security Craft",
-      "remote": "https://cdn.modrinth.com/data/v8jzRtAt/versions/qNMlBLvj/%5B1.12.2%5D%20SecurityCraft%20v1.9.11.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/7148/537/%5B1.12.2%5D%20SecurityCraft%20v1.10.1.jar",
       "local": "security-craft.jar",
-      "sha1": "D225040E4D2A0DB0885971741BCB6101BCFD14EA",
+      "sha1": "47532d6720f2309b815253936d79c1f29986de19",
       "clientReq": true,
       "serverReq": true
     },
@@ -1111,30 +1135,6 @@
       "serverReq": true
     },
     {
-      "name": "UNU Civilian Pack",
-      "remote": "https://cdn.modrinth.com/data/POSZjYIb/versions/c52MxCL1/UNU%20Civilian%20Pack%20%5BMTS%5D%201.12.2-22.13.0-6.3.0.jar",
-      "local": "unu-civilian-pack.jar",
-      "sha1": "3148de6899a69fb683a94f86ece77f5548ae2784",
-      "clientReq": true,
-      "serverReq": true
-    },
-    {
-      "name": "UNU DKZ Industries Pack",
-      "remote": "https://mediafilez.forgecdn.net/files/4643/332/DKZ_Industries-AdamRK_Heavy_Industrial-3.2.0-2.2.0.jar",
-      "local": "unu-dkz-industries-pack.jar",
-      "sha1": "87b5802549846c81fde2dc889a0c8b106399dc2f",
-      "clientReq": true,
-      "serverReq": true
-    },
-    {
-      "name": "UNU Parts Pack",
-      "remote": "https://cdn.modrinth.com/data/qqbbPaeB/versions/Ds0EW9Zr/UNU%20Parts%20Pack%20%5BMTS%5D%201.12.2-22.13.0-6.5.0.jar",
-      "local": "unu-parts-pack.jar",
-      "sha1": "14cdeb2302d8e5d62d568bae17caf983c0bc358f",
-      "clientReq": true,
-      "serverReq": true
-    },
-    {
       "name": "UniLib",
       "remote": "https://cdn.modrinth.com/data/nT86WUER/versions/dZnEGbvX/UniLib-1.2.0%2B1.12.2-forge.jar",
       "local": "unilib.jar",
@@ -1144,9 +1144,9 @@
     },
     {
       "name": "Universal Mod Core",
-      "remote": "https://cdn.modrinth.com/data/SrlfFSm8/versions/RS6e8aF1/UniversalModCore-1.12.2-forge-1.2.1.jar",
+      "remote": "https://cdn.modrinth.com/data/SrlfFSm8/versions/FeaNDEBf/UniversalModCore-1.12.2-forge-1.2.2-3d12767.jar",
       "local": "universal-mod-core.jar",
-      "sha1": "EFE50EF6834036FC69B1AE7536921E930EA8F091",
+      "sha1": "121373e21938874a4cc44dc8057994e27df87ff5",
       "clientReq": true,
       "serverReq": true
     },
