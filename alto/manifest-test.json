@@ -1,6 +1,6 @@
 {
   "packName": "Alto_TEST",
-  "packVersion": "25.12.22",
+  "packVersion": "25.12.22.0227",
   "packCustomDiscordRpc": true,
   "packURL": "https://minecraft.micatechnologies.com",
   "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -221,6 +221,14 @@
       "sha1": "2c60a20ae9c9431a3b215a331c2b2af7fa3a060c",
       "clientReq": true,
       "serverReq": true
+    },
+    {
+      "name": "Custom Loading Screen",
+      "remote": "https://mediafilez.forgecdn.net/files/6771/73/CustomLoadingScreen-1.12.2-1.5.9.jar",
+      "local": "custom-loading-screen.jar",
+      "sha1": "f9a08f9d38624a794b86d33c5f786ab45755e066",
+      "clientReq": true,
+      "serverReq": false
     },
     {
       "name": "Custom Main Menu",
@@ -839,14 +847,6 @@
       "serverReq": true
     },
     {
-      "name": "Modern Splash",
-      "remote": "https://mediafilez.forgecdn.net/files/6501/489/modernsplash-1.4.0.jar",
-      "local": "modern-splash.jar",
-      "sha1": "bdcf9fa0bd36771cd0ed88609a3a8d6f09ec9086",
-      "clientReq": true,
-      "serverReq": false
-    },
-    {
       "name": "Moving Elevators",
       "remote": "https://cdn.modrinth.com/data/9KZOe6HD/versions/Hdx5T0I4/movingelevators-1.4.11-forge-mc1.12.jar",
       "local": "moving-elevators.jar",
@@ -1294,9 +1294,16 @@
       "serverReq": true
     },
     {
-      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/randompatches.cfg",
-      "local": "randompatches.cfg",
-      "sha1": "24e59d9149a72b9b23a04550d32c51576a2cf07e",
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/Universal-Tweaks---Tweaks.cfg",
+      "local": "Universal Tweaks - Tweaks.cfg",
+      "sha1": "bbf1ab52e97d35105668ac73345d6498e4c81581",
+      "clientReq": true,
+      "serverReq": true
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/splash.properties",
+      "local": "splash.properties",
+      "sha1": "5f7d7f39015001acb85c1582f6cdf0ad93a88018",
       "clientReq": true,
       "serverReq": true
     },
