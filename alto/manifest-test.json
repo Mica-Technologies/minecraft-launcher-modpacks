@@ -568,25 +568,25 @@
     },
     {
       "name": "Immersive Vehicles",
-      "remote": "https://cdn.modrinth.com/data/BCzBuhJ5/versions/P1Yc0Wmo/Immersive%20Vehicles-1.12.2-22.17.0.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/6820/628/Immersive%20Vehicles-1.12.2-22.18.0-pre.jar",
       "local": "iv.jar",
-      "sha1": "0231ED3CA68C969A9672F4DB8EE8DDEE14696E59",
+      "sha1": "709870c406e6cc43ce2e5d883defb141ac7a6d95",
       "clientReq": true,
       "serverReq": true
     },
     {
       "name": "Immersive Vehicles - American Signs and Signals Pack",
-      "remote": "https://mediafilez.forgecdn.net/files/4172/50/AmericanSignsSignalsPack0.7.1.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/6018/187/AmericanSignsSignalsPack0.9.1.jar",
       "local": "iv-american-signs-sigs-pack.jar",
-      "md5": "128d74b7e22b88dd1f20e416128589c0",
+      "md5": "936d0343ab62830e1c3dc6fc9b9c3fb87ee378b2",
       "clientReq": true,
       "serverReq": true
     },
     {
       "name": "Immersive Vehicles - City Infrastructure Pack",
-      "remote": "https://cdn.modrinth.com/data/2CDGLish/versions/hwMZHY9y/City%20infrastructure%20pack%20v1.0.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/6084/494/City%20infrastructure%20pack%20v1.1.jar",
       "local": "iv-city-infra-pack.jar",
-      "sha1": "75EB8984901046C98B12A3570F48D3BEB1661D2C",
+      "sha1": "740bc216b825a9aa5817dbe7cb7b7f5d2114af71",
       "clientReq": true,
       "serverReq": true
     },
@@ -600,17 +600,17 @@
     },
     {
       "name": "Immersive Vehicles - Official Content Pack",
-      "remote": "https://cdn.modrinth.com/data/C7TiPPJz/versions/c98RPkCW/MTS%20Official%20Pack-1.12.2-V26.2.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/7034/828/MTS%20Official%20Pack-1.12.2-V28.2.jar",
       "local": "iv-official-content-pack.jar",
-      "sha1": "1C64524EA41D1AA830D4B51FDE3B86C73D480E16",
+      "sha1": "b6a1f7d06acc1c579bd76e4ec3c98c08b02d6d97",
       "clientReq": true,
       "serverReq": true
     },
     {
       "name": "Immersive Vehicles - UNU Civilian Pack",
-      "remote": "https://cdn.modrinth.com/data/POSZjYIb/versions/c52MxCL1/UNU%20Civilian%20Pack%20%5BMTS%5D%201.12.2-22.13.0-6.3.0.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/7064/124/UNU%20Civilian%20Pack%20%5BMTS%5D%201.12.2-22.18.0-6.7.1.jar",
       "local": "unu-civilian-pack.jar",
-      "sha1": "3148de6899a69fb683a94f86ece77f5548ae2784",
+      "sha1": "73d21d0260574ab4bedc96b9b1959ac58b3bd23f",
       "clientReq": true,
       "serverReq": true
     },
@@ -624,9 +624,9 @@
     },
     {
       "name": "Immersive Vehicles - UNU Parts Pack",
-      "remote": "https://cdn.modrinth.com/data/qqbbPaeB/versions/Ds0EW9Zr/UNU%20Parts%20Pack%20%5BMTS%5D%201.12.2-22.13.0-6.5.0.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/7064/123/UNU%20Parts%20Pack%20%5BMTS%5D%201.12.2-22.18.0-6.7.3.jar",
       "local": "unu-parts-pack.jar",
-      "sha1": "14cdeb2302d8e5d62d568bae17caf983c0bc358f",
+      "sha1": "4ea0c9e0c6d221d758e0556389fbf925b6e248dc",
       "clientReq": true,
       "serverReq": true
     },
@@ -1168,9 +1168,9 @@
     },
     {
       "name": "Weather 2 - Remastered",
-      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/W2R/Weather2Remastered-1.12.2-2.8.14.jar",
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/W2R/Weather2Remastered-1.12.2-2.9.10.jar",
       "local": "weather2-remastered.jar",
-      "sha1": "653e53223d6051de32807e77367e8df68cd64212",
+      "sha1": "87fbe5b5b4f6fc945c31f04aae005a1f6ab17193",
       "clientReq": true,
       "serverReq": true
     },
