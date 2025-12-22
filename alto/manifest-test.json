@@ -336,9 +336,9 @@
     },
     {
       "name": "Energy Control",
-      "remote": "https://mediafilez.forgecdn.net/files/6651/814/EnergyControl-1.7.10-0.3.7.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/5114/551/EnergyControl-1.12.2-0.3.2.jar",
       "local": "energy-control.jar",
-      "sha1": "8b6abba148e9cb318e619ce10bca04a3352fd764",
+      "sha1": "84db153da4b5cd933137f3f172203eebf08f78de",
       "clientReq": true,
       "serverReq": true
     },
