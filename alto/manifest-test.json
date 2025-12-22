@@ -40,9 +40,9 @@
     },
     {
       "name": "Airport Lights",
-      "remote": "https://mediafilez.forgecdn.net/files/4293/352/AirPort1.12.2-%5b1.12.2%5d-2.4.6.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/6234/465/AirPort-%5B1.12.2%5D-2.4.10.jar",
       "local": "airport-lights.jar",
-      "md5": "326d683e7cb4b58574c780f189837b5d",
+      "sha1": "2bddd6a27ff93a3ccba6e69114eaade32a79d19c",
       "clientReq": true,
       "serverReq": true
     },
@@ -120,9 +120,9 @@
     },
     {
       "name": "Censored ASM",
-      "remote": "https://mediafilez.forgecdn.net/files/5257/348/censoredasm5.20.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/7267/368/loliasm-5.30.jar",
       "local": "censored-asm.jar",
-      "sha1": "bdfaa0211280b44a18ac9751030409595d3b7750",
+      "sha1": "9f1fa93f44e10c095f826dd25c537b42afd3f4aa",
       "clientReq": true,
       "serverReq": true
     },
@@ -136,9 +136,9 @@
     },
     {
       "name": "Cherry on 1.12.2",
-      "remote": "https://mediafilez.forgecdn.net/files/6956/277/Cherry_on-1.12.2-1.3.29.jar",
+      "remote": "https://cdn.modrinth.com/data/UmCzjjmW/versions/PntPYYmF/Cherry_on-1.12.2-1.3.31.jar",
       "local": "cherry-on-1-12.jar",
-      "sha1": "CCC83411D1331C0E8240789E543D1EC9523CE51B",
+      "sha1": "3b11e800583df7f76ebede5f2180526581ee098c",
       "clientReq": true,
       "serverReq": true
     },
@@ -200,17 +200,17 @@
     },
     {
       "name": "Craft Presence",
-      "remote": "https://cdn.modrinth.com/data/DFqQfIBR/versions/t9LwofvI/CraftPresence-2.3.9%2B1.12.2.jar",
+      "remote": "https://cdn.modrinth.com/data/DFqQfIBR/versions/DrztXj3v/CraftPresence-2.7.0%2B1.12.2-forge.jar",
       "local": "craft-presence.jar",
-      "sha1": "f7cf8fede7a43570634b7ce329b724274a0855dd",
+      "sha1": "b038ea06eef589216967f0c0ccd0d7e8023e9aeb",
       "clientReq": true,
       "serverReq": false
     },
     {
       "name": "Craft Tweaker",
-      "remote": "https://mediafilez.forgecdn.net/files/4459/202/CraftTweaker2-1.12-4.1.20.687.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/6929/88/CraftTweaker2-1.12-4.1.20.709.jar",
       "local": "craft-tweaker.jar",
-      "md5": "3ec9ef330fcbd30f26c45c9167e1b047",
+      "sha1": "15aa4bc8d3e01621e8b045c3a33ccba8058207d5",
       "clientReq": true,
       "serverReq": true
     },
@@ -664,9 +664,9 @@
     },
     {
       "name": "LittleFrames",
-      "remote": "https://mediafilez.forgecdn.net/files/4547/571/LittleFrames_UNOFFICAL_(by_Blake)_v1.0.14_mc1.12.2.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/5191/735/LittleFrames_NO_WATERMEDIA_by_Blake_v1.1.4_mc1.12.2.jar",
       "local": "little-frames.jar",
-      "sha1": "061e52e5bbcdd69ad25cbdcb891059d787c66188",
+      "sha1": "70eb4dcbe024b7ab72d20f8ae9a845b6926042c0",
       "clientReq": true,
       "serverReq": true
     },
@@ -1133,6 +1133,14 @@
       "sha1": "14cdeb2302d8e5d62d568bae17caf983c0bc358f",
       "clientReq": true,
       "serverReq": true
+    },
+    {
+      "name": "UniLib",
+      "remote": "https://cdn.modrinth.com/data/nT86WUER/versions/dZnEGbvX/UniLib-1.2.0%2B1.12.2-forge.jar",
+      "local": "unilib.jar",
+      "sha1": "7cb336e5fedf6ed4cea500410c5a13f81146116d",
+      "clientReq": true,
+      "serverReq": false
     },
     {
       "name": "Universal Mod Core",
