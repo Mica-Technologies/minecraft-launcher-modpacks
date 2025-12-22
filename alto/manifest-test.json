@@ -1348,6 +1348,20 @@
       "sha1": "C377EDB48B4F92FFA7BC332D68728483602F6F22",
       "clientReq": true,
       "serverReq": true
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/customloadingscreen/scroll_detailed.json",
+      "local": "customloadingscreen/scroll_detailed.json",
+      "sha1": "6e3f1546e334c8feeae8d649adfc0eaf5250c57c",
+      "clientReq": true,
+      "serverReq": false
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/customloadingscreen/customloadingscreen.cfg",
+      "local": "customloadingscreen.cfg",
+      "sha1": "5cf2ff414c2ecd319b9872d3ccc892a26c8581aa",
+      "clientReq": true,
+      "serverReq": false
     }
   ],
   "packResourcePacks": [
