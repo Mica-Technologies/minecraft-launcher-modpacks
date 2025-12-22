@@ -296,9 +296,9 @@
     },
     {
       "name": "Ears",
-      "remote": "https://cdn.modrinth.com/data/mfzaZK3Z/versions/XX0VYSjD/ears-forge-1.12-1.4.6.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/6166/544/ears-forge-1.12-1.4.7.jar",
       "local": "ears.jar",
-      "sha1": "4c3f6ccaf10ac79e9a38b601fd72273d943e16e8",
+      "sha1": "6e2bbe9893c000dc52716ad5def23f205fd9e698",
       "clientReq": true,
       "serverReq": true
     },
@@ -336,9 +336,9 @@
     },
     {
       "name": "Energy Control",
-      "remote": "https://mediafilez.forgecdn.net/files/5114/551/EnergyControl-1.12.2-0.3.2.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/6651/814/EnergyControl-1.7.10-0.3.7.jar",
       "local": "energy-control.jar",
-      "sha1": "84db153da4b5cd933137f3f172203eebf08f78de",
+      "sha1": "8b6abba148e9cb318e619ce10bca04a3352fd764",
       "clientReq": true,
       "serverReq": true
     },
@@ -408,9 +408,9 @@
     },
     {
       "name": "Flare",
-      "remote": "https://cdn.modrinth.com/data/rWzXKfPV/versions/oGZXbgiE/flare-0.2.1.jar",
+      "remote": "https://cdn.modrinth.com/data/rWzXKfPV/versions/Mwr9c7U8/flare-0.7.0.jar",
       "local": "flare.jar",
-      "sha1": "ABCACB8C9B664677672C32D598E76575CB40B13A",
+      "sha1": "73c99e9a1c530880f4dd6d2646a5e8cd08eaf6c0",
       "clientReq": true,
       "serverReq": true
     },
@@ -440,9 +440,9 @@
     },
     {
       "name": "Furenikus Roads",
-      "remote": "https://mediafilez.forgecdn.net/files/4813/583/Furenikus_Roads-1.2.5.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/5700/373/Furenikus_Roads-1.2.6.jar",
       "local": "furenikus-roads.jar",
-      "sha1": "e6f0c42630dac22b1d560c8c5766634ab56dad38",
+      "sha1": "bfbd86a2596b535637f34ea9b76764a90a2d8347",
       "clientReq": true,
       "serverReq": true
     },
@@ -472,9 +472,9 @@
     },
     {
       "name": "Future MC",
-      "remote": "https://cdn.modrinth.com/data/dKv1FGT7/versions/DHdJ5LFT/Future-MC-0.2.20.jar",
+      "remote": "https://cdn.modrinth.com/data/dKv1FGT7/versions/v3ZmWrP5/Future-MC-0.2.21.jar",
       "local": "future-mc.jar",
-      "sha1": "B7774ABE23B10B2032160090F9190D9B875C7437",
+      "sha1": "641c6b63f40d6c5846b93f61ab661a99a59d03c3",
       "clientReq": true,
       "serverReq": true
     },
@@ -599,7 +599,7 @@
       "serverReq": true
     },
     {
-      "name": "Immersive Vehicles Official Content Pack",
+      "name": "Immersive Vehicles - Official Content Pack",
       "remote": "https://cdn.modrinth.com/data/C7TiPPJz/versions/c98RPkCW/MTS%20Official%20Pack-1.12.2-V26.2.jar",
       "local": "iv-official-content-pack.jar",
       "sha1": "1C64524EA41D1AA830D4B51FDE3B86C73D480E16",
@@ -712,9 +712,9 @@
     },
     {
       "name": "MC2Discord",
-      "remote": "https://cdn.modrinth.com/data/Cfbcv7uF/versions/5pFogfPa/mc2discord-forge-1.12.2-3.3.1.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/5370/660/mc2discord-forge-1.12.2-3.3.2.jar",
       "local": "mc2discord.jar",
-      "sha1": "0d9de068621cd27c43663bf06ef886310e4215ed",
+      "sha1": "1844cf0001ee9e8b0bb5a1db78ef575a806ffdc0",
       "clientReq": false,
       "serverReq": true
     },
@@ -816,17 +816,17 @@
     },
     {
       "name": "Modern Splash",
-      "remote": "https://cdn-raw.modrinth.com/data/WQC4Wtzw/versions/lNZSXbJE/modernsplash-1.12.2-1.3.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/6501/489/modernsplash-1.4.0.jar",
       "local": "modern-splash.jar",
-      "sha1": "c244dd4d11c409f38f75daafb1d7e75cea1c2922",
+      "sha1": "bdcf9fa0bd36771cd0ed88609a3a8d6f09ec9086",
       "clientReq": true,
       "serverReq": false
     },
     {
       "name": "Moving Elevators",
-      "remote": "https://cdn.modrinth.com/data/9KZOe6HD/versions/8NuLemP2/movingelevators-1.4.9a-forge-mc1.12.jar",
+      "remote": "https://cdn.modrinth.com/data/9KZOe6HD/versions/Hdx5T0I4/movingelevators-1.4.11-forge-mc1.12.jar",
       "local": "moving-elevators.jar",
-      "sha1": "E4D64A8138817C6D3D5D9144DE1FD4746CC468DE",
+      "sha1": "4a70b2d671e02bf5a4d88f273ed393caf071249a",
       "clientReq": true,
       "serverReq": true
     },
