@@ -1,6 +1,6 @@
 {
   "packName": "Alto",
-  "packVersion": "25.12.22",
+  "packVersion": "25.12.29",
   "packCustomDiscordRpc": true,
   "packURL": "https://minecraft.micatechnologies.com",
   "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -88,7 +88,7 @@
     },
     {
       "name": "Better Placement",
-      "remote": "https://media.forgecdn.net/files/2481/852/BetterPlacement-1.0.0-1.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2481/852/BetterPlacement-1.0.0-1.jar",
       "local": "better-placement.jar",
       "sha1": "0204bf54baaa79c5ec5762b1d7f6adcadf2ccbab",
       "clientReq": true,
@@ -96,15 +96,15 @@
     },
     {
       "name": "Biome Tweaker",
-      "remote": "https://media.forgecdn.net/files/3112/142/BiomeTweaker-1.12.2-3.2.369.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/3112/142/BiomeTweaker-1.12.2-3.2.369.jar",
       "local": "biome-tweaker.jar",
-      "sha1": "4F85402CAA88C73794E8DC050386313F0A4C9AD5",
+      "sha1": "4f85402caa88c73794e8dc050386313f0a4c9ad5",
       "clientReq": true,
       "serverReq": true
     },
     {
       "name": "Biome Tweaker Core",
-      "remote": "https://media.forgecdn.net/files/2527/645/BiomeTweakerCore-1.12.2-1.0.39.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2527/645/BiomeTweakerCore-1.12.2-1.0.39.jar",
       "local": "biome-tweaker-core.jar",
       "sha1": "13f6bc3c3ea4c4d8f1e8ac0db97a99bf23bd278b",
       "clientReq": true,
@@ -128,7 +128,7 @@
     },
     {
       "name": "Charset Lib",
-      "remote": "https://media.forgecdn.net/files/3066/682/Charset-Lib-0.5.6.5.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/3656/492/Charset-Lib-0.5.6.6.jar",
       "local": "charset-lib.jar",
       "sha1": "8008FB79AA93963744377C5FAD55BF67A7E83FB3",
       "clientReq": true,
@@ -144,7 +144,7 @@
     },
     {
       "name": "Chisels & Bits",
-      "remote": "https://media.forgecdn.net/files/2720/655/chiselsandbits-14.33.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2720/655/chiselsandbits-14.33.jar",
       "local": "chisels-and-bits.jar",
       "sha1": "0e6f159254e6899651087e5b1464bac91698d1d3",
       "clientReq": true,
@@ -152,7 +152,7 @@
     },
     {
       "name": "Chunkt",
-      "remote": "https://media.forgecdn.net/files/2942/644/chunkt-1.12.2-1.0.1.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2942/644/chunkt-1.12.2-1.0.1.jar",
       "local": "chunkt.jar",
       "sha1": "beff5a4b277d4270776c5bbb3d5e35a6e2ce244b",
       "clientReq": true,
@@ -192,9 +192,9 @@
     },
     {
       "name": "Coro Util",
-      "remote": "https://media.forgecdn.net/files/2902/920/coroutil-1.12.1-1.2.37.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2902/920/coroutil-1.12.1-1.2.37.jar",
       "local": "coroutil.jar",
-      "sha1": "90392789DFBCADF440415A775D3EC81326DEEE2F",
+      "sha1": "90392789dfbcadf440415a775d3ec81326deee2f",
       "clientReq": true,
       "serverReq": true
     },
@@ -232,15 +232,15 @@
     },
     {
       "name": "Custom Main Menu",
-      "remote": "https://media.forgecdn.net/files/2857/869/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2857/869/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
       "local": "custom-main-menu.jar",
-      "sha1": "9AAD10A13BED75B6061A33219AB4F2F39E0CCC12",
+      "sha1": "9aad10a13bed75b6061a33219ab4f2f39e0ccc12",
       "clientReq": true,
       "serverReq": false
     },
     {
       "name": "Custom Sign Posts",
-      "remote": "https://media.forgecdn.net/files/3004/303/customsignposts-1.12.2-1.0.1.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/3004/303/customsignposts-1.12.2-1.0.1.jar",
       "local": "custom-sign-posts.jar",
       "sha1": "adafc713a2ae569a2f90659c26b3cbc7babb82a7",
       "clientReq": true,
@@ -248,7 +248,7 @@
     },
     {
       "name": "CustomNPCs",
-      "remote": "https://media.forgecdn.net/files/2996/912/CustomNPCs_1.12.2-(05Jul20).jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2996/912/CustomNPCs_1.12.2-%2805Jul20%29.jar",
       "local": "custom-npcs.jar",
       "sha1": "a5469076df8b1d9db4e483131dc94e270b8bc7cd",
       "clientReq": true,
@@ -264,7 +264,7 @@
     },
     {
       "name": "DebugServerInfo",
-      "remote": "https://media.forgecdn.net/files/2491/601/DebugServerInfo-1.12.2-1.0.5.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2491/601/DebugServerInfo-1.12.2-1.0.5.jar",
       "local": "dbgsrvrinfo.jar",
       "sha1": "8310bf71050953b7dced8067ef6c4a314e9f06f6",
       "clientReq": true,
@@ -360,7 +360,7 @@
     },
     {
       "name": "Energy Meters",
-      "remote": "https://mediafiles.forgecdn.net/files/2995/865/energymeters-1.12.2-1.0.2.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2995/865/energymeters-1.12.2-1.0.2.jar",
       "local": "energy-meters.jar",
       "sha1": "1e81208d4808cec9562ba284b0d9c26bf851dac3",
       "clientReq": true,
@@ -488,7 +488,7 @@
     },
     {
       "name": "Gauges and Switches",
-      "remote": "https://mediafiles.forgecdn.net/files/3907/346/rsgauges-1.12.2-1.2.8.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/3907/346/rsgauges-1.12.2-1.2.8.jar",
       "local": "redstone-gauges-and-switches.jar",
       "sha1": "f5af46afabe353f8b27a3acfa8961ca9877ff394",
       "clientReq": true,
@@ -520,7 +520,7 @@
     },
     {
       "name": "Guide API",
-      "remote": "https://media.forgecdn.net/files/2645/992/Guide-API-1.12-2.1.8-63.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2645/992/Guide-API-1.12-2.1.8-63.jar",
       "local": "guide-api.jar",
       "sha1": "095b3b85d05118602c7678beb1e56d26930fd0e7",
       "clientReq": true,
@@ -544,7 +544,7 @@
     },
     {
       "name": "Immersive Engineering",
-      "remote": "https://media.forgecdn.net/files/2974/106/ImmersiveEngineering-0.12-98.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2974/106/ImmersiveEngineering-0.12-98.jar",
       "local": "immersive-engineering.jar",
       "sha1": "633070d9c447fdaf6a9ead59425017815c890c63",
       "clientReq": true,
@@ -712,7 +712,7 @@
     },
     {
       "name": "Logistical Automation",
-      "remote": "https://media.forgecdn.net/files/2616/330/logisticalautomation-0.1.0.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2616/330/logisticalautomation-0.1.0.jar",
       "local": "logist-autom.jar",
       "sha1": "cc7a07254207370b5b9e7ebdf62e97c9b04e084a",
       "clientReq": true,
@@ -736,7 +736,7 @@
     },
     {
       "name": "MC Mouser",
-      "remote": "https://mediafiles.forgecdn.net/files/3698/873/mcmouser-1.12.2-forge-1.0.2.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/3698/873/mcmouser-1.12.2-forge-1.0.2.jar",
       "local": "mc-mouser.jar",
       "sha1": "bb4077cd098e3c179dec443b42bcc52d58228895",
       "clientReq": true,
@@ -752,7 +752,7 @@
     },
     {
       "name": "MCJtyLib",
-      "remote": "https://media.forgecdn.net/files/2745/846/mcjtylib-1.12-3.5.4.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2745/846/mcjtylib-1.12-3.5.4.jar",
       "local": "mcjtylib.jar",
       "sha1": "8f3e381c4aea651f55ed1cd35fd69613fcd7f9da",
       "clientReq": true,
@@ -760,7 +760,7 @@
     },
     {
       "name": "MCMultiPart",
-      "remote": "https://media.forgecdn.net/files/2615/930/MCMultiPart-2.5.3.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2615/930/MCMultiPart-2.5.3.jar",
       "local": "mcmultipart.jar",
       "sha1": "b32fb5efb99dedf207d3623e222ea67e20655fcc",
       "clientReq": true,
@@ -768,7 +768,7 @@
     },
     {
       "name": "Macaws Doors",
-      "remote": "https://media.forgecdn.net/files/3340/797/mcw-doors-1.0.3-mc1.12.2.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/3340/797/mcw-doors-1.0.3-mc1.12.2.jar",
       "local": "macaws-doors.jar",
       "sha1": "005F81AF71B0BA953E2FF25F736958AE3358F0A0",
       "clientReq": true,
@@ -776,7 +776,7 @@
     },
     {
       "name": "Macaws Fences and Walls",
-      "remote": "https://media.forgecdn.net/files/3231/561/mcw-fences-1.0.0-mc1.12.2.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/3231/561/mcw-fences-1.0.0-mc1.12.2.jar",
       "local": "macaws-fences-and-walls.jar",
       "sha1": "4f58cb3138f73f71b78408dd308b937fd93fde21",
       "clientReq": true,
@@ -800,7 +800,7 @@
     },
     {
       "name": "Macaws Trapdoors",
-      "remote": "https://media.forgecdn.net/files/3273/521/mcw-trapdoors-1.0.2-mc1.12.2.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/3273/521/mcw-trapdoors-1.0.2-mc1.12.2.jar",
       "local": "macaws-trapdoors.jar",
       "sha1": "54c4b4021b2624e54253a27af7b9e2fa2a3c6b87",
       "clientReq": true,
@@ -808,7 +808,7 @@
     },
     {
       "name": "Macaws Windows",
-      "remote": "https://media.forgecdn.net/files/2884/962/mcw-windows-1.0.0-mc1.12.2.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2884/962/mcw-windows-1.0.0-mc1.12.2.jar",
       "local": "macaws-windows.jar",
       "sha1": "0404b499c11b8eca0aa01c7d7f1ae3d89a6d8e8f",
       "clientReq": true,
@@ -816,7 +816,7 @@
     },
     {
       "name": "Malisis Core",
-      "remote": "https://media.forgecdn.net/files/2680/892/malisiscore-1.12.2-6.5.1.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2680/892/malisiscore-1.12.2-6.5.1.jar",
       "local": "malisis-core.jar",
       "sha1": "4b4a9fd82030ec2e31e64c9807779695323800c3",
       "clientReq": true,
@@ -832,7 +832,7 @@
     },
     {
       "name": "Malisis Switches",
-      "remote": "https://media.forgecdn.net/files/2526/682/malisisswitches-1.12.2-5.1.0.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2526/682/malisisswitches-1.12.2-5.1.0.jar",
       "local": "malisis-switches.jar",
       "sha1": "2813ac945aa715038a0d46268bd1c5611557f880",
       "clientReq": true,
@@ -856,7 +856,7 @@
     },
     {
       "name": "Moving Quickly",
-      "remote": "https://media.forgecdn.net/files/2522/251/MovingQuickly-1.12.2_1.0.0-release.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2522/251/MovingQuickly-1.12.2_1.0.0-release.jar",
       "local": "moving-quickly.jar",
       "sha1": "b3dc6af4b41cf2926615e29512feccb62ac86992",
       "clientReq": false,
@@ -880,7 +880,7 @@
     },
     {
       "name": "Nova Blocks",
-      "remote": "https://media.forgecdn.net/files/3006/592/NovaBlocks+1.5.3+-+1.12.2.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/3006/592/NovaBlocks+1.5.3+-+1.12.2.jar",
       "local": "nova-block.jar",
       "sha1": "132a258890ef2d7ca6f62eca9764af9a9212e197",
       "clientReq": true,
@@ -912,7 +912,7 @@
     },
     {
       "name": "PTRLib",
-      "remote": "https://media.forgecdn.net/files/3346/568/PTRLib-1.0.5.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/3346/568/PTRLib-1.0.5.jar",
       "local": "ptrlib.jar",
       "sha1": "C33DDF5660C2A1C39537BD6552B2CDD73B654E18",
       "clientReq": true,
@@ -928,7 +928,7 @@
     },
     {
       "name": "Performant",
-      "remote": "https://media.forgecdn.net/files/3511/568/performant-1.11.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/3511/568/performant-1.11.jar",
       "local": "performant.jar",
       "sha1": "033c589ceb8026d66ee9b2332185ae273fa77993",
       "clientReq": true,
@@ -952,7 +952,7 @@
     },
     {
       "name": "Pretty Beaches",
-      "remote": "https://media.forgecdn.net/files/3067/807/PrettyBeaches_1.12.2-1.1.0.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/3067/807/PrettyBeaches_1.12.2-1.1.0.jar",
       "local": "pretty-beaches.jar",
       "sha1": "5acaf9356fc46e097672358bf5dcc2e89daba917",
       "clientReq": true,
@@ -960,7 +960,7 @@
     },
     {
       "name": "Railcraft",
-      "remote": "https://mediafiles.forgecdn.net/files/3853/491/railcraft-12.1.0-beta-8.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/3853/491/railcraft-12.1.0-beta-8.jar",
       "local": "railcraft.jar",
       "sha1": "3f894220b478ac454b731642aaf118b3ac7097ae",
       "clientReq": true,
@@ -984,7 +984,7 @@
     },
     {
       "name": "Redstone Paste",
-      "remote": "https://media.forgecdn.net/files/2477/676/redstonepaste-mc1.12-1.7.5.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2477/676/redstonepaste-mc1.12-1.7.5.jar",
       "local": "redstone-paste.jar",
       "sha1": "44c312abe9f2c1b65f82cc865b13047281f3e579",
       "clientReq": true,
@@ -1016,7 +1016,7 @@
     },
     {
       "name": "Server Tab Info",
-      "remote": "https://media.forgecdn.net/files/2798/112/ServerTabInfo-1.12.2-1.2.6.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2798/112/ServerTabInfo-1.12.2-1.2.6.jar",
       "local": "server-tab-info.jar",
       "sha1": "701ec14cff7a64858e71095ddaacce5d62ca6724",
       "clientReq": true,
@@ -1032,7 +1032,7 @@
     },
     {
       "name": "SimpleLogic Gates",
-      "remote": "https://media.forgecdn.net/files/2745/283/SimpleLogic-Gates-0.5.6.1.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2745/283/SimpleLogic-Gates-0.5.6.1.jar",
       "local": "simplelogic-gates.jar",
       "sha1": "2eb6e956579e3b83736c428683bbed3fcc71cc6d",
       "clientReq": true,
@@ -1040,7 +1040,7 @@
     },
     {
       "name": "SimpleLogic Wires",
-      "remote": "https://media.forgecdn.net/files/2754/601/SimpleLogic-Wires-0.5.6.3.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2754/601/SimpleLogic-Wires-0.5.6.3.jar",
       "local": "simplelogic-wires.jar",
       "sha1": "7a03c3abf8cb265bde891bf874826d8ac1158296",
       "clientReq": true,
@@ -1048,7 +1048,7 @@
     },
     {
       "name": "Simply Light",
-      "remote": "https://media.forgecdn.net/files/2754/916/simplylight-1.12.2-0.8.7.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2754/916/simplylight-1.12.2-0.8.7.jar",
       "local": "simply-light.jar",
       "sha1": "b3793dd11aed5924ac9d59f322827aed0bfa9f8c",
       "clientReq": true,
@@ -1056,7 +1056,7 @@
     },
     {
       "name": "Smooth Font",
-      "remote": "https://mediafiles.forgecdn.net/files/3944/565/SmoothFont-mc1.12.2-2.1.4.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/3944/565/SmoothFont-mc1.12.2-2.1.4.jar",
       "local": "smooth-font.jar",
       "sha1": "4c1c41c82f5868f8ae48b0303f619c65ba1218fe",
       "clientReq": true,
@@ -1064,7 +1064,7 @@
     },
     {
       "name": "Solar Flux Reborn",
-      "remote": "https://media.forgecdn.net/files/3050/838/SolarFluxReborn-1.12.2-12.4.11.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/3050/838/SolarFluxReborn-1.12.2-12.4.11.jar",
       "local": "solar-flux-reborn.jar",
       "sha1": "521624CBD22F7DCEF0DDC9F9F0898B2368439404",
       "clientReq": true,
@@ -1200,7 +1200,7 @@
     },
     {
       "name": "World Utils",
-      "remote": "https://media.forgecdn.net/files/2482/888/worldutils-1.12.2-0.4.2.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/2482/888/worldutils-1.12.2-0.4.2.jar",
       "local": "worldutils.jar",
       "sha1": "7db57a6e20e74c2357fff1d596c800a9580f8e50",
       "clientReq": false,
