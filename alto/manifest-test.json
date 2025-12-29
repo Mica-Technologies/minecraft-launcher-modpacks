@@ -1,6 +1,6 @@
 {
   "packName": "Alto_TEST",
-  "packVersion": "25.12.29",
+  "packVersion": "25.12.29b",
   "packCustomDiscordRpc": true,
   "packURL": "https://minecraft.micatechnologies.com",
   "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -424,7 +424,7 @@
     },
     {
       "name": "Flat Colored Blocks",
-      "remote": "https://media.forgecdn.net/files/2715/827/flatcoloredblocks-mc1.12-6.8.jar",
+      "remote": "https://mediafilez.forgecdn.net//files/2715/827/flatcoloredblocks-mc1.12-6.8.jar",
       "local": "flat-colored-blocks.jar",
       "sha1": "0b6ae9ad1b622a65f988c887b34f7d64a5e2562a",
       "clientReq": true,
@@ -648,7 +648,7 @@
     },
     {
       "name": "Just a Few Fish",
-      "remote": "https://media.forgecdn.net/files/2448/283/JustAFewFish-1.7_for_1.12.jar",
+      "remote": "https://mediafilez.forgecdn.net//files/2448/283/JustAFewFish-1.7_for_1.12.jar",
       "local": "just-a-few-fish.jar",
       "sha1": "b843ae27c83073f02664488a432625c5394ae610",
       "clientReq": true,
