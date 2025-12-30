@@ -1,6 +1,6 @@
 {
   "packName": "Alto_TEST",
-  "packVersion": "25.12.29b",
+  "packVersion": "25.12.29d",
   "packCustomDiscordRpc": true,
   "packURL": "https://minecraft.micatechnologies.com",
   "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -130,7 +130,7 @@
       "name": "Charset Lib",
       "remote": "https://mediafilez.forgecdn.net/files/3656/492/Charset-Lib-0.5.6.6.jar",
       "local": "charset-lib.jar",
-      "sha1": "8008FB79AA93963744377C5FAD55BF67A7E83FB3",
+      "sha1": "41912cdaaad5c22e1972092c7a73c9eab2de5650",
       "clientReq": true,
       "serverReq": true
     },
