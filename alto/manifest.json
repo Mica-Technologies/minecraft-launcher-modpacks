@@ -1,6 +1,6 @@
 {
   "packName": "Alto",
-  "packVersion": "25.12.30",
+  "packVersion": "26.1.7",
   "packCustomDiscordRpc": true,
   "packURL": "https://minecraft.micatechnologies.com",
   "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -576,9 +576,9 @@
     },
     {
       "name": "Immersive Vehicles",
-      "remote": "https://mediafilez.forgecdn.net/files/6820/628/Immersive%20Vehicles-1.12.2-22.18.0-pre.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/7423/711/Immersive%20Vehicles-1.12.2-23.0.0.jar",
       "local": "iv.jar",
-      "sha1": "709870c406e6cc43ce2e5d883defb141ac7a6d95",
+      "sha1": "54F004901DD5FD099FFE470522AA6FAFEF3354F9",
       "clientReq": true,
       "serverReq": true
     },
