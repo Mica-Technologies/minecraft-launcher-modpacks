@@ -2,6 +2,15 @@
 	"available": [
 		"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/manifest.json",
 		"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/manifest-test.json",
-		"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/forge-1.12.2/manifest.json"
+		"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/forge-1.12.2/manifest.json",
+		"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/forge-1.11.2/manifest.json",
+		"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/forge-1.10.2/manifest.json",
+		"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/forge-1.13.2/manifest.json",
+		"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/forge-1.14.4/manifest.json",
+		"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/forge-1.15.2/manifest.json",
+		"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/forge-1.16.5/manifest.json",
+		"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/forge-1.7.10/manifest.json",
+		"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/forge-1.8.9/manifest.json",
+		"https://micauseaststorage.blob.core.windows.net/mc-launcher-api/forge-1.9.4/manifest.json"
 	]
 }
