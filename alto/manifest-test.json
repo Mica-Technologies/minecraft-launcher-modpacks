@@ -1,6 +1,6 @@
 {
   "packName": "Alto_TEST",
-  "packVersion": "26.3.30",
+  "packVersion": "26.3.31-DEV02",
   "packCustomDiscordRpc": true,
   "packURL": "https://minecraft.micatechnologies.com",
   "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -672,9 +672,9 @@
     },
     {
       "name": "LDFAWE",
-      "remote": "https://github.com/Mica-Technologies/LDFAWE/releases/download/2024.01.22/LimitlessDevFastAsyncWorldEdit-2024.01.22.jar",
+      "remote": "https://github.com/Mica-Technologies/LDFAWE/releases/download/2026.03.31-pre.1817.UTC%2B0000%2B25fcaabd/LimitlessDevFastAsyncWorldEdit-2026.03.31-pre.1817.UTC+0000+25fcaabd.jar",
       "local": "LimitlessDevFastAsyncWorldEdit.jar",
-      "md5": "866ad05447c7b70f20f36f273675d85d",
+      "md5": "d7ce7ab900df85dd8ea2edb3cdf9bae8",
       "clientReq": true,
       "serverReq": true
     },
@@ -1241,22 +1241,22 @@
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/BiomeTweaker/BiomeTweaker.cfg",
       "local": "BiomeTweaker/BiomeTweaker.cfg",
       "sha1": "0c74d8b21e64d06b563833c0607bf221c2c737ac",
-      "clientReq": true,
-      "serverReq": true
+      "clientReq": false,
+      "serverReq": false
     },
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/BiomeTweaker/scripts/biome_temps_init.cfg",
       "local": "BiomeTweaker/scripts/biome_temps_init.cfg",
       "sha1": "360793671e5a206edc1c60eadd66a9d57f863c94",
-      "clientReq": true,
-      "serverReq": true
+      "clientReq": false,
+      "serverReq": false
     },
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/BiomeTweakerCore/BiomeTweakerCore.cfg",
       "local": "BiomeTweakerCore/BiomeTweakerCore.cfg",
       "sha1": "0dd5a35a0c3f9854497d3981fafc41feb1638a32",
-      "clientReq": true,
-      "serverReq": true
+      "clientReq": false,
+      "serverReq": false
     },
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/debugserverinfo.cfg",
