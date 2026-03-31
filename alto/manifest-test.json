@@ -1000,9 +1000,9 @@
     },
     {
       "name": "Roughly Enough IDs",
-      "remote": "https://cdn.modrinth.com/data/sDhbZgv7/versions/i0VjhMqU/RoughlyEnoughIDs-2.2.3.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/7801/299/RoughlyEnoughIDs-2.3.0.jar",
       "local": "roughly-enough-ids.jar",
-      "sha1": "e3c190b24d9e931c8cfbaca289761106a21219af",
+      "sha1": "cb72db84dd8c814b4cc8c827e5335e9859e24862",
       "clientReq": true,
       "serverReq": true
     },
