@@ -1,6 +1,6 @@
 {
   "packName": "Alto",
-  "packVersion": "26.3.30",
+  "packVersion": "26.4.1",
   "packCustomDiscordRpc": true,
   "packURL": "https://minecraft.micatechnologies.com",
   "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -160,9 +160,9 @@
     },
     {
       "name": "City Super Mod",
-      "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2026.03.31/minecraft-city-super-mod-2026.03.31.jar",
+      "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2026.04.02/minecraft-city-super-mod-2026.04.02.jar",
       "local": "city-super-mod.jar",
-      "md5": "15225eefce0f7e93441d4e32f7e3555c",
+      "md5": "df51f7a1b167e7b7e3837094fea82a16",
       "clientReq": true,
       "serverReq": true
     },
@@ -672,9 +672,9 @@
     },
     {
       "name": "LDFAWE",
-      "remote": "https://github.com/Mica-Technologies/LDFAWE/releases/download/2024.01.22/LimitlessDevFastAsyncWorldEdit-2024.01.22.jar",
+      "remote": "https://github.com/Mica-Technologies/LDFAWE/releases/download/2026.03.31/LimitlessDevFastAsyncWorldEdit-2026.03.31.jar",
       "local": "LimitlessDevFastAsyncWorldEdit.jar",
-      "md5": "866ad05447c7b70f20f36f273675d85d",
+      "md5": "712fe82924228d56b7272afbde274b67",
       "clientReq": true,
       "serverReq": true
     },
@@ -1000,9 +1000,9 @@
     },
     {
       "name": "Roughly Enough IDs",
-      "remote": "https://cdn.modrinth.com/data/sDhbZgv7/versions/i0VjhMqU/RoughlyEnoughIDs-2.2.3.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/7801/299/RoughlyEnoughIDs-2.3.0.jar",
       "local": "roughly-enough-ids.jar",
-      "sha1": "e3c190b24d9e931c8cfbaca289761106a21219af",
+      "sha1": "cb72db84dd8c814b4cc8c827e5335e9859e24862",
       "clientReq": true,
       "serverReq": true
     },
@@ -1248,8 +1248,8 @@
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/BiomeTweaker/scripts/biome_temps_init.cfg",
       "local": "BiomeTweaker/scripts/biome_temps_init.cfg",
       "sha1": "360793671e5a206edc1c60eadd66a9d57f863c94",
-      "clientReq": true,
-      "serverReq": true
+      "clientReq": false,
+      "serverReq": false
     },
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/BiomeTweakerCore/BiomeTweakerCore.cfg",
