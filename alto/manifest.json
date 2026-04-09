@@ -1,6 +1,6 @@
 {
   "packName": "Alto",
-  "packVersion": "26.4.4",
+  "packVersion": "26.4.9",
   "packCustomDiscordRpc": true,
   "packURL": "https://minecraft.micatechnologies.com",
   "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -160,9 +160,9 @@
     },
     {
       "name": "City Super Mod",
-      "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2026.04.05/minecraft-city-super-mod-2026.04.05.jar",
+      "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2026.04.09/minecraft-city-super-mod-2026.04.09.jar",
       "local": "city-super-mod.jar",
-      "md5": "d7daf100a7e8095244ba097abbfb94c2",
+      "md5": "7f69af358947e6a8bf9acf4398cbed53",
       "clientReq": true,
       "serverReq": true
     },
@@ -301,14 +301,6 @@
       "md5": "77e815ce9c8dd68ecba4eb884d6db4d2",
       "clientReq": true,
       "serverReq": false
-    },
-    {
-      "name": "Ears",
-      "remote": "https://mediafilez.forgecdn.net/files/6166/544/ears-forge-1.12-1.4.7.jar",
-      "local": "ears.jar",
-      "sha1": "6e2bbe9893c000dc52716ad5def23f205fd9e698",
-      "clientReq": true,
-      "serverReq": true
     },
     {
       "name": "Economy Inc",
@@ -991,14 +983,6 @@
       "serverReq": true
     },
     {
-      "name": "Road Runner",
-      "remote": "https://mediafilez.forgecdn.net/files/2468/500/roadrunner-1.0.1.jar",
-      "local": "road-runner.jar",
-      "md5": "e3b7633db2e1d151e97a6de584265729",
-      "clientReq": true,
-      "serverReq": true
-    },
-    {
       "name": "Roughly Enough IDs",
       "remote": "https://mediafilez.forgecdn.net/files/7801/299/RoughlyEnoughIDs-2.3.0.jar",
       "local": "roughly-enough-ids.jar",
@@ -1019,6 +1003,14 @@
       "remote": "https://mediafilez.forgecdn.net/files/2798/112/ServerTabInfo-1.12.2-1.2.6.jar",
       "local": "server-tab-info.jar",
       "sha1": "701ec14cff7a64858e71095ddaacce5d62ca6724",
+      "clientReq": true,
+      "serverReq": true
+    },
+    {
+      "name": "Server Utility Mod",
+      "remote": "https://github.com/Mica-Technologies/uia-server-utility-mod/releases/download/2026.04.09/uia-server-utility-mod-2026.04.09.jar",
+      "local": "sum.jar",
+      "md5": "c419bca58f6083ec894533d8460400d3",
       "clientReq": true,
       "serverReq": true
     },
@@ -1238,6 +1230,13 @@
       "serverReq": true
     },
     {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/sum/sum.cfg",
+      "local": "sum.cfg",
+      "sha1": "a1058d31f5bd551dc005eae3fa3b0a8119563d93",
+      "clientReq": true,
+      "serverReq": true
+    },
+    {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/BiomeTweaker/BiomeTweaker.cfg",
       "local": "BiomeTweaker/BiomeTweaker.cfg",
       "sha1": "0c74d8b21e64d06b563833c0607bf221c2c737ac",
@@ -1262,13 +1261,6 @@
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/debugserverinfo.cfg",
       "local": "debugserverinfo.cfg",
       "sha1": "364817ef9121ac8165b83f0203ed4537cb518924",
-      "clientReq": true,
-      "serverReq": true
-    },
-    {
-      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/RoadRunner.cfg",
-      "local": "RoadRunner.cfg",
-      "sha1": "3c50205f1c7cd6ffd683e003b15d6efff602466e",
       "clientReq": true,
       "serverReq": true
     },
