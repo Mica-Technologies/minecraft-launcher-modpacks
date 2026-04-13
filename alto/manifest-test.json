@@ -1,6 +1,6 @@
 {
   "packName": "Alto_TEST",
-  "packVersion": "26.4.9",
+  "packVersion": "26.4.13",
   "packCustomDiscordRpc": true,
   "packURL": "https://minecraft.micatechnologies.com",
   "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -160,9 +160,9 @@
     },
     {
       "name": "City Super Mod",
-      "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2026.04.09/minecraft-city-super-mod-2026.04.09.jar",
+      "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2026.04.13/minecraft-city-super-mod-2026.04.13.jar",
       "local": "city-super-mod.jar",
-      "md5": "7f69af358947e6a8bf9acf4398cbed53",
+      "md5": "d35f76a1f42c342a6cc3e19730b8035d",
       "clientReq": true,
       "serverReq": true
     },
@@ -955,6 +955,14 @@
       "remote": "https://mediafilez.forgecdn.net/files/3853/491/railcraft-12.1.0-beta-8.jar",
       "local": "railcraft.jar",
       "sha1": "3f894220b478ac454b731642aaf118b3ac7097ae",
+      "clientReq": true,
+      "serverReq": true
+    },
+    {
+      "name": "RealGrid by Mica",
+      "remote": "https://github.com/Mica-Technologies/RealGridIEAddon/releases/download/2026.04.13/real-grid-ie-2026.04.13.jar",
+      "local": "realgrid.jar",
+      "md5": "178ef4ee1cd7a179cdb981ae87af1343",
       "clientReq": true,
       "serverReq": true
     },
