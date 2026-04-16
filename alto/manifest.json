@@ -1260,13 +1260,6 @@
       "serverReq": true
     },
     {
-      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/BiomeTweaker/scripts/biome_temps_init.cfg",
-      "local": "BiomeTweaker/scripts/biome_temps_init.cfg",
-      "sha1": "360793671e5a206edc1c60eadd66a9d57f863c94",
-      "clientReq": false,
-      "serverReq": false
-    },
-    {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/BiomeTweakerCore/BiomeTweakerCore.cfg",
       "local": "BiomeTweakerCore/BiomeTweakerCore.cfg",
       "sha1": "0dd5a35a0c3f9854497d3981fafc41feb1638a32",
