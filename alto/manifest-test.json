@@ -1,6 +1,6 @@
 {
   "packName": "Alto_TEST",
-  "packVersion": "26.4.16",
+  "packVersion": "26.4.16b",
   "packCustomDiscordRpc": true,
   "packURL": "https://minecraft.micatechnologies.com",
   "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -1176,9 +1176,9 @@
     },
     {
       "name": "Weather 2 - Remastered",
-      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/W2R/Weather2Remastered-1.12.2-2.8.14.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/7670/711/Weather2Remastered-1.12.2-2.9.10hf1.jar",
       "local": "weather2-remastered.jar",
-      "sha1": "653e53223d6051de32807e77367e8df68cd64212",
+      "sha1": "6d6ea41f90b020ce375c95fad990df966a07809c",
       "clientReq": true,
       "serverReq": true
     },
