@@ -1,6 +1,6 @@
 {
   "packName": "Alto_TEST",
-  "packVersion": "26.4.14",
+  "packVersion": "26.4.16",
   "packCustomDiscordRpc": true,
   "packURL": "https://minecraft.micatechnologies.com",
   "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -160,9 +160,9 @@
     },
     {
       "name": "City Super Mod",
-      "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2026.04.14/minecraft-city-super-mod-2026.04.14.jar",
+      "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2026.04.16/minecraft-city-super-mod-2026.04.15-pre.1929.UTC+0000+0040a345.jar",
       "local": "city-super-mod.jar",
-      "md5": "2cb8fb1752e227281b80e12a3e8fde5a",
+      "md5": "de6917bb2f66a7846f47df7e29e1f9a1",
       "clientReq": true,
       "serverReq": true
     },
@@ -568,9 +568,9 @@
     },
     {
       "name": "Immersive Vehicles",
-      "remote": "https://mediafilez.forgecdn.net/files/7423/711/Immersive%20Vehicles-1.12.2-23.0.0.jar",
+      "remote": "https://cdn.modrinth.com/data/BCzBuhJ5/versions/KyR21IJF/Immersive%20Vehicles-1.12.2-24.0.0.jar",
       "local": "iv.jar",
-      "sha1": "54F004901DD5FD099FFE470522AA6FAFEF3354F9",
+      "sha1": "cfe5e1fc5dd66b9670f4cf0ba2df8894ba600e5d",
       "clientReq": true,
       "serverReq": true
     },
@@ -592,17 +592,17 @@
     },
     {
       "name": "Immersive Vehicles - Craftspeed Pack",
-      "remote": "https://mediafilez.forgecdn.net/files/5145/750/Craftspeed%201.5.2_12.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/7673/880/Craftspeed%201.7.4%20%281.12%29.jar",
       "local": "iv-craftspeed-pack.jar",
-      "md5": "96922a9a2a697abd5f9c331add5df8fa",
+      "sha1": "c25229c77c440a82595785b66e76b7a7e865c8fa",
       "clientReq": true,
       "serverReq": true
     },
     {
       "name": "Immersive Vehicles - Official Content Pack",
-      "remote": "https://mediafilez.forgecdn.net/files/7034/828/MTS%20Official%20Pack-1.12.2-V28.2.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/7933/708/MTS%20Official%20Pack-1.12.2-V29.jar",
       "local": "iv-official-content-pack.jar",
-      "sha1": "b6a1f7d06acc1c579bd76e4ec3c98c08b02d6d97",
+      "sha1": "0895dfda05d7f66a69bb86febe7e03faa08526ce",
       "clientReq": true,
       "serverReq": true
     },
@@ -616,9 +616,17 @@
     },
     {
       "name": "Immersive Vehicles - UNU DKZ Industries Pack",
-      "remote": "https://mediafilez.forgecdn.net/files/4643/332/DKZ_Industries-AdamRK_Heavy_Industrial-3.2.0-2.2.0.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/7441/743/DKZ%20Industries-3.2.1b-hotfix.jar",
       "local": "unu-dkz-industries-pack.jar",
-      "sha1": "87b5802549846c81fde2dc889a0c8b106399dc2f",
+      "sha1": "b9712636e9cb177be2d77b4c56e9e143718b7609",
+      "clientReq": true,
+      "serverReq": true
+    },
+    {
+      "name": "Immersive Vehicles - Adam RK's Heavy Industrial Pack",
+      "remote": "https://mediafilez.forgecdn.net/files/5191/517/MTS%20Heavy%20Industrial%20by%20AdamRK-2.2.0.jar",
+      "local": "adam-rk-hi-pack.jar",
+      "sha1": "5df70d3d25209adcda9f31d988f98eec9c1e75be",
       "clientReq": true,
       "serverReq": true
     },
