@@ -1,6 +1,6 @@
 {
   "packName": "Alto",
-  "packVersion": "26.4.16",
+  "packVersion": "26.4.17",
   "packCustomDiscordRpc": true,
   "packURL": "https://minecraft.micatechnologies.com",
   "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -968,9 +968,9 @@
     },
     {
       "name": "RealGrid by Mica",
-      "remote": "https://github.com/Mica-Technologies/RealGridIEAddon/releases/download/2026.04.13/real-grid-ie-2026.04.13.jar",
+      "remote": "https://github.com/Mica-Technologies/RealGridIEAddon/releases/download/2026.04.17/real-grid-ie-2026.04.17.jar",
       "local": "realgrid.jar",
-      "md5": "178ef4ee1cd7a179cdb981ae87af1343",
+      "sha1": "E47AC4CCACF851D4E09FC9AABDABC53B516910E0",
       "clientReq": true,
       "serverReq": true
     },
