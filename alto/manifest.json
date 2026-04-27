@@ -1,6 +1,6 @@
 {
   "packName": "Alto",
-  "packVersion": "26.4.25",
+  "packVersion": "26.4.27",
   "packCustomDiscordRpc": true,
   "packURL": "https://minecraft.micatechnologies.com",
   "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -160,9 +160,9 @@
     },
     {
       "name": "City Super Mod",
-      "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2026.04.26/minecraft-city-super-mod-2026.04.26.jar",
+      "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2026.04.27/minecraft-city-super-mod-2026.04.27.jar",
       "local": "city-super-mod.jar",
-      "md5": "7073dbc8589604f1bbdd56a4457e66cd",
+      "md5": "6a5c7be12a862442c49441f5724efbb8",
       "clientReq": true,
       "serverReq": true
     },
