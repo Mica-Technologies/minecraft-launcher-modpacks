@@ -1227,7 +1227,7 @@
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/mainmenu.json",
       "local": "CustomMainMenu/mainmenu.json",
-      "sha1": "1014b0023c0f5129cbb4051b7b9e7e5e7e88af5c",
+      "sha1": "67ee85f7d8d4ddb78a7cf0d5fcf194eba624de0a",
       "clientReq": true,
       "serverReq": false
     },

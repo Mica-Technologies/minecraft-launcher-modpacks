@@ -31,7 +31,7 @@
          "alignment":"center",
          "action":{
             "type":"openLink",
-            "link":"https://minecraft.micatechnologies.com/alto-map.html"
+            "link":"https://micatechnologies.com/projects/alto/webmap"
          }
       },
      "website":{
@@ -43,7 +43,7 @@
          "alignment":"center",
          "action":{
             "type":"openLink",
-            "link":"https://minecraft.micatechnologies.com"
+            "link":"https://micatechnologies.com/projects/alto"
          }
       },
       "singleplayer":{
