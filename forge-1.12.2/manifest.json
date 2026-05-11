@@ -5,7 +5,7 @@
     "packLogoURL": "https://pbs.twimg.com/profile_images/778706890914095109/fhMDH9o6_400x400.jpg",
     "packMinRAMGB": "1",
     "packForgeURL": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2855/forge-1.12.2-14.23.5.2855-installer.jar",
-    "packForgeHash": "F691A3E4D8F46EEBB42D6129F5E192BF4E1121D0",
+    "packForgeHash": "324cb26ac3cda409290b46abdb596322776657d2",
     "packMods": [{
         "name": "PipeBlocker",
         "remote": "https://mediafilez.forgecdn.net/files/4671/444/PipeBlocker-1.1.0.jar",

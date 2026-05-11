@@ -9,7 +9,7 @@
   "packBackgroundSha1": "ce515b3c1541eb783dc4e0bc0b655a0a1cebb982",
   "packMinRAMGB": "6",
   "packForgeURL": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar",
-  "packForgeHash": "8328b395bb26bab70f818126ebe6a75772d39ce4",
+  "packForgeHash": "5e8a91f71ef3d1f77de3f8d3261aedcc2f551c9d",
   "packScanExclusions": [
     "dynmap"
   ],
@@ -1241,14 +1241,14 @@
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/fpsreducer/fpsreducer.cfg",
       "local": "fpsreducer/fpsreducer.cfg",
-      "sha1": "02b22879d0304870c84b3ca84e50c7139322ec3d",
+      "sha1": "4b3837d78c3f7a1c93896e25e7b26fb76873ac42",
       "clientReq": true,
       "serverReq": true
     },
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/sum/sum.cfg",
       "local": "sum.cfg",
-      "sha1": "a1058d31f5bd551dc005eae3fa3b0a8119563d93",
+      "sha1": "caa47420c1e7c7579b0e553c06b44f494d4e14fc",
       "clientReq": true,
       "serverReq": true
     },
@@ -1297,21 +1297,21 @@
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/Universal-Tweaks---Tweaks.cfg",
       "local": "Universal Tweaks - Tweaks.cfg",
-      "sha1": "bbf1ab52e97d35105668ac73345d6498e4c81581",
+      "sha1": "ebfb2edb10b0bd63f760a96b79884a33410fb566",
       "clientReq": true,
       "serverReq": true
     },
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/splash.properties",
       "local": "splash.properties",
-      "sha1": "5f7d7f39015001acb85c1582f6cdf0ad93a88018",
+      "sha1": "68338275fd66acee8f634c6cd239b1157b53df51",
       "clientReq": true,
       "serverReq": true
     },
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/loliasm.cfg",
       "local": "loliasm.cfg",
-      "sha1": "e5793373bb1f87a21c35f0b987d203c32a7634ef",
+      "sha1": "1c0eeb1ae59501bba368934005bb6007abc16002",
       "clientReq": true,
       "serverReq": true
     },
@@ -1353,14 +1353,14 @@
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/customloadingscreen/scroll_detailed.json",
       "local": "customloadingscreen/scroll_detailed.json",
-      "sha1": "6e3f1546e334c8feeae8d649adfc0eaf5250c57c",
+      "sha1": "6e5cb831cca095dff246c5a8bb8cf442a503beaa",
       "clientReq": true,
       "serverReq": false
     },
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/customloadingscreen/customloadingscreen.cfg",
       "local": "customloadingscreen.cfg",
-      "sha1": "5cf2ff414c2ecd319b9872d3ccc892a26c8581aa",
+      "sha1": "f15e4fe966ac8743f26d254c4de6b89bf0379382",
       "clientReq": true,
       "serverReq": false
     }
