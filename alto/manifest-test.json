@@ -1,6 +1,6 @@
 {
   "packName": "Alto_TEST",
-  "packVersion": "26.5.2",
+  "packVersion": "26.5.11",
   "packCustomDiscordRpc": true,
   "packURL": "https://minecraft.micatechnologies.com",
   "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -160,9 +160,9 @@
     },
     {
       "name": "City Super Mod",
-      "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2026.05.02%2B1/minecraft-city-super-mod-2026.05.02+1.jar",
+      "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2026.05.11/minecraft-city-super-mod-2026.05.11.jar",
       "local": "city-super-mod.jar",
-      "md5": "1eefdfdaf3c85010a4f0f72ee37e37d6",
+      "md5": "d50a9028fc948e3008468400742a5d7d",
       "clientReq": true,
       "serverReq": true
     },
@@ -288,7 +288,7 @@
     },
     {
       "name": "DynamX Physics Mod",
-      "remote": "https://mediafilez.forgecdn.net/files/4756/674/DynamX-4.0.2-all.jar",
+      "remote": "https://mediafilez.forgecdn.net/files/5197/888/DynamX-4.0.2-all.jar",
       "local": "dynamx.jar",
       "sha1": "4A3167B96A48E21F32AE69C16FBC0256F195B9C6",
       "clientReq": false,
