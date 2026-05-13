@@ -13,6 +13,20 @@
   "packScanExclusions": [
     "dynmap"
   ],
+  "packScanAcknowledgements": [
+    {
+      "fileSha256": "58bd0865025a99d031220bdc855ede653aff865e49bda2064a31f4b1cf11622c",
+      "kind":       "LAUNCHER_CREDENTIAL_FILE_REF",
+      "locator":    "optifine/Installer.updateLauncherJson",
+      "reason":     "OptiFine's installer writes itself into launcher_profiles.json for the standalone Mojang launcher. Dead code when OptiFine runs as a mod under a third-party launcher."
+    },
+    {
+      "fileSha256": "133faa9de771c6f9dd6c25bb8149f074296dad8db251523fc3f56976af857b27",
+      "kind":       "EMBEDDED_EXECUTABLE",
+      "locator":    "marytts/machinelearning/GMMTrainer.exe",
+      "reason":     "MaryTTS offline Gaussian-mixture-model training binary, shipped inside city-super-mod's bundled TTS library. Not invoked from mod code at runtime."
+    }
+  ],
   "packMods": [
     {
       "name": "3D Skin Layers",
