@@ -6,7 +6,7 @@
     "packMinRAMGB": "2",
     "packModLoader": "neoforge",
     "packModLoaderURL": "https://maven.neoforged.net/releases/net/neoforged/neoforge/21.1.95/neoforge-21.1.95-installer.jar",
-    "packModLoaderHash": "",
+    "packModLoaderHash": "d1d0329dd1aa8c7b0789f6e9b79df90d631e79b7",
     "packForgeURL": "",
     "packForgeHash": "",
     "packMods": [],
