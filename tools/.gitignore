@@ -1,0 +1,4 @@
+# Cached per-URL SHA-256 results written by add-sha256-hashes.mjs.
+# Keys are SHA-1 of the URL; values are the file's SHA-256. Cheap to
+# rebuild on demand, no reason to track.
+.sha256-cache/
