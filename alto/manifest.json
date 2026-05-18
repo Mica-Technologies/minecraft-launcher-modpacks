@@ -1,6 +1,6 @@
 {
   "packName": "Alto",
-  "packVersion": "26.5.16.1",
+  "packVersion": "26.5.17",
   "packCustomDiscordRpc": true,
   "packURL": "https://minecraft.micatechnologies.com",
   "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -301,14 +301,6 @@
       "md5": "77e815ce9c8dd68ecba4eb884d6db4d2",
       "clientReq": true,
       "serverReq": false
-    },
-    {
-      "name": "Economy Inc",
-      "remote": "https://mediafilez.forgecdn.net/files/2841/677/EconomyInc-1.6.2MC1.12.jar",
-      "local": "economy-inc.jar",
-      "sha1": "c1d635277d23a772aa654abc81f7e7cb727b5fe0",
-      "clientReq": true,
-      "serverReq": true
     },
     {
       "name": "ElectricalCraft",
@@ -719,14 +711,6 @@
       "serverReq": true
     },
     {
-      "name": "Loyalty Rewards",
-      "remote": "https://mediafilez.forgecdn.net/files/2912/452/LoyaltyRewards-1.12-0.4.0.jar",
-      "local": "loyalty-rewards.jar",
-      "md5": "9fd6c1189f4ad0fc49a15fb4d2c01a4b",
-      "clientReq": true,
-      "serverReq": true
-    },
-    {
       "name": "Luxury Furniture",
       "remote": "https://mediafilez.forgecdn.net/files/5005/878/Luxury%20Furnitures%202.27.0%201.12.2.jar",
       "local": "luxury-furniture.jar",
@@ -1024,9 +1008,9 @@
     },
     {
       "name": "Server Utility Mod",
-      "remote": "https://github.com/Mica-Technologies/uia-server-utility-mod/releases/download/2026.04.09/uia-server-utility-mod-2026.04.09.jar",
+      "remote": "https://github.com/Mica-Technologies/uia-server-utility-mod/releases/download/2026.05.18/uia-server-utility-mod-2026.05.18.jar",
       "local": "sum.jar",
-      "md5": "c419bca58f6083ec894533d8460400d3",
+      "md5": "5d8be07784fd7372c3f68234caf72095",
       "clientReq": true,
       "serverReq": true
     },

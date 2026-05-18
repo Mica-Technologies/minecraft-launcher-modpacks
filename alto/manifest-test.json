@@ -1,6 +1,6 @@
 {
   "packName": "Alto_TEST",
-  "packVersion": "26.5.16.1",
+  "packVersion": "26.5.17",
   "packCustomDiscordRpc": true,
   "packURL": "https://minecraft.micatechnologies.com",
   "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -351,15 +351,6 @@
       "clientReq": true,
       "serverReq": false,
       "sha256": "e5c9fbc101dae923a49800761c901831c1f085685c20a229d7dcf98f37d70b85"
-    },
-    {
-      "name": "Economy Inc",
-      "remote": "https://mediafilez.forgecdn.net/files/2841/677/EconomyInc-1.6.2MC1.12.jar",
-      "local": "economy-inc.jar",
-      "sha1": "c1d635277d23a772aa654abc81f7e7cb727b5fe0",
-      "clientReq": true,
-      "serverReq": true,
-      "sha256": "70037f8420a0edffd91441deeea3fcb809734d14f93500197930a4c181f45539"
     },
     {
       "name": "ElectricalCraft",
@@ -821,15 +812,6 @@
       "sha256": "186573a3677deef8071e33ba8df44e031f2e2d0f4eec89c10a5243e6da8f8a4a"
     },
     {
-      "name": "Loyalty Rewards",
-      "remote": "https://mediafilez.forgecdn.net/files/2912/452/LoyaltyRewards-1.12-0.4.0.jar",
-      "local": "loyalty-rewards.jar",
-      "md5": "9fd6c1189f4ad0fc49a15fb4d2c01a4b",
-      "clientReq": true,
-      "serverReq": true,
-      "sha256": "271accd5392f51fd754c519a4fdb01b7abad38bf099c6187c13a150a700e4df2"
-    },
-    {
       "name": "Luxury Furniture",
       "remote": "https://mediafilez.forgecdn.net/files/5005/878/Luxury%20Furnitures%202.27.0%201.12.2.jar",
       "local": "luxury-furniture.jar",
@@ -1164,12 +1146,12 @@
     },
     {
       "name": "Server Utility Mod",
-      "remote": "https://github.com/Mica-Technologies/uia-server-utility-mod/releases/download/2026.04.09/uia-server-utility-mod-2026.04.09.jar",
+      "remote": "https://github.com/Mica-Technologies/uia-server-utility-mod/releases/download/2026.05.18/uia-server-utility-mod-2026.05.18.jar",
       "local": "sum.jar",
-      "md5": "c419bca58f6083ec894533d8460400d3",
+      "md5": "5d8be07784fd7372c3f68234caf72095",
       "clientReq": true,
       "serverReq": true,
-      "sha256": "408fe293e6a6582d393b1c9f39e5b0b11b4884ed5bc3c5cb33e98faa8da45f54"
+      "sha256": "d7a21fea2370dc0a7f585d4a8a780245b22863b0ba02207a740c045fe75c3edd"
     },
     {
       "name": "Serverpauser",
