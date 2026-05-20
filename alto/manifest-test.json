@@ -1,6 +1,6 @@
 {
   "packName": "Alto_TEST",
-  "packVersion": "26.5.17",
+  "packVersion": "26.5.20",
   "packCustomDiscordRpc": true,
   "packURL": "https://minecraft.micatechnologies.com",
   "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -15,16 +15,16 @@
   ],
   "packScanAcknowledgements": [
     {
-      "fileSha256": "58bd0865025a99d031220bdc855ede653aff865e49bda2064a31f4b1cf11622c",
+      "innerSha256": "7a43bdd6081d677687b09973bca1394407ceacf09385b1ee81f809e364d80c2e",
       "kind": "LAUNCHER_CREDENTIAL_FILE_REF",
       "locator": "optifine/Installer.updateLauncherJson",
-      "reason": "OptiFine's installer writes itself into launcher_profiles.json for the standalone Mojang launcher. Dead code when OptiFine runs as a mod under a third-party launcher."
+      "reason": "OptiFine's Installer.class writes its entry into launcher_profiles.json for the standalone Mojang launcher. Dead code when OptiFine runs as a mod under a third-party launcher. Keyed on the Installer.class bytecode so the ack survives outer-jar repackages as long as that specific class is unchanged."
     },
     {
-      "fileSha256": "133faa9de771c6f9dd6c25bb8149f074296dad8db251523fc3f56976af857b27",
+      "innerSha256": "7a2f2cbec807c309eb75fbaa46d46a773c1aa682b2d5446362780d386423c877",
       "kind": "EMBEDDED_EXECUTABLE",
       "locator": "marytts/machinelearning/GMMTrainer.exe",
-      "reason": "MaryTTS offline Gaussian-mixture-model training binary, shipped inside city-super-mod's bundled TTS library. Not invoked from mod code at runtime."
+      "reason": "MaryTTS offline Gaussian-mixture-model training binary shipped inside city-super-mod's bundled TTS library. Not invoked from mod code at runtime. Keyed on the GMMTrainer.exe bytes so the ack survives city-super-mod updates as long as the shaded MaryTTS artifact itself doesn't change."
     }
   ],
   "packMods": [
