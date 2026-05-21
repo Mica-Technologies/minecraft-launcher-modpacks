@@ -19,9 +19,9 @@
  * so re-runs are cheap. Pass --no-cache to ignore the cache.
  *
  * Usage:
- *   node tools/add-sha256-hashes.mjs              # update every manifest
- *   node tools/add-sha256-hashes.mjs --dry-run    # print would-add count, no writes
- *   node tools/add-sha256-hashes.mjs alto/manifest.json  # specific files
+ *   node tools/add-sha256-hashes.mjs                        # update every manifest
+ *   node tools/add-sha256-hashes.mjs --dry-run              # print would-add count, no writes
+ *   node tools/add-sha256-hashes.mjs alto/manifest.mmcjson  # specific files
  */
 
 import { createHash } from "node:crypto";
@@ -82,7 +82,11 @@ if ( dryRun ) console.log( "  (--dry-run: no manifest files were modified)" );
 
 async function collectManifests() {
     const out = [];
-    // Top-level: any *.json that ends in manifest.json or matches the install list.
+    // Pick up both the current .mmcjson extension and any legacy manifest.json
+    // still floating around (mainly useful while a repo is mid-migration).
+    for await ( const path of glob( "*/manifest*.mmcjson", { cwd: REPO_ROOT } ) ) {
+        out.push( resolve( REPO_ROOT, path ) );
+    }
     for await ( const path of glob( "*/manifest*.json", { cwd: REPO_ROOT } ) ) {
         out.push( resolve( REPO_ROOT, path ) );
     }
