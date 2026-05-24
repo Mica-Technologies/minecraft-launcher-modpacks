@@ -1,6 +1,6 @@
 {
   "packName": "Alto_TEST",
-  "packVersion": "26.5.21",
+  "packVersion": "26.5.23",
   "packCustomDiscordRpc": true,
   "packURL": "https://minecraft.micatechnologies.com",
   "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -1553,7 +1553,7 @@
       "sha1": "-1",
       "clientReq": true,
       "serverReq": false,
-      "sha256": "a5ea5183ae6d889f9d6d795f3408351ee6eb5f96eac7e2681005bdb9beff1edd"
+      "sha256": "-1"
     },
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/optionsof.txt",
@@ -1561,7 +1561,7 @@
       "sha1": "-1",
       "clientReq": true,
       "serverReq": false,
-      "sha256": "cd6397aee3fbd71877c40d9198de1a67461e932caad4e0903cf7ae638903775f"
+      "sha256": "-1"
     },
     {
       "remote": "https://dynamx.fr/download/packs/6127730fbd08ee57b1f3e97d/DartcherDynamX-BasicPack-4.0.dnxpack",
@@ -1593,7 +1593,7 @@
       "sha1": "-1",
       "clientReq": true,
       "serverReq": false,
-      "sha256": "abcbffc41e1e47eb42e8378587dc5b3a43414c2e78cdd9403f2b4ac3cb92ff07"
+      "sha256": "-1"
     },
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/day.json",
@@ -1601,7 +1601,7 @@
       "sha1": "-1",
       "clientReq": true,
       "serverReq": false,
-      "sha256": "dbe2fe8210b038db40ef562390476aee08d536d94bff074aa25bb58d1f641f70"
+      "sha256": "-1"
     },
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/direction.json",
@@ -1609,7 +1609,7 @@
       "sha1": "-1",
       "clientReq": true,
       "serverReq": false,
-      "sha256": "06a8e058dc869c64ee3f27eb03cce30e154a83377b04a9d29f3bdf17e98cf98f"
+      "sha256": "-1"
     },
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/fps.json",
@@ -1617,7 +1617,7 @@
       "sha1": "-1",
       "clientReq": true,
       "serverReq": false,
-      "sha256": "14830640c3f734708de2d85a4bcc85e72e6478fdde8dc6aa8ca514430d6da405"
+      "sha256": "-1"
     },
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/ingametime.json",
@@ -1625,7 +1625,7 @@
       "sha1": "-1",
       "clientReq": true,
       "serverReq": false,
-      "sha256": "9aa937f97c05ca41ff33f0546c663487b35fd2dc3faf1c4aed7e92fe686ad871"
+      "sha256": "-1"
     },
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/memory.json",
@@ -1633,7 +1633,7 @@
       "sha1": "-1",
       "clientReq": true,
       "serverReq": false,
-      "sha256": "2ca3b3de1a07576feb23bffa5bb694464aeeddd241e3ac961a54417f48081b94"
+      "sha256": "-1"
     },
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/playtime.json",
@@ -1641,7 +1641,7 @@
       "sha1": "-1",
       "clientReq": true,
       "serverReq": false,
-      "sha256": "0c936904f570e07c13785f5987ae8f57a481439eb7b9186544afd795895a27e4"
+      "sha256": "-1"
     },
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/speed.json",
@@ -1649,7 +1649,7 @@
       "sha1": "-1",
       "clientReq": true,
       "serverReq": false,
-      "sha256": "f212ab39ed7c228ce67d292ac90b0b31cdfef7b2d089a8fbe2c4c3cfd8451d87"
+      "sha256": "-1"
     },
     {
       "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/tps.json",
@@ -1657,7 +1657,7 @@
       "sha1": "-1",
       "clientReq": true,
       "serverReq": false,
-      "sha256": "7df1553375e49a4f8c996b598af16438ee0cc98cdd956ce85b096c0451419b79"
+      "sha256": "-1"
     }
   ]
 }
