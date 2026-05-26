@@ -8,6 +8,9 @@
   "packBackgroundURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/backgroundB.png",
   "packBackgroundSha1": "ce515b3c1541eb783dc4e0bc0b655a0a1cebb982",
   "packMinRAMGB": "6",
+  "packDefaultServerHost": "alto.tacomano.micatechnologies.com",
+  "packDefaultServerPort": 8585,
+  "packDefaultServerName": "Alto Minecraft Server",
   "packForgeURL": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar",
   "packForgeHash": "5e8a91f71ef3d1f77de3f8d3261aedcc2f551c9d",
   "packScanExclusions": [
