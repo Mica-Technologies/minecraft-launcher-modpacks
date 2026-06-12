@@ -1,6 +1,6 @@
 {
   "packName": "Alto",
-  "packVersion": "26.6.7",
+  "packVersion": "26.6.12",
   "packCustomDiscordRpc": true,
   "packURL": "https://minecraft.micatechnologies.com",
   "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -8,6 +8,9 @@
   "packBackgroundURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/backgroundC.png",
   "packBackgroundSha1": "29dd5a74221ff67df5894492b374498d7df31af6",
   "packMinRAMGB": "6",
+  "packDefaultServerHost": "alto.tacomano.micatechnologies.com",
+  "packDefaultServerPort": 8585,
+  "packDefaultServerName": "Alto Minecraft Server",
   "packForgeURL": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar",
   "packForgeHash": "5e8a91f71ef3d1f77de3f8d3261aedcc2f551c9d",
   "packScanExclusions": [
@@ -192,12 +195,12 @@
     },
     {
       "name": "City Super Mod",
-      "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2026.05.16%2B2/minecraft-city-super-mod-2026.05.16+2.jar",
+      "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2026.06.12/minecraft-city-super-mod-2026.06.12.jar",
       "local": "city-super-mod.jar",
-      "md5": "ce3e2c80056e2a089787085497ea2c7c",
+      "md5": "7c51f03521eff8be162fea38557b977e",
       "clientReq": true,
       "serverReq": true,
-      "sha256": "48630b22c7ae82d0452c595e7ee3e1a5e4ddb75968d596c72b3b6233e2d902df"
+      "sha256": "fcdb11742c23bbc549175d9eb37fe2095d358c6ff66a3302d386f81059d2c60a"
     },
     {
       "name": "Clear Water",
