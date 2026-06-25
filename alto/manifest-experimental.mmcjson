@@ -56,6 +56,23 @@
       "type": "warning"
     }
   ],
+  "packLinks": [
+    {
+      "title": "Website",
+      "url": "https://minecraft.micatechnologies.com",
+      "description": "Pack home page, downloads, and announcements."
+    },
+    {
+      "title": "Alto Server",
+      "url": "https://minecraft.micatechnologies.com",
+      "description": "Info for the Alto Minecraft Server this pack is built for."
+    },
+    {
+      "title": "City Super Mod",
+      "url": "https://github.com/Mica-Technologies/minecraft-city-super-mod",
+      "description": "Source and releases for the City Super Mod bundled in this pack."
+    }
+  ],
   "packMods": [
     {
       "name": "3D Skin Layers",
