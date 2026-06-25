@@ -1,0 +1,1692 @@
+{
+  "packName": "Alto_EXPERIMENTAL",
+  "packVersion": "26.6.12",
+  "packCustomDiscordRpc": true,
+  "packURL": "https://minecraft.micatechnologies.com",
+  "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
+  "packLogoSha1": "54787d3bf0957c79da8b9e097be07616d8244b0e",
+  "packBackgroundURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/backgroundB.png",
+  "packBackgroundSha1": "ce515b3c1541eb783dc4e0bc0b655a0a1cebb982",
+  "packMinRAMGB": "6",
+  "packDefaultServerHost": "alto.tacomano.micatechnologies.com",
+  "packDefaultServerPort": 8585,
+  "packDefaultServerName": "Alto Minecraft Server",
+  "packForgeURL": "https://maven.minecraftforge.net/net/minecraftforge/forge/1.12.2-14.23.5.2860/forge-1.12.2-14.23.5.2860-installer.jar",
+  "packForgeHash": "5e8a91f71ef3d1f77de3f8d3261aedcc2f551c9d",
+  "packScanExclusions": [
+    "dynmap"
+  ],
+  "packScanAcknowledgements": [
+    {
+      "innerSha256": "7a43bdd6081d677687b09973bca1394407ceacf09385b1ee81f809e364d80c2e",
+      "kind": "LAUNCHER_CREDENTIAL_FILE_REF",
+      "locator": "optifine/Installer.updateLauncherJson",
+      "reason": "OptiFine's Installer.class writes its entry into launcher_profiles.json for the standalone Mojang launcher. Dead code when OptiFine runs as a mod under a third-party launcher. Keyed on the Installer.class bytecode so the ack survives outer-jar repackages as long as that specific class is unchanged."
+    },
+    {
+      "innerSha256": "7a2f2cbec807c309eb75fbaa46d46a773c1aa682b2d5446362780d386423c877",
+      "kind": "EMBEDDED_EXECUTABLE",
+      "locator": "marytts/machinelearning/GMMTrainer.exe",
+      "reason": "MaryTTS offline Gaussian-mixture-model training binary shipped inside city-super-mod's bundled TTS library. Not invoked from mod code at runtime. Keyed on the GMMTrainer.exe bytes so the ack survives city-super-mod updates as long as the shaded MaryTTS artifact itself doesn't change."
+    }
+  ],
+  "packNews": [
+    {
+      "id": "2026-06-12-v26.6.12",
+      "title": "Alto 26.6.12 is live",
+      "body": "This build updates City Super Mod to the 2026.06.12 release and refreshes the Immersive Vehicles content packs. Launch once to pull the new files, then you're good to go.",
+      "date": "2026-06-12",
+      "type": "update",
+      "url": "https://minecraft.micatechnologies.com",
+      "pinned": true
+    },
+    {
+      "id": "2026-06-20-summer-build-meet",
+      "title": "Summer Build Meet on the server",
+      "body": "Join us on the Alto Minecraft Server for a community build meet. We'll be laying out a new transit district together — bring your roads, rails, and rolling stock!",
+      "date": "2026-06-20",
+      "type": "event",
+      "expires": "2026-07-15"
+    },
+    {
+      "id": "2026-05-30-known-issues",
+      "title": "Heads up: DynMap on first launch",
+      "body": "DynMap is server-side only in this pack, so the client may log a one-time warning about it on first launch. This is expected and safe to ignore.",
+      "date": "2026-05-30",
+      "type": "warning"
+    }
+  ],
+  "packMods": [
+    {
+      "name": "3D Skin Layers",
+      "remote": "https://cdn.modrinth.com/data/zV5r3pPn/versions/1.2.0-forge-1.12.2/3dSkinLayers-forge-mc1.12.2-1.2.0.jar",
+      "local": "3d-skin-layers.jar",
+      "sha1": "332db9675de67c5f84b1b0e4f398b5fbe9b6ed56",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "d1b317026f128ed521bada619bb2c4aaaa98862364deec4fd49eef1304e00878"
+    },
+    {
+      "name": "A Little Extra Tiles",
+      "remote": "https://cdn.modrinth.com/data/NWquC4YJ/versions/Nni7C3fG/A_Little_Extra_Tiles-1.1.0-pre034.jar",
+      "local": "a-little-extra-tiles.jar",
+      "sha1": "CEE0BE1E7970DCBE4E9FF94B8427D79A975B92AC",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "2c795faf3564d76c5a6346808a62e1bc98cf57c2d1c553425902b79afd22a260"
+    },
+    {
+      "name": "ACS Guis",
+      "remote": "https://mediafilez.forgecdn.net/files/4756/627/ACsGuis-1.2.11-all.jar",
+      "local": "ACsGuis-1.2.11-all.jar",
+      "sha1": "23e45699e4ef4e7e0520f8ec72c3317a41d4af6f",
+      "clientReq": false,
+      "serverReq": false,
+      "sha256": "cbd835ec643c1f2a25d03a548f597d1568a346066c1a91d576d2040b24df2f8d"
+    },
+    {
+      "name": "Airport Lights",
+      "remote": "https://mediafilez.forgecdn.net/files/6234/465/AirPort-%5B1.12.2%5D-2.4.10.jar",
+      "local": "airport-lights.jar",
+      "sha1": "2bddd6a27ff93a3ccba6e69114eaade32a79d19c",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "84576b621e43fd221827cc5b8a91a942ee7887c948b085e90f0d8b1bc53ed10f"
+    },
+    {
+      "name": "Alfheim",
+      "remote": "https://mediafilez.forgecdn.net/files/6687/458/Alfheim-1.6.jar",
+      "local": "alfheim.jar",
+      "md5": "07e2884b1c7f91022d05070e479dbf39",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "730bb0425c97d394c86712e27f71c93069d5b95877bd54f70fc56235eeef33ef"
+    },
+    {
+      "name": "Alternating Flux",
+      "remote": "https://mediafilez.forgecdn.net/files/2693/578/alternatingflux-0.12.2-2.jar",
+      "local": "alternating-flux.jar",
+      "sha1": "bcad5acd1909953bc1f5fb42e6a5df81d4b0fd6c",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "4b26ffacaaf01382158a412fbb9ffe43f7ec6a172dd3e2f496a3b8c141438211"
+    },
+    {
+      "name": "Aqua Acrobatics",
+      "remote": "https://mediafilez.forgecdn.net/files/4496/98/AquaAcrobatics-1.15.3.jar",
+      "local": "aqua-acrobatics.jar",
+      "md5": "f7dc2e1f31baeabff8e43e7ba7ae0d7b",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "5dd040f0de449f14ae9d6538515fe9e8febaa14969e57e25b7d64ec505542600"
+    },
+    {
+      "name": "ArchitectureCraft",
+      "remote": "https://mediafilez.forgecdn.net/files/4344/128/architecturecraft-1.12-3.108.jar",
+      "local": "architecture-craft.jar",
+      "md5": "7017f0fe04ffd2aef0904478b4fc8b73",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "34a864afeceb60f744b5071ba625de5d294143f7c08740642cb21482b288bd7e"
+    },
+    {
+      "name": "Auto Dropper",
+      "remote": "https://mediafilez.forgecdn.net/files/2651/554/AutoDropper-1.12.2-2.0.1.jar",
+      "local": "auto-dropper.jar",
+      "md5": "8c9906654a5789ac00ddee4b63957946",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "98f995d9c05c193a406bf3792dbcb63bae1f32c734cb5ef3570741f111de0bd2"
+    },
+    {
+      "name": "Better Placement",
+      "remote": "https://mediafilez.forgecdn.net/files/2481/852/BetterPlacement-1.0.0-1.jar",
+      "local": "better-placement.jar",
+      "sha1": "0204bf54baaa79c5ec5762b1d7f6adcadf2ccbab",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "ddd028a561c6e417969aca8c3b1cfc957c4421348fba2f9bc742095253fabcf9"
+    },
+    {
+      "name": "Biome Tweaker",
+      "remote": "https://mediafilez.forgecdn.net/files/3112/142/BiomeTweaker-1.12.2-3.2.369.jar",
+      "local": "biome-tweaker.jar",
+      "sha1": "4f85402caa88c73794e8dc050386313f0a4c9ad5",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "a988d397a755680598925aed319ca3206d5a9babb13f6f6a6d4c1bda52585f31"
+    },
+    {
+      "name": "Biome Tweaker Core",
+      "remote": "https://mediafilez.forgecdn.net/files/2527/645/BiomeTweakerCore-1.12.2-1.0.39.jar",
+      "local": "biome-tweaker-core.jar",
+      "sha1": "13f6bc3c3ea4c4d8f1e8ac0db97a99bf23bd278b",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "9b96bd347e704c75540b456c55dc4a50edb99729d05afda2ea9bb08e3a7ecfff"
+    },
+    {
+      "name": "Biomes O Plenty",
+      "remote": "https://cdn.modrinth.com/data/HXF82T3G/versions/e5wgKLKS/BiomesOPlenty-1.12.2-7.0.1.2445-universal.jar",
+      "local": "biomes-o-plenty.jar",
+      "sha1": "13c1e58ffec2a550b9698e25cda93b8d155007b0",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "1c53d3ee39f557162591f618c58b79dc6861d24522ef785794ee4a815f8a3908"
+    },
+    {
+      "name": "Censored ASM",
+      "remote": "https://mediafilez.forgecdn.net/files/7267/368/loliasm-5.30.jar",
+      "local": "censored-asm.jar",
+      "sha1": "9f1fa93f44e10c095f826dd25c537b42afd3f4aa",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "a5f97ffc4a4495d5a9157fa03fdfb2a636650d68e1c29274c5de0b248d1777ea"
+    },
+    {
+      "name": "Charset Lib",
+      "remote": "https://mediafilez.forgecdn.net/files/3656/492/Charset-Lib-0.5.6.6.jar",
+      "local": "charset-lib.jar",
+      "sha1": "41912cdaaad5c22e1972092c7a73c9eab2de5650",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "fea7c9084d1974b3d539c1693579ab07614b4bcc5a8bc6cb4a1d3c855e963cc8"
+    },
+    {
+      "name": "Cherry on 1.12.2",
+      "remote": "https://cdn.modrinth.com/data/UmCzjjmW/versions/PntPYYmF/Cherry_on-1.12.2-1.3.31.jar",
+      "local": "cherry-on-1-12.jar",
+      "sha1": "3b11e800583df7f76ebede5f2180526581ee098c",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "3e11ef042596c52e5be4d52c95a0f174bfe50cad672376cf4f2bc35052040917"
+    },
+    {
+      "name": "Chisels & Bits",
+      "remote": "https://mediafilez.forgecdn.net/files/2720/655/chiselsandbits-14.33.jar",
+      "local": "chisels-and-bits.jar",
+      "sha1": "0e6f159254e6899651087e5b1464bac91698d1d3",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "0b086aced1beca90ed5bb25fe6951a4d191d9b49f221af1074d1f9ff4f364b74"
+    },
+    {
+      "name": "Chunkt",
+      "remote": "https://mediafilez.forgecdn.net/files/2942/644/chunkt-1.12.2-1.0.1.jar",
+      "local": "chunkt.jar",
+      "sha1": "beff5a4b277d4270776c5bbb3d5e35a6e2ce244b",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "f95f20f13fa0b180102c08791b2ccef11b1deb5e97be1c995dd5612234d9f211"
+    },
+    {
+      "name": "City Super Mod",
+      "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2026.06.12/minecraft-city-super-mod-2026.06.12.jar",
+      "local": "city-super-mod.jar",
+      "md5": "7c51f03521eff8be162fea38557b977e",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "fcdb11742c23bbc549175d9eb37fe2095d358c6ff66a3302d386f81059d2c60a"
+    },
+    {
+      "name": "Clear Water",
+      "remote": "https://cdn.modrinth.com/data/485Cv9lY/versions/1.2/clearwater-1.2.jar",
+      "local": "clear-water.jar",
+      "sha1": "9c920d0f5fdf8fdff36d7e5f93edc67c2fafe294",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "7a57dfffe50b7f9b0a9122eb095018664dea35cb01bddf43db1162683566d8eb"
+    },
+    {
+      "name": "ConfigAnytime",
+      "remote": "https://cdn.modrinth.com/data/Bnsrfd1o/versions/Ha5RG6IC/%21configanytime-3.0.jar",
+      "local": "!config-anytime.jar",
+      "sha1": "B6D8A10219D3802E04DE6B1E815A5853E50ADBCC",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "29fe190f0d1bb0b3841b2b9f315a5d561cab9f587df6164a0205440540577575"
+    },
+    {
+      "name": "Controllable",
+      "remote": "https://github.com/Ricket/Controllable/releases/download/0.11.2-1.12.2-alwaysEnabled/controllable-0.11.2-1.12.2-Ricket-alwaysEnabled.jar",
+      "local": "controllable.jar",
+      "sha1": "fb77d45ed176b2ede27e7a234528e40b01c157e0",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "fe9f85a63fd4d4d4227f64440ed40d275007d31c34603e191d855c56e658ca42"
+    },
+    {
+      "name": "Coro Util",
+      "remote": "https://mediafilez.forgecdn.net/files/2902/920/coroutil-1.12.1-1.2.37.jar",
+      "local": "coroutil.jar",
+      "sha1": "90392789dfbcadf440415a775d3ec81326deee2f",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "a16c09b2ac5894078cc1aef5b6fe11a04cb5bf43f2a703a5b9545fb8be0b748a"
+    },
+    {
+      "name": "Craft Presence",
+      "remote": "https://cdn.modrinth.com/data/DFqQfIBR/versions/DrztXj3v/CraftPresence-2.7.0%2B1.12.2-forge.jar",
+      "local": "craft-presence.jar",
+      "sha1": "b038ea06eef589216967f0c0ccd0d7e8023e9aeb",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "3db4f9ef7273ba1d6fd89cbbb58003a7d368c2f340a59a72ebd35ccee7b26c87"
+    },
+    {
+      "name": "Craft Tweaker",
+      "remote": "https://mediafilez.forgecdn.net/files/6929/88/CraftTweaker2-1.12-4.1.20.709.jar",
+      "local": "craft-tweaker.jar",
+      "sha1": "15aa4bc8d3e01621e8b045c3a33ccba8058207d5",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "10f9b14779416ff036b25780747f4307c4c4a74bd8136db1dd99fb39b1946fc9"
+    },
+    {
+      "name": "Creative Core",
+      "remote": "https://mediafilez.forgecdn.net/files/4722/163/CreativeCore_v1.10.71_mc1.12.2.jar",
+      "local": "creative-core.jar",
+      "sha1": "2c60a20ae9c9431a3b215a331c2b2af7fa3a060c",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "b0ef34ec816fa91451f8d4b62c016c159ab3559d6f75870790d1215943f009d5"
+    },
+    {
+      "name": "Custom Loading Screen",
+      "remote": "https://mediafilez.forgecdn.net/files/6771/73/CustomLoadingScreen-1.12.2-1.5.9.jar",
+      "local": "custom-loading-screen.jar",
+      "sha1": "f9a08f9d38624a794b86d33c5f786ab45755e066",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "4a00498619ce464376bc1d0c2a1267128f1955062973b7db2bb5a8a0f2afd3be"
+    },
+    {
+      "name": "Custom Main Menu",
+      "remote": "https://mediafilez.forgecdn.net/files/2857/869/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
+      "local": "custom-main-menu.jar",
+      "sha1": "9aad10a13bed75b6061a33219ab4f2f39e0ccc12",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "63b8e4d86b336739c9df8275d28e61519c73c815d0ba9ec18fb8d0cf8a218488"
+    },
+    {
+      "name": "Custom Sign Posts",
+      "remote": "https://mediafilez.forgecdn.net/files/3004/303/customsignposts-1.12.2-1.0.1.jar",
+      "local": "custom-sign-posts.jar",
+      "sha1": "adafc713a2ae569a2f90659c26b3cbc7babb82a7",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "0862b21b307a973385a6242dd3c33d29a00d69b2447fe0fa98641c9b03ef9983"
+    },
+    {
+      "name": "CustomNPCs",
+      "remote": "https://mediafilez.forgecdn.net/files/2996/912/CustomNPCs_1.12.2-%2805Jul20%29.jar",
+      "local": "custom-npcs.jar",
+      "sha1": "a5469076df8b1d9db4e483131dc94e270b8bc7cd",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "2759356b95ffb6a88c14997ff508dfe30f66abaa8e2d8029e18e02dcb57bc8cc"
+    },
+    {
+      "name": "Dark Redstone",
+      "remote": "https://mediafilez.forgecdn.net/files/4361/700/darkredstone-1.12.2-1.1.jar",
+      "local": "dark-redstone.jar",
+      "md5": "9b2bb57dab75287f88830cf152a2c5dc",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "a5d692e100c894afabc850d98ac9ad021de9b78f712efa69efedc618c616ae29"
+    },
+    {
+      "name": "DebugServerInfo",
+      "remote": "https://mediafilez.forgecdn.net/files/2491/601/DebugServerInfo-1.12.2-1.0.5.jar",
+      "local": "dbgsrvrinfo.jar",
+      "sha1": "8310bf71050953b7dced8067ef6c4a314e9f06f6",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "0a6dcc32af19b58d91587e6219deb697609184c1f687000cd9a038929b5eab20"
+    },
+    {
+      "name": "DynMap",
+      "remote": "https://mediafilez.forgecdn.net/files/5442/794/Dynmap-3.7-beta-6-forge-1.12.2.jar",
+      "local": "dynmap.jar",
+      "sha1": "E2B0F2FB2B530D21ECE8E69DAC9285EB04FAAC36",
+      "clientReq": false,
+      "serverReq": true,
+      "sha256": "539df1aa4b40b4953b8c738eff4d8400d707aba3800948bba1a8617f7a2aa771"
+    },
+    {
+      "name": "DynamX Basics Add-On",
+      "remote": "https://dynamx.fr/download/addons/619ffa207495b0fd666a58ff/BasicsAddon-1.0.8-for-DynamX-4.0.1.jar",
+      "local": "dynamx-basics.jar",
+      "sha1": "8dd2a8b4229b594c1cd289b0251fcc4cb08ffa37",
+      "clientReq": false,
+      "serverReq": false,
+      "sha256": "77ff29becb251d40507b9f2ceb06e98c373d7526afe6d0f446196de0076ff433"
+    },
+    {
+      "name": "DynamX Physics Mod",
+      "remote": "https://mediafilez.forgecdn.net/files/5197/888/DynamX-4.0.2-all.jar",
+      "local": "dynamx.jar",
+      "sha1": "4A3167B96A48E21F32AE69C16FBC0256F195B9C6",
+      "clientReq": false,
+      "serverReq": false,
+      "sha256": "5cf367981b81ea2119c1ff3d338458f43a1c259ed5b03be1688c9abdae3bb24e"
+    },
+    {
+      "name": "Dynamic Surroundings",
+      "remote": "https://mediafilez.forgecdn.net/files/3497/269/DynamicSurroundings-1.12.2-3.6.3.jar",
+      "local": "!o-dynamic-surroundings.jar",
+      "md5": "77e815ce9c8dd68ecba4eb884d6db4d2",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "e5c9fbc101dae923a49800761c901831c1f085685c20a229d7dcf98f37d70b85"
+    },
+    {
+      "name": "ElectricalCraft",
+      "remote": "https://mediafilez.forgecdn.net/files/5006/1/ElectricalCraft%202023.12.1%20Indev%201.12.2.jar",
+      "local": "electrical-craft.jar",
+      "sha1": "35211ce69f4c18865c47d5ec30bbb723bd18dde9",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "5ff80387c887aeb55c6fb1cdbae3678a07d994aba1b67b05c34a54809279fab9"
+    },
+    {
+      "name": "EnderCore",
+      "remote": "https://cdn.modrinth.com/data/oJcFXakG/versions/ObLYMdMS/EnderCore-1.12.2-0.5.78.jar",
+      "local": "endercore.jar",
+      "sha1": "96c2389a5fdb2968cd69fc80b478a9a0b0ecc441",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "adbd309f6c8001c38c4630aa701cdc5ea59fa7ee9ffa770e21f56b160adb443c"
+    },
+    {
+      "name": "EnderIO",
+      "remote": "https://cdn.modrinth.com/data/49ZofO4f/versions/ozde4Meh/EnderIO-1.12.2-5.3.72.jar",
+      "local": "enderio.jar",
+      "sha1": "60d62a0dab5b12c527fd8eda1d353888e3406175",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "9b5e7756af35a191de8bc8f010c0f7c7ffc2e1e056a69ec265d1dd5ce90d19b4"
+    },
+    {
+      "name": "Energy Control",
+      "remote": "https://mediafilez.forgecdn.net/files/5114/551/EnergyControl-1.12.2-0.3.2.jar",
+      "local": "energy-control.jar",
+      "sha1": "84db153da4b5cd933137f3f172203eebf08f78de",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "1741d0099bf0f088aba0b4a265206c313c13e3052fb5aa27ef54bc418f3d44f4"
+    },
+    {
+      "name": "Energy Converters",
+      "remote": "https://mediafilez.forgecdn.net/files/2992/813/energyconverters_1.12.2-1.3.7.30.jar",
+      "local": "energy-converters.jar",
+      "sha1": "EC35D6517E2A819FDF6C1413812D66159EF889C2",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "d7ab6459e6432c73c717423e222b130ecb7deb4f3d3831579305d00d5e0f8253"
+    },
+    {
+      "name": "Energy Meters",
+      "remote": "https://mediafilez.forgecdn.net/files/2995/865/energymeters-1.12.2-1.0.2.jar",
+      "local": "energy-meters.jar",
+      "sha1": "1e81208d4808cec9562ba284b0d9c26bf851dac3",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "92d9e4eec5d437af8254050a1e2a7d228ce51ea6568f086b915bb22d3ab57827"
+    },
+    {
+      "name": "Evergreen HUD",
+      "remote": "https://cdn.modrinth.com/data/1yIQcc2b/versions/vdhjeVdh/EvergreenHUD-1.12.2-forge-2.1.7.jar",
+      "local": "evergreen-hud.jar",
+      "sha1": "05D2892C48FBC6D09D9FE753C400588111E65BBB",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "f5e31be02866b57020654408f480fb0c58f31c1ebb9aa5a5c4a714f02794e50d"
+    },
+    {
+      "name": "FPS Reducer",
+      "remote": "https://cdn-raw.modrinth.com/data/iZ10HXDj/versions/UX5XQGgU/FpsReducer-mc1.12.2-1.20.jar",
+      "local": "fps-reducer.jar",
+      "sha1": "50c323de01f2235d351bf5417da6d4ef494b12e6",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "4c04d17010c77196226bb5f2a64c4c8dc348c144ce6183906d6ff301227780d5"
+    },
+    {
+      "name": "FTB Lib",
+      "remote": "https://mediafilez.forgecdn.net/files/2985/811/FTBLib-5.4.7.2.jar",
+      "local": "ftb-lib.jar",
+      "sha1": "7c20cd223bc2334edf153e074f35acdbcab3c976",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "623fc574f0227fec6cc9e26c3879a605f9b4499c0078ff085291901a5495a6ac"
+    },
+    {
+      "name": "FTB Quests",
+      "remote": "https://mediafilez.forgecdn.net/files/3156/637/FTBQuests-1202.9.0.15.jar",
+      "local": "ftb-quests.jar",
+      "sha1": "03413411b820e0fb91f36013aa5954dde3bc85e9",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "3f6a674ac0d8678fd0b127e6930199f32848fe47d1689e44c72976bfb24c7385"
+    },
+    {
+      "name": "FTB Utilities",
+      "remote": "https://mediafilez.forgecdn.net/files/3157/548/FTBUtilities-5.4.1.131.jar",
+      "local": "ftb-utilities.jar",
+      "md5": "94775ab675e0204523c9f267976b70d5",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "e458fe39aba9ba28122496e54f826e4f61df515ed1f8d0c70cc9e56f67a5404a"
+    },
+    {
+      "name": "First Aid",
+      "remote": "https://mediafilez.forgecdn.net/files/4414/252/firstaid-1.6.22.jar",
+      "local": "firstaid.jar",
+      "md5": "d61dc94039ea35dbcfc1679353e69c90",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "55dfe81a58d20575b6f6aa635d4296370c804fe52b77485b455aa99910da31a4"
+    },
+    {
+      "name": "Flare",
+      "remote": "https://cdn.modrinth.com/data/rWzXKfPV/versions/Mwr9c7U8/flare-0.7.0.jar",
+      "local": "flare.jar",
+      "sha1": "73c99e9a1c530880f4dd6d2646a5e8cd08eaf6c0",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "51fe94aef26729b875d1e5378f09ab9ecaa23bd9cc94a7eda3d478ad85dbbb8b"
+    },
+    {
+      "name": "Flat Colored Blocks",
+      "remote": "https://mediafilez.forgecdn.net/files/2715/827/flatcoloredblocks-mc1.12-6.8.jar",
+      "local": "flat-colored-blocks.jar",
+      "sha1": "0b6ae9ad1b622a65f988c887b34f7d64a5e2562a",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "61f0c49d65e9040bf15dd3aa2d83f61ef63fd7561ca172ad4ce9fe3e528756e3"
+    },
+    {
+      "name": "Flux Networks",
+      "remote": "https://mediafilez.forgecdn.net/files/3178/199/FluxNetworks-1.12.2-4.1.1.34.jar",
+      "local": "flux-networks.jar",
+      "md5": "dc5f666ad856dd1da2b195f03a815bb3",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "9b48fcbf576095e0258379435c4a8bb15c5d1c2087edbe97fb4631e2e5cc98c6"
+    },
+    {
+      "name": "Forge Essentials Server",
+      "remote": "https://cdn.modrinth.com/data/jnuVxwKf/versions/WJkMFHWI/forgeessentials-1.12.2-12.5.1-server.jar",
+      "local": "forge-essentials-server.jar",
+      "sha1": "D193CECBA4470E02336594156B6419BDB8891589",
+      "clientReq": false,
+      "serverReq": true,
+      "sha256": "7830b00566d3ffd01b4617c40502187bc85c0901de5bcb96730b2d0a3ffec23d"
+    },
+    {
+      "name": "Furenikus Roads",
+      "remote": "https://mediafilez.forgecdn.net/files/5700/373/Furenikus_Roads-1.2.6.jar",
+      "local": "furenikus-roads.jar",
+      "sha1": "bfbd86a2596b535637f34ea9b76764a90a2d8347",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "c1114e40da292ca5775df35beeddf74225a737937cd0eaceedae088b46ac60f9"
+    },
+    {
+      "name": "Furenikus Roads Black Paint Plugin",
+      "remote": "https://mediafilez.forgecdn.net/files/4739/890/Furenikus_Roads_Extra_Black-1.0.jar",
+      "local": "furenikus-roads-black-paint-plugin.jar",
+      "sha1": "5919873b1fec0e9cafee44c342ddb79598b0f056",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "dd037850f684bf129a261dd04257d945a19b6f697c1888276f2473f39b038092"
+    },
+    {
+      "name": "Furenikus Roads Blue Paint Plugin",
+      "remote": "https://mediafilez.forgecdn.net/files/4739/843/Furenikus_Roads_Extra_Blue-1.0.jar",
+      "local": "furenikus-roads-blue-paint-plugin.jar",
+      "sha1": "ebd1a69dd31480ad5915d32aac5c24b448dfbc13",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "903167d9907fc87c73c87cfb10fd433330c702718d41a8006355244b47b9080d"
+    },
+    {
+      "name": "Furenikus Roads Orange Paint Plugin",
+      "remote": "https://mediafilez.forgecdn.net/files/4739/892/Furenikus_Roads_Extra_Orange-1.0.jar",
+      "local": "furenikus-roads-orange-paint-plugin.jar",
+      "sha1": "35f1693795b550d34e080ae4ff271152367783d0",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "fe2a6836982be7ba4cee17b0ca18fb5da2466695c094398e1a950f405858b717"
+    },
+    {
+      "name": "Future MC",
+      "remote": "https://cdn.modrinth.com/data/dKv1FGT7/versions/v3ZmWrP5/Future-MC-0.2.21.jar",
+      "local": "future-mc.jar",
+      "sha1": "641c6b63f40d6c5846b93f61ab661a99a59d03c3",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "e1e6ec0397ae0479ad1d42557a03b97f9a159628f83829bb5ceab4822af978be"
+    },
+    {
+      "name": "Gauges and Switches",
+      "remote": "https://mediafilez.forgecdn.net/files/3907/346/rsgauges-1.12.2-1.2.8.jar",
+      "local": "redstone-gauges-and-switches.jar",
+      "sha1": "f5af46afabe353f8b27a3acfa8961ca9877ff394",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "3580bde230456674b64dfea55e1f6d53f9fcdf300076a58697f262c7bf539e3e"
+    },
+    {
+      "name": "GeniusPilot2016s Boats",
+      "remote": "https://mediafilez.forgecdn.net/files/4818/329/Boats%201.3.0%201.12.2.jar",
+      "local": "boats.jar",
+      "sha1": "8743bf1202dc137c14a1042b98dfa8ad5bec5a6c",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "f9c90f42520c837ce7424e45607d1b71a7626603fdcecbfdd9a03cc8c1ddce28"
+    },
+    {
+      "name": "Glassential",
+      "remote": "https://cdn.modrinth.com/data/kVa5y52B/versions/1.1.0/glassential-1.12.2-1.1.0.jar",
+      "local": "glassential.jar",
+      "sha1": "1650ab1c3d36ca67f75e8e05c454bdedd0968baa",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "cf89547ef65a696f2d9d0760c5f5f30a71fe3e178121c5791b475c4814e93ac4"
+    },
+    {
+      "name": "GlintColorizer",
+      "remote": "https://cdn.modrinth.com/data/SevsTfWN/versions/h6we3nZT/GlintColorizer-1.12.2-forge-1.0.2.jar",
+      "local": "glintcolorizer.jar",
+      "sha1": "1a41e46c81ea8b0c518429cf70520b0f8f679174",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "e21fedef70c46bd1bdcc9df82ba8abfec2daa90710f52a424ed41476829e8c70"
+    },
+    {
+      "name": "Guide API",
+      "remote": "https://mediafilez.forgecdn.net/files/2645/992/Guide-API-1.12-2.1.8-63.jar",
+      "local": "guide-api.jar",
+      "sha1": "095b3b85d05118602c7678beb1e56d26930fd0e7",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "e201712ef8fadc6c4b6380939751e92fe32cad2ba2dcb717e1acb3b07e0c2125"
+    },
+    {
+      "name": "GymCraft",
+      "remote": "https://mediafilez.forgecdn.net/files/2831/46/GymCraft%201.12.2.jar",
+      "local": "gymcraft.jar",
+      "sha1": "8DB12CF1FED4EB9F1B15CE48046C3C83D652B03B",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "126b4307cf4cbb026a5f6f33767d0b289b31e14da8b845daefd47564ad0c222a"
+    },
+    {
+      "name": "Hospital Mod",
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/Hospital_Mod_Theatre_Pack_Alpha_1-SERVER-PATCHED.jar",
+      "local": "hospital-mod.jar",
+      "sha1": "e178df1b04b6615454ce269f30bacddbbd8a0f4a",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "d95b901b01115840333591684fa884fac99f31d8050195a4a6e6a663fd646c79"
+    },
+    {
+      "name": "Immersive Engineering",
+      "remote": "https://mediafilez.forgecdn.net/files/2974/106/ImmersiveEngineering-0.12-98.jar",
+      "local": "immersive-engineering.jar",
+      "sha1": "633070d9c447fdaf6a9ead59425017815c890c63",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "1dceb974d037dae7161f9a8e9f78cb33dfaad9e3adf02d14d52a3024eb961e58"
+    },
+    {
+      "name": "Immersive Petroleum",
+      "remote": "https://mediafilez.forgecdn.net/files/2544/919/immersivepetroleum-1.12.2-1.1.9.jar",
+      "local": "immersive-petroleum.jar",
+      "sha1": "cb9365f335ee7f50262eca1dfb703dab64ab9d10",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "6e6b7bcd22966ef6362eec013ef915521c22232f847c3153b57189b5a4011823"
+    },
+    {
+      "name": "Immersive Railroading",
+      "remote": "https://cdn.modrinth.com/data/PVCiYbMM/versions/gLzxxddY/ImmersiveRailroading-1.12.2-forge-1.10.0.jar",
+      "local": "immersive-railroading.jar",
+      "sha1": "68736F0436FB0C23F07C0D5B7954D524E371A0A1",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "de5483f7d06642ca8de38bbb56852559cafe5bcbebe38f680c391fd766d36022"
+    },
+    {
+      "name": "Immersive Technology",
+      "remote": "https://mediafilez.forgecdn.net/files/5108/47/MCTImmersiveTechnology-1.12.2-1.9.102.jar",
+      "local": "immersive-technology.jar",
+      "sha1": "7dd15d79b2b1584340d16f4e38efcc23078a0c7b",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "fb268f618fce2a411e1bf3c74fb80e731fe3b42019329ba5ba927d6adbacfa52"
+    },
+    {
+      "name": "Immersive Vehicles",
+      "remote": "https://cdn.modrinth.com/data/BCzBuhJ5/versions/KyR21IJF/Immersive%20Vehicles-1.12.2-24.0.0.jar",
+      "local": "iv.jar",
+      "sha1": "cfe5e1fc5dd66b9670f4cf0ba2df8894ba600e5d",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "d32adb7ad75641137a1e0dfe57bdaaa47546b3aba9a9c7782b52a7917cd4d76b"
+    },
+    {
+      "name": "Immersive Vehicles - American Signs and Signals Pack",
+      "remote": "https://mediafilez.forgecdn.net/files/6018/187/AmericanSignsSignalsPack0.9.1.jar",
+      "local": "iv-american-signs-sigs-pack.jar",
+      "md5": "936d0343ab62830e1c3dc6fc9b9c3fb87ee378b2",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "ca46a834d8f5532c1b1b3dd3fe16ad578b721761a192ac662ec6cb1a953ab58f"
+    },
+    {
+      "name": "Immersive Vehicles - City Infrastructure Pack",
+      "remote": "https://mediafilez.forgecdn.net/files/6084/494/City%20infrastructure%20pack%20v1.1.jar",
+      "local": "iv-city-infra-pack.jar",
+      "sha1": "740bc216b825a9aa5817dbe7cb7b7f5d2114af71",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "5b475a8fa8a94fe9912bd19ca1c6f9e16e4f3c5038dcec8e2b3cd18d20350687"
+    },
+    {
+      "name": "Immersive Vehicles - Craftspeed Pack",
+      "remote": "https://mediafilez.forgecdn.net/files/7673/880/Craftspeed%201.7.4%20%281.12%29.jar",
+      "local": "iv-craftspeed-pack.jar",
+      "sha1": "c25229c77c440a82595785b66e76b7a7e865c8fa",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "7b5586eb26481f1aab42d266ea8dcb44bd3889127ad0aa4fee6225ba002e7a03"
+    },
+    {
+      "name": "Immersive Vehicles - Official Content Pack",
+      "remote": "https://mediafilez.forgecdn.net/files/7933/708/MTS%20Official%20Pack-1.12.2-V29.jar",
+      "local": "iv-official-content-pack.jar",
+      "sha1": "0895dfda05d7f66a69bb86febe7e03faa08526ce",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "1bc73f271e0ba2f629e68218668c35762149175e411af97f83c22fb9a4f8ff68"
+    },
+    {
+      "name": "Immersive Vehicles - UNU Civilian Pack",
+      "remote": "https://mediafilez.forgecdn.net/files/7064/124/UNU%20Civilian%20Pack%20%5BMTS%5D%201.12.2-22.18.0-6.7.1.jar",
+      "local": "unu-civilian-pack.jar",
+      "sha1": "73d21d0260574ab4bedc96b9b1959ac58b3bd23f",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "b67990a679479782ce51c63d6c7e8546983fdf620b28e5441d429ce3936fd0b7"
+    },
+    {
+      "name": "Immersive Vehicles - UNU DKZ Industries Pack",
+      "remote": "https://mediafilez.forgecdn.net/files/7441/743/DKZ%20Industries-3.2.1b-hotfix.jar",
+      "local": "unu-dkz-industries-pack.jar",
+      "sha1": "b9712636e9cb177be2d77b4c56e9e143718b7609",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "68c5bfdd588bab2446ce7cef08af5f14fcc313e5a99c6a0dc711466f025d3e0d"
+    },
+    {
+      "name": "Immersive Vehicles - Adam RK's Heavy Industrial Pack",
+      "remote": "https://mediafilez.forgecdn.net/files/5191/517/MTS%20Heavy%20Industrial%20by%20AdamRK-2.2.0.jar",
+      "local": "adam-rk-hi-pack.jar",
+      "sha1": "5df70d3d25209adcda9f31d988f98eec9c1e75be",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "a5d9b51216ddce83ee852701eca3616bc3daaabfe057532846ee67d9f3aaf967"
+    },
+    {
+      "name": "Immersive Vehicles - UNU Parts Pack",
+      "remote": "https://mediafilez.forgecdn.net/files/7064/123/UNU%20Parts%20Pack%20%5BMTS%5D%201.12.2-22.18.0-6.7.3.jar",
+      "local": "unu-parts-pack.jar",
+      "sha1": "4ea0c9e0c6d221d758e0556389fbf925b6e248dc",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "6046dcfcb3de33b7219e8e50243d06958eee46db061ce3762a04ef0557d26a2b"
+    },
+    {
+      "name": "Item Filters",
+      "remote": "https://mediafilez.forgecdn.net/files/3003/364/ItemFilters-1.0.4.2.jar",
+      "local": "item-filters.jar",
+      "md5": "c89d595cdef3cc93f2acbc31333e418b",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "cdffbb810f75db50afce9681374f0604e4c1ed2dcfe768cff5b4e17d5384166b"
+    },
+    {
+      "name": "Just a Few Fish",
+      "remote": "https://mediafilez.forgecdn.net/files/2448/283/JustAFewFish-1.7_for_1.12.jar",
+      "local": "just-a-few-fish.jar",
+      "sha1": "b843ae27c83073f02664488a432625c5394ae610",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "7ecfaaf0d407c694d87a111f1dbd62a29a9924c10c9141d072a5a57462d7a3f2"
+    },
+    {
+      "name": "Kappa's Forgelin",
+      "remote": "https://mediafilez.forgecdn.net/files/4936/725/Forgelin-kappa-1.12.2-2.0.0.jar",
+      "local": "forgelin.jar",
+      "sha1": "3552a03d9dbe269b6f8ab6d3a4a6efc1912bcb86",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "4bcfc5a361a456dc190abd7d2194dc78281765e7682cf2bd3d137fd2eb23a019"
+    },
+    {
+      "name": "Konkrete",
+      "remote": "https://mediafilez.forgecdn.net/files/4514/895/konkrete_forge_1.6.1_MC_1.12-1.12.2.jar",
+      "local": "konkrete.jar",
+      "sha1": "d8853dbd60fd050709d2d687d875cb0d93806e92",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "5b412639b99dea3dbc7311cd4bdcf310dbdfd8e9c6eba4f2abe839c261aa0c7a"
+    },
+    {
+      "name": "LDFAWE",
+      "remote": "https://github.com/Mica-Technologies/LDFAWE/releases/download/2026.03.31/LimitlessDevFastAsyncWorldEdit-2026.03.31.jar",
+      "local": "LimitlessDevFastAsyncWorldEdit.jar",
+      "md5": "712fe82924228d56b7272afbde274b67",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "28bf554680d2a1346c7c815c722889c2666dd87b9c2b0613a3a18c2ec3b5ab76"
+    },
+    {
+      "name": "LDWE",
+      "remote": "https://github.com/Mica-Technologies/LDWE/releases/download/2024.01.22/LimitlessDevWorldEdit-2024.01.22.jar",
+      "local": "LimitlessDevWorldEdit.jar",
+      "md5": "9d3eb5e8b616414c8376f8ab38be79f7",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "181c24f2a93070d47908add20722809009641012799a56c3fe47edc0c8831e52"
+    },
+    {
+      "name": "Lag Goggles",
+      "remote": "https://mediafilez.forgecdn.net/files/2901/775/LagGoggles-FAT-1.12.2-4.11-92.jar",
+      "local": "lag-goggles.jar",
+      "sha1": "06A589901D3E2BF0DDA2C4A2FE2B84344A6C5940",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "45e4c357d2a6c6153ea251c5dd7bab5e2372edab2f52f60de6aa602f5481fe74"
+    },
+    {
+      "name": "LittleFrames",
+      "remote": "https://mediafilez.forgecdn.net/files/5191/735/LittleFrames_NO_WATERMEDIA_by_Blake_v1.1.4_mc1.12.2.jar",
+      "local": "little-frames.jar",
+      "sha1": "70eb4dcbe024b7ab72d20f8ae9a845b6926042c0",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "b5613428a564784813fee34a60e049c8b5dcafc9a4c17e00def54af2945d5059"
+    },
+    {
+      "name": "LittleTiles",
+      "remote": "https://mediafilez.forgecdn.net/files/5180/387/LittleTiles_v1.5.87_mc1.12.2.jar",
+      "local": "little-tiles.jar",
+      "sha1": "F77D34DDD13CAEB4781908443F73E51B9118FE60",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "ceff70615c898883180c34992c4568bd288858227830b10a04d579969c8c8d36"
+    },
+    {
+      "name": "Logistical Automation",
+      "remote": "https://mediafilez.forgecdn.net/files/2616/330/logisticalautomation-0.1.0.jar",
+      "local": "logist-autom.jar",
+      "sha1": "cc7a07254207370b5b9e7ebdf62e97c9b04e084a",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "186573a3677deef8071e33ba8df44e031f2e2d0f4eec89c10a5243e6da8f8a4a"
+    },
+    {
+      "name": "Luxury Furniture",
+      "remote": "https://mediafilez.forgecdn.net/files/5005/878/Luxury%20Furnitures%202.27.0%201.12.2.jar",
+      "local": "luxury-furniture.jar",
+      "sha1": "2d5dc97287593fddd295140aeaa99792068476fb",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "0cb65f7c670a4ecbc07acd1d1abd6a05b4b448f6571d98ae1bd7128283a1f059"
+    },
+    {
+      "name": "MC Mouser",
+      "remote": "https://mediafilez.forgecdn.net/files/3698/873/mcmouser-1.12.2-forge-1.0.2.jar",
+      "local": "mc-mouser.jar",
+      "sha1": "bb4077cd098e3c179dec443b42bcc52d58228895",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "6ac26095e298b9305c25a41ea8dd3ff49e040f684482d58b7b4ecbd18b0bf505"
+    },
+    {
+      "name": "MC2Discord",
+      "remote": "https://mediafilez.forgecdn.net/files/5370/660/mc2discord-forge-1.12.2-3.3.2.jar",
+      "local": "mc2discord.jar",
+      "sha1": "1844cf0001ee9e8b0bb5a1db78ef575a806ffdc0",
+      "clientReq": false,
+      "serverReq": true,
+      "sha256": "10e38841e3b42a47f9a6bf781385fe62164686125ce7b3f58cc51755d335f95c"
+    },
+    {
+      "name": "MCJtyLib",
+      "remote": "https://mediafilez.forgecdn.net/files/2745/846/mcjtylib-1.12-3.5.4.jar",
+      "local": "mcjtylib.jar",
+      "sha1": "8f3e381c4aea651f55ed1cd35fd69613fcd7f9da",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "af7d2b3c421329e7b97202302a072867e7c9bd73c5b8fab9bdb3a76fbfe474e3"
+    },
+    {
+      "name": "MCMultiPart",
+      "remote": "https://mediafilez.forgecdn.net/files/2615/930/MCMultiPart-2.5.3.jar",
+      "local": "mcmultipart.jar",
+      "sha1": "b32fb5efb99dedf207d3623e222ea67e20655fcc",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "ce28db33cfdca80c98dfbb2e5928a5f090477897fa6d28a37300d5564617fde2"
+    },
+    {
+      "name": "Macaws Doors",
+      "remote": "https://mediafilez.forgecdn.net/files/3340/797/mcw-doors-1.0.3-mc1.12.2.jar",
+      "local": "macaws-doors.jar",
+      "sha1": "005F81AF71B0BA953E2FF25F736958AE3358F0A0",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "7004c7d3cb68eb0f5d20505f7ba06ee2c9b6f4f84bbe8054182efc582dabbc5d"
+    },
+    {
+      "name": "Macaws Fences and Walls",
+      "remote": "https://mediafilez.forgecdn.net/files/3231/561/mcw-fences-1.0.0-mc1.12.2.jar",
+      "local": "macaws-fences-and-walls.jar",
+      "sha1": "4f58cb3138f73f71b78408dd308b937fd93fde21",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "961667eb20f445469f19c6018ffd85239cef5fc07729bc6ac39d1d04b6746803"
+    },
+    {
+      "name": "Macaws Paths and Pavings",
+      "remote": "https://mediafilez.forgecdn.net/files/4275/216/mcw-paths-1.0.2forge-mc1.12.2.jar",
+      "local": "macaws-paths-and-pavings.jar",
+      "md5": "57679fd488ae07e11d2fd01e5bf8467e",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "1af657a96e560500ebf366fbeb35a6ee1ba566d85bd976b9dce0a7d874ecfc1a"
+    },
+    {
+      "name": "Macaws Roofs",
+      "remote": "https://mediafilez.forgecdn.net/files/2879/573/mcw-roofs-1.0.2-mc1.12.2.jar",
+      "local": "macaws-roofs.jar",
+      "md5": "23e81cce1bb289cf9a9811e42b03a245",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "daf5737d7c4c12e73dfcd4f3621481faed9a6d6a97d8a9f5ed4d866158cf5f50"
+    },
+    {
+      "name": "Macaws Trapdoors",
+      "remote": "https://mediafilez.forgecdn.net/files/3273/521/mcw-trapdoors-1.0.2-mc1.12.2.jar",
+      "local": "macaws-trapdoors.jar",
+      "sha1": "54c4b4021b2624e54253a27af7b9e2fa2a3c6b87",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "d84a4afe82d9d102ebedcedfec044f6250b45c420100eea273f30c4e1cb38ad5"
+    },
+    {
+      "name": "Macaws Windows",
+      "remote": "https://mediafilez.forgecdn.net/files/2884/962/mcw-windows-1.0.0-mc1.12.2.jar",
+      "local": "macaws-windows.jar",
+      "sha1": "0404b499c11b8eca0aa01c7d7f1ae3d89a6d8e8f",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "e243520b4d1baa9a64817b904b5bd54edbfa9ee8713569f678e8f35202508704"
+    },
+    {
+      "name": "Malisis Core",
+      "remote": "https://mediafilez.forgecdn.net/files/2680/892/malisiscore-1.12.2-6.5.1.jar",
+      "local": "malisis-core.jar",
+      "sha1": "4b4a9fd82030ec2e31e64c9807779695323800c3",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "7dfc575fe73e4b38d25fca925e8248d12956b63cb874d38a66e224d7bc794226"
+    },
+    {
+      "name": "Malisis Doors",
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/malisisdoors-1.12.2-8.0.0-GUI-PATCHED.jar",
+      "local": "malisis-doors.jar",
+      "sha1": "9e7beaaaea32c9188e6154f7386aa7a89b9c504f",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "4eed4343a287c290524743029f68b063f15d154c9ab424c964b7507de894f405"
+    },
+    {
+      "name": "Malisis Switches",
+      "remote": "https://mediafilez.forgecdn.net/files/2526/682/malisisswitches-1.12.2-5.1.0.jar",
+      "local": "malisis-switches.jar",
+      "sha1": "2813ac945aa715038a0d46268bd1c5611557f880",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "a09c4e31249c60c324a58e5e1e6b929a465c18a3c5414c2f94f2b05fb6225235"
+    },
+    {
+      "name": "MixinBooter",
+      "remote": "https://mediafilez.forgecdn.net/files/7049/694/%21mixinbooter-10.7.jar",
+      "local": "!mixinbooter-10.7.jar",
+      "sha1": "3fdfffe4fd446461ea9c3cb044484588997b9dbc",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "8bb53080aede2d2b1e1c5f713bbf49a38f20add8caa3d52fabcdf8a536b55a18"
+    },
+    {
+      "name": "Moving Elevators",
+      "remote": "https://cdn.modrinth.com/data/9KZOe6HD/versions/Hdx5T0I4/movingelevators-1.4.11-forge-mc1.12.jar",
+      "local": "moving-elevators.jar",
+      "sha1": "4a70b2d671e02bf5a4d88f273ed393caf071249a",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "d7c69d03c03862785e4514a6c0e556c07108f110a80fae40b152c36b8615d5d4"
+    },
+    {
+      "name": "Moving Quickly",
+      "remote": "https://mediafilez.forgecdn.net/files/2522/251/MovingQuickly-1.12.2_1.0.0-release.jar",
+      "local": "moving-quickly.jar",
+      "sha1": "b3dc6af4b41cf2926615e29512feccb62ac86992",
+      "clientReq": false,
+      "serverReq": true,
+      "sha256": "bcc4cf2b0eeac83a6d39278bf72e0fd1f29801569b195b1d9fee130fdf2a81fd"
+    },
+    {
+      "name": "MrCrayfish Furniture Mod (Legacy)",
+      "remote": "https://mediafilez.forgecdn.net/files/5249/222/cfm-legacy-1.12.2-6.4.1.jar",
+      "local": "furniture.jar",
+      "sha1": "aac6629765d7dbcdf39a07471bdc5d80430bead1",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "2b42cc7cf386849eae8cab5a16ceaac886f94311130a6cd0e4d49990948a7b69"
+    },
+    {
+      "name": "NonConflictKeys",
+      "remote": "https://cdn.modrinth.com/data/XU9gCifV/versions/XX1OGxS3/NonConflictKeys-Forge-1.12.2-1.0.0.jar",
+      "local": "nonconflictkeys.jar",
+      "sha1": "7d0860663ac04b3e0c5c11e14a82ba5d40b4e6bf",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "fd79b59dc36583228ae9ba8d38f63e7712689932f31daefa46b27389e170bd31"
+    },
+    {
+      "name": "Nova Blocks",
+      "remote": "https://mediafilez.forgecdn.net/files/3006/592/NovaBlocks+1.5.3+-+1.12.2.jar",
+      "local": "nova-block.jar",
+      "sha1": "132a258890ef2d7ca6f62eca9764af9a9212e197",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "6011e42f42c2d4e7d541e5eef25a767cec714dc1886f210414304f52b19df596"
+    },
+    {
+      "name": "OpenComputers",
+      "remote": "https://cdn.modrinth.com/data/YiAbZis2/versions/mipZmUf9/OpenComputers-MC1.12.2-1.8.9a%2B8ca336f.jar",
+      "local": "opencomputers.jar",
+      "sha1": "5A9C67D19F65F158B0E66D4EA022C8CF3722FCAC",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "4beb4ef8b5c7eeda0e3d08681bd5551eaf1edbcb9c0e331e90bb44d90316e727"
+    },
+    {
+      "name": "OptiFine",
+      "remote": "https://optifine.net/download?f=preview_OptiFine_1.12.2_HD_U_G6_pre1.jar",
+      "local": "optifine.jar",
+      "sha1": "ab2118b1ed23444d6decf081e0295e4c679af6c2",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "58bd0865025a99d031220bdc855ede653aff865e49bda2064a31f4b1cf11622c"
+    },
+    {
+      "name": "OreLib",
+      "remote": "https://mediafilez.forgecdn.net/files/2820/815/OreLib-1.12.2-3.6.0.1.jar",
+      "local": "!orelib.jar",
+      "md5": "00cce3b240365458adcad3e77782358a",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "4483d8cc2b0334b82b7d0f5bb6354a2020a0e00ce63a48379e8ba5eb7d79eef9"
+    },
+    {
+      "name": "PTRLib",
+      "remote": "https://mediafilez.forgecdn.net/files/3346/568/PTRLib-1.0.5.jar",
+      "local": "ptrlib.jar",
+      "sha1": "C33DDF5660C2A1C39537BD6552B2CDD73B654E18",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "d6e815a765bea4c419176aba73b7e59c0c6095b59ec37894b2e221858fcd81bd"
+    },
+    {
+      "name": "Panoramica",
+      "remote": "https://mediafilez.forgecdn.net/files/4014/429/panoramica_forge_1.2.0_MC_1.12-1.12.2.jar",
+      "local": "panoramica.jar",
+      "md5": "99fd3a7b9f1af0e277082a410c4700fc",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "fccc9d86200b6469bca767fddd828e314e65bf35833926db8a0ab364d96dccd4"
+    },
+    {
+      "name": "Performant",
+      "remote": "https://mediafilez.forgecdn.net/files/3511/568/performant-1.11.jar",
+      "local": "performant.jar",
+      "sha1": "033c589ceb8026d66ee9b2332185ae273fa77993",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "09a0abb8f2ad8b10f91ace86fe9d788927399c03bafb1d7c951fabffa1a280b0"
+    },
+    {
+      "name": "Ping",
+      "remote": "https://mediafilez.forgecdn.net/files/2676/457/Ping-1.12.2-1.4.5.jar",
+      "local": "ping.jar",
+      "md5": "0e8311f92a716cee436dbfc8d47bae6e",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "b1ff1bf5fa2adc16dc46dbe4030ae96a49daaf63e1d123dddf0a782074c1f612"
+    },
+    {
+      "name": "PipeBlocker",
+      "remote": "https://mediafilez.forgecdn.net/files/4675/121/pipeblocker-forge17_112-1.1.3.jar",
+      "local": "pipeblocker.jar",
+      "md5": "568fc2591373cd53c8b493437eda8556901dfb52",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "1cc88ecc38f130bab7ef32249eb2e98e01577296f82a5f30afbdd645d1479d50"
+    },
+    {
+      "name": "Pretty Beaches",
+      "remote": "https://mediafilez.forgecdn.net/files/3067/807/PrettyBeaches_1.12.2-1.1.0.jar",
+      "local": "pretty-beaches.jar",
+      "sha1": "5acaf9356fc46e097672358bf5dcc2e89daba917",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "0209896ed6405a9737dcc4231ba91ad059d2556bfb0c69aeccd747642d264955"
+    },
+    {
+      "name": "Railcraft",
+      "remote": "https://mediafilez.forgecdn.net/files/3853/491/railcraft-12.1.0-beta-8.jar",
+      "local": "railcraft.jar",
+      "sha1": "3f894220b478ac454b731642aaf118b3ac7097ae",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "677699c07ecee890a1c06bf397fc871281f9e988855054251517761ebe2596a5"
+    },
+    {
+      "name": "RealGrid by Mica",
+      "remote": "https://github.com/Mica-Technologies/RealGridIEAddon/releases/download/2026.04.17/real-grid-ie-2026.04.17.jar",
+      "local": "realgrid.jar",
+      "sha1": "E47AC4CCACF851D4E09FC9AABDABC53B516910E0",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "9a7ebd8d838194765009493f970a1e1ac3ae7ee7e41e2798e3f15470a96b0aba"
+    },
+    {
+      "name": "Realistic Road Aging Addon for Furenikus Roads",
+      "remote": "https://cdn.modrinth.com/data/lsqdJwxa/versions/Nv3pxLtV/roadageadddon-1.1.4.jar",
+      "local": "roadageaddon.jar",
+      "sha1": "05717b4b5d407830ae7c3528e8fb31b5c586e017",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "0268f36cff337d858bd044d44046922b15612c48951e92050b0cbb941f6a0d0b"
+    },
+    {
+      "name": "Red Core",
+      "remote": "https://mediafilez.forgecdn.net/files/6147/102/%21Red-Core-MC-1.8-1.12-0.6.jar",
+      "local": "!red-core.jar",
+      "sha1": "AC72EE1E7777A3F20ACE120C301FDE68A3DFEA23",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "698a0e74f50e6fa44a34026d95894c2b6608998521bbcee2a83447c5d208fde4"
+    },
+    {
+      "name": "Redstone Paste",
+      "remote": "https://mediafilez.forgecdn.net/files/2477/676/redstonepaste-mc1.12-1.7.5.jar",
+      "local": "redstone-paste.jar",
+      "sha1": "44c312abe9f2c1b65f82cc865b13047281f3e579",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "77de34b7ab41e25426e8857707dc5bed5cf5d02504c4d897d895809cbad9cc36"
+    },
+    {
+      "name": "Roughly Enough IDs",
+      "remote": "https://mediafilez.forgecdn.net/files/7801/299/RoughlyEnoughIDs-2.3.0.jar",
+      "local": "roughly-enough-ids.jar",
+      "sha1": "cb72db84dd8c814b4cc8c827e5335e9859e24862",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "00c96666451d7a88e39670e09755e6eae1593abb5f6eaa22f819b660013d25ef"
+    },
+    {
+      "name": "Security Craft",
+      "remote": "https://mediafilez.forgecdn.net/files/7148/537/%5B1.12.2%5D%20SecurityCraft%20v1.10.1.jar",
+      "local": "security-craft.jar",
+      "sha1": "47532d6720f2309b815253936d79c1f29986de19",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "02668ea8d493a2bc97fa67d78a9350faa7a3551f8bdf56c7d577cc3753fc29fc"
+    },
+    {
+      "name": "Server Tab Info",
+      "remote": "https://mediafilez.forgecdn.net/files/2798/112/ServerTabInfo-1.12.2-1.2.6.jar",
+      "local": "server-tab-info.jar",
+      "sha1": "701ec14cff7a64858e71095ddaacce5d62ca6724",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "b896f304477709cae723ef99579a71eef9a09bc75827f9b7d3b2cfabfcbf69a5"
+    },
+    {
+      "name": "Server Utility Mod",
+      "remote": "https://github.com/Mica-Technologies/uia-server-utility-mod/releases/download/2026.05.18/uia-server-utility-mod-2026.05.18.jar",
+      "local": "sum.jar",
+      "md5": "5d8be07784fd7372c3f68234caf72095",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "d7a21fea2370dc0a7f585d4a8a780245b22863b0ba02207a740c045fe75c3edd"
+    },
+    {
+      "name": "Serverpauser",
+      "remote": "https://mediafilez.forgecdn.net/files/4525/718/Server-Pauser-1.12.2-1.0.0.jar",
+      "local": "serverpauser.jar",
+      "sha1": "81C8A1EE6EB2730AF62BCAA30CB45671987A98BB",
+      "clientReq": false,
+      "serverReq": false,
+      "sha256": "5d3814a38ebcb46c012eb33e559b5a28719673ae7ad2a4515cdec70510b01000"
+    },
+    {
+      "name": "SimpleLogic Gates",
+      "remote": "https://mediafilez.forgecdn.net/files/2745/283/SimpleLogic-Gates-0.5.6.1.jar",
+      "local": "simplelogic-gates.jar",
+      "sha1": "2eb6e956579e3b83736c428683bbed3fcc71cc6d",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "7a377ff33382c4bd1e7986721c71ee607e62928c410c007ad4e047436519e61f"
+    },
+    {
+      "name": "SimpleLogic Wires",
+      "remote": "https://mediafilez.forgecdn.net/files/2754/601/SimpleLogic-Wires-0.5.6.3.jar",
+      "local": "simplelogic-wires.jar",
+      "sha1": "7a03c3abf8cb265bde891bf874826d8ac1158296",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "8574f8ba24ff7bc3380e2651fcb65ad76cbcdb0419ccb4bdbe0b542bf7a60126"
+    },
+    {
+      "name": "Simply Light",
+      "remote": "https://mediafilez.forgecdn.net/files/2754/916/simplylight-1.12.2-0.8.7.jar",
+      "local": "simply-light.jar",
+      "sha1": "b3793dd11aed5924ac9d59f322827aed0bfa9f8c",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "e02e2678914681feec534916ea47ad2e5257b95b81a4285b055230903e6a3246"
+    },
+    {
+      "name": "Smooth Font",
+      "remote": "https://mediafilez.forgecdn.net/files/3944/565/SmoothFont-mc1.12.2-2.1.4.jar",
+      "local": "smooth-font.jar",
+      "sha1": "4c1c41c82f5868f8ae48b0303f619c65ba1218fe",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "986090ef0d56be1d6f46a9dae7a3669098c0e3f995ed6ba3d2b01223ce9b129a"
+    },
+    {
+      "name": "Solar Flux Reborn",
+      "remote": "https://mediafilez.forgecdn.net/files/3050/838/SolarFluxReborn-1.12.2-12.4.11.jar",
+      "local": "solar-flux-reborn.jar",
+      "sha1": "521624CBD22F7DCEF0DDC9F9F0898B2368439404",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "be490ddbeb08b35ba76bee38feaae465a9553ba3bcfbe2d5eef83875d5b5eda2"
+    },
+    {
+      "name": "Sound Device Options",
+      "remote": "https://cdn-raw.modrinth.com/data/HSmTuSaW/versions/VrwB4mqZ/moresoundconfig-1.0.4.jar",
+      "local": "sound-device-options.jar",
+      "sha1": "5a17517653deef1faf9d47005aad288b7c61ecaa",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "7a62ee6873864043d345a9ddda02696d71121193e21f06cae645479975f35c1f"
+    },
+    {
+      "name": "Spark",
+      "remote": "https://mediafilez.forgecdn.net/files/3245/793/spark-forge1122.jar",
+      "local": "spark.jar",
+      "sha1": "6EA08FC3F82535F37A76F2E7340D239E64E40489",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "0454aa68c94b097ef218ce79a65438fd10f5d1f756f86bad015a78dd4bbd6776"
+    },
+    {
+      "name": "SuperMartijn642's Config Lib",
+      "remote": "https://cdn-raw.modrinth.com/data/LN9BxssP/versions/IJL4TGRd/supermartijn642configlib-1.1.8-forge-mc1.12.jar",
+      "local": "supermartijn642-config-lib.jar",
+      "sha1": "49f6b461ff22ad8e23bb99679c1f64eee85ee958",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "9f15755020a966023eae8e9d1446441d175a88c09b1e458a47fcb3024d5e57f8"
+    },
+    {
+      "name": "SuperMartijn642's Core Lib",
+      "remote": "https://cdn.modrinth.com/data/rOUBggPv/versions/kWgChajv/_supermartijn642corelib-1.1.17a-forge-mc1.12.jar",
+      "local": "_supermartijn642-core-lib.jar",
+      "sha1": "848B6A0C2C0E8624940C60266B59B11C631AC78B",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "572229429ce92b92a179f0c55fb0146ed03d9889be7047f8f83ffe767b212a01"
+    },
+    {
+      "name": "TV Studio",
+      "remote": "https://mediafilez.forgecdn.net/files/3039/224/Tv+Studio+Mod+1.12.2-v1.7.5.jar",
+      "local": "tv-studio.jar",
+      "md5": "48420186cd048fabe49f26d65ba3c62f",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "fc2d5c941cb5e83832f84edec735b6969091836c9f07d1f2901604f2a08cddfd"
+    },
+    {
+      "name": "The Beeper",
+      "remote": "https://mediafilez.forgecdn.net/files/4493/801/The+Beeper+2.0.0+1.12.2.jar",
+      "local": "the-beeper.jar",
+      "md5": "f286c0d3f7ba85dcda9a3f50275425f3",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "f6f27c2a55ad55ef120c1fbb08b7aa37d750ca0d35c3f9c58b5a42a9e1681fba"
+    },
+    {
+      "name": "Track API",
+      "remote": "https://cdn.modrinth.com/data/JMOE5Khs/versions/m9gAXteZ/TrackAPI-1.2.jar",
+      "local": "track-api.jar",
+      "sha1": "E63BEE0992B0A3403D8A95EB19676CE716691C50",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "5fd930eb6afb769f3c806a5356fb09f842fd6679a5a04c53d3be934152c482bc"
+    },
+    {
+      "name": "Traffic Control",
+      "remote": "https://mediafilez.forgecdn.net/files/5185/185/trafficcontrol-1.1.1.jar",
+      "local": "traffic-control.jar",
+      "sha1": "34d3edaeac9c6ed0c81c312543be26b1797a07ba",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "6fa71e50d2700b06677807452edfb656110668f903d7ac479d11ff492e320e87"
+    },
+    {
+      "name": "UniLib",
+      "remote": "https://cdn.modrinth.com/data/nT86WUER/versions/dZnEGbvX/UniLib-1.2.0%2B1.12.2-forge.jar",
+      "local": "unilib.jar",
+      "sha1": "7cb336e5fedf6ed4cea500410c5a13f81146116d",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "f2b4b7eeb92a0673998713f037d6a0d71874b647b25b4c27718d92eb92133db7"
+    },
+    {
+      "name": "Universal Mod Core",
+      "remote": "https://cdn.modrinth.com/data/SrlfFSm8/versions/FeaNDEBf/UniversalModCore-1.12.2-forge-1.2.2-3d12767.jar",
+      "local": "universal-mod-core.jar",
+      "sha1": "121373e21938874a4cc44dc8057994e27df87ff5",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "c2f71ad972320457cc37bacc999a46900964597df00ecc922f7649628560d823"
+    },
+    {
+      "name": "Universal Tweaks",
+      "remote": "https://mediafilez.forgecdn.net/files/7156/691/UniversalTweaks-1.12.2-1.17.0.jar",
+      "local": "universal-tweaks.jar",
+      "sha1": "a0f6d918ade59f2b4eb7b7df5442fb21c1ea4e66",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "d86a0b2bd3d1c855e32300f125e738bd56f8d91637dc6c83c9d57fdbd7424308"
+    },
+    {
+      "name": "Vintage Fix (based on Foam Fix)",
+      "remote": "https://cdn.modrinth.com/data/e6vNsbAm/versions/FyajaeIv/vintagefix-0.5.1.jar",
+      "local": "vintage-fix.jar",
+      "sha1": "6CFBD3DED0D8D6C47E3E5AA822F38FB753EBAE3E",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "b02e845325828ebbdb46b78b6ac8d7241939a6df03aa422e4e34392a8c81f73c"
+    },
+    {
+      "name": "Weather 2 - Remastered",
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/W2R/Weather2Remastered-1.12.2-2.8.14.jar",
+      "local": "weather2-remastered.jar",
+      "sha1": "653e53223d6051de32807e77367e8df68cd64212",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "1ba047e1d9ce0720f37fe9e22d078486f4938253c86c2c0ea404f84c413b6571"
+    },
+    {
+      "name": "Weather 2 - Remastered (EAS Addon)",
+      "remote": "https://github.com/ProfessorFartsalot/EAS-Addon/releases/download/v1.0.4/1.12.2.EAS.Addon.v1.0.4.jar",
+      "local": "weather2-remastered-eas.jar",
+      "sha1": "fc17bf5d77b62a5640e48957713cbd702188f30c",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "ce0e4377844c9e5a170191e4700a37603a3b556bb69938ff744cdb3e6c1f02b7"
+    },
+    {
+      "name": "World Border",
+      "remote": "https://mediafilez.forgecdn.net/files/2715/765/World-Border-1.12.2-1.0.6.jar",
+      "local": "worldborder.jar",
+      "md5": "e6f0f73764f44cc2b7827b23d5b7af74",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "20963ab91210452030fde5e191aa103b4288255158dba6d705c3b6534d0b67af"
+    },
+    {
+      "name": "World Buoyancy",
+      "remote": "https://mediafilez.forgecdn.net/files/3791/284/InWorldBuoyancy-1.12.2-1.0.0.jar",
+      "local": "world-buoyancy.jar",
+      "md5": "b55261ccc481c0fd2855f28a69143da2",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "d9b91e4f4ecdc6d25251a50cfd2e5ac5fa50945ac9f7857cb5ddeb045692967f"
+    },
+    {
+      "name": "World Utils",
+      "remote": "https://mediafilez.forgecdn.net/files/2482/888/worldutils-1.12.2-0.4.2.jar",
+      "local": "worldutils.jar",
+      "sha1": "7db57a6e20e74c2357fff1d596c800a9580f8e50",
+      "clientReq": false,
+      "serverReq": true,
+      "sha256": "87564ad5a21f42310f2f182dcde5496e1c013ceb8f020918fb81ad101b72b7a2"
+    },
+    {
+      "name": "XL Food Mod",
+      "remote": "https://mediafilez.forgecdn.net/files/2740/774/XL-Food-Mod-1.12.2-1.9.2.jar",
+      "local": "xl-food-mod.jar",
+      "md5": "99996774ced05042e9955d76ed8c8d19",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "94cd0ecbabc102d3ee2103ebef9dcff418e11a3e5f42441dd31a1cc14c3d0366"
+    }
+  ],
+  "packConfigs": [
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/mainmenu.json",
+      "local": "CustomMainMenu/mainmenu.json",
+      "sha1": "67ee85f7d8d4ddb78a7cf0d5fcf194eba624de0a",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "49426cd2cbaf6b58017442dd2e3e17b427f6980bdaf312013337d62920fa6387"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/flatcoloredblocks.cfg",
+      "local": "flatcoloredblocks.cfg",
+      "sha1": "69e94012441b61f9c03c93b659640d04375f9253",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "ddb2bc31928e91f207334dd18586690cb18612f3844dccdc98ab0e34c8950e01"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/fpsreducer/fpsreducer.cfg",
+      "local": "fpsreducer/fpsreducer.cfg",
+      "sha1": "4b3837d78c3f7a1c93896e25e7b26fb76873ac42",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "6339cf7f13365ceabf2672a3ab291793cf381b10535472a71bdae2f3076c655a"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/sum/sum.cfg",
+      "local": "sum.cfg",
+      "sha1": "caa47420c1e7c7579b0e553c06b44f494d4e14fc",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "323e430c6d668d3aa519187ea4fcfd42c59b10301b0efe922b56923e659487a5"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/BiomeTweaker/BiomeTweaker.cfg",
+      "local": "BiomeTweaker/BiomeTweaker.cfg",
+      "sha1": "0c74d8b21e64d06b563833c0607bf221c2c737ac",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "92e6a190b73888207d0cfb28b2d03f4c81300977f20ac903c4dbfbed0e61261c"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/BiomeTweakerCore/BiomeTweakerCore.cfg",
+      "local": "BiomeTweakerCore/BiomeTweakerCore.cfg",
+      "sha1": "0dd5a35a0c3f9854497d3981fafc41feb1638a32",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "c0bb49afaee8cec34b5b23cdd627214d609e3090a2d80547ffaf84b7dc1791d9"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/debugserverinfo.cfg",
+      "local": "debugserverinfo.cfg",
+      "sha1": "364817ef9121ac8165b83f0203ed4537cb518924",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "95b53e4ad66f204dea0d89f483c4d3332ffc315e698a98ecdac267ea7885407e"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/app-icons/icon16.png",
+      "local": "icons/icon16.png",
+      "sha1": "bf999d03c8930130232675522a8c2ee02391888f",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "54086cec865383a731f71e1fb56956b700fd3e40377292f02c812c508d2bbe4a"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/app-icons/icon32.png",
+      "local": "icons/icon32.png",
+      "sha1": "9b886831e621b50c5200e15e07b47a8d40a5278f",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "d14dba435d53a23212b181caec3f7c498c4ab9797447b3c368d269c65accc3a6"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/app-icons/icon256.png",
+      "local": "icons/icon256.png",
+      "sha1": "b1c2b4412432baf3c5ad508490a896e0b40b5eb9",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "8fd681bbf29d97c55121e5004489e7a2701e220d7c62b679e5adc2e0f387e061"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/Universal-Tweaks---Tweaks.cfg",
+      "local": "Universal Tweaks - Tweaks.cfg",
+      "sha1": "ebfb2edb10b0bd63f760a96b79884a33410fb566",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "8e6aee91b54b3aae57abd4867dd3db3393adad20c896c2fa5384bc1ab9e681fd"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/splash.properties",
+      "local": "splash.properties",
+      "sha1": "68338275fd66acee8f634c6cd239b1157b53df51",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "2eba091c0c3996c3c8cd706813852f2dbb88f59a94e7d89a9e3921af107c53f0"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/loliasm.cfg",
+      "local": "loliasm.cfg",
+      "sha1": "1c0eeb1ae59501bba368934005bb6007abc16002",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "14373e17ad41d2a4c805fc07d136a6b9f3b6404db561b746f864c0beb80d795c"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/craftpresence-testpack.json",
+      "local": "craftpresence.json",
+      "sha1": "6b4c38023ac4cb443bfff268dc088439485eb9ba",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "29e0f892dc8b12f049dd647b72003dbc8078c6e0fa99a5dc83ad45080e1e8d75"
+    },
+    {
+      "remote": "https://mediafilez.forgecdn.net/files/4127/843/biauk-voxel-track.zip",
+      "local": "immersiverailroading/biauk-voxel-track.zip",
+      "sha1": "E1CE14811745DB21E34B7FE7C840CD4BCE2725D1",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "1e0dcc73fbe54a0056bcfed138cb1ba020a2ca6c5db2780587762244c0d2a7a7"
+    },
+    {
+      "remote": "https://cdn.modrinth.com/data/bEjdyppz/versions/jbilWSgo/Tram_pack_v2.4.2.zip",
+      "local": "immersiverailroading/Tram_pack_v2.4.2.zip",
+      "sha1": "510630B2CDCA7B065B11EF6484877CC5A505A3D8",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "631582cb0585ecd4ce0c4676b25d14554501e21352fb9303a177173a226ce509"
+    },
+    {
+      "remote": "https://mediafilez.forgecdn.net/files/3912/26/Amtrak%2B.zip",
+      "local": "immersiverailroading/Amtrak+.zip",
+      "sha1": "750DC0391F9643F36E00E69C5D20FC62F0829D4F",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "e546fbc768303d5d41112e62b316049c6b86a52a63cec96a6fd14fb3aebf7946"
+    },
+    {
+      "remote": "https://mediafilez.forgecdn.net/files/3904/341/Surfliners%20Lite.zip",
+      "local": "immersiverailroading/Surfliners-Lite.zip",
+      "sha1": "C377EDB48B4F92FFA7BC332D68728483602F6F22",
+      "clientReq": true,
+      "serverReq": true,
+      "sha256": "428b554efbd9e4a30fca504d98f064a0b6b70d8f692f59123929bdaa56b2a6a8"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/customloadingscreen/scroll_detailed.json",
+      "local": "customloadingscreen/scroll_detailed.json",
+      "sha1": "6e5cb831cca095dff246c5a8bb8cf442a503beaa",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "9090490d8e8dcba20f588d5872efec5221476a571101b85ed223f5f4f687cdb2"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/customloadingscreen/customloadingscreen.cfg",
+      "local": "customloadingscreen.cfg",
+      "sha1": "f15e4fe966ac8743f26d254c4de6b89bf0379382",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "5f80620feb3da0abb57cbc8c5ded463c88d63b28b3fbedc786547bfb6f604fb1"
+    }
+  ],
+  "packResourcePacks": [
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-alto-resource-pack/alto-resource-pack.zip",
+      "local": "alto-resource-pack.zip",
+      "sha1": "b4d04c0761402b2aa1d7e6e50c138acacb24fbef",
+      "sha256": "7320e5e8e85fcbf6ac76a2e2010f3206aadbbbcb9070f54b0e17d5ae581500b9"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/ImmersiveFix.zip",
+      "local": "ImmersiveFix.zip",
+      "sha1": "254f25331c9fd633d63ff98ee37a8aae862a2644",
+      "sha256": "fdfc9cb93431010161d00fdec35b394497925fff806cf7f1a423dfabed51183a"
+    }
+  ],
+  "packInitialFiles": [
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/options.txt",
+      "local": "options.txt",
+      "sha1": "-1",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "-1"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/optionsof.txt",
+      "local": "optionsof.txt",
+      "sha1": "-1",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "-1"
+    },
+    {
+      "remote": "https://dynamx.fr/download/packs/6127730fbd08ee57b1f3e97d/DartcherDynamX-BasicPack-4.0.dnxpack",
+      "local": "DynamX/DartcherDynamX-BasicPack-4.0.dnxpack",
+      "sha1": "e40c6de132d0fabb11775aebb66cf374ec8fab5f",
+      "clientReq": false,
+      "serverReq": false,
+      "sha256": "c3ddd6dc9423e91eb4840ebeae2d32c4f18a531323b56ac49b77ef70c7eafb3a"
+    },
+    {
+      "remote": "https://dynamx.fr/download/packs/6147792f4421363350817fba/DartcherPoliceGlobal-4.0.dnxpack",
+      "local": "DynamX/DartcherPoliceGlobal-4.0.dnxpack",
+      "sha1": "67555cfdeafe453dd132cfcff8a323caf8975935",
+      "clientReq": false,
+      "serverReq": false,
+      "sha256": "7c6622b151bb47dc96e1336fe99e55f93563a5582835f9e8337662f208cdd51b"
+    },
+    {
+      "remote": "https://dynamx.fr/download/packs/618ae6c6698ff350f0cc5312/KabPack_Classic-4.0.dnxpack",
+      "local": "DynamX/KabPack_Classic-4.0.dnxpack",
+      "sha1": "34ed9117e85dc8002db5a3e1cb55b348826f4833",
+      "clientReq": false,
+      "serverReq": false,
+      "sha256": "3575c15f3b31fc5e41e06fe0228df5890b8285f4b0519be979b1f358040405f2"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/coordinates.json",
+      "local": "OneConfig/profiles/Default Profile/evergreenhud/coordinates.json",
+      "sha1": "-1",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "-1"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/day.json",
+      "local": "OneConfig/profiles/Default Profile/evergreenhud/day.json",
+      "sha1": "-1",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "-1"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/direction.json",
+      "local": "OneConfig/profiles/Default Profile/evergreenhud/direction.json",
+      "sha1": "-1",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "-1"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/fps.json",
+      "local": "OneConfig/profiles/Default Profile/evergreenhud/fps.json",
+      "sha1": "-1",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "-1"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/ingametime.json",
+      "local": "OneConfig/profiles/Default Profile/evergreenhud/ingametime.json",
+      "sha1": "-1",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "-1"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/memory.json",
+      "local": "OneConfig/profiles/Default Profile/evergreenhud/memory.json",
+      "sha1": "-1",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "-1"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/playtime.json",
+      "local": "OneConfig/profiles/Default Profile/evergreenhud/playtime.json",
+      "sha1": "-1",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "-1"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/speed.json",
+      "local": "OneConfig/profiles/Default Profile/evergreenhud/speed.json",
+      "sha1": "-1",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "-1"
+    },
+    {
+      "remote": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/OneConfig/profiles/DefaultProfile/evergreenhud/tps.json",
+      "local": "OneConfig/profiles/Default Profile/evergreenhud/tps.json",
+      "sha1": "-1",
+      "clientReq": true,
+      "serverReq": false,
+      "sha256": "-1"
+    }
+  ]
+}
