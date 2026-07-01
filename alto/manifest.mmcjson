@@ -1,6 +1,6 @@
 {
   "packName": "Alto",
-  "packVersion": "26.6.12",
+  "packVersion": "26.7.1",
   "packCustomDiscordRpc": true,
   "packURL": "https://minecraft.micatechnologies.com",
   "packLogoURL": "https://micauseaststorage.blob.core.windows.net/mc-launcher-api/alto/pack.png",
@@ -195,12 +195,12 @@
     },
     {
       "name": "City Super Mod",
-      "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2026.06.12/minecraft-city-super-mod-2026.06.12.jar",
+      "remote": "https://github.com/Mica-Technologies/minecraft-city-super-mod/releases/download/2026.07.01/minecraft-city-super-mod-2026.07.01.jar",
       "local": "city-super-mod.jar",
-      "md5": "7c51f03521eff8be162fea38557b977e",
+      "md5": "e43c1f6acd840f055393330c9c1ae002",
       "clientReq": true,
       "serverReq": true,
-      "sha256": "fcdb11742c23bbc549175d9eb37fe2095d358c6ff66a3302d386f81059d2c60a"
+      "sha256": "4fa84892e9fea7bc4c3f2d8d9294e1f3ea0fde64ef6fd7c8c6991ce9a9890786"
     },
     {
       "name": "Clear Water",
